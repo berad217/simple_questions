@@ -157,6 +157,121 @@ Concrete, shows before/after, immediately usable, explains mechanism.
 
 ---
 
+## Session 1: GitHub Setup & Workflow Generalization
+**Date**: 2026-01-21
+**Session Type**: Infrastructure enhancement
+**Agent**: Claude Code (VS Code Extension)
+
+### What Was Done
+1. Prepared project for GitHub:
+   - Created `.gitignore` (excludes .history/, editor files, drafts)
+   - Created `README.md` with project overview and core techniques preview
+   - Initialized git repository
+   - Created initial commit with all foundation files
+
+2. Expanded `workflow-wisdom.md` into comprehensive standalone resource:
+   - Generalized from writing project to all non-coding AI projects
+   - Added adaptations for 5 project types (academic research, courses, documentation, policy, books)
+   - Added "When to Use" guidelines and Minimal Viable Workflow
+   - Added cross-tool compatibility notes
+   - Added common challenges & solutions
+   - Added git integration strategies
+   - Added evolution path (how to scale workflow with project complexity)
+   - Added quick start guide
+
+### Key Decisions Made
+
+**Decision**: Make workflow-wisdom.md project-agnostic
+- **Rationale**: This workflow pattern is valuable beyond this specific project. Generalizing it creates reusable resource for future non-coding work.
+- **Impact**: workflow-wisdom.md can now be used as template/guide for other projects (research papers, course development, documentation, etc.)
+
+**Decision**: Document minimal viable workflow (3 files vs 5)
+- **Rationale**: Full 5-document foundation might intimidate small projects. Provide scaling path.
+- **Impact**: Users can start simple (outline + log + style guide) and scale up as needed
+
+**Decision**: Include cross-tool compatibility section
+- **Rationale**: Workflow should work in Claude Code, Desktop, web, ChatGPT, Cursor, etc.
+- **Impact**: Markdown-based approach makes this tool-agnostic
+
+### Conceptual Continuity Notes
+
+**workflow-wisdom.md structure mirrors onboarding.md philosophy**:
+- Immediately practical (Quick Start Guide)
+- Theoretically grounded (why the 5-document foundation works)
+- Honest about limitations (when NOT to use this workflow)
+- Accumulates wisdom (will update with real lessons from this project)
+
+**Key addition**: Project type adaptations show how same foundation applies to:
+- Academic research (hypotheses, methodology, argument dependencies)
+- Course curricula (learning objectives, skill dependencies)
+- Technical docs (user journeys, API coverage)
+- Policy frameworks (stakeholder needs, implementation guidelines)
+- Books (argument flow, reader journey)
+
+### Tone/Voice Observations
+
+workflow-wisdom.md successfully maintains the project's voice:
+- Direct and precise
+- Intellectually honest about trade-offs
+- Practically grounded (30 min setup vs 5-10 hours fixing inconsistencies)
+- Examples-rich (shows template patterns, not just abstract advice)
+
+Strong passage added to workflow:
+> "Rule of thumb: If you'll come back to this in a week and need to remember context, use the workflow."
+
+Simple, actionable heuristic for when to use vs skip.
+
+### Open Questions / Blockers
+
+**Q: Should workflow-wisdom.md become its own standalone repo?**
+- Pro: Makes it reusable across projects, easier to find/share
+- Pro: Can accept contributions from other non-coding projects
+- Con: Adds maintenance overhead
+- Con: This project serves as living example/case study
+
+**Current stance**: Keep in this repo for now. As it proves valuable and gets contributions, could split into standalone repo later.
+
+**Q: How to handle workflow updates discovered during content development?**
+- Add lessons to workflow-wisdom.md "Lessons Learned" section
+- Add anti-patterns to "Anti-Patterns Observed" section
+- Update "Real-World Case Study" with actual metrics
+
+**Plan**: After Phase 1-2 complete, update workflow-wisdom.md with real productivity numbers and challenges encountered.
+
+### Next Session Recommendations
+
+**Option A: Begin content development**
+- Start Phase 1, Section 1 (Core Cognitive Profile)
+- This will test the workflow in practice
+- Discoveries will inform workflow-wisdom.md updates
+
+**Option B: Create project-specific `.claude/CLAUDE.md`**
+- Override global workflow with project-specific instructions
+- Point future agents to this non-coding workflow
+
+**Recommendation**: Option A. The workflow is ready. Time to use it and see how it performs in practice.
+
+### Current Status
+
+**Completed**:
+- Full infrastructure (5-document foundation)
+- GitHub setup (git initialized, README.md, committed)
+- Workflow generalization (workflow-wisdom.md expanded)
+
+**Ready to begin**:
+- Phase 1, Section 1: Core Cognitive Profile
+- Real content development
+
+**Next up**:
+- First actual writing session using the workflow
+- Test the "Session Type: Writing New Section" protocol
+- Discover if SPEC.md success criteria are specific enough
+- See if voice-samples.md prevents tone drift
+
+**Overall progress**: Foundation complete, workflow documented and generalized, ready for content development
+
+---
+
 ## Template for Future Session Entries
 
 ```

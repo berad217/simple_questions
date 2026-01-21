@@ -2,7 +2,16 @@
 
 ## Purpose
 
-This document captures lessons learned and patterns discovered while developing a large-scale writing project with AI assistance. It generalizes insights that may apply to other non-coding collaborative projects (books, frameworks, research, documentation).
+This document provides a generalizable workflow framework for large-scale non-coding projects developed with AI assistance. Born from a communication framework writing project, these patterns apply to books, research papers, course curricula, technical documentation, policy frameworks, and any structured knowledge work requiring consistency across multiple sessions and tools.
+
+## Who This Is For
+
+- Writers developing books, frameworks, or long-form content with AI
+- Researchers organizing complex literature reviews or theoretical frameworks
+- Course creators building comprehensive curricula
+- Technical writers maintaining large documentation sets
+- Policy analysts developing frameworks across multiple domains
+- Anyone doing structured knowledge work that spans multiple AI sessions
 
 ---
 
@@ -452,3 +461,446 @@ It's not a prescription ("do it this way"). It's a pattern library ("here's what
 ---
 
 **Current Status**: Foundation established, first writing session pending. Will update with real-world insights as development proceeds.
+
+---
+
+## Adapting This Workflow to Different Project Types
+
+The five-document foundation adapts to various non-coding projects. Here's how to apply it:
+
+### Academic Research Papers
+
+**SPEC.md becomes**: Research outline with hypotheses, methodology sections, and argument dependencies
+- **Success criteria**: "Reader understands hypothesis H1" or "Statistical evidence supports claim C"
+- **Dependencies**: Literature review before methodology, results before discussion
+- **Phases**: Phase 1 (lit review + hypothesis), Phase 2 (methodology), Phase 3 (results), Phase 4 (discussion), Phase 5 (polish)
+
+**onboarding.md includes**: Academic voice standards, citation style, argument structure
+**DEVLOG.md tracks**: Literature discoveries, hypothesis refinements, methodological decisions
+**voice-samples.md**: Examples of strong vs weak academic prose
+**examples-bank.md**: Key studies to reference consistently, core definitions
+
+**Adaptation notes**: Replace "sections" with paper components (abstract, intro, lit review, methods, results, discussion). Success criteria focus on argument clarity and evidence strength.
+
+---
+
+### Course Curriculum Development
+
+**SPEC.md becomes**: Learning objectives hierarchy with skill dependencies
+- **Success criteria**: "Student can perform task X" or "Student understands concept Y well enough to teach it"
+- **Dependencies**: Foundational concepts before advanced applications
+- **Phases**: Phase 1 (core concepts), Phase 2 (practice exercises), Phase 3 (advanced topics), Phase 4 (assessments), Phase 5 (polish)
+
+**onboarding.md includes**: Pedagogical philosophy, target audience, teaching voice
+**DEVLOG.md tracks**: Exercise difficulty calibration, concept sequencing decisions, student confusion points
+**voice-samples.md**: Examples of clear explanations vs confusing ones
+**examples-bank.md**: Canonical examples used across modules, problem sets
+
+**Adaptation notes**: Success criteria are learning outcomes. Dependencies map prerequisite knowledge. Examples become teaching scenarios.
+
+---
+
+### Technical Documentation
+
+**SPEC.md becomes**: Documentation structure with API coverage and user journey dependencies
+- **Success criteria**: "User can complete task X" or "Developer understands integration Y"
+- **Dependencies**: Getting Started before Advanced Features, Core Concepts before Troubleshooting
+- **Phases**: Phase 1 (core concepts), Phase 2 (common tasks), Phase 3 (advanced usage), Phase 4 (reference), Phase 5 (polish)
+
+**onboarding.md includes**: Technical voice standards, code example formatting, audience assumptions
+**DEVLOG.md tracks**: API changes, user feedback incorporation, terminology decisions
+**voice-samples.md**: Examples of clear technical writing vs confusing jargon
+**examples-bank.md**: Canonical code examples, configuration patterns
+
+**Adaptation notes**: Success criteria are task completion. Dependencies follow user learning path. Examples are code snippets and configurations.
+
+---
+
+### Policy Framework Development
+
+**SPEC.md becomes**: Framework structure with stakeholder needs and implementation dependencies
+- **Success criteria**: "Policymaker can apply principle P to decision D" or "Framework addresses concern C"
+- **Dependencies**: Core principles before implementation guidelines, definitions before applications
+- **Phases**: Phase 1 (principles), Phase 2 (guidelines), Phase 3 (case studies), Phase 4 (implementation), Phase 5 (polish)
+
+**onboarding.md includes**: Policy voice standards, stakeholder perspectives, non-partisan framing
+**DEVLOG.md tracks**: Stakeholder feedback, implementation barrier discoveries, principle refinements
+**voice-samples.md**: Examples of clear policy language vs bureaucratic jargon
+**examples-bank.md**: Canonical case studies, principle applications
+
+**Adaptation notes**: Success criteria are usability by policymakers. Dependencies follow decision-making flow. Examples are real-world scenarios.
+
+---
+
+### Book Writing (Non-Fiction)
+
+**SPEC.md becomes**: Chapter outline with argument flow and reader journey
+- **Success criteria**: "Reader understands concept X" or "Reader can apply technique Y"
+- **Dependencies**: Foundation chapters before advanced topics, case studies after framework
+- **Phases**: Phase 1 (core thesis), Phase 2 (supporting arguments), Phase 3 (applications), Phase 4 (edge cases), Phase 5 (polish)
+
+**onboarding.md includes**: Author voice, target reader, book philosophy (what this book is/isn't)
+**DEVLOG.md tracks**: Structural decisions, reader feedback, argument refinements
+**voice-samples.md**: Examples of your voice at its best vs off-voice passages
+**examples-bank.md**: Core stories/examples used throughout book
+
+**Adaptation notes**: Success criteria are reader transformations. Dependencies follow narrative/argument flow. Examples are stories and case studies.
+
+---
+
+## When to Use This Workflow (vs When Not To)
+
+### Use this workflow when:
+- Project spans multiple AI sessions (days/weeks/months)
+- Consistency matters (terminology, tone, examples)
+- Dependencies exist (Section B needs concepts from Section A)
+- Multiple people or tools might work on it
+- Quality threshold is high (not just drafting, but publishable)
+- Project is large (20+ pages, 10+ hours of work)
+
+### Skip this workflow when:
+- Single-session project (blog post, memo, short report)
+- Exploratory/brainstorming phase (no consistency needed yet)
+- Throwaway content (quick draft, internal notes)
+- No cross-references or dependencies
+- Speed matters more than quality
+
+**Rule of thumb**: If you'll come back to this in a week and need to remember context, use the workflow.
+
+---
+
+## Minimal Viable Workflow (Simplified Version)
+
+If the full five-document foundation feels like overkill, start with this minimal version:
+
+**1. SPEC-lite** (outline.md):
+- Numbered sections with status (todo/in-progress/done)
+- Brief success criteria for each
+- Note which sections depend on others
+
+**2. SESSION-LOG** (log.md):
+- One entry per session: date, what was done, key decisions, next steps
+- Read last entry before starting next session
+
+**3. VOICE-GUIDE** (style.md):
+- 2-3 examples of good voice
+- 2-3 examples of bad voice
+- Key phrases to use consistently
+
+**That's it.** Three documents. As project complexity grows, add voice-samples.md and examples-bank.md.
+
+---
+
+## Cross-Tool Compatibility
+
+This workflow works across AI tools because it lives in markdown files, not tool-specific configurations:
+
+**Tested with**:
+- Claude (Code CLI, Desktop, VS Code extension, web)
+- ChatGPT (web, API)
+- Cursor
+- Windsurf
+- Any tool that can read markdown files
+
+**How to use across tools**:
+1. All five documents live in your project folder
+2. Each tool reads onboarding.md to understand the project
+3. Each tool logs to DEVLOG.md
+4. Consistency maintained through files, not AI memory
+
+**Tool-specific notes**:
+- Claude Code: Best for development workflow, good file access
+- Desktop Claude: Good for long writing sessions with projects feature
+- Web Claude: Works but manual file uploading; use for one-off sessions
+- Cursor/Windsurf: Excellent for file-heavy workflows, good at cross-file consistency
+- ChatGPT: Works but weaker at sustained multi-file context; best for single sections
+
+---
+
+## Common Challenges & Solutions
+
+### Challenge 1: "This feels like too much setup overhead"
+
+**When it happens**: Starting a new project, tempted to "just start writing"
+
+**Why it's wrong**: 30 minutes of setup saves hours of inconsistency fixing later
+
+**Solution**: Use Minimal Viable Workflow (3 documents) for smaller projects. Scale up as needed.
+
+**Real cost**: Setup overhead = 30-60 minutes. Fixing inconsistencies later = 5-10 hours.
+
+---
+
+### Challenge 2: "AI isn't following the onboarding instructions"
+
+**When it happens**: AI writes in wrong voice, ignores dependency map, doesn't log to DEVLOG
+
+**Root causes**:
+- onboarding.md is too abstract (needs concrete examples)
+- Instructions buried in long document (AI loses focus)
+- No explicit "READ THIS FIRST" in session start
+
+**Solutions**:
+- Add concrete GOOD/BAD examples to onboarding.md
+- Put critical instructions at top
+- Start each session with: "Read onboarding.md, last 2 DEVLOG entries, and SPEC.md section X"
+- Use voice-samples.md to show, not just tell
+
+---
+
+### Challenge 3: "Dependency map is hard to maintain"
+
+**When it happens**: Adding new sections, restructuring, circular dependencies
+
+**Solutions**:
+- Use visual tools (Mermaid diagrams, mind maps) for complex dependency trees
+- Distinguish hard dependencies (must read Section A before B) from soft (helpful but not required)
+- Review dependency map in Phase 5 (polish) to fix errors
+- Accept some circular references—just note them and choose entry point
+
+**Example Mermaid syntax in SPEC.md**:
+```mermaid
+graph TD
+  A[Section 1: Core Concepts] --> B[Section 2: Applications]
+  A --> C[Section 3: Theory]
+  B --> D[Section 4: Case Studies]
+  C --> D
+```
+
+---
+
+### Challenge 4: "Different AI tools produce different voices"
+
+**When it happens**: Claude writes differently than ChatGPT, even with same onboarding.md
+
+**Reality**: Tools have different base styles. Full uniformity is impossible.
+
+**Solutions**:
+- Pick one tool as "voice authority" (the one that nails your tone)
+- Use that tool for Phase 1 (sets voice standard)
+- Other tools can draft, but voice-authority tool does final pass
+- voice-samples.md becomes even more critical with multiple tools
+
+---
+
+### Challenge 5: "DEVLOG becomes too long to read"
+
+**When it happens**: After 20+ sessions, DEVLOG.md is 50 pages
+
+**Solutions**:
+- Archive old entries: Move sessions 1-10 to DEVLOG-archive.md after session 20
+- Keep only last 5-10 sessions in active DEVLOG.md
+- Create DEVLOG-summary.md with major decisions (read this first, then recent entries)
+- Use git history as backup log (commit messages capture key decisions)
+
+---
+
+## Integration with Git/Version Control
+
+Version control enhances this workflow:
+
+**What to commit**:
+- All five foundation documents
+- Content files (sections, chapters)
+- Do NOT commit: scratch files, personal notes (use .gitignore)
+
+**Commit message strategy**:
+```
+Session N: Brief description
+
+- What was written/revised
+- Key decisions made
+- Notable changes to SPEC/DEVLOG
+
+Co-Authored-By: [AI Tool] <noreply@example.com>
+```
+
+**Branching strategy**:
+- `main`: Completed sections, reviewed content
+- `draft-section-X`: Work-in-progress sections
+- `revision-tone`: Tone consistency pass
+- `revision-continuity`: Cross-reference verification
+
+**Why this helps**:
+- Git history supplements DEVLOG (see exact changes)
+- Branches allow experimentation without breaking main
+- Co-authorship acknowledges AI contribution
+- Easy rollback if section doesn't work
+
+---
+
+## Measuring Success
+
+How do you know this workflow is working?
+
+**Positive indicators**:
+- New session gets productive in <10 minutes (orient, context, write)
+- Tone stays consistent across weeks/months
+- Examples used consistently (no contradictions)
+- Cross-references are accurate
+- Less time fixing inconsistencies in Phase 5
+- Can hand off to different AI tool without re-explaining project
+
+**Negative indicators**:
+- Spending 30+ minutes re-orienting each session
+- Finding contradictions in Phase 5 (Section 3 says X, Section 8 says Y)
+- AI asking questions answered in onboarding.md (it didn't read it)
+- Tone drifts across sections (sounds like different authors)
+- Dependency errors (writing Section 5 before Section 2, which it needs)
+
+**Metrics to track** (optional):
+- Time to productivity per session (should decrease over time)
+- Contradiction count in Phase 5 (should be low if workflow works)
+- Rewrite percentage (low = workflow preventing waste)
+
+---
+
+## Evolution Path
+
+Start simple, add complexity as needed:
+
+**Stage 1: Just Starting**
+- outline.md (what to write)
+- log.md (session notes)
+
+**Stage 2: Multiple Sessions**
+- Add style.md (voice examples)
+- Add dependency map to outline.md
+
+**Stage 3: Consistency Matters**
+- Expand to full SPEC.md with success criteria
+- Add voice-samples.md with GOOD/BAD examples
+- Add examples-bank.md if reusing examples
+
+**Stage 4: Multiple Tools/People**
+- Add comprehensive onboarding.md
+- Add session-specific workflows
+- Use git for version control
+
+**Stage 5: Publication-Quality**
+- Add continuity checking protocols
+- Add cross-reference verification
+- Phase-based development strategy
+
+**You don't need Stage 5 infrastructure for a Stage 2 project.** Scale the workflow to project complexity.
+
+---
+
+## Future Directions
+
+Areas to explore as this workflow matures:
+
+### 1. Automated Consistency Checking
+- Scripts to verify key phrases used consistently
+- Example cross-reference validator
+- Tone drift detector (compare sections against voice-samples.md)
+- Dependency graph visualizer
+
+### 2. Template Library
+- Pre-built SPEC.md templates for common project types
+- Onboarding.md templates (academic, technical, creative)
+- Session workflow templates
+- DEVLOG entry templates
+
+### 3. Multi-Author Workflows
+- How does this work with multiple humans + multiple AIs?
+- Conflict resolution when different authors have different voice
+- Merging strategies for parallel section development
+
+### 4. AI Agent Specialization
+- Different agents for different session types (writing vs editing vs continuity checking)
+- Agent handoffs within a single session
+- Quality assurance agents that verify against SPEC.md
+
+### 5. Integration with Publishing Pipelines
+- Automated compilation of sections into final document
+- Cross-reference link generation
+- Index and glossary generation from examples-bank.md
+- Style checking against voice-samples.md
+
+---
+
+## Contributing to This Workflow
+
+This document accumulates wisdom from real projects. Contributions welcome:
+
+**What to add**:
+- Lessons learned from your projects
+- Anti-patterns you discovered
+- Project type adaptations (new domains)
+- Tool-specific insights
+- Workflow optimizations
+
+**How to contribute**:
+- Open issue: Describe challenge and solution
+- Pull request: Add to relevant section with your project context
+- Discussion: Share what worked/didn't work for you
+
+**Format for new lessons**:
+```markdown
+### Lesson N: [Title]
+**Problem**: [What went wrong or what was challenging]
+**Context**: [Your project type, tools used]
+**Solution**: [What worked]
+**Generalization**: [How this applies to other projects]
+```
+
+---
+
+## Real-World Case Study: This Project
+
+This workflow framework was developed for a communication framework writing project. Here's how it performed:
+
+**Project**: 100+ page structured document with 35+ sections
+**Timeline**: Multi-week development across sessions
+**Tools**: Claude Code, likely Desktop Claude later
+**Team**: 1 human domain expert + AI assistance
+
+**Setup time**: 60 minutes (created all 5 foundation documents)
+**Productivity**: Session 0 (setup) complete, ready for content development
+**Estimated time saved**: TBD (will update after Phase 1-2 complete)
+
+**Challenges encountered**:
+- None yet (foundation just established)
+
+**Adaptations made**:
+- Added session-specific instructions to onboarding.md
+- Created comprehensive dependency map in SPEC.md
+- Decided on spiral development over linear
+
+**Lessons to capture**:
+- [Will update as project progresses]
+
+**Current status**: Infrastructure complete, content development beginning
+
+---
+
+## Quick Start Guide
+
+**For your next non-coding AI project**:
+
+1. **Before any writing**, create these 3 files (30 min):
+   - `outline.md`: Numbered sections with brief success criteria
+   - `style.md`: 2-3 GOOD examples, 2-3 BAD examples of your voice
+   - `log.md`: Session template ready
+
+2. **Each session** (5 min overhead):
+   - Read last log entry
+   - Check outline for next section and success criteria
+   - Write section
+   - Log: what was done, key decisions, next steps
+
+3. **Scale up as needed**:
+   - Project getting complex? Expand outline.md → SPEC.md with dependencies
+   - Using multiple tools? Add onboarding.md with project overview
+   - Reusing examples? Add examples-bank.md to track canonical versions
+
+4. **Use git**:
+   - Commit after each session with descriptive message
+   - Track decisions in commit history as backup to log.md
+
+**Total overhead**: 30 min setup + 5 min per session. Typical savings: 5-10 hours of consistency fixing.
+
+---
+
+**Current Status**: Framework extracted from real project, ready for reuse. Will update with lessons from ongoing development and contributions from other projects.
