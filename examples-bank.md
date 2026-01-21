@@ -41,8 +41,8 @@ This file tracks canonical examples used across the document to ensure consisten
 
 **Used In**:
 - onboarding.md (Key Concepts section)
+- section-01-core-cognitive-profile.md (What It Feels Like section - full expansion)
 - [To be used in Section 2: Communication Mismatch]
-- [Likely to appear in Section 1: Core Cognitive Profile]
 
 **Notes**: This is THE canonical example of why "simple" questions aren't simple. Keep this exact formulation across sections to maintain consistency.
 
@@ -132,6 +132,49 @@ This file tracks canonical examples used across the document to ensure consisten
 - [To be expanded in Section 4.1]
 
 **Notes**: First example specifies role, second specifies constraint (urgency). Both work by narrowing the perspective from which to answer.
+
+---
+
+## Daily Life Friction Examples (from Section 1)
+
+### "How was your weekend?"
+
+**Context**: Casual social question expecting brief answer
+
+**Friction Pattern**: High-uncertainty individual gives extended response with caveats and alternative framings
+
+**What it looks like**: Over-sharing. Not reading social cues. Making simple things complicated.
+
+**What's actually happening**: Person is attempting to transmit accurate representation of experience that doesn't fit neatly into "good" or "bad."
+
+**Used In**:
+- section-01-core-cognitive-profile.md (How This Presents in Daily Life)
+
+---
+
+### "Do you love me?"
+
+**Context**: Intimate relationship, emotional reassurance needed
+
+**Friction Pattern**: Question has a "correct answer" but high-uncertainty individual sees complexity in types/contexts of love
+
+**The Problem**: The information exchange serves a relationship function that complexity undermines. Partner wants "yes" with conviction, not seventeen different ways love manifests.
+
+**Used In**:
+- section-01-core-cognitive-profile.md (When Friction Occurs - emotional reassurance)
+
+---
+
+### "What do you want for dinner?"
+
+**Context**: Casual domestic decision-making requiring speed
+
+**Friction Pattern**: Simple logistical question triggers cognitive expansion, creating awkward pause
+
+**The Problem**: Speed contexts don't reward careful analysis. Social flow matters more than precision.
+
+**Used In**:
+- section-01-core-cognitive-profile.md (When Friction Occurs - speed)
 
 ---
 

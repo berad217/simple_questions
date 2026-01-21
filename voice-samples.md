@@ -200,3 +200,53 @@ Add strong passages here that exemplify the target tone. Include:
 This library grows as the document develops and helps maintain consistency across sessions.
 
 ---
+
+### Example 4: Phenomenological Opening (from Section 1)
+
+> Some minds are organized less around reaching conclusions and more around maintaining accurate uncertainty. Where others experience a question as a prompt to retrieve or generate an answer, these minds experience questions as invitations to map territory.
+
+**Why this works**:
+- Describes the cognitive style without judgment
+- "Invitations to map territory" is vivid and accurate
+- Contrasts with normative style without making either wrong
+- Sets up the rest of the phenomenological description
+
+---
+
+### Example 5: The Amputates Uncertainty Paragraph (from Section 1)
+
+> This is why commitment to a single answer feels inaccurate, risky, or dishonest. It **amputates uncertainty**—cuts away parts of the reality you can clearly see, presenting a simplified picture you know to be incomplete. The discomfort isn't about wanting to be difficult. It's about the felt cost of compression.
+
+**Why this works**:
+- Uses the canonical phrase in context
+- "Felt cost of compression" extends the metaphor
+- Explicitly addresses misinterpretation ("wanting to be difficult")
+- Visceral and precise simultaneously
+
+---
+
+### Example 6: "Looks Like / Actually Happening" Pattern (from Section 1)
+
+> **What it looks like**: Hesitation. Possible evasion. Unwillingness to commit.
+>
+> **What's actually happening**: The person is watching the question expand into multiple dimensions and trying to determine which dimension is being queried. They're not avoiding the answer—they're trying to locate which answer is being requested.
+
+**Why this works**:
+- Clear dual-perspective structure (outside view / inside view)
+- Directly addresses misinterpretation
+- "Locate which answer is being requested" reframes the pause as active work, not avoidance
+- Pattern can be reused throughout document for other behaviors
+
+---
+
+### Example 7: Distinguishing from Anxiety (from Section 1)
+
+> **The distinction**: Someone with high-uncertainty cognitive style can describe the multiple dimensions they're considering clearly and without distress. The mental content is complexity mapping, not threat detection. Ask "What's making this hard to answer?" and they'll describe the dimensions—not express worry about what might go wrong if they answer incorrectly.
+
+**Why this works**:
+- Provides a concrete test to distinguish the patterns
+- "Complexity mapping, not threat detection" is precise
+- Actionable—reader can actually ask the diagnostic question
+- Respects both cognitive style and anxiety as real patterns
+
+---

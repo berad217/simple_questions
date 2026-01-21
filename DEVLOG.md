@@ -274,6 +274,128 @@ Simple, actionable heuristic for when to use vs skip.
 
 ---
 
+## Session 2: Write Section 1 (Core Cognitive Profile)
+**Date**: 2026-01-21
+**Session Type**: Writing New Section
+**Agent**: Claude Code (VS Code Extension) - Opus 4.5
+
+### What Was Done
+1. Read all preparatory files per handover protocol:
+   - HANDOVER.md (session entry point)
+   - SPEC.md Section 1 requirements
+   - genesis_document.md (source material)
+   - voice-samples.md (tone calibration)
+   - examples-bank.md (canonical examples)
+   - DEVLOG.md Sessions 0-1
+
+2. Wrote Section 1: Core Cognitive Profile
+   - Created `section-01-core-cognitive-profile.md`
+   - Approximately 2,000 words
+   - Covers all success criteria from SPEC.md
+
+3. Updated SPEC.md to mark Section 1 complete
+
+### Key Decisions Made
+
+**Decision**: Use "Why didn't you call?" multi-dimensional expansion in Section 1
+- **Rationale**: This example best illustrates what the cognitive experience actually IS. Section 2 can reference this and explain why it creates communication mismatch.
+- **Impact**: Section 2 should not repeat the full expansion but can reference "as described in Section 1"
+
+**Decision**: Create standalone section file (section-01-core-cognitive-profile.md)
+- **Rationale**: Keeps each section independently editable, allows parallel work on different sections
+- **Impact**: Will need compilation step later. File naming convention: `section-NN-kebab-case-title.md`
+
+**Decision**: Structure with subsection headers for each major topic
+- **Rationale**: Makes section navigable, allows readers to jump to "Common Misinterpretations" or "Strengths" directly
+- **Impact**: Establishes formatting pattern for other sections to follow
+
+**Decision**: Include cross-reference to Section 2 at end
+- **Rationale**: Provides navigation, signals continuation
+- **Impact**: Will need to maintain these cross-refs as section files are created
+
+### Content Structure Used
+
+1. **Opening**: What problem, who should read, what they'll be able to do
+2. **What It Feels Like From the Inside**: Phenomenological description (the missing layer from genesis_document.md)
+3. **How This Presents in Daily Life**: Observable patterns with "looks like / actually happening" framing
+4. **The Strengths**: Systems thinking, diagnostic ability, sensitivity, honest uncertainty, deep modeling
+5. **Common Misinterpretations**: Not anxiety, not indecisiveness, not evasion, not pedantry, not arrogance
+6. **When Friction Occurs**: Speed, emotional reassurance, authority, social coordination, layer mismatch
+7. **Living With This Style**: Brief frame-setting for rest of document
+
+### Conceptual Continuity Notes
+
+**Key phrases established**:
+- "amputates uncertainty" - appears in phenomenological section, exactly as canonical
+- "structured collapse" - introduced in final section
+- "communicable stability, not perfect truth" - introduced in final section
+
+**Examples used**:
+- "Why didn't you call?" full multi-dimensional expansion (canonical from examples-bank.md)
+- "How was your weekend?" - new example for "too much" pattern
+- "Do you love me?" - new example for emotional reassurance friction
+- "What do you want for dinner?" - new example for speed friction
+
+**Three-layer communication model**: Mentioned in "When Friction Occurs" (layer mismatch subsection) without full explanation - Section 3.3 will provide the theory.
+
+### Tone/Voice Observations
+
+**Strong patterns that emerged**:
+- "What it looks like / What's actually happening" structure works well for the misinterpretation section
+- Using "these individuals" rather than "people with this disorder" maintains non-pathologizing frame
+- Prose paragraphs feel right for the phenomenological description; bullets would fragment it
+
+**Passages to consider for voice-samples.md**:
+- The opening two paragraphs of "What It Feels Like From the Inside"
+- The "amputates uncertainty" paragraph
+- The "Not Anxiety" distinction paragraph
+
+### Open Questions / Blockers
+
+**Q: How much phenomenological detail for other sections?**
+Section 1 went fairly deep into the subjective experience. Later sections (especially practical techniques) should stay more surface-level. The phenomenological foundation is now established; don't need to repeat it.
+
+**Q: Cross-reference format?**
+Used markdown link style at end: `[Section 2: The Communication Mismatch](section-02-communication-mismatch.md)`. This assumes standalone files. Will need updating if we compile into single document.
+
+**Q: Section 2 approach?**
+Should Section 2 reference Section 1's example and go deeper into the mechanism, or use a fresh example? Recommendation: Reference Section 1 ("As we saw in Section 1...") and use the same "Why didn't you call?" example to show the communication MISMATCH aspect, not just the cognitive experience aspect.
+
+### Next Session Recommendations
+
+**Immediate next task**: Section 2 (The Communication Mismatch)
+- Can reference Section 1's phenomenological description
+- Focus on WHY this creates communication problems
+- Explain why "just give a simple answer" fails
+- Introduce "structured collapse" more fully as the solution approach
+
+**Preparation needed for Section 2**:
+- Re-read Section 1 to maintain voice continuity
+- SPEC.md Section 2 requirements (already read)
+- No additional source material needed - conceptual work
+
+**Alternative**: If someone else writes Section 2 in fresh session, they should read Section 1 first to maintain continuity.
+
+### Current Status
+
+**Completed**:
+- Section 1: Core Cognitive Profile (first content section)
+- Non-pathologizing frame established
+- Phenomenological layer added (not in genesis_document.md)
+- 4 new daily life examples created
+- 5 friction context examples created
+
+**In progress**:
+- DEVLOG entry (completing now)
+
+**Next up**:
+- Phase 1 continues: Section 2 (Communication Mismatch)
+- Then Section 4.1 (Core Techniques)
+
+**Overall progress**: Phase 1 in progress (1 of 3 sections complete)
+
+---
+
 ## Template for Future Session Entries
 
 ```
