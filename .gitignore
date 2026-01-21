@@ -1,0 +1,21 @@
+# Version control history
+.history/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Draft/scratch files (if we create them)
+drafts/
+scratch/
+*.draft.md
+
+# Local notes (not for public repo)
+*.local.md
