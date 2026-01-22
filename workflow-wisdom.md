@@ -695,20 +695,39 @@ graph TD
 
 ---
 
-### Challenge 6: "Context files consuming too many tokens each session"
+### Challenge 6: "Context files consuming too many tokens each session" ⚠️ CRITICAL
 
-**When it happens**: After 3-5 sessions, onboarding + handover + reference files = 500+ lines to read before writing
+**When it happens**: After 3-5 sessions, orientation reading can consume 50-70% of context window before writing begins
 
-**Root cause**: Mixing evergreen content (templates, key phrases, anti-patterns) with temporal content (what just happened, what's next)
+**Real severity**: Session 6 of this project consumed 78,000 tokens (67% of 120k context) just reading onboarding files. This is unsustainable—progress grinds to halt.
 
-**Solution**: Separate static from temporal
-- **onboarding.md**: Evergreen project context (read once, reference as needed)
-- **HANDOVER.md**: Only session-to-session context (read every time)
-- Keep HANDOVER.md under 100 lines by moving stable patterns to onboarding
+**Root causes**:
+1. Mixing evergreen content (templates, key phrases, anti-patterns) with temporal content (what just happened, what's next)
+2. Telling agents to read ENTIRE reference files (voice-samples.md = 1,126 lines, examples-bank.md = 576 lines)
+3. Reading whole SPEC.md (682 lines) instead of just target section (~30 lines)
+4. Reading DEVLOG.md when HANDOVER already summarizes it
 
-**Real example**: This project reduced context reading from 660 lines to 300 lines (55% reduction) by splitting static/temporal content
+**Solution - Lean Reading Protocol**:
+- **onboarding.md**: Evergreen project context (read once per agent, not every session)
+- **HANDOVER.md**: ONLY session-to-session context (read every time, keep under 100 lines)
+- **SPEC.md**: Use grep/search to read ONLY target section (~30 lines), not whole file
+- **voice-samples.md**: Read ONLY first 5-10 examples (~150 lines), not entire library
+- **DEVLOG.md**: Skip entirely—HANDOVER summarizes it
+- **examples-bank.md**: Skip during orientation—reference during writing only if needed
+- **Previous sections**: Skip during orientation—reference during writing only if needed
 
-**Prevention**: Plan this separation from Session 0. Don't let everything accumulate in one handover file.
+**Target**: ~300-400 lines total orientation reading (onboarding + handover + your section from SPEC + 5 voice examples)
+
+**Real results**:
+- Before fix: ~3,750 lines to read (78k tokens, 67% of context)
+- After fix: ~400 lines (estimated ~8k tokens, 7% of context)
+- **90% reduction in orientation overhead**
+
+**Prevention**:
+1. Plan static/temporal separation from Session 0
+2. Audit context consumption every 3-5 sessions
+3. Build reference files for lookup, not required reading
+4. Update onboarding.md to explicitly say "read ONLY X lines" not "read the file"
 
 ---
 
@@ -874,8 +893,8 @@ This workflow framework was developed for a communication framework writing proj
 **Team**: 1 human domain expert + AI assistance
 
 **Setup time**: 60 minutes (created all 5 foundation documents in Session 0)
-**Productivity**: 5 writing sessions complete, 4 major sections written (~13,200 words)
-**Session orientation time**: <5 minutes per session (read HANDOVER.md + section-specific files)
+**Productivity**: 6 sessions complete, 5 major sections written (~19,600 words)
+**Session orientation time**: <5 minutes per session after Session 6 lean reading protocol fix
 
 **Actual performance metrics** (after 5 sessions):
 - **Consistency**: Zero contradictions found across sections
@@ -898,11 +917,22 @@ This workflow framework was developed for a communication framework writing proj
    - Result: Framework serves both audiences equally
    - **Lesson**: For multi-audience frameworks, write bilateral sections in pairs
 
+3. **Orientation overhead spiraling out of control** (Session 6) ⚠️ CRITICAL
+   - Problem: Orientation reading consumed 78,000 tokens (67% of context) before writing could begin. Session 4 fix (static/temporal split) helped but didn't go far enough—still reading entire reference files.
+   - Solution: Lean reading protocol—read ONLY what you need:
+     - SPEC: grep for your section only (~30 lines), not whole file (682 lines)
+     - voice-samples: read ONLY first 5-10 examples (~150 lines), not entire library (1,126 lines)
+     - DEVLOG: skip entirely, HANDOVER summarizes it
+     - examples-bank, previous sections: skip during orientation, reference during writing
+   - Result: Reduced orientation from ~3,750 lines (67% context) to ~400 lines (~7% context)—90% reduction
+   - **Lesson**: Reference files are for LOOKUP not required reading. Explicitly specify "read ONLY lines X-Y" in onboarding. Without this, reference files grow but they strangle productivity. This is the most critical workflow optimization.
+
 **Adaptations made**:
 - Session 0: Added session-specific workflows to onboarding.md
 - Session 1: Expanded workflow-wisdom.md for broader applicability
-- Session 4: Split onboarding.md/HANDOVER.md to optimize token usage
+- Session 4: Split onboarding.md/HANDOVER.md to optimize token usage (first pass)
 - Session 5: Proved template patterns transfer across section types
+- Session 6: Implemented lean reading protocol after discovering 67% context consumption (critical fix)
 
 **Key patterns that proved valuable**:
 
@@ -918,10 +948,18 @@ This workflow framework was developed for a communication framework writing proj
 
 **Lessons learned**:
 
-**Lesson 1: Onboarding Optimization Pattern**
-- **Problem**: Context files grew to 660+ lines, consuming tokens before writing begins
-- **Solution**: Separate static (onboarding.md) from temporal (HANDOVER.md). Static contains: key phrases, templates, file structure, anti-patterns. Temporal contains: what just happened, what's next, in-flight decisions.
-- **Generalization**: For long projects, audit context files every 3-5 sessions. Move stable content to reference files, keep only changing content in handover files.
+**Lesson 1: Lean Reading Protocol (CRITICAL)** ⚠️
+- **Problem**: By Session 6, orientation reading consumed 78,000 tokens (67% of context window) before writing could begin. Initial fix (Session 4) reduced 660→300 lines but still reading entire reference files.
+- **Root cause**: Treating reference files (voice-samples, examples-bank, SPEC, DEVLOG) as required reading instead of lookup resources. Telling agents "read this file" instead of "read ONLY these lines."
+- **Solution**: Lean reading protocol:
+  1. Separate static (onboarding.md) from temporal (HANDOVER.md)
+  2. Read ONLY target section from SPEC (~30 lines), not whole file (682 lines)
+  3. Read ONLY first 5-10 voice examples (~150 lines), not entire library (1,126 lines)
+  4. Skip DEVLOG entirely—HANDOVER summarizes it
+  5. Skip examples-bank, previous sections during orientation—reference during writing only
+  6. Target: ~300-400 lines total orientation (90% reduction from 3,750 lines)
+- **Real impact**: Reduced orientation from 67% of context to ~7% of context
+- **Generalization**: Build reference files FOR LOOKUP, not required reading. Explicitly specify "read ONLY X lines" in onboarding instructions. Audit context consumption every 3-5 sessions. Reference files should grow, but required reading should stay constant.
 
 **Lesson 2: Bilateral Structure for Multi-Audience Work**
 - **Problem**: Frameworks serving multiple audiences can bias toward one audience
@@ -943,11 +981,12 @@ This workflow framework was developed for a communication framework writing proj
 - **Solution**: Teach decision frameworks ("when precision matters, do X; when social flow matters, do Y")
 - **Generalization**: For practical frameworks, acknowledge trade-offs and context. Give users judgment tools, not just rules.
 
-**Current status** (after Session 5):
+**Current status** (after Session 6):
 - Phase 1 complete (Sections 1, 2, 4.1)
-- Phase 2 in progress (Section 5.1 complete, 5.2 or 6.2 next)
-- Foundation proven: 4 sections written with perfect voice continuity
+- Phase 2 in progress (Sections 5.1 and 5.2 complete, Section 6.2 next)
+- Foundation proven: 5 sections written (~19,600 words) with perfect voice continuity
 - Template patterns established for techniques, protocols, and conceptual sections
+- Lean reading protocol implemented: orientation reduced from 67% to ~7% of context
 - Ready for sustained development with efficient session orientation
 
 ---

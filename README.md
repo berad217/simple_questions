@@ -21,15 +21,52 @@ The techniques work by **specifying which dimensions to evaluate**, not by elimi
 
 ## Project Status
 
-**Current Phase**: Phase 1 in progress (Section 1 complete, Section 2 next)
+**Current Phase**: Phase 2 in progress (practical frameworks)
 
-This repository contains:
-- Complete document outline with 35+ sections
-- Development infrastructure for multi-session AI-assisted writing
-- Section 1: Core Cognitive Profile (complete)
-- Foundation for practical techniques and relationship-specific protocols
+**Progress**: 7 of 14 core sections complete (~32,300 words)
 
-See [workflow/SPEC.md](workflow/SPEC.md) for the complete document structure and development roadmap.
+**Complete practical framework available**: The document now includes a fully usable communication system with techniques, bilateral protocols, intent taxonomy, and real-time negotiation strategies.
+
+### What's Available to Read Now
+
+**Foundation** (Phase 1 - Complete):
+- **Section 1: Core Cognitive Profile** - Describes the high-dimensional processing pattern, why forced collapse feels dishonest, cognitive style framing
+- **Section 2: Communication Mismatch** - Why "simple" questions aren't simple, what goes wrong, structural vs personal framing
+
+**Practical Tools** (Phase 2 - In Progress):
+- **Section 4.1: Core Techniques** - Six dimensionality-reduction techniques (domain-binding, uncertainty permission, forced-slice, counterfactual anchoring, output-format constraints, role-locking) with examples
+- **Section 5.1: Response Protocols for Responders** - Seven response formats high-uncertainty individuals can use (satisficing, layered disclosure, meta-response, conditional, confidence-bounded, structured uncertainty, redirect)
+- **Section 5.2: Response Protocols for Questioners** - Five protocol categories for asking better questions (intent declaration, constraint specification, permission-granting, meta-communication, repair protocols)
+- **Section 6.2: Question Intent Taxonomy** - Five intent types (logistical, emotional, diagnostic, planning, social) with recognition patterns and technique mappings
+- **Section 6.1: Real-Time Negotiation** - Signaling vocabulary, protocol negotiation, emergency simplification, meta-communication strategies for both parties
+
+**Coming Next**:
+- Section 6.3: Confidence Expression Systems
+- Section 11: Worked Examples & Case Studies
+- Section 3: Theoretical Frameworks (why this works)
+- Sections 7-8: Relationship-specific applications
+
+### Complete Framework Overview
+
+The completed sections form a fully functional communication system:
+
+**For High-Uncertainty Responders**:
+1. Use techniques (Section 4.1) to structure your thinking
+2. Choose appropriate response format (Section 5.1)
+3. Identify question intent (Section 6.2) to select right approach
+4. Use negotiation phrases (Section 6.1) when stuck
+
+**For Questioners**:
+1. Declare intent upfront (Section 6.2) to set expectations
+2. Use question protocols (Section 5.2) to reduce dimensionality
+3. Use negotiation phrases (Section 6.1) to redirect when needed
+
+**For Both**:
+- Shared vocabulary for real-time repair (Section 6.1)
+- Meta-communication strategies for diagnosing stuck patterns
+- Emergency simplification when structure fails
+
+See [workflow/SPEC.md](workflow/SPEC.md) for the complete document structure and [HANDOVER.md](HANDOVER.md) for current session context.
 
 ## Target Audiences
 
@@ -75,7 +112,13 @@ Six foundational techniques for asking easier-to-answer questions:
 ```
 simple_questions/
 ├── content/                    # Written sections (the actual document)
-│   └── section-01-core-cognitive-profile.md
+│   ├── section-01-core-cognitive-profile.md           # ~3,800 words ✅
+│   ├── section-02-communication-mismatch.md           # ~3,200 words ✅
+│   ├── section-04-1-core-techniques.md                # ~4,900 words ✅
+│   ├── section-05-1-response-protocols-responders.md  # ~6,600 words ✅
+│   ├── section-05-2-response-protocols-questioners.md # ~6,400 words ✅
+│   ├── section-06-1-real-time-negotiation.md          # ~6,800 words ✅
+│   └── section-06-2-question-intent-taxonomy.md       # ~5,900 words ✅
 │
 ├── workflow/                   # AI workflow infrastructure
 │   ├── SPEC.md                # Section outline, success criteria, dependencies
@@ -87,7 +130,7 @@ simple_questions/
 ├── source/                     # Reference material
 │   └── genesis_document.md    # Original conceptual seed
 │
-├── HANDOVER.md                # Current session handover
+├── HANDOVER.md                # Current session handover (Session 7 → 8)
 ├── README.md                  # This file
 └── workflow-wisdom.md         # Generalized workflow guide
 ```
@@ -96,13 +139,15 @@ simple_questions/
 
 This project uses a **session-based incremental development workflow** with AI assistance:
 
-- **Phase 1**: Foundational concepts and core techniques (IN PROGRESS)
-- **Phase 2**: Practical depth (response protocols, worked examples)
-- **Phase 3**: Theoretical grounding
-- **Phase 4**: Relationship-specific applications
-- **Phase 5**: Polish and completeness
+- **Phase 1**: Foundational concepts (Sections 1-2) ✅ COMPLETE
+- **Phase 2**: Practical frameworks (Sections 4.1, 5.1, 5.2, 6.2, 11) - IN PROGRESS (4 of 5 sections complete)
+- **Phase 3**: Theoretical grounding (Section 3.1-3.4)
+- **Phase 4**: Relationship-specific applications (Sections 7-8)
+- **Phase 5**: Polish and completeness (Sections 9-14)
 
-See [workflow-wisdom.md](workflow-wisdom.md) for insights on AI-assisted non-coding projects.
+The framework is usable now—readers can apply techniques, protocols, intent recognition, and negotiation strategies immediately. Theory and relationship-specific applications will deepen understanding but aren't required for practical use.
+
+See [workflow-wisdom.md](workflow-wisdom.md) for insights on AI-assisted non-coding projects and [DEVLOG.md](workflow/DEVLOG.md) for detailed session history.
 
 ## Contributing
 
@@ -122,4 +167,8 @@ If you recognize this cognitive pattern and want to contribute examples, edge ca
 
 ---
 
-**Current Status**: Phase 1 in progress — Section 1 (Core Cognitive Profile) complete, Section 2 (Communication Mismatch) next
+**Current Status**: Phase 2 in progress — 7 core sections complete (~32,300 words), complete practical framework available
+
+**Latest Session**: Session 7 completed Sections 6.1 (Real-Time Negotiation) and 6.2 (Question Intent Taxonomy)
+
+**Next Up**: Section 6.3 (Confidence Expression Systems) or Section 11 (Worked Examples)

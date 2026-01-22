@@ -46,20 +46,22 @@ After reading HANDOVER.md, you'll know what needs to be done. Most common sessio
 **ACTION**: Read these files NOW (in order) before you report ready to the user:
 1. ✅ This file (you're here)
 2. ✅ HANDOVER.md (you just did this)
-3. **SPEC.md** - Find your section, read its requirements/success criteria
-4. **DEVLOG.md** - Skim last 2-3 session entries for context
-5. **voice-samples.md** - Read ~5 examples to calibrate tone
-6. **examples-bank.md** - Reference if you're reusing established examples
-7. **Previous sections** - Skim if voice continuity check needed
+3. **SPEC.md - YOUR SECTION ONLY** - Use Grep to find your section (e.g., "Section 6.2"), read ~30 lines
+4. **voice-samples.md - EXAMPLES 1-5 ONLY** - Read first ~150 lines for tone calibration
+5. **Skip DEVLOG.md** - HANDOVER already summarizes recent sessions
+6. **Skip examples-bank.md** - Reference during writing only if needed
+7. **Skip previous sections** - Reference during writing only if needed for cross-reference
 
-After reading all required files, tell the user you're ready and what you plan to work on.
+**Critical**: Read ~300 lines total, not thousands. HANDOVER contains all temporal context you need.
+
+After reading required files, tell the user you're ready and what you plan to work on.
 
 ### B. Revising Existing Section
 **ACTION**: Read these files NOW before you report ready:
 1. ✅ This file + HANDOVER.md
 2. The section being revised
-3. DEVLOG.md - Why revision is needed
-4. voice-samples.md - Current tone standard
+3. **voice-samples.md - EXAMPLES 1-5 ONLY** - First ~150 lines for tone calibration
+4. **Skip DEVLOG.md** - HANDOVER explains why revision is needed
 
 ### C. Infrastructure/Meta Work
 **ACTION**: Read these files NOW before you report ready:

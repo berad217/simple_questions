@@ -257,7 +257,7 @@ Same template as 4.1 for:
 ### Section 6: Shared Communication Protocols
 
 #### Section 6.1: Real-Time Negotiation
-**Status**: Needs writing
+**Status**: Complete
 **Dependencies**: Sections 4 and 5 (both sides know their tools)
 **Success Criteria**: Reader can:
 - Signal "this question needs restructuring" without conflict
@@ -274,7 +274,7 @@ Same template as 4.1 for:
 ---
 
 #### Section 6.2: Question Intent Taxonomy
-**Status**: Needs writing
+**Status**: Complete
 **Dependencies**: Section 3.3 (game theory layer established)
 **Success Criteria**: Reader can:
 - Identify which intent category a question serves

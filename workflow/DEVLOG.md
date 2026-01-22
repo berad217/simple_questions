@@ -1123,3 +1123,210 @@ These are patterns/templates rather than specific before/after examples. The "pr
 ```
 
 ---
+
+## Session 7: Write Section 6.2 (Question Intent Taxonomy)
+**Date**: 2026-01-22
+**Session Type**: Writing
+**Agent**: Claude Code (Sonnet 4.5)
+
+### What Was Done
+- Wrote Section 6.2: Question Intent Taxonomy (~5,900 words)
+- Created content/section-06-2-question-intent-taxonomy.md
+- Updated SPEC.md to mark Section 6.2 complete
+
+### Key Decisions Made
+
+**Decision**: Structure around five intent types (logistical, emotional, diagnostic, planning, social)
+**Rationale**: These categories are exhaustive for practical purposes and map clearly to different technique/protocol selections
+**Impact**: Gives both questioners and responders vocabulary to identify and name what a question is really asking for
+
+**Decision**: Give diagnostic intent equal treatment rather than framing as "the problem"
+**Rationale**: High-dimensional processing is *appropriate* for diagnostic intent; the issue is when it's applied to other intent types
+**Impact**: Maintains non-pathologizing frame—the cognitive style has a place, just needs intent calibration
+
+**Decision**: Include extensive mixed-intent section
+**Rationale**: Real questions (especially in relationships) carry multiple intents; acknowledging this prevents oversimplification
+**Impact**: Makes framework more realistic and gives repair strategies when intent is ambiguous
+
+**Decision**: Connect each intent type back to Section 4.1 techniques and Section 5 protocols
+**Rationale**: Intent taxonomy is the selection layer—tells you *which* technique or protocol to use
+**Impact**: Makes previous sections more usable; provides the "when to use what" guidance
+
+### Conceptual Continuity Notes
+- Intent taxonomy is the bridge between techniques (Section 4) and protocols (Section 5)
+- Sets up Section 6.1 (Real-Time Negotiation) by establishing shared vocabulary
+- Sets up Section 6.3 (Confidence Expression) by showing how certainty calibration differs per intent
+- Sets up Section 7 (Intimate Relationships) by showing how intent complexity increases in high-trust contexts
+
+### Tone/Voice Observations
+- Maintained example-rich approach (3+ examples per intent type across contexts)
+- Used consistent key phrases ("reduce dimensionality", "structured collapse")
+- Kept non-pathologizing frame (diagnostic intent is *appropriate* depth, not "overthinking")
+- Balanced responder and questioner perspectives throughout
+
+### Recognition Pattern Additions
+Each intent type now includes:
+- What questioner needs vs what responder hears
+- Expectation calibration (what each party naturally expects/provides)
+- Recognition signals (how to identify this intent type)
+- 3+ concrete examples across professional/intimate/casual contexts
+- Mapping to Section 4.1 techniques
+- Connection to Section 5 protocols
+- Common failure modes
+
+### Next Session Recommendations
+
+**Recommended: Section 6.1 (Real-Time Negotiation)**
+- Now that Section 6.2 establishes intent taxonomy, Section 6.1 can show how to negotiate intent mismatches in the moment
+- Provides shared signaling vocabulary that uses intent categories from 6.2
+- Completes Section 6 theoretical/framework layer
+- Dependencies all met (Section 5.1, 5.2, and 6.2 complete)
+
+**Alternative: Section 6.3 (Confidence Expression Systems)**
+- Shows how to calibrate confidence claims per intent type (uses 6.2 taxonomy)
+- Completes Section 6
+- Dependencies met
+
+**Alternative: Section 11 (Worked Examples)**
+- Per Phase 2 order (third priority)
+- Can now reference Sections 1, 2, 4.1, 5.1, 5.2, and 6.2
+- Shows techniques + protocols + intent recognition in realistic scenarios
+
+**Current recommendation**: Section 6.1 to complete Section 6 framework layer, then either 6.3 (complete Section 6) or Section 11 (Phase 2 priority).
+
+### Current Status
+
+**Section 6 progress**:
+- Section 6.1: Real-Time Negotiation - Needs writing
+- Section 6.2: Question Intent Taxonomy - ✅ COMPLETE
+- Section 6.3: Confidence Expression Systems - Needs writing
+
+**Completed Sections** (6 total, ~25,500 words):
+- Section 1: Core Cognitive Profile ✅
+- Section 2: The Communication Mismatch ✅
+- Section 4.1: Core Techniques ✅
+- Section 5.1: Response Protocols (For High-Uncertainty Responders) ✅
+- Section 5.2: Response Protocols (For Questioners) ✅
+- Section 6.2: Question Intent Taxonomy ✅
+
+**Phase 2 progress**: 2 of 3 priority sections complete (5.1 ✅, 6.2 ✅, 11 remaining)
+
+**Next up**:
+- Section 6.1 (Real-Time Negotiation) - recommended
+- Section 6.3 (Confidence Expression) - alternative
+- Section 11 (Worked Examples) - Phase 2 third priority
+
+**Overall progress**: Framework layer now includes techniques (4.1), protocols for both parties (5.1, 5.2), and intent taxonomy (6.2). Ready for real-time negotiation (6.1) or applied examples (11).
+
+
+## Session 7 Continued: Write Section 6.1 (Real-Time Negotiation)
+**Date**: 2026-01-22 (same session, second section)
+**Session Type**: Writing
+**Agent**: Claude Code (Sonnet 4.5)
+
+### What Was Done
+- Wrote Section 6.1: Real-Time Negotiation (~6,800 words)
+- Created content/section-06-1-real-time-negotiation.md
+- Updated SPEC.md to mark Section 6.1 complete
+
+### Key Decisions Made
+
+**Decision**: Structure as signaling vocabulary for both parties (responders + questioners) separately
+**Rationale**: Real-time negotiation requires both sides to have vocabulary; splitting by role makes it immediately clear which phrases to use
+**Impact**: Makes section scannable—responders can find their phrases, questioners can find theirs
+
+**Decision**: Include extensive "emergency simplification" section with 5+ techniques
+**Rationale**: Sometimes standard techniques/protocols fail and communication is actively breaking down; need escape hatches
+**Impact**: Provides safety valve for worst-case scenarios, acknowledges that structure doesn't always work
+
+**Decision**: Dedicate major section to meta-communication ("talking about how we're talking")
+**Rationale**: Meta-level moves are the most powerful negotiation tool but least commonly taught; needed detailed treatment
+**Impact**: Gives both parties permission and vocabulary to pause and diagnose communication patterns
+
+**Decision**: Include full worked example of meta-communication exchange (partner asking "Do you want kids?")
+**Rationale**: Meta-communication is abstract and can feel awkward; showing complete exchange demonstrates it's practical
+**Impact**: Makes meta-communication concrete and usable, shows repair pattern in high-stakes emotional context
+
+**Decision**: Add "graceful exit" strategies for when negotiation fails
+**Rationale**: Not all questions are answerable even with perfect negotiation; needed honest acknowledgment and exit paths
+**Impact**: Removes pressure to answer every question, provides honorable ways to say "I can't answer this"
+
+### Conceptual Continuity Notes
+- Real-time negotiation is the "lubricant" that makes techniques (Section 4.1) and protocols (Sections 5.1, 5.2) usable in messy reality
+- Uses intent taxonomy from Section 6.2 extensively ("I'm hearing logistical intent—is that right?")
+- Sets up Section 6.3 (Confidence Expression) by mentioning uncertainty negotiation
+- Sets up Section 7 (Intimate Relationships) by showing negotiation in emotional contexts
+- Sets up Section 11 (Worked Examples) by providing repair vocabulary that examples can reference
+
+### Tone/Voice Observations
+- Maintained example-rich approach (3+ examples per technique)
+- Used consistent non-pathologizing frame ("you're stuck" vs "you're overthinking")
+- Balanced responder and questioner perspectives throughout
+- Meta-communication example was vulnerable and emotionally honest (maintains intellectual honesty value)
+
+### Section Structure Pattern
+Each negotiation phrase includes:
+- When to use it
+- What it communicates (subtext/intent)
+- Concrete example in context
+- Why it works (mechanism)
+
+Emergency simplification techniques include:
+- When to use
+- How it works
+- Example
+- Failure mode or critical caveat
+
+### Integration Achievements
+- Section 6.1 references Section 6.2 intent taxonomy throughout
+- References Section 5.1 and 5.2 protocols as things being negotiated
+- References Section 4.1 techniques as tools that negotiation makes selectable
+- Creates shared vocabulary that upcoming sections can build on
+
+### Next Session Recommendations
+
+**Options for completing Section 6**:
+
+**Option A: Section 6.3 (Confidence Expression Systems)**
+- Completes Section 6 framework
+- Shows how to calibrate confidence claims per intent type
+- Natural follow-on from negotiation (negotiating certainty levels)
+- Dependencies: Section 3.2 (lossy compression), Section 5.1 (responder tools), Section 6.2 (intent taxonomy)
+
+**Option B: Section 11 (Worked Examples & Case Studies)**
+- Per Phase 2 order (third priority, after 5.1 and 6.2)
+- Now has full framework to demonstrate: techniques (4.1), protocols (5.1, 5.2), intent taxonomy (6.2), negotiation (6.1)
+- Can show complete exchanges with negotiation moments, intent recognition, protocol switching
+- Dependencies: Sections 1, 2, 4.1, 5.1, 5.2, 6.1, 6.2
+
+**Option C: Theory sections (Section 3.1-3.4)**
+- Theory can now reference concrete examples from Sections 4, 5, and 6
+- Section 3.3 (Three-Layer Communication Model) particularly relevant after Section 6 work
+
+**Current recommendation**: Either Section 6.3 (complete Section 6 framework) or Section 11 (Phase 2 priority). Section 6.3 if you want tight conceptual closure before examples; Section 11 if you want to demonstrate everything we've built before adding more theory.
+
+### Current Status
+
+**Section 6 progress**:
+- Section 6.1: Real-Time Negotiation - ✅ COMPLETE
+- Section 6.2: Question Intent Taxonomy - ✅ COMPLETE
+- Section 6.3: Confidence Expression Systems - Needs writing
+
+**Completed Sections** (7 total, ~32,300 words):
+- Section 1: Core Cognitive Profile ✅
+- Section 2: The Communication Mismatch ✅
+- Section 4.1: Core Techniques ✅
+- Section 5.1: Response Protocols (For High-Uncertainty Responders) ✅
+- Section 5.2: Response Protocols (For Questioners) ✅
+- Section 6.1: Real-Time Negotiation ✅
+- Section 6.2: Question Intent Taxonomy ✅
+
+**Phase 2 progress**: 2 of 3 priority sections complete (5.1 ✅, 6.2 ✅, 11 remaining)
+
+**Next up**:
+- Section 6.3 (Confidence Expression) - completes Section 6
+- Section 11 (Worked Examples) - Phase 2 third priority
+- Section 3.x (Theoretical Frameworks) - can now reference practical sections
+
+**Overall progress**: Complete practical framework now exists—techniques, bilateral protocols, intent taxonomy, and negotiation vocabulary. Ready for either confidence expression (6.3), worked examples (11), or theory (3.x).
+
