@@ -238,7 +238,7 @@ Same template as 4.1 for:
 ---
 
 #### Section 5.2: For Questioners
-**Status**: Needs writing
+**Status**: Complete (section-05-2-response-protocols-questioners.md)
 **Dependencies**: Section 4.1-4.3 (know the techniques), Section 5.1 (understand responder experience)
 **Success Criteria**: Reader can:
 - Declare intent before asking (reduce meta-processing)

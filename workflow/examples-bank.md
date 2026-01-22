@@ -527,6 +527,41 @@ When using an example from this bank in a section:
 
 ---
 
+## Section 5.2 Questioner Protocol Examples
+
+### Combined Protocol Example: Project Status Question
+
+**Scenario**: Manager asking about delayed project
+
+**Exchange Demonstrating All Five Questioner Protocols**:
+
+1. **Intent Declaration**: "Let me clarify—I'm asking for diagnostic understanding, not blame. What's actually causing the delay?"
+
+2. **Signal Reading**: [Employee pauses, looking uncertain] Manager reads this as processing signal, not avoidance. Waits silently.
+
+3. **Employee Signals Dimensionality Overload**: "There are technical issues, resource constraints, and some scope creep. Which matters most to you?"
+
+4. **Responding to Restructuring Request**: "Give me the biggest technical issue first, then we can look at the others."
+
+5. **Reading Provisional Answer**: Employee: "Based on what I've seen, it looks like the API integration is more complex than we estimated, but I won't know for sure until we..." Manager recognizes provisional answer with uncertainty, doesn't push for false certainty.
+
+6. **Following Up Without Adding Load**: "Okay, so API integration is the main blocker. What would we need to do to unblock it?" [Stays in same dimension, asks for next layer]
+
+**Protocols Used**:
+- Intent declaration (diagnostic, not blame)
+- Signal reading (pause = processing, not avoidance)
+- Patience (waiting through pause)
+- Productive response to restructuring request
+- Acceptance of provisional answer
+- Low-load follow-up (builds on answer, doesn't introduce new dimensions)
+
+**Used In**:
+- section-05-2-response-protocols-questioners.md (Combining Protocols section)
+
+**Notes**: This is the canonical example of all questioner protocols working together in sequence. Shows how protocols compound effectiveness. Manager gets diagnostic information efficiently, employee doesn't spiral into analysis-paralysis.
+
+---
+
 ## To Be Populated
 
 As sections are written, add:

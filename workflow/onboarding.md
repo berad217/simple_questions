@@ -2,6 +2,8 @@
 
 **You are joining a multi-session writing project.** This is your single entry point.
 
+**IMPORTANT**: Reading this document means FOLLOWING the instructions in it. As you read each step, execute it before moving to the next step. When you finish reading this file, you should have already read HANDOVER.md and any other files specified for your session type, and be ready to begin work.
+
 ---
 
 ## Step 1: Read This Section (Project Context)
@@ -25,23 +27,23 @@
 
 ## Step 2: Read the Handover (What's In Flight)
 
-**Read**: `HANDOVER.md` (root directory)
+**ACTION**: Read `HANDOVER.md` (root directory) RIGHT NOW before continuing.
 
 This tells you:
 - What the last session accomplished
 - What's ready to work on next
 - Any in-flight decisions or temporal context
 
-**Do this now before continuing.**
+Stop reading this file and go read HANDOVER.md. Come back after you've read it.
 
 ---
 
-## Step 3: Determine Your Session Type
+## Step 3: Determine Your Session Type and Complete Required Reading
 
 After reading HANDOVER.md, you'll know what needs to be done. Most common session types:
 
 ### A. Writing New Section (most common)
-**You need to read**:
+**ACTION**: Read these files NOW (in order) before you report ready to the user:
 1. ✅ This file (you're here)
 2. ✅ HANDOVER.md (you just did this)
 3. **SPEC.md** - Find your section, read its requirements/success criteria
@@ -50,17 +52,17 @@ After reading HANDOVER.md, you'll know what needs to be done. Most common sessio
 6. **examples-bank.md** - Reference if you're reusing established examples
 7. **Previous sections** - Skim if voice continuity check needed
 
-**Then**: Write the section, update workflow files (SPEC.md status, DEVLOG.md entry, voice-samples/examples-bank if applicable), update HANDOVER.md
+After reading all required files, tell the user you're ready and what you plan to work on.
 
 ### B. Revising Existing Section
-**You need to read**:
+**ACTION**: Read these files NOW before you report ready:
 1. ✅ This file + HANDOVER.md
 2. The section being revised
 3. DEVLOG.md - Why revision is needed
 4. voice-samples.md - Current tone standard
 
 ### C. Infrastructure/Meta Work
-**You need to read**:
+**ACTION**: Read these files NOW before you report ready:
 1. ✅ This file + HANDOVER.md
 2. Whatever HANDOVER.md says to read
 
@@ -215,10 +217,11 @@ simple_questions/
 
 ## You're Ready
 
-You've now read:
-- ✅ This file (onboarding.md)
-- ✅ HANDOVER.md
+If you've followed the steps above, you've now:
+- ✅ Read this file (onboarding.md)
+- ✅ Read HANDOVER.md
+- ✅ Read all required files for your session type (SPEC.md section, DEVLOG.md, voice-samples.md, examples-bank.md, previous sections as needed)
 
-Next: Based on HANDOVER.md, read the specific files you need (SPEC.md section, voice-samples.md, etc.) and begin work.
+You should be fully oriented and ready to begin work.
 
 **Tell the user you're ready and what you plan to work on.**

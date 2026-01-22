@@ -364,6 +364,80 @@ For Section 4.1 and 4.2 (practical techniques):
 
 ---
 
+## Section 5.2 Response Protocol Passages (Session 6)
+
+### Example 25: Questioner Protocols as Collaboration (from Section 5.2)
+
+> These protocols address what happens before, during, and after you ask a question. Before: declare what kind of answer you need so the responder doesn't have to guess. During: read processing signals accurately so you know whether to wait, help restructure, or accept a provisional answer. After: follow up in ways that build on the previous answer rather than creating new multi-dimensional questions.
+
+**Why this works**:
+- Clear temporal structure (before/during/after)
+- Concrete actions for each phase
+- Parallel construction makes it memorable
+- Shows protocols as integrated system, not isolated techniques
+
+---
+
+### Example 26: Intent Declaration Mechanism (from Section 5.2)
+
+> When you ask a question without declaring intent, the responder has to infer what you actually need—which adds a meta-level processing demand on top of the question itself. Are you asking for emotional reassurance, logistical coordination, diagnostic analysis, or something else? Each intent type calls for a different kind of answer. Declaring intent upfront eliminates that meta-processing and tells the responder which dimensions matter for this specific question.
+
+**Why this works**:
+- Shows the hidden cost (meta-level processing demand)
+- Lists specific intent types to make abstract concept concrete
+- "Eliminates that meta-processing" - clear value proposition
+- Direct mechanism explanation
+
+---
+
+### Example 27: Signal Reading Nuance (from Section 5.2)
+
+> When responders don't answer immediately, questioners often misread the pause. Is this avoidance? Lack of preparation? Not caring? Usually it's none of those—it's active processing of a multi-dimensional question. Learning to read processing signals accurately prevents you from misattributing motives and helps you provide the right kind of support.
+
+**Why this works**:
+- Lists common misinterpretations questioners make
+- "Usually it's none of those" - directly corrects misattribution
+- Frames signal reading as skill (learning to read accurately)
+- Shows benefit: provide right kind of support
+
+---
+
+### Example 28: Patience vs Enabling Framework (from Section 5.2)
+
+> The right balance is patience when they're actively processing toward an answer, intervention when they're stuck in dimensionality overload, and acceptance when genuine uncertainty is the accurate response.
+
+**Why this works**:
+- Tri-part framework clearly stated
+- Each mode has clear trigger condition
+- "Genuine uncertainty is the accurate response" - validates uncertainty as legitimate answer
+- Parallel structure makes framework memorable
+
+---
+
+### Example 29: Restructuring as Collaboration Not Criticism (from Section 5.2)
+
+> When a responder asks you to restructure a question, they're not being difficult—they're signaling that the question as asked activates too many dimensions simultaneously. Your response determines whether this becomes collaborative problem-solving or conversational friction.
+
+**Why this works**:
+- Directly addresses potential defensive reaction
+- Explains mechanism (too many dimensions)
+- Shows questioner agency: your response determines outcome
+- Sets up collaborative frame
+
+---
+
+### Example 30: Follow-Up Load Management (from Section 5.2)
+
+> Follow-up questions are necessary, but each new question can trigger new multi-dimensional expansion if not carefully structured. Follow-ups that reference the previous answer, narrow scope, or ask for the next layer of the same dimension reduce load. Follow-ups that introduce new dimensions or reopen settled territory add load.
+
+**Why this works**:
+- Acknowledges necessity (follow-ups needed)
+- Clear contrast: what reduces load vs what adds load
+- Concrete patterns for each (reference/narrow/next layer vs new dimensions/reopen)
+- Actionable guidance
+
+---
+
 ## As Sections Are Written
 
 Add strong passages here that exemplify the target tone. Include:

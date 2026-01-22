@@ -883,6 +883,202 @@ This is complementary but distinct from technique design. Section 5.2 is about q
 
 ---
 
+## Session 6: Write Section 5.2 (Response Protocols for Questioners)
+**Date**: 2026-01-22
+**Session Type**: Writing New Section
+**Agent**: Claude Code (VS Code Extension) - Sonnet 4.5
+
+### What Was Done
+1. Optimized onboarding.md to make self-executing nature explicit
+   - Added upfront notice that reading means executing instructions
+   - Changed passive "you need to read" to active "ACTION: Read NOW"
+   - Updated final section to confirm completion rather than assign next steps
+
+2. Read all preparatory files per handover protocol:
+   - HANDOVER.md (session entry point)
+   - SPEC.md Section 5.2 requirements
+   - DEVLOG.md (last 2-3 sessions for context)
+   - voice-samples.md (tone calibration)
+   - examples-bank.md (canonical examples)
+   - Section 5.1 (responder protocols to complement)
+
+3. Wrote Section 5.2: Response Protocols for Questioners
+   - Created `section-05-2-response-protocols-questioners.md`
+   - Approximately 6,400 words
+   - Five protocol categories with scripts and examples
+   - Covers all success criteria from SPEC.md
+
+4. Updated workflow files:
+   - SPEC.md Section 5.2 status → Complete
+   - voice-samples.md (6 new strong passages)
+   - This DEVLOG entry
+
+### Key Decisions Made
+
+**Decision**: Structure as five protocol categories mirroring the questioner's journey
+- **Rationale**: Questioners need temporal framework (before/during/after asking) plus strategic judgment (when to wait/intervene/accept). Categories follow natural question lifecycle rather than matching Section 5.1's structure.
+- **Impact**: Section 5.2 feels complementary but distinct from Section 5.1. Both are practical protocols but serve different sides of the exchange.
+
+**Decision**: Include "Patience vs Enabling Analysis-Paralysis" as dedicated protocol
+- **Rationale**: This is the hardest calibration for questioners—when to wait vs when to help. Deserves full protocol treatment, not just a note.
+- **Impact**: Gives questioners decision framework with clear triggers for each mode. Prevents both impatience (interrupting legitimate processing) and enabling (allowing endless spiraling).
+
+**Decision**: Provide signal recognition guide with behavioral distinctions
+- **Rationale**: Questioners often misread pauses as avoidance. Need concrete behavioral markers to distinguish processing from evasion.
+- **Impact**: Guide lists specific signals for "working on this," "too many dimensions," "uncertain," "don't know," and "avoiding." Questioners can observe behavior, not mind-read.
+
+**Decision**: Include combined protocols example at end
+- **Rationale**: Real conversations stack multiple protocols. "Project status" example shows all five working together.
+- **Impact**: Demonstrates protocol integration, not just isolated techniques. Shows how protocols compound effectiveness.
+
+**Decision**: Emphasize collaboration frame throughout
+- **Rationale**: Questioners can read protocols as "dealing with difficult people." Need consistent framing: responders aren't being difficult, they're processing complexity.
+- **Impact**: Every protocol section includes language like "collaborative problem-solving," "the responder isn't being difficult," "they're signaling what they need."
+
+### Content Structure Used
+
+1. **Opening**: What problem, who should read, what they'll be able to do
+2. **What These Protocols Do**: Conceptual frame (complements Section 4.1 and 5.1)
+3. Five protocol categories:
+   - Declaring Intent Upfront
+   - Reading Processing Signals
+   - Patience vs Enabling Analysis-Paralysis
+   - Responding to Restructuring Requests
+   - Following Up Without Adding Load
+4. **Combining These Protocols**: Multi-protocol example showing integration
+5. **What Comes Next**: Navigation
+
+Each protocol section includes:
+- Definition
+- Why it works (mechanism)
+- Scripts/templates or recognition patterns
+- Examples across contexts (professional, intimate, medical, casual)
+- When to use
+- 3 failure modes with fixes
+
+### Conceptual Continuity Notes
+
+**Key phrases used consistently**:
+- "Reduce dimensionality" - what structured questions do
+- "Multi-dimensional expansion" - what poorly-structured questions trigger
+- "Processing complexity you may not see" - non-judgmental frame for responder behavior
+- "Collaborative problem-solving" - frame for restructuring requests
+
+**New patterns established**:
+- Intent declaration templates for 5 intent types (logistical, emotional, diagnostic, decision, social)
+- Signal recognition guide with behavioral markers
+- Patience/intervention/acceptance decision framework
+- Low-load vs high-load follow-up patterns
+
+**Cross-references established**:
+- References to Section 4.1 techniques (domain-binding, forced-slice, etc.)
+- References to Section 5.1 responder signals
+- Forward links to Section 6.1 (shared real-time negotiation)
+- Forward links to Section 6.2 (question intent taxonomy)
+- Forward links to Section 6.3 (confidence expression systems)
+
+### Tone/Voice Observations
+
+**Voice continuity maintained**:
+- Direct and precise definitions
+- Non-pathologizing throughout ("they're processing complexity," not "they're being difficult")
+- Practically grounded with ready-to-use scripts and templates
+- Intellectually honest about trade-offs (patience vs enabling, restructuring costs)
+- Examples-rich (5+ examples per protocol across contexts)
+
+**Strong passages for voice-samples.md** (6 added):
+- Before/during/after temporal framework for questioner protocols
+- Intent declaration mechanism (eliminates meta-processing)
+- Signal reading to prevent misattributing motives
+- Patience/intervention/acceptance tri-part framework
+- Restructuring as collaboration not criticism
+- Follow-up load management (build vs create new load)
+
+**Pattern consistency**:
+- Each protocol section follows: Definition → Mechanism → Scripts/Patterns → Examples → When to Use → Failure Modes (numbered 1-3 with fixes)
+- Consistent with Section 5.1 structure
+- Can be reused for future protocol sections
+
+### Open Questions / Blockers
+
+**Q: Should Section 6.2 (Question Intent Taxonomy) or Section 6.1 (Real-Time Negotiation) come next?**
+
+Per SPEC.md Phase 2 priority order:
+1. Section 5.1 (Response Protocols - Responders) ✅ DONE
+2. Section 6.2 (Question Intent Taxonomy)
+3. Section 11 (Worked Examples)
+
+However, Section 6.1 (Real-Time Negotiation) is the natural next step now that both sides have their protocols (5.1 and 5.2). It provides the shared vocabulary for protocol negotiation.
+
+**Recommendation**: Write Section 6.2 (Question Intent Taxonomy) per Phase 2 order. Intent taxonomy provides framework for calibrating expectations around different question types (logistical vs emotional vs diagnostic). This complements the protocols we've just established. Section 6.1 can come after 6.2.
+
+**Q: Should intent declaration templates from Section 5.2 be tracked in examples-bank.md?**
+
+These are patterns/templates rather than specific before/after examples. The "project status" combined example could be canonical.
+
+**Recommendation**: Add the combined "project status" example to examples-bank.md as canonical demonstration of all questioner protocols working together. Intent templates are patterns, not examples to track.
+
+### Next Session Recommendations
+
+**Immediate next task**: Section 6.2 (Question Intent Taxonomy)
+- Provides framework for intent types (logistical, emotional, diagnostic, planning, social)
+- Helps both questioners and responders calibrate expectations
+- Maps to Section 4.1 techniques and Section 5 protocols
+- Can reference Section 5.2 intent declarations
+
+**Preparation needed for Section 6.2**:
+- Review SPEC.md Section 6.2 requirements (intent types, expectations, mixed-intent handling)
+- Review Section 4.1 to map techniques to intent types
+- Review Section 5.2 intent declaration examples
+- Review voice-samples.md for tone continuity
+
+**Alternative**: If pivoting to Section 6.1 (Real-Time Negotiation):
+- Shared signaling vocabulary for both parties
+- Protocol negotiation phrases
+- Emergency simplification strategies
+- Meta-communication ("let's talk about how we're talking")
+- Can reference both Section 5.1 and 5.2 protocols
+
+**Current recommendation**: Proceed to Section 6.2 (Question Intent Taxonomy) per Phase 2 order, then return to Section 6.1 (Real-Time Negotiation) to complete Section 6.
+
+### Current Status
+
+**Section 5 COMPLETE**:
+- Section 5.1: Response Protocols (For High-Uncertainty Responders) ✅
+- Section 5.2: Response Protocols (For Questioners) ✅
+- Bilateral protocol coverage complete
+
+**Completed Sections** (5 total, ~19,600 words):
+- Section 1: Core Cognitive Profile ✅
+- Section 2: The Communication Mismatch ✅
+- Section 4.1: Core Techniques ✅
+- Section 5.1: Response Protocols (For High-Uncertainty Responders) ✅
+- Section 5.2: Response Protocols (For Questioners) ✅
+
+**In progress**:
+- HANDOVER.md update (next)
+- examples-bank.md update (add combined protocol example)
+
+**Next up**:
+- Section 6.2 (Question Intent Taxonomy) per Phase 2 order
+- Section 6.1 (Real-Time Negotiation) to complete Section 6
+- Section 11 (Worked Examples) to complete Phase 2
+
+**Overall progress**: Section 5 complete, Phase 2 in progress (1 of 3 priority sections complete), document now serves both questioners and responders with practical protocols
+
+### Session 6 Addendum: Onboarding Optimization
+
+**What Was Done**:
+- Updated onboarding.md to make self-executing nature explicit
+- Changed from "you should read" to "ACTION: Read NOW before continuing"
+- Added upfront notice: "Reading this document means FOLLOWING the instructions in it"
+
+**Token efficiency impact**: Makes expectation clearer—when you finish reading onboarding.md, you've already done all prep work, not just learned about what to do. Reduces "I'm ready" → "did you read the files?" → "oh, I'll read them now" cycles.
+
+**User feedback**: Direct request to make onboarding more explicit that reading = executing instructions.
+
+---
+
 ## Template for Future Session Entries
 
 ```
