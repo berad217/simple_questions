@@ -692,6 +692,17 @@ Phase 1 goal was "establish voice, tone, and core concepts + practical technique
 
 **Overall progress**: Phase 1 complete (~8,000 words of foundational content), ready for Phase 2 (practical depth)
 
+### Session 4 Addendum: Onboarding Optimization
+
+**What Was Done**:
+- Rewrote onboarding.md as single entry point (~225 lines, down from 390)
+- Slimmed HANDOVER.md to only ephemeral/in-flight content (~67 lines, down from 270)
+- New flow: "read onboarding.md" → discovers handover → knows what else to read
+
+**Token savings**: ~60-70% reduction in required reading for typical new session (onboarding + handover now ~300 lines vs previous ~660 lines)
+
+**Decision rationale**: Context was filling up; project growing large enough to need efficient onboarding. Static info (key phrases, templates, file structure) now in onboarding.md; temporal info (what just happened, what's next) in HANDOVER.md.
+
 ---
 
 ## Template for Future Session Entries
