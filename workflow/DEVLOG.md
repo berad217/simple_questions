@@ -525,6 +525,175 @@ SPEC.md specifies: 3-5 examples per technique across professional/intimate/casua
 
 ---
 
+## Session 4: Write Section 4.1 (Core Techniques)
+**Date**: 2026-01-21
+**Session Type**: Writing New Section
+**Agent**: Claude Code (VS Code Extension) - Sonnet 4.5
+
+### What Was Done
+1. Read all preparatory files per handover protocol:
+   - HANDOVER.md (session entry point)
+   - genesis_document.md (source material for six techniques)
+   - SPEC.md Section 4.1 requirements
+   - voice-samples.md (tone calibration and technique template)
+   - examples-bank.md (canonical examples)
+   - Sections 1-2 (voice continuity)
+
+2. Wrote Section 4.1: Core Techniques
+   - Created `section-04-1-core-techniques.md`
+   - Approximately 4,200 words
+   - All six techniques with full template (definition, mechanism, 3-5 examples, when to use, failure modes)
+   - Covers all success criteria from SPEC.md
+
+3. Updated workflow files:
+   - SPEC.md Section 4.1 status → Complete
+   - This DEVLOG entry (in progress)
+
+### Key Decisions Made
+
+**Decision**: Provide 4-5 examples per technique across diverse contexts
+- **Rationale**: Genesis document had only 1 example per technique. Need to show techniques work across professional, intimate, casual, medical, diagnostic, planning contexts.
+- **Impact**: Section is longer (~4,200 words) but readers get immediate sense of versatility. Can see themselves using techniques in their specific contexts.
+
+**Decision**: Include 3 detailed failure modes per technique with fixes
+- **Rationale**: SPEC.md required failure modes. Real value is in the correction strategies, not just cataloging what goes wrong.
+- **Impact**: Readers learn troubleshooting, not just technique application. Builds confidence that techniques are recoverable when misapplied.
+
+**Decision**: Add "Using These Techniques Together" section before closing
+- **Rationale**: Techniques aren't mutually exclusive. Real questions often stack multiple techniques.
+- **Impact**: Demonstrates that combining techniques compounds effectiveness. Shows 4-technique stack example.
+
+**Decision**: Explain mechanism before examples for each technique
+- **Rationale**: "Show why, then show how" matches project philosophy. Readers who understand mechanism can adapt techniques to new contexts.
+- **Impact**: Each technique becomes a generative pattern, not just a script to memorize.
+
+### Content Structure Used
+
+For each technique:
+1. **Name & Definition**: One-sentence clear definition
+2. **Mechanism**: WHY it reduces cognitive load / dimensionality (1-2 sentences)
+3. **Examples**: 4-5 before/after pairs across contexts (professional, intimate, casual, medical, diagnostic, planning)
+4. **When to Use**: Specific situations where this technique works best
+5. **Failure Modes**: 3 common failures with corrections
+
+Overall section structure:
+1. Opening (what problem, who should read, what they'll be able to do)
+2. "What These Techniques Do" (conceptual frame)
+3. Six techniques with full template
+4. "Using These Techniques Together" (combination strategies)
+5. "What Comes Next" (navigation)
+
+### Conceptual Continuity Notes
+
+**Key phrases used consistently**:
+- "Reduce dimensionality" - established as what techniques actually do
+- "Amputates uncertainty" - referenced in mechanism explanations
+- "Communicable stability, not perfect truth" - reinforced as goal
+- "Lossy compression" - referenced in uncertainty permission and output-format constraints
+
+**New examples created** (24 total new before/after pairs):
+- Domain-binding: project deadline, phone call (canonical), dinner, medical treatment
+- Uncertainty permission: server outage, upset feelings, restaurant preference, diagnosis, plan viability
+- Forced-slice: lost client, partner stress, movie reaction, symptom diagnosis, decision-making
+- Counterfactual anchoring: project decline, party attendance, place preference, deadline negotiation, medication adherence
+- Output-format constraints: client meeting, holiday plans, weekend plans, meeting feedback, document review
+- Role-locking: feature launch, city move, movie interest, advisory urgency, surgery decision
+
+**Cross-references established**:
+- Forward links to Section 4.2 (Additional Techniques)
+- Forward links to Section 4.3 (Technique Selection)
+- Forward links to Section 5.1 (Response Protocols)
+
+### Tone/Voice Observations
+
+**Voice continuity maintained**:
+- Direct and precise definitions
+- Mechanism explanations focus on cognitive load reduction
+- Before/after format for all examples
+- Non-pathologizing frame throughout
+- Prose for conceptual content, bullets only for actual lists
+
+**Strong passages for voice-samples.md**:
+- "These six techniques don't reduce intelligence or nuance. They reduce dimensionality."
+- "Domain-binding explicitly names one dimension and temporarily excludes the others, telling the cognitive system 'evaluate only this layer.'"
+- "Uncertainty permission removes the demand for certainty by explicitly acknowledging that you're asking for the responder's current model, not eternal truth."
+- "The responder isn't claiming their answer is complete, just that it's one true factor among others." (forced-slice)
+- "Counterfactual framing also reduces defensiveness because it's forward-looking rather than backward-looking."
+- "Output-format constraints externalize that decision [about scope]."
+- "Role-locking specifies which perspective to use, eliminating the meta-question of 'which version of me is being asked?'"
+
+**Formatting pattern established**:
+- Consistent technique template (can be reused in Section 4.2)
+- Context labels in bold for examples (Professional context:, Intimate context:, etc.)
+- Failure modes numbered 1-3 with "Fix:" for each
+- "Instead of: / Use:" format for all before/after pairs
+
+### Open Questions / Blockers
+
+**Q: Section 4.2 (Additional Techniques) depth?**
+SPEC.md lists 6 additional techniques (scope-locking, reversibility framing, confidence calibration, intent declaration, acceptable error tolerance, iteration permission). Should these get the same level of detail as core six, or lighter treatment since they're more specialized?
+
+**Recommendation**: Use same template for consistency, but 3 examples instead of 4-5. They're "additional" so slightly less depth is appropriate.
+
+**Q: Should examples-bank.md track all 24 new examples?**
+That's a lot. Maybe track only the best 1-2 per technique as canonical, note others are "context variations."
+
+**Recommendation**: Add 6 canonical examples (one per technique, strongest one) to examples-bank.md. Note file location for the full set.
+
+**Q: Phase 1 complete—what next?**
+Phase 1 goal was "establish voice, tone, and core concepts + practical techniques foundation." Sections 1, 2, 4.1 now complete. This meets Phase 1 goals.
+
+**Options**:
+- Continue to Phase 2: Section 5.1 (Response Protocols) - practical depth
+- Polish Phase 1 sections before moving on
+- Write Section 4.2 (Additional Techniques) to complete Part II Section 4
+
+**Recommendation**: Phase 1 is solid foundation. Move to Phase 2 Section 5.1 (Response Protocols) to provide responder-side tools, making document immediately useful for both questioners and responders.
+
+### Next Session Recommendations
+
+**Immediate next task**: Update voice-samples.md and examples-bank.md with Session 4 strong passages
+
+**Then choose path**:
+
+**Path A - Phase 2 Practical Depth**: Section 5.1 (Response Protocols for High-Uncertainty Responders)
+- Provides the responder-side complement to Section 4.1 questioner techniques
+- Makes document immediately useful for both audiences
+- Can reference Section 4.1 techniques when explaining what to request
+
+**Path B - Complete Section 4**: Section 4.2 (Additional Techniques)
+- Finishes the question design toolkit
+- Maintains momentum in Part II
+- Provides fuller question design resource before switching to response protocols
+
+**Recommendation**: Path A (Phase 2, Section 5.1). Document is most useful when it serves both questioners and responders. Section 5.1 provides the responder toolkit that pairs with Section 4.1's questioner toolkit.
+
+**Preparation needed for Section 5.1**:
+- Review SPEC.md Section 5.1 requirements (scripts, provisional commitment language, meta-honesty)
+- Review Section 4.1 to reference techniques responders can request
+- Review voice-samples.md for tone continuity
+
+### Current Status
+
+**Phase 1 COMPLETE**:
+- Section 1: Core Cognitive Profile ✅
+- Section 2: The Communication Mismatch ✅
+- Section 4.1: Core Techniques ✅
+- Voice and tone established
+- Core concepts introduced (amputates uncertainty, structured collapse, reduce dimensionality)
+
+**In progress**:
+- Voice-samples.md and examples-bank.md updates (this session)
+- HANDOVER.md update for Session 5
+
+**Next up**:
+- Phase 2 begins: Section 5.1 (Response Protocols) OR
+- Section 4.2 (Additional Techniques) to complete Part II Section 4
+
+**Overall progress**: Phase 1 complete (~8,000 words of foundational content), ready for Phase 2 (practical depth)
+
+---
+
 ## Template for Future Session Entries
 
 ```

@@ -190,6 +190,106 @@ For Section 4.1 and 4.2 (practical techniques):
 
 ---
 
+## Section 4.1 Technique Passages (Session 4)
+
+### Example 11: Techniques Overview (from Section 4.1)
+
+> These six techniques don't reduce intelligence or nuance. They **reduce dimensionality**. They tell the cognitive system which uncertainties may be temporarily set aside so that a usable position can form.
+
+**Why this works**:
+- Directly addresses potential concern (not dumbing down)
+- Uses canonical phrase ("reduce dimensionality")
+- Explains what techniques actually do (specify which uncertainties to set aside)
+- Maintains non-pathologizing frame
+
+---
+
+### Example 12: Domain-Binding Mechanism (from Section 4.1)
+
+> Domain-binding explicitly names one dimension and temporarily excludes the others, telling the cognitive system "evaluate only this layer." This prevents the automatic expansion into multi-dimensional analysis.
+
+**Why this works**:
+- Clear mechanism explanation
+- "Telling the cognitive system" treats it as active agent, not malfunction
+- Explains prevention (stops auto-expansion), not just action (restricts dimension)
+- Precise and actionable
+
+---
+
+### Example 13: Uncertainty Permission Mechanism (from Section 4.1)
+
+> High-uncertainty individuals experience answers as commitments to truth. Hedging feels necessary because absolute statements feel dishonest when uncertainty exists. Uncertainty permission removes the demand for certainty by explicitly acknowledging that you're asking for the responder's current model, not eternal truth.
+
+**Why this works**:
+- Explains the internal experience (answers as commitments)
+- Shows why hedging happens (not evasion, but honesty calibration)
+- Clear mechanism (removes demand for certainty)
+- Distinguishes "current model" from "eternal truth" - precise language
+
+---
+
+### Example 14: Forced-Slice Mechanism (from Section 4.1)
+
+> Forced-slice explicitly acknowledges multiplicity while requesting a single slice anyway. This resolves the dishonesty problem: the responder isn't claiming their answer is complete, just that it's one true factor among others.
+
+**Why this works**:
+- Shows how technique resolves "amputating uncertainty" discomfort
+- Clear distinction: one true factor ≠ the complete answer
+- Addresses responder's honesty concern directly
+- Explains why it works psychologically
+
+---
+
+### Example 15: Counterfactual Anchoring Mechanism (from Section 4.1)
+
+> Explaining why something happened requires analyzing all contributing factors. Identifying what would have changed it requires only finding the binding constraint—the thing that, if different, would have produced a different result. This is often much easier.
+
+**Why this works**:
+- Shows computational difference (all factors vs. binding constraint)
+- Uses precise technical language ("binding constraint")
+- Explains why technique is easier, not just what it does
+- "This is often much easier" - simple, direct payoff statement
+
+---
+
+### Example 16: Output-Format Constraints Mechanism (from Section 4.1)
+
+> High-uncertainty individuals often struggle with answer scope—how much to say, how much detail is enough, where to stop. Output-format constraints externalize that decision. Instead of the responder having to guess whether you want a sentence or a paragraph, you tell them explicitly.
+
+**Why this works**:
+- Identifies the specific struggle (scope calibration)
+- "Externalize that decision" - precise description of what technique does
+- Shows concrete example of meta-level uncertainty (sentence vs paragraph)
+- Clear cause-and-effect
+
+---
+
+### Example 17: Role-Locking Mechanism (from Section 4.1)
+
+> High-uncertainty individuals often hold multiple valid perspectives simultaneously—themselves as an analyst, as a friend, as a manager, as a parent, as someone who has to live with consequences. Each role would answer differently. Role-locking specifies which perspective to use, eliminating the meta-question of "which version of me is being asked?"
+
+**Why this works**:
+- Lists concrete role examples (analyst, friend, manager, parent)
+- Acknowledges roles would genuinely produce different answers
+- "Meta-question" language shows the cognitive layer being addressed
+- Non-pathologizing: multiple perspectives are valid, not confused
+
+---
+
+### Example 18: Technique Combination (from Section 4.1)
+
+> "Logistically only (domain-binding), what would need to change (counterfactual) for you to take this project? Just one main factor (forced-slice), even if you're not certain (uncertainty permission)."
+>
+> This stacks four techniques into a single question that's vastly easier to answer than "Why won't you take this project?"
+
+**Why this works**:
+- Shows techniques combining in practice
+- Parenthetical labels make the stacking explicit for teaching
+- Before/after comparison ("Why won't you..." vs structured version)
+- "Vastly easier" - clear value proposition
+
+---
+
 ## As Sections Are Written
 
 Add strong passages here that exemplify the target tone. Include:

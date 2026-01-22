@@ -202,6 +202,102 @@ This file tracks canonical examples used across the document to ensure consisten
 
 ---
 
+## Section 4.1 Technique Examples (Canonical Set)
+
+### Domain-Binding: Project Deadline
+
+**Canonical Before/After**:
+- **Instead of**: "Why did the project miss its deadline?"
+- **Use**: "Logistically only—what resource constraints prevented the deadline from being met?"
+
+**Technique Demonstrated**: Domain-binding (restricts to logistical dimension, excludes team dynamics, client relationships, process quality)
+
+**Used In**:
+- section-04-1-core-techniques.md (professional context example)
+
+**Notes**: Professional context example showing how domain-binding excludes relationship/moral/quality dimensions to focus on concrete resource factors. Pairs well with "Why didn't you call?" (intimate version).
+
+---
+
+### Uncertainty Permission: Current Diagnostic Thinking
+
+**Canonical Before/After**:
+- **Instead of**: "What do you think is wrong with me?"
+- **Use**: "Based on what we've seen so far, knowing we may need more tests—what's your current diagnostic thinking?"
+
+**Technique Demonstrated**: Uncertainty permission (explicitly allows provisional answer, acknowledges incomplete information)
+
+**Used In**:
+- section-04-1-core-techniques.md (medical context example)
+
+**Notes**: Medical context shows high-stakes use of uncertainty permission. "Current diagnostic thinking" vs "what is wrong" is key distinction—process vs verdict.
+
+---
+
+### Forced-Slice: Client Loss Analysis
+
+**Canonical Before/After**:
+- **Instead of**: "Why did we lose the client?"
+- **Use**: "I know there were multiple factors—if you had to name just one that mattered most, what would it be?"
+
+**Technique Demonstrated**: Forced-slice (acknowledges multiplicity, requests single prioritized factor)
+
+**Used In**:
+- section-04-1-core-techniques.md (professional context example)
+
+**Notes**: "I know there were multiple factors" does critical work—gives permission for answer to be incomplete. "Mattered most" asks for prioritization, not comprehensiveness.
+
+---
+
+### Counterfactual Anchoring: Project Acceptance
+
+**Canonical Before/After**:
+- **Instead of**: "Why did you decline the project?"
+- **Use**: "What would have needed to be different for you to accept the project?"
+
+**Technique Demonstrated**: Counterfactual anchoring (asks for delta, not causal analysis)
+
+**Used In**:
+- section-04-1-core-techniques.md (professional context example)
+
+**Notes**: Flips from backward-looking explanation to forward-looking gap identification. Identifies binding constraint (timeline, compensation, scope, team) without requiring full decision tree.
+
+---
+
+### Output-Format Constraints: Holiday Decision
+
+**Canonical Before/After**:
+- **Instead of**: "Do you want to go to my parents' house for the holidays?"
+- **Use**: "Yes or no first, then you can explain—do you want to go to my parents' house for the holidays?"
+
+**Technique Demonstrated**: Output-format constraints (separates decision from reasoning)
+
+**Used In**:
+- section-04-1-core-techniques.md (intimate context example)
+
+**Notes**: Two-stage format is powerful pattern. Gets commitment while acknowledging explanation may be needed. Reduces "amputating uncertainty" discomfort by making the lossy compression explicit.
+
+---
+
+### Role-Locking: Feature Launch Decision
+
+**Canonical Before/After**:
+- **Instead of**: "Should we launch this feature?"
+- **Use**: "Answering as the engineer who has to maintain it, not as the PM thinking about users—should we launch this feature?"
+
+**Technique Demonstrated**: Role-locking (isolates engineering perspective from product strategy)
+
+**Used In**:
+- section-04-1-core-techniques.md (professional context example)
+
+**Notes**: Same person might say "yes" as PM and "no" as engineer. Role-locking specifies which perspective is being queried. Shows how roles genuinely produce different valid answers.
+
+---
+
+**Full Example Set**: Section 4.1 contains 24 total before/after pairs (4-5 per technique across professional, intimate, casual, medical, diagnostic, planning contexts). The 6 examples above are canonical; others are context variations.
+
+---
+
 ## Context-Specific Examples (To Be Added)
 
 ### Professional Context Examples

@@ -146,7 +146,7 @@ Create a practical communication framework for individuals who experience persis
 ### Section 4: Question Design Framework
 
 #### Section 4.1: Core Techniques (from original document)
-**Status**: Needs expansion from genesis_document.md
+**Status**: Complete (section-04-1-core-techniques.md)
 **Dependencies**: Sections 1-2 (reader understands the problem being solved)
 **Success Criteria**: Reader can:
 - Use all six techniques in next conversation
