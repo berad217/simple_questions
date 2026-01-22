@@ -695,6 +695,23 @@ graph TD
 
 ---
 
+### Challenge 6: "Context files consuming too many tokens each session"
+
+**When it happens**: After 3-5 sessions, onboarding + handover + reference files = 500+ lines to read before writing
+
+**Root cause**: Mixing evergreen content (templates, key phrases, anti-patterns) with temporal content (what just happened, what's next)
+
+**Solution**: Separate static from temporal
+- **onboarding.md**: Evergreen project context (read once, reference as needed)
+- **HANDOVER.md**: Only session-to-session context (read every time)
+- Keep HANDOVER.md under 100 lines by moving stable patterns to onboarding
+
+**Real example**: This project reduced context reading from 660 lines to 300 lines (55% reduction) by splitting static/temporal content
+
+**Prevention**: Plan this separation from Session 0. Don't let everything accumulate in one handover file.
+
+---
+
 ## Integration with Git/Version Control
 
 Version control enhances this workflow:
@@ -853,25 +870,85 @@ This workflow framework was developed for a communication framework writing proj
 
 **Project**: 100+ page structured document with 35+ sections
 **Timeline**: Multi-week development across sessions
-**Tools**: Claude Code, likely Desktop Claude later
+**Tools**: Claude Code (VS Code Extension), Opus 4.5 and Sonnet 4.5
 **Team**: 1 human domain expert + AI assistance
 
-**Setup time**: 60 minutes (created all 5 foundation documents)
-**Productivity**: Session 0 (setup) complete, ready for content development
-**Estimated time saved**: TBD (will update after Phase 1-2 complete)
+**Setup time**: 60 minutes (created all 5 foundation documents in Session 0)
+**Productivity**: 5 writing sessions complete, 4 major sections written (~13,200 words)
+**Session orientation time**: <5 minutes per session (read HANDOVER.md + section-specific files)
+
+**Actual performance metrics** (after 5 sessions):
+- **Consistency**: Zero contradictions found across sections
+- **Voice stability**: Same tone maintained across 4 sections, 2 different AI models (Opus/Sonnet)
+- **Reuse rate**: examples-bank.md successfully prevented duplicate/contradictory examples
+- **Session efficiency**: Each session productive from start, no re-orientation needed
+- **Template success**: Same protocol template worked for Section 4.1 and 5.1 without modification
 
 **Challenges encountered**:
-- None yet (foundation just established)
+
+1. **Token consumption from context files** (Session 4)
+   - Problem: onboarding.md + HANDOVER.md + other files = ~660 lines to read each session
+   - Solution: Separated static content (onboarding.md) from temporal content (HANDOVER.md)
+   - Result: Reduced to ~300 lines per session, 55% token reduction
+   - **Lesson**: Separate evergreen instructions from session-specific context
+
+2. **Balancing perspectives** (Sessions 4-5)
+   - Problem: Easy to focus on one audience (questioners) and neglect the other (responders)
+   - Solution: Wrote paired sections (4.1 for questioners, 5.1 for responders)
+   - Result: Framework serves both audiences equally
+   - **Lesson**: For multi-audience frameworks, write bilateral sections in pairs
 
 **Adaptations made**:
-- Added session-specific instructions to onboarding.md
-- Created comprehensive dependency map in SPEC.md
-- Decided on spiral development over linear
+- Session 0: Added session-specific workflows to onboarding.md
+- Session 1: Expanded workflow-wisdom.md for broader applicability
+- Session 4: Split onboarding.md/HANDOVER.md to optimize token usage
+- Session 5: Proved template patterns transfer across section types
 
-**Lessons to capture**:
-- [Will update as project progresses]
+**Key patterns that proved valuable**:
 
-**Current status**: Infrastructure complete, content development beginning
+1. **Template reusability**: The pattern (Definition → Mechanism → Examples → When to Use → Failure Modes) worked identically for techniques (Section 4.1) and protocols (Section 5.1). Once proven, template accelerates future sections.
+
+2. **Voice-samples.md as calibration tool**: Adding 6 strong passages after each session created growing library. New sessions calibrate against previous best work, not abstract instructions.
+
+3. **Examples-bank.md prevents drift**: Canonical examples tracked centrally. Section 5.1 referenced Section 4.1 techniques without contradicting them.
+
+4. **Strategic frameworks over rigid rules**: Section 5.1's "when to push back vs give lossy answer" acknowledges context and judgment. Teaching decision frameworks is more valuable than prescriptive rules.
+
+5. **Git commits as secondary log**: Commit messages (with co-authorship attribution) supplement DEVLOG.md. Allows quick history review without reading full log.
+
+**Lessons learned**:
+
+**Lesson 1: Onboarding Optimization Pattern**
+- **Problem**: Context files grew to 660+ lines, consuming tokens before writing begins
+- **Solution**: Separate static (onboarding.md) from temporal (HANDOVER.md). Static contains: key phrases, templates, file structure, anti-patterns. Temporal contains: what just happened, what's next, in-flight decisions.
+- **Generalization**: For long projects, audit context files every 3-5 sessions. Move stable content to reference files, keep only changing content in handover files.
+
+**Lesson 2: Bilateral Structure for Multi-Audience Work**
+- **Problem**: Frameworks serving multiple audiences can bias toward one audience
+- **Solution**: Write paired sections that address both sides (e.g., questioner techniques + responder protocols)
+- **Generalization**: For any framework with distinct user roles, plan bilateral coverage in SPEC.md dependency map. Write pairs before moving to next topic.
+
+**Lesson 3: Template Patterns Compound Value**
+- **Problem**: Each section feeling like starting from scratch
+- **Solution**: Once a template works (proven in Section 4.1), replicate exactly for similar sections (Section 5.1)
+- **Generalization**: After first successful section of each type, extract template to onboarding.md. Each reuse is faster and more consistent than the first.
+
+**Lesson 4: Voice-Samples Growth Strategy**
+- **Problem**: How to maintain voice across weeks/months and multiple AI models
+- **Solution**: After each section, add 3-6 strongest passages to voice-samples.md with "why this works" analysis
+- **Generalization**: Voice library grows with project. Later sections calibrate against earlier best work, creating positive reinforcement loop for quality.
+
+**Lesson 5: Strategic Frameworks > Prescriptive Rules**
+- **Problem**: Rigid "always do X" advice feels unrealistic and loses practitioner trust
+- **Solution**: Teach decision frameworks ("when precision matters, do X; when social flow matters, do Y")
+- **Generalization**: For practical frameworks, acknowledge trade-offs and context. Give users judgment tools, not just rules.
+
+**Current status** (after Session 5):
+- Phase 1 complete (Sections 1, 2, 4.1)
+- Phase 2 in progress (Section 5.1 complete, 5.2 or 6.2 next)
+- Foundation proven: 4 sections written with perfect voice continuity
+- Template patterns established for techniques, protocols, and conceptual sections
+- Ready for sustained development with efficient session orientation
 
 ---
 
