@@ -1,5 +1,32 @@
 # Onboarding: High-Uncertainty Cognitive Style Communication Framework
 
+## Quick Start
+
+**Current Status**: Phase 1 in progress (Section 1 complete, Section 2 next)
+
+**Entry Points**:
+- **Returning to project?** → Read `HANDOVER.md` first (root directory)
+- **First time?** → Continue reading this file
+- **Writing a section?** → Check `workflow/SPEC.md` for requirements
+
+**File Locations**:
+```
+simple_questions/
+├── content/                    # Written sections (the actual document)
+├── workflow/                   # AI workflow infrastructure
+│   ├── SPEC.md                # Section requirements & status
+│   ├── DEVLOG.md              # Development history
+│   ├── voice-samples.md       # Tone reference
+│   ├── examples-bank.md       # Canonical examples
+│   └── onboarding.md          # This file
+├── source/                     # Reference material
+│   └── genesis_document.md    # Original concept (don't modify)
+├── HANDOVER.md                # Current session context
+└── README.md                  # GitHub overview
+```
+
+---
+
 ## Project Overview
 
 You are helping develop a practical communication framework for individuals who experience persistent high-dimensional uncertainty when answering questions, and for people who communicate with them. This is NOT generic communication advice—it addresses a specific cognitive pattern where seemingly simple questions automatically expand into complex multi-dimensional problems.
@@ -31,6 +58,8 @@ This document serves three groups:
 - Therapy or mental health treatment guidance
 - Purely academic analysis without practical application
 - One-size-fits-all prescriptions
+
+---
 
 ## Writing Approach Guidelines
 
@@ -79,6 +108,8 @@ This document serves three groups:
 - Include calibration exercises and practice approaches
 - Address the "this feels weird at first" factor
 
+---
+
 ## Key Concepts to Understand
 
 ### The Dimensionality Problem
@@ -106,6 +137,8 @@ All human communication is lossy compression—transmitting a simplified version
 - Strategic ambiguity (when precision isn't needed)
 - Actual deception (intentionally misleading)
 
+---
+
 ## Common Pitfalls to Avoid
 
 ❌ **Don't**: Frame this as "overthinking" that needs to be stopped
@@ -126,6 +159,8 @@ All human communication is lossy compression—transmitting a simplified version
 ❌ **Don't**: Ignore the emotional/relational layer
 ✅ **Do**: Address how information exchange serves (or undermines) relationship needs
 
+---
+
 ## Section Development Protocol
 
 When writing a section:
@@ -134,7 +169,7 @@ When writing a section:
 
 2. **Define success criteria**: What should a reader be able to DO after reading this section?
 
-3. **Structure flow**: 
+3. **Structure flow**:
    - Core concept/problem
    - Why it matters (practical impact first)
    - Theoretical grounding (if applicable)
@@ -145,6 +180,8 @@ When writing a section:
 4. **Self-contain for independent reading**: Someone should get value from reading just this section, even if they skip others
 
 5. **Cross-reference judiciously**: Link to other sections when needed, but don't create dependency chains
+
+---
 
 ## Example Quality Standards
 
@@ -160,6 +197,8 @@ When writing a section:
 
 **Why this doesn't work**: Vague, no concrete example, doesn't explain HOW to focus or WHICH aspect
 
+---
+
 ## You Are Writing For
 
 - A physician with electrical engineering and software background who learns by building
@@ -173,6 +212,8 @@ These are **intellectually sophisticated people** who want:
 - Intellectual honesty over social comfort
 - Precision when it matters, efficiency when it doesn't
 
+---
+
 ## Questions to Ask Before You Write
 
 1. "Can someone use this technique in their next conversation?"
@@ -180,6 +221,8 @@ These are **intellectually sophisticated people** who want:
 3. "Have I acknowledged when this won't work?"
 4. "Am I respecting the intelligence of both the questioner and responder?"
 5. "Does this serve the relationship as well as the information exchange?"
+
+---
 
 ## Ready to Write?
 
@@ -192,6 +235,8 @@ When you receive a section assignment, you'll get:
 Your job: Write that section to be **immediately useful, intellectually honest, and practically grounded** while maintaining the tone and approach described above.
 
 Start each section by briefly stating: what problem this section solves, who should read it, and what they'll be able to do afterward.
+
+---
 
 ## Writing Strategy
 
@@ -208,11 +253,12 @@ Each section can be written independently with:
 ### Session Type: Writing New Section
 
 **Before you start**:
-1. Read SPEC.md for your target section (status, dependencies, success criteria)
-2. Read last 2-3 DEVLOG.md entries (what's fresh, conceptual continuity)
-3. Check voice-samples.md (tone reference)
-4. Check examples-bank.md (reusable examples for consistency)
-5. Read any prerequisite sections listed in dependencies
+1. Read `HANDOVER.md` (root) for current context
+2. Read `workflow/SPEC.md` for your target section (status, dependencies, success criteria)
+3. Read last 2-3 `workflow/DEVLOG.md` entries (what's fresh, conceptual continuity)
+4. Check `workflow/voice-samples.md` (tone reference)
+5. Check `workflow/examples-bank.md` (reusable examples for consistency)
+6. Read any prerequisite sections in `content/` listed in dependencies
 
 **During writing**:
 - Follow the section template from SPEC.md
@@ -221,10 +267,11 @@ Each section can be written independently with:
 - Note any new concepts that need to appear in other sections
 
 **After writing**:
-- Update SPEC.md section status
-- Log to DEVLOG.md: what was written, key decisions, open questions
-- Add strong examples to voice-samples.md
-- Add reusable examples to examples-bank.md
+- Update `workflow/SPEC.md` section status
+- Log to `workflow/DEVLOG.md`: what was written, key decisions, open questions
+- Add strong examples to `workflow/voice-samples.md`
+- Add reusable examples to `workflow/examples-bank.md`
+- Update `HANDOVER.md` for next session
 - Flag any conceptual drift or tone issues
 
 ---
@@ -232,19 +279,19 @@ Each section can be written independently with:
 ### Session Type: Revising Existing Section
 
 **Before you start**:
-1. Read the section to be revised
-2. Read DEVLOG.md for context on why revision is needed
-3. Check SPEC.md for success criteria (are we meeting them?)
-4. Review voice-samples.md for current tone standard
+1. Read the section to be revised in `content/`
+2. Read `workflow/DEVLOG.md` for context on why revision is needed
+3. Check `workflow/SPEC.md` for success criteria (are we meeting them?)
+4. Review `workflow/voice-samples.md` for current tone standard
 
 **During revision**:
 - Maintain conceptual consistency with rest of document
-- Check examples-bank.md before changing examples (may be referenced elsewhere)
+- Check `workflow/examples-bank.md` before changing examples (may be referenced elsewhere)
 - If changing key concepts, note sections that may need updates
 
 **After revision**:
-- Log to DEVLOG.md: what changed and why
-- Update voice-samples.md if new strong examples emerged
+- Log to `workflow/DEVLOG.md`: what changed and why
+- Update `workflow/voice-samples.md` if new strong examples emerged
 - Flag cross-reference checks needed in other sections
 
 ---
@@ -254,18 +301,18 @@ Each section can be written independently with:
 **Purpose**: Verify conceptual and tonal consistency across multiple sections
 
 **Process**:
-1. Read DEVLOG.md for flagged continuity issues
-2. Read relevant sections in sequence
+1. Read `workflow/DEVLOG.md` for flagged continuity issues
+2. Read relevant sections in `content/` in sequence
 3. Check for:
    - Key phrase consistency ("amputates uncertainty", "lossy compression", etc.)
    - Example consistency (same scenarios used differently?)
-   - Tone drift (compare to voice-samples.md)
+   - Tone drift (compare to `workflow/voice-samples.md`)
    - Dependency accuracy (does Section X actually depend on Section Y?)
 
 **Output**:
-- DEVLOG.md entry with findings
+- `workflow/DEVLOG.md` entry with findings
 - List of sections needing revision
-- Updated voice-samples.md if tone standard has evolved
+- Updated `workflow/voice-samples.md` if tone standard has evolved
 
 ---
 
@@ -274,13 +321,13 @@ Each section can be written independently with:
 **Purpose**: Ensure examples and concepts are used consistently
 
 **Process**:
-1. Read examples-bank.md
-2. Search document for each canonical example
+1. Read `workflow/examples-bank.md`
+2. Search `content/` files for each canonical example
 3. Verify all uses are consistent (no contradictions)
 4. Check that key concepts are explained before being referenced
 
 **Output**:
-- DEVLOG.md entry with verification results
+- `workflow/DEVLOG.md` entry with verification results
 - Fixes for any inconsistencies found
 
 ---
@@ -288,30 +335,54 @@ Each section can be written independently with:
 ### Session Type: Handover (Context Window Full / Fresh Perspective Needed)
 
 **Before ending current session**:
-1. Complete DEVLOG.md entry with:
+1. Complete `workflow/DEVLOG.md` entry with:
    - Current section status
    - Conceptual decisions made this session
    - Open questions or blockers
    - Suggested next steps
-2. Note any emerging tone/voice patterns in voice-samples.md
-3. Update examples-bank.md with any new canonical examples
+2. Note any emerging tone/voice patterns in `workflow/voice-samples.md`
+3. Update `workflow/examples-bank.md` with any new canonical examples
+4. **Update `HANDOVER.md`** with current state and next steps
 
 **When resuming in new session**:
-1. Read DEVLOG.md (last 3-5 entries for full context)
-2. Read onboarding.md (this file) to refresh on philosophy
-3. Check SPEC.md for overall progress and next priority section
+1. Read `HANDOVER.md` (root) first - this is your entry point
+2. Read this file (`workflow/onboarding.md`) to refresh on philosophy
+3. Check `workflow/SPEC.md` for overall progress and next priority section
 4. Proceed with session type appropriate to next task
 
 ---
 
 ## Key Project Files
 
+### Root Directory (High Visibility)
+- **HANDOVER.md** - Current session handover (START HERE when resuming)
+- **README.md** - GitHub project overview
+- **workflow-wisdom.md** - Generalized workflow guide (standalone resource)
+
+### workflow/ Directory (AI Infrastructure)
 - **SPEC.md** - Complete outline with success criteria, dependencies, writing order
 - **onboarding.md** (this file) - Agent entry point, philosophy, writing standards
-- **genesis_document.md** - Original conceptual seed (reference but don't modify)
 - **DEVLOG.md** - Session-by-session development log, decisions, continuity notes
 - **voice-samples.md** - Tone reference library (good/bad examples)
 - **examples-bank.md** - Canonical examples to maintain consistency
 
-**Current draft sections** will be added as standalone .md files or compiled into main document (TBD based on workflow preference)
+### content/ Directory (Written Sections)
+- Section files as `section-NN-topic-name.md`
+- Currently: `section-01-core-cognitive-profile.md` (complete)
 
+### source/ Directory (Reference Material)
+- **genesis_document.md** - Original conceptual seed (reference but don't modify)
+
+---
+
+## Current Progress
+
+| Phase | Status | Sections |
+|-------|--------|----------|
+| Phase 1: Foundation | In Progress | Section 1 ✅, Section 2 ⏳, Section 4.1 📋 |
+| Phase 2: Practical Depth | Not Started | Sections 5.1, 6.2, 11 |
+| Phase 3: Theory | Not Started | Sections 3.1-3.4 |
+| Phase 4: Relationships | Not Started | Sections 7-8 |
+| Phase 5: Polish | Not Started | Remaining sections, appendices |
+
+**Next up**: Section 2 (The Communication Mismatch)

@@ -21,15 +21,15 @@ The techniques work by **specifying which dimensions to evaluate**, not by elimi
 
 ## Project Status
 
-**Current Phase**: Workflow foundation complete, content development beginning
+**Current Phase**: Phase 1 in progress (Section 1 complete, Section 2 next)
 
 This repository contains:
 - Complete document outline with 35+ sections
 - Development infrastructure for multi-session AI-assisted writing
-- Core conceptual framework from genesis document
+- Section 1: Core Cognitive Profile (complete)
 - Foundation for practical techniques and relationship-specific protocols
 
-See [SPEC.md](SPEC.md) for the complete document structure and development roadmap.
+See [workflow/SPEC.md](workflow/SPEC.md) for the complete document structure and development roadmap.
 
 ## Target Audiences
 
@@ -70,20 +70,33 @@ Six foundational techniques for asking easier-to-answer questions:
    - "Answer this as a manager, not as a theorist."
    - "Answer as if you had to act today."
 
-## Project Files
+## Project Structure
 
-- **[SPEC.md](SPEC.md)** - Complete document outline with success criteria and dependencies
-- **[onboarding.md](onboarding.md)** - Agent entry point for AI-assisted writing sessions
-- **[genesis_document.md](genesis_document.md)** - Original conceptual seed
-- **[DEVLOG.md](DEVLOG.md)** - Session-by-session development log
-- **[voice-samples.md](voice-samples.md)** - Tone reference library
-- **[examples-bank.md](examples-bank.md)** - Canonical examples for consistency
+```
+simple_questions/
+├── content/                    # Written sections (the actual document)
+│   └── section-01-core-cognitive-profile.md
+│
+├── workflow/                   # AI workflow infrastructure
+│   ├── SPEC.md                # Section outline, success criteria, dependencies
+│   ├── DEVLOG.md              # Session-by-session development log
+│   ├── onboarding.md          # Agent entry point (philosophy, protocols)
+│   ├── voice-samples.md       # Tone reference library
+│   └── examples-bank.md       # Canonical examples tracker
+│
+├── source/                     # Reference material
+│   └── genesis_document.md    # Original conceptual seed
+│
+├── HANDOVER.md                # Current session handover
+├── README.md                  # This file
+└── workflow-wisdom.md         # Generalized workflow guide
+```
 
 ## Development Approach
 
 This project uses a **session-based incremental development workflow** with AI assistance:
 
-- **Phase 1**: Foundational concepts and core techniques
+- **Phase 1**: Foundational concepts and core techniques (IN PROGRESS)
 - **Phase 2**: Practical depth (response protocols, worked examples)
 - **Phase 3**: Theoretical grounding
 - **Phase 4**: Relationship-specific applications
@@ -109,4 +122,4 @@ If you recognize this cognitive pattern and want to contribute examples, edge ca
 
 ---
 
-**Status**: Foundation complete, Section 1 (Core Cognitive Profile) next up for development
+**Current Status**: Phase 1 in progress — Section 1 (Core Cognitive Profile) complete, Section 2 (Communication Mismatch) next
