@@ -446,6 +446,87 @@ When using an example from this bank in a section:
 
 ---
 
+## Section 5.1 Response Protocol Patterns (Canonical)
+
+### Processing Signal (Professional)
+
+**Canonical Script**:
+"Let me think through that for a moment—there are a few factors I need to consider."
+
+**Pattern Demonstrated**: Signaling processing needs as information, not apology
+
+**Used In**:
+- section-05-1-response-protocols.md (Protocol 1)
+
+**Notes**: Key elements: time boundary ("a moment"), what's happening ("thinking through"), why ("few factors to consider"). No apology.
+
+---
+
+### Provisional Commitment Language (Professional)
+
+**Canonical Pattern**:
+"Based on what I know right now, my answer is [position]."
+
+**Variations**:
+- "Given [constraint], I'd say [position]."
+- "I'm 70% confident that [position], but there's a real chance I'm wrong about [specific uncertainty]."
+- "Right now I'm leaning toward [position], but ask me again after [event] and it might be different."
+
+**Pattern Demonstrated**: Delivering position while retaining uncertainty
+
+**Used In**:
+- section-05-1-response-protocols.md (Protocol 2)
+
+**Notes**: Core pattern separates "current model" from "eternal truth." Allows updates without having "lied."
+
+---
+
+### Restructuring Request (Professional)
+
+**Canonical Script**:
+"That question touches both [dimension A] and [dimension B]. Which one do you most need to hear about?"
+
+**Pattern Demonstrated**: Requesting question restructuring as collaboration
+
+**Used In**:
+- section-05-1-response-protocols.md (Protocol 3)
+
+**Notes**: Acknowledges dimensional expansion, offers specific choice. Makes restructuring collaborative, not evasive.
+
+---
+
+### Meta-Honesty (Professional)
+
+**Canonical Script**:
+"I'm hesitating because my technical recommendation is X, but I know the political constraints favor Y. Do you want my pure technical opinion, or do you want me to factor in what's actually feasible?"
+
+**Pattern Demonstrated**: Naming internal conflict/process as valid information
+
+**Used In**:
+- section-05-1-response-protocols.md (Protocol 4)
+
+**Notes**: Shows conflicting frames, offers choice. Makes processing visible rather than leaving it ambiguous.
+
+---
+
+### Strategic Lossy Answer (Professional)
+
+**Canonical Pattern**:
+"Quick answer: [position]. Full answer is more complicated, but that's the headline."
+
+**Variations**:
+- "If I had to simplify: [position]. That's leaving out nuance, but it's directionally correct."
+- "Rough answer: [position]. If this becomes important, let me know and I'll give you the detailed version."
+
+**Pattern Demonstrated**: Consciously giving lossy answer with visible compression
+
+**Used In**:
+- section-05-1-response-protocols.md (Protocol 5)
+
+**Notes**: Makes the compression explicit. Offers detail if needed. Used when social flow matters more than precision.
+
+---
+
 ## To Be Populated
 
 As sections are written, add:

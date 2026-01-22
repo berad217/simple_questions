@@ -1,64 +1,69 @@
-# Handover: Session 4 → Session 5
+# Handover: Session 5 → Session 6
 
-**From**: Session 4 (Sonnet 4.5)
-**Date**: 2026-01-21
-**Status**: Phase 1 complete, ready for Phase 2
+**From**: Session 5 (Sonnet 4.5)
+**Date**: 2026-01-22
+**Status**: Section 5.1 complete, Section 5 half-complete
 
 ---
 
-## What Just Happened (Session 4)
+## What Just Happened (Session 5)
 
-Wrote Section 4.1 (Core Techniques) - all six techniques with full template, ~4,200 words, 24 before/after examples.
+Wrote Section 5.1 (Response Protocols for High-Uncertainty Responders) - five protocol categories with ~50 scripts/examples, ~5,200 words.
 
 **Files updated**:
-- `content/section-04-1-core-techniques.md` (NEW)
-- `workflow/SPEC.md` - Section 4.1 → Complete
-- `workflow/DEVLOG.md` - Session 4 entry
-- `workflow/voice-samples.md` - 8 new technique mechanism examples
-- `workflow/examples-bank.md` - 6 canonical examples
+- `content/section-05-1-response-protocols.md` (NEW)
+- `workflow/SPEC.md` - Section 5.1 → Complete
+- `workflow/DEVLOG.md` - Session 5 entry
+- `workflow/voice-samples.md` - 6 new passages
+- `workflow/examples-bank.md` - 5 canonical response protocol patterns
 
-**Git status**: Committed (Session 4 commit created)
+**Git status**: Not yet committed
 
 ---
 
 ## What's Next (Your Decision)
 
-**Phase 1 is complete** (~8,000 words). Two strong paths forward:
+**Two viable paths**:
 
-### Path A: Section 5.1 (Response Protocols) [RECOMMENDED]
-**Why**: Provides responder-side complement to Section 4.1's questioner techniques. Makes document useful for both audiences.
+### Path A: Section 5.2 (For Questioners) [RECOMMENDED]
+**Why**: Completes Section 5 bilateral protocol coverage. Questioners need to know how to read responder signals from 5.1.
 
 **What to read**:
-- SPEC.md Section 5.1 (scripts, provisional commitment language needed)
-- Section 4.1 (to reference techniques responders can request)
+- SPEC.md Section 5.2 (intent declaration, signal recognition, patience vs enabling)
+- Section 5.1 (to reference responder protocols)
+- Section 4.1 (questioner techniques for context)
 - voice-samples.md (tone continuity)
 
-**Deliverable**: Scripts and phrases responders can use immediately
+**Deliverable**: Questioner-side response protocols (how to declare intent, read signals, follow up effectively)
 
 ---
 
-### Path B: Section 4.2 (Additional Techniques)
-**Why**: Completes question design toolkit before moving to response protocols.
+### Path B: Section 6.2 (Question Intent Taxonomy)
+**Why**: Per SPEC.md Phase 2 priority order, this is next. Provides framework for mapping techniques to intent types.
 
 **What to read**:
-- SPEC.md Section 4.2 (6 additional techniques listed)
-- Section 4.1 (template to replicate, use 3 examples instead of 4-5)
+- SPEC.md Section 6.2 (logistical, emotional, diagnostic, planning, social intent types)
+- Section 4.1 (techniques to map to intents)
+- Section 3.3 will eventually reference this (game theory layer)
 - voice-samples.md (tone continuity)
 
-**Deliverable**: 6 additional techniques with same template as 4.1
+**Deliverable**: Taxonomy of question intents with expectations and technique mappings
 
 ---
 
 ## Recommendation
 
-**Path A (Section 5.1)** - Document is most valuable when it serves both questioners (done) and responders (next). Balanced perspective is project philosophy.
+**Path A (Section 5.2)** - Complete Section 5's bilateral structure before moving to Section 6. Responders now have protocols (5.1); questioners need their complement (5.2). This makes both sides of the protocol pairing available before introducing intent taxonomy.
+
+After 5.2 complete, proceed to Path B (Section 6.2) per Phase 2 order.
 
 ---
 
 ## In-Flight Notes
 
-- **Voice established**: Direct, precise, non-pathologizing, example-rich
-- **Templates working well**: Section opening + technique template both proven effective
+- **Voice established and consistent**: All 5 sections follow same tone patterns
+- **Template proven**: Protocol sections work like technique sections (definition → mechanism → examples → when to use → failure modes)
+- **Strategic choice framework**: Section 5.1 introduced judgment about when precision matters vs when social flow matters—important nuance for practical use
 - **No blockers**: All dependencies met for either path
 
 ---

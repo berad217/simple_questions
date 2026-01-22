@@ -290,6 +290,80 @@ For Section 4.1 and 4.2 (practical techniques):
 
 ---
 
+## Section 5.1 Response Protocol Passages (Session 5)
+
+### Example 19: Processing Signals as Information (from Section 5.1)
+
+> When you pause or hesitate, the questioner doesn't know what's happening. Are you avoiding the question? Didn't you hear? Don't you care? Signaling processing needs converts ambiguous silence into informative communication. It tells the questioner what you're doing and approximately how long it will take, which reduces their uncertainty and gives you legitimate space to process.
+
+**Why this works**:
+- Explains the problem (ambiguous silence) and solution (explicit signaling)
+- Shows what the questioner experiences during pauses
+- Frames processing signals as information, not apology
+- Clear mechanism: converts uncertainty into information
+
+---
+
+### Example 20: Provisional Commitment Rationale (from Section 5.1)
+
+> High-uncertainty individuals often experience answers as permanent commitments to truth. This makes answering feel dishonest when uncertainty exists. Provisional commitment language resolves this by separating "my current best model" from "eternal truth I will defend forever." It lets you commit to a position for purposes of communication while retaining the right to update when you learn more.
+
+**Why this works**:
+- Identifies the core psychological barrier (answers as permanent commitments)
+- Shows the mechanism (separating current model from eternal truth)
+- Resolves the "amputating uncertainty" discomfort directly
+- Practical benefit stated clearly
+
+---
+
+### Example 21: Restructuring as Collaboration (from Section 5.1)
+
+> Poorly structured questions activate too many dimensions simultaneously. You could spend five minutes explaining why the question is hard to answer, which reads as evasion. Or you can request restructuring as a collaborative problem-solving move: "I want to give you a useful answer—help me understand which version of this question you need answered."
+
+**Why this works**:
+- Shows what doesn't work (five-minute meta-explanation)
+- Reframes restructuring from complaint to collaboration
+- Provides ready-to-use script that demonstrates the pattern
+- "Which version" acknowledges multiple valid answers exist
+
+---
+
+### Example 22: Meta-Honesty Mechanism (from Section 5.1)
+
+> When you struggle to answer, the questioner sees hesitation, hedging, or silence. They don't see the multi-dimensional expansion happening in your head. Meta-honesty makes the internal process external: "I'm struggling with this because..." This converts ambiguous difficulty into informative communication. It also often reveals that the question itself needs adjustment.
+
+**Why this works**:
+- Clear contrast: what they see vs what's happening
+- "Makes the internal process external" is precise description
+- Shows dual benefit: informs questioner AND diagnoses question problems
+- Pattern applies broadly across contexts
+
+---
+
+### Example 23: Strategic Choice Framework (from Section 5.1)
+
+> Not every poorly-structured question needs restructuring. Sometimes the relationship cost of requesting restructuring exceeds the information cost of giving a lossy answer. Strategic choice means distinguishing between contexts where precision matters (push back, request structure) and contexts where social flow matters more (give the lossy answer and move on).
+
+**Why this works**:
+- Acknowledges trade-offs explicitly (relationship cost vs information cost)
+- Avoids prescriptive "always do X" advice
+- Respects context and calibration
+- Provides clear decision framework: precision vs social flow
+
+---
+
+### Example 24: Honesty Without Paralysis (from Section 5.1)
+
+> The key insight: you don't have to choose between honesty and clarity. These protocols let you be honest about uncertainty while still providing usable information. Provisional commitment, visible compression, and collaborative restructuring aren't evasion—they're precision about what you know and how you know it.
+
+**Why this works**:
+- Resolves false dichotomy (honesty vs clarity)
+- Lists specific protocols that enable both
+- Reframes techniques from "workarounds" to "precision"
+- Dense summary of section's core insight
+
+---
+
 ## As Sections Are Written
 
 Add strong passages here that exemplify the target tone. Include:

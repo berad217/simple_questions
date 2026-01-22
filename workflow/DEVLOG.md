@@ -705,6 +705,184 @@ Phase 1 goal was "establish voice, tone, and core concepts + practical technique
 
 ---
 
+## Session 5: Write Section 5.1 (Response Protocols)
+**Date**: 2026-01-22
+**Session Type**: Writing New Section
+**Agent**: Claude Code (VS Code Extension) - Sonnet 4.5
+
+### What Was Done
+1. Read all preparatory files per handover protocol:
+   - HANDOVER.md (session entry point)
+   - onboarding.md (project philosophy)
+   - SPEC.md Section 5.1 requirements
+   - DEVLOG.md (last 2-3 sessions for context)
+   - voice-samples.md (tone calibration)
+   - examples-bank.md (canonical examples)
+   - Section 4.1 (techniques to reference)
+
+2. Wrote Section 5.1: Response Protocols for High-Uncertainty Responders
+   - Created `section-05-1-response-protocols.md`
+   - Approximately 5,200 words
+   - Five protocol categories with concrete scripts
+   - Covers all success criteria from SPEC.md
+
+3. Updated workflow files:
+   - SPEC.md Section 5.1 status → Complete
+   - voice-samples.md (6 new strong passages)
+   - examples-bank.md (5 canonical response protocol patterns)
+   - This DEVLOG entry
+
+### Key Decisions Made
+
+**Decision**: Structure as five protocol categories rather than individual techniques
+- **Rationale**: Response protocols are more fluid than question techniques. Responders need to understand when to signal, when to provide provisional answers, when to request restructuring, when to name process, and when to make strategic choices. These are categories of response, not discrete techniques.
+- **Impact**: Section feels less prescriptive, more judgment-building. Responders learn a framework, not just scripts.
+
+**Decision**: Include "Strategic Choices" as final protocol
+- **Rationale**: Not every poorly-structured question needs restructuring. Responders need judgment about when precision matters vs when social flow matters more.
+- **Impact**: Prevents "always restructure everything" approach. Acknowledges context and trade-offs. Makes framework practical rather than idealistic.
+
+**Decision**: Emphasize "information, not apology" throughout
+- **Rationale**: High-uncertainty responders often over-apologize for processing time. Signals work better as information ("I need 30 seconds to map this") than apology ("Sorry I'm so slow").
+- **Impact**: Reframes processing as legitimate, not problematic. Helps responders reduce unnecessary apology language.
+
+**Decision**: Provide multiple script variations for each protocol
+- **Rationale**: People need to adapt scripts to their own voice. Multiple variations show the pattern rather than single "correct" phrasing.
+- **Impact**: ~50 total scripts/variations across five protocols. Responders can find phrasing that fits their context and voice.
+
+**Decision**: Include "combining protocols" example at end
+- **Rationale**: Real conversations require multiple protocols. Need to show how they stack.
+- **Impact**: Example of manager question ("Why is project behind?") shows processing signal → restructuring request → provisional answer → meta-honesty in sequence. Demonstrates protocol fluidity.
+
+### Content Structure Used
+
+1. **Opening**: What problem, who should read, what they'll be able to do
+2. **What These Protocols Do**: Conceptual frame (responder complement to Section 4.1 questioner techniques)
+3. Five protocol categories:
+   - Signaling Processing Needs
+   - Provisional Commitment Language
+   - Requesting Question Restructuring
+   - Meta-Honesty: Naming the Process
+   - Strategic Choices: When to Push Back vs Give Lossy Answer
+4. **Combining These Protocols**: Multi-protocol example
+5. **What Comes Next**: Navigation
+
+Each protocol section includes:
+- Definition
+- Why it works (mechanism)
+- 10-15 scripts/examples across contexts
+- When to use
+- 3 failure modes with fixes
+
+### Conceptual Continuity Notes
+
+**Key phrases used consistently**:
+- "Amputates uncertainty" - referenced in provisional commitment and meta-honesty sections
+- "Communicable stability" - referenced in opening frame
+- "Lossy compression" - central to provisional commitment and strategic choices
+- "Reduce dimensionality" - referenced when discussing Section 4.1 techniques
+
+**New patterns established**:
+- "Based on X, my current answer is Y" - canonical provisional commitment format
+- "I'm [struggling/hesitating/stuck] because..." - meta-honesty framing pattern
+- Processing signals as information, not apology
+- Strategic choice framework: when to push back vs give lossy answer
+
+**Cross-references established**:
+- References to Section 4.1 techniques (when explaining restructuring requests)
+- Forward links to Section 5.2 (questioner-side complement)
+- Forward links to Section 6.1 (shared real-time negotiation protocols)
+- Forward links to Section 6.3 (confidence expression systems)
+
+### Tone/Voice Observations
+
+**Voice continuity maintained**:
+- Direct and precise definitions
+- Non-pathologizing throughout ("legitimate space to process" not "fixing your delays")
+- Practically grounded with ready-to-use scripts
+- Intellectually honest about trade-offs (strategic choice framework)
+- Prose for conceptual content, bullets only for actual script lists
+
+**Strong passages for voice-samples.md** (6 added):
+- Processing signals convert ambiguous silence into informative communication
+- Provisional commitment separates "current model" from "eternal truth"
+- Restructuring requests as collaborative problem-solving
+- Meta-honesty makes internal process external
+- Strategic choice framework (relationship cost vs information cost)
+- "You don't have to choose between honesty and clarity" (closing insight)
+
+**Pattern established**:
+- Each protocol section follows: Definition → Mechanism → Scripts (with context labels) → When to Use → Failure Modes (numbered 1-3 with fixes)
+- Consistent with Section 4.1 technique template structure
+- Can be reused for Section 5.2 and other protocol sections
+
+### Open Questions / Blockers
+
+**Q: Should Section 5.2 (For Questioners) or Section 6.2 (Question Intent Taxonomy) come next?**
+
+Per SPEC.md Phase 2 priority order:
+1. Section 5.1 (Response Protocols) ✅ DONE
+2. Section 6.2 (Question Intent Taxonomy)
+3. Section 11 (Worked Examples)
+
+However, Section 5.2 (For Questioners) is the natural complement to 5.1 and completes the Section 5 pairing.
+
+**Recommendation**: Write Section 5.2 next to complete the bilateral response protocol coverage. Then proceed to Section 6.2 (Question Intent Taxonomy) per Phase 2 order. This gives responders and questioners paired tools before moving to intent classification.
+
+**Q: How much overlap should Section 5.2 have with Section 4.1?**
+
+Section 4.1 taught questioners how to structure questions. Section 5.2 should teach questioners how to:
+- Read processing signals accurately
+- Declare intent upfront
+- Distinguish "needs time" from "refusing to answer"
+- Follow up without creating more load
+
+This is complementary but distinct from technique design. Section 5.2 is about questioner responses to responder behaviors, not question structure.
+
+### Next Session Recommendations
+
+**Immediate next task**: Section 5.2 (Response Protocols: For Questioners)
+- Provides questioner-side complement to Section 5.1 responder tools
+- Completes bilateral protocol coverage in Section 5
+- Can reference both Section 4.1 techniques and Section 5.1 responder signals
+
+**Preparation needed for Section 5.2**:
+- Review SPEC.md Section 5.2 requirements (intent declaration, signal recognition, patience vs enabling)
+- Review Section 5.1 to reference responder protocols questioners will encounter
+- Review voice-samples.md for tone continuity
+
+**Alternative**: If pivoting to Section 6.2 (Question Intent Taxonomy) per Phase 2 order:
+- Taxonomy of question intents (logistical, emotional, diagnostic, planning, social)
+- Calibrating expectations for each type
+- Mixed-intent recognition
+- Can reference Section 4.1 techniques mapped to intents
+
+**Current recommendation**: Complete Section 5 with 5.2, then proceed to Phase 2 Section 6.2.
+
+### Current Status
+
+**Phase 2 PROGRESS**:
+- Section 5.1: Response Protocols (responder-side) ✅
+- Section 5.2: Response Protocols (questioner-side) - Next
+- Section 6.2: Question Intent Taxonomy - After 5.2
+
+**Completed Sections** (4 total, ~13,200 words):
+- Section 1: Core Cognitive Profile ✅
+- Section 2: The Communication Mismatch ✅
+- Section 4.1: Core Techniques ✅
+- Section 5.1: Response Protocols (For High-Uncertainty Responders) ✅
+
+**In progress**:
+- HANDOVER.md update (next)
+
+**Next up**:
+- Section 5.2 (For Questioners) to complete bilateral protocols OR
+- Section 6.2 (Question Intent Taxonomy) per Phase 2 order
+
+**Overall progress**: Phase 2 in progress (1 of 3 priority sections complete), document provides tools for both questioners and responders
+
+---
+
 ## Template for Future Session Entries
 
 ```

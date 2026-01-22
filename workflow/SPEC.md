@@ -217,7 +217,7 @@ Same template as 4.1 for:
 ### Section 5: Response Protocols
 
 #### Section 5.1: For High-Uncertainty Responders
-**Status**: Needs writing
+**Status**: Complete (section-05-1-response-protocols.md)
 **Dependencies**: Sections 1-2 (understand own processing), Section 4.1 (know what questioners can do)
 **Success Criteria**: Reader can:
 - Signal processing cost upfront without apologizing
