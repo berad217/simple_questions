@@ -1330,3 +1330,150 @@ Emergency simplification techniques include:
 
 **Overall progress**: Complete practical framework now exists—techniques, bilateral protocols, intent taxonomy, and negotiation vocabulary. Ready for either confidence expression (6.3), worked examples (11), or theory (3.x).
 
+---
+
+## Session 8: Section 6.3 (Confidence Expression Systems)
+
+**Date**: 2026-01-22
+**Model**: Sonnet 4.5
+**Files Modified**: content/section-06-3-confidence-expression.md (NEW), workflow/SPEC.md, workflow/DEVLOG.md, HANDOVER.md
+**Word Count**: ~5,325 words
+**Session Focus**: Complete Section 6 framework by writing confidence expression systems
+
+### What Was Written
+
+Section 6.3: Confidence Expression Systems—showing responders and questioners how to make uncertainty informative rather than paralyzing.
+
+**Major content blocks**:
+1. **Numerical vs. Verbal Confidence Scales** - When to use percentages vs words like "probably," with pros/cons and failure modes for each
+2. **Modal Answer + Uncertainty Bounds Format** - Structure for giving best answer + confidence level + specific uncertainty source
+3. **Confident But Wrong vs. Uncertain But Useful** - Why calibrated uncertainty is more valuable than false certainty
+4. **Making Uncertainty Informative** - Four patterns for explaining why you're uncertain in ways that reveal useful information
+5. **Calibrating to Intent Type** - How to express confidence differently for logistical/emotional/diagnostic/planning/social questions
+6. **Practical Scripts** - Ready-to-use formats for common scenarios (advice, timelines, emotional topics, 50-50 decisions, confidence updates)
+7. **Common Failure Modes** - Seven patterns to avoid (confidence without bounds, hedging inflation, false precision, hiding behind uncertainty, overconfidence signaling, mismatched format)
+
+### Key Decisions & Rationale
+
+**Decision**: Structure around numerical vs verbal confidence as primary organizing dimension
+**Rationale**: This is the most common responder question ("Should I use numbers or words?"), and the answer depends on context
+**Impact**: Makes the choice criteria immediately clear; readers can quickly find their situation
+
+**Decision**: Create "Modal Answer + Uncertainty Bounds" as a structured format pattern
+**Rationale**: Most confidence expression failures come from either (1) giving answer without confidence, or (2) expressing uncertainty without specificity
+**Impact**: Provides template that prevents both failures: "[Answer], [confidence], [specific uncertainty source]"
+
+**Decision**: Dedicate major section to "Confident But Wrong vs. Uncertain But Useful"
+**Rationale**: High-uncertainty responders often think expressing doubt makes answers less valuable, when calibrated uncertainty actually increases utility
+**Impact**: Reframes uncertainty as competence signal rather than weakness; reduces pressure to fake certainty
+
+**Decision**: Four-pattern structure for "Making Uncertainty Informative"
+**Rationale**: Generic "I'm uncertain" is useless; needed concrete patterns for making uncertainty diagnostic
+**Impact**: Converts "I don't know" into actionable information (reveals missing data, competing factors, time dependency, processing state)
+
+**Decision**: Calibrate all guidance to Section 6.2 intent taxonomy
+**Rationale**: Appropriate confidence expression depends on question intent—logistical needs binary "confident enough to act," emotional needs warm certainty, diagnostic needs reasoning transparency
+**Impact**: Integrates Section 6.3 tightly with intent taxonomy; reinforces that technique selection depends on context
+
+**Decision**: Include "Scenario 5: Previously Confident Answer Now Seems Wrong"
+**Rationale**: High-uncertainty responders often feel shame when updating confidence; needed explicit permission and scripts
+**Impact**: Frames confidence calibration as strength; provides honorable way to correct overconfident prior claims
+
+**Decision**: Seven specific failure modes with fixes
+**Rationale**: Confidence expression has many subtle ways to fail; needed concrete examples of what not to do
+**Impact**: Helps readers recognize their own patterns and correct them
+
+### Conceptual Continuity Notes
+- Section 6.3 completes the Section 6 framework (6.1 negotiation + 6.2 intent taxonomy + 6.3 confidence expression)
+- Builds directly on Section 5.1 provisional commitment language by showing how to calibrate those commitments
+- Uses Section 6.2 intent taxonomy to determine which confidence format to use
+- References Section 6.1 negotiation for when confidence is too low ("I'm only 40% confident—do you want my uncertain take or should we find better information?")
+- Uses established "lossy compression" concept (from SPEC for Section 3.2, used throughout framework)
+- Sets up Section 11 (Worked Examples) by providing confidence expression patterns that examples can demonstrate
+
+### Tone/Voice Observations
+- Maintained example-rich approach (25+ concrete examples across professional/intimate/casual contexts)
+- Used consistent non-pathologizing frame (uncertainty as information, not weakness)
+- Balanced responder and questioner perspectives throughout
+- Examples show both what works and what fails, with specific reasoning
+- Minimal bullet abuse—used prose for conceptual explanations, bullets only for actual lists
+
+### Section Structure Pattern
+Each confidence format (numerical/verbal/modal+bounds) includes:
+- When this works well (context/intent types)
+- Examples in multiple contexts (professional/intimate/casual)
+- When this fails (anti-patterns)
+- Specific failure modes with fixes
+
+Each "Making Uncertainty Informative" pattern includes:
+- Pattern description
+- What it accomplishes
+- Three concrete examples across contexts
+
+Each scenario script includes:
+- Poor approach (what not to do)
+- Better approaches (2+ options with reasoning)
+
+### Integration Achievements
+- Section 6 framework now complete: Real-time negotiation (6.1) + Intent taxonomy (6.2) + Confidence expression (6.3)
+- Confidence expression integrates all prior framework pieces: techniques (4.1), protocols (5.1, 5.2), intent recognition (6.2), negotiation vocabulary (6.1)
+- Creates vocabulary for worked examples to reference in Section 11
+- Establishes that uncertainty is informative (supports eventual Section 3.2 lossy compression theory)
+
+### Writing Efficiency Notes
+- Single-session completion of Section 6.3 (~5,325 words)
+- Section 6 fully complete in 2 sessions (Session 7: 6.1 + 6.2, Session 8: 6.3)
+- Total Section 6 word count: ~19,025 words (6.1: 6,800 + 6.2: 5,900 + 6.3: 5,325)
+
+### Next Session Recommendations
+
+**Strong recommendation: Section 11 (Worked Examples & Case Studies)**
+
+**Why Section 11 now**:
+- Section 6 framework complete—we have everything needed to demonstrate
+- Phase 2 third priority (after 5.1 ✅ and 6.2 ✅, which are complete)
+- Complete practical toolkit now exists to show in action:
+  - Techniques (Section 4.1)
+  - Bilateral protocols (Sections 5.1, 5.2)
+  - Intent taxonomy (Section 6.2)
+  - Real-time negotiation (Section 6.1)
+  - Confidence expression (Section 6.3)
+- Worked examples will reveal integration gaps and improve framework coherence
+- Demonstrates framework is practical, not just theoretical
+
+**What to read for Section 11**:
+- SPEC.md Section 11 (10+ examples requirement, before/after redesigns, multiple approach options, failure mode recognition)
+- All practical sections (1, 2, 4.1, 5.1, 5.2, 6.1, 6.2, 6.3) for technique/protocol references
+- examples-bank.md (canonical examples to expand)
+- voice-samples.md (tone continuity)
+
+**Estimated scope**: Large section (~8-10k words for 10+ worked examples showing complete exchanges)
+
+**Alternative paths**:
+- Section 3.3 (Three-Layer Communication Model) - Theory section that can now reference extensive practical examples
+- Section 7.1 or 7.2 (Intimate Relationships) - Apply framework to high-stakes emotional contexts
+- Section 4.2 (Advanced Techniques) - More dimensionality reduction techniques
+
+**Current recommendation**: Section 11. Complete practical framework deserves demonstration through worked examples before adding more sections. This reveals whether framework actually hangs together in real scenarios.
+
+### Current Status
+
+**Section 6 status**: ✅ COMPLETE
+- Section 6.1: Real-Time Negotiation - ✅ COMPLETE
+- Section 6.2: Question Intent Taxonomy - ✅ COMPLETE
+- Section 6.3: Confidence Expression Systems - ✅ COMPLETE
+
+**Completed Sections** (8 total, ~37,625 words):
+- Section 1: Core Cognitive Profile ✅
+- Section 2: The Communication Mismatch ✅
+- Section 4.1: Core Techniques ✅
+- Section 5.1: Response Protocols (For High-Uncertainty Responders) ✅
+- Section 5.2: Response Protocols (For Questioners) ✅
+- Section 6.1: Real-Time Negotiation ✅
+- Section 6.2: Question Intent Taxonomy ✅
+- Section 6.3: Confidence Expression Systems ✅
+
+**Phase 2 progress**: 2 of 3 priority sections complete (5.1 ✅, 6.2 ✅), Section 11 ready to write
+
+**Next up**: Section 11 (Worked Examples) strongly recommended to demonstrate complete framework before expanding further.
+

@@ -294,7 +294,7 @@ Same template as 4.1 for:
 ---
 
 #### Section 6.3: Confidence Expression Systems
-**Status**: Needs writing
+**Status**: Complete
 **Dependencies**: Section 3.2 (lossy compression established), Section 5.1 (responder tools)
 **Success Criteria**: Reader can:
 - Choose appropriate confidence expression format
