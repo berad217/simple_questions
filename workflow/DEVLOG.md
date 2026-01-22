@@ -396,6 +396,135 @@ Should Section 2 reference Section 1's example and go deeper into the mechanism,
 
 ---
 
+## Session 3: Write Section 2 (The Communication Mismatch)
+**Date**: 2026-01-21
+**Session Type**: Writing New Section
+**Agent**: Claude Code (VS Code Extension) - Opus 4.5
+
+### What Was Done
+1. Read all preparatory files per handover protocol:
+   - HANDOVER.md (session entry point)
+   - onboarding.md (project philosophy refresh)
+   - Section 1 (voice continuity)
+   - SPEC.md Section 2 requirements
+   - voice-samples.md (tone calibration)
+   - examples-bank.md (canonical examples)
+
+2. Wrote Section 2: The Communication Mismatch
+   - Created `section-02-communication-mismatch.md`
+   - Approximately 1,800 words
+   - Covers all success criteria from SPEC.md
+
+3. Updated workflow files:
+   - SPEC.md Section 2 status → Complete
+   - This DEVLOG entry
+
+### Key Decisions Made
+
+**Decision**: Use "Are you free Saturday?" as primary new example
+- **Rationale**: Simpler than "Why didn't you call?" but still shows multi-dimensional expansion. Demonstrates mismatch in lower-stakes context.
+- **Impact**: Added to examples-bank.md as new canonical mismatch example
+
+**Decision**: Focus on the MISMATCH, not repeat phenomenology
+- **Rationale**: Section 1 established what the experience IS. Section 2 explains why it creates communication breakdown—the gap between questioner expectations and responder experience.
+- **Impact**: Section 2 stays complementary, not redundant. References Section 1 rather than repeating content.
+
+**Decision**: Introduce "structured collapse" as solution framework
+- **Rationale**: This is the core solution concept. Section 1 mentioned it; Section 2 develops it fully.
+- **Impact**: Section 4 will provide the specific techniques; Section 2 provides the conceptual framework for why they work.
+
+**Decision**: Include summary table (questioner vs responder experience)
+- **Rationale**: Visual summary reinforces the mismatch concept. Provides reference point readers can return to.
+- **Impact**: Table format works here; not overused.
+
+**Decision**: Address "lossy compression is not lying" concept
+- **Rationale**: Key insight for responders who experience simplification as dishonesty.
+- **Impact**: Concept now introduced; Section 3.2 (Information Theory) will develop it further.
+
+### Content Structure Used
+
+1. **Opening**: What problem, who should read, what they'll be able to do
+2. **The Structural Mismatch**: Single-slot vs multi-dimensional perception of same question
+3. **Why "Just Give a Simple Answer" Fails**: The instruction doesn't address the perceptual difference
+4. **The Dishonesty Problem**: Why lossy answers feel like lying to the responder
+5. **The Cost of Context-Switching**: Cognitive load of forced collapse under time pressure
+6. **What the Questioner Experiences**: Outside view of the behaviors (pause, hedge, counter-question)
+7. **What Actually Works: Structured Collapse**: The solution framework
+8. **Structured Collapse Is Not Simpler Thinking**: Key distinction
+9. **The Mismatch in Summary**: Table comparing experiences
+10. **What Comes Next**: Navigation to Section 3 (theory) or Section 4 (practical techniques)
+
+### Conceptual Continuity Notes
+
+**Key phrases used**:
+- "amputates uncertainty" - referenced as established concept
+- "structured collapse" - fully introduced and explained
+- "lossy compression is not lying" - introduced, to be developed in Section 3.2
+- "reduce dimensionality" - implicit in structured collapse explanation
+
+**New examples created**:
+- "Are you free Saturday?" multi-dimensional expansion
+- Before/after comparison: unbounded vs bounded question
+
+**Cross-references established**:
+- Links to Section 1 (already written)
+- Forward links to Section 3, 4, 5 (to be written)
+
+### Tone/Voice Observations
+
+**Voice continuity maintained**:
+- Direct and precise, no hedging
+- Non-pathologizing (describes mismatch as structural, not personal)
+- "Looks like / actually happening" pattern reused briefly
+- Prose paragraphs for conceptual content; bullets only for actual dimension lists
+
+**Strong passages for voice-samples.md**:
+- "They're not adding complexity to a simple question. They're perceiving complexity that the question, as asked, genuinely contains."
+- "Telling them to 'just answer simply' is like telling someone to 'just see the duck' when they're looking at a duck-rabbit illusion and seeing the rabbit."
+- "The transmission is appropriately lossy for the stated purpose. Lossy compression is not lying when both parties agree on the compression level."
+
+### Open Questions / Blockers
+
+**Q: Should Section 4.1 come next or Section 3?**
+Per SPEC.md Phase 1 order: Section 4.1 (Core Techniques) should come next. This completes the foundational practical content before going into theory. Section 3 can reference the techniques as concrete examples.
+
+**Q: How much technique detail in Section 4.1?**
+SPEC.md specifies: 3-5 examples per technique across professional/intimate/casual contexts. This will be a longer section. May need to decide how much depth per technique vs breadth across all six.
+
+### Next Session Recommendations
+
+**Immediate next task**: Section 4.1 (Core Techniques)
+- Expand the six techniques from genesis_document.md
+- Use template from voice-samples.md (Name → Mechanism → Examples → When to Use → Failure Modes)
+- Generate 3-5 examples per technique across context types
+- This is a substantial section—may span multiple sessions
+
+**Preparation needed for Section 4.1**:
+- Re-read genesis_document.md technique definitions
+- Review examples-bank.md canonical examples
+- Check voice-samples.md technique template
+
+**Alternative path**: If context runs low, Phase 1 goal (establish voice/tone/core concepts) is now largely achieved. Could continue to Section 4.1 or shift to Phase 2 Section 5.1 (Response Protocols) which is more immediately practical for responders.
+
+### Current Status
+
+**Completed**:
+- Section 1: Core Cognitive Profile
+- Section 2: The Communication Mismatch
+- "Structured collapse" concept fully introduced
+- Mismatch mechanism explained
+
+**In progress**:
+- Voice samples and examples-bank updates (this session)
+
+**Next up**:
+- Section 4.1: Core Techniques (Phase 1 completion)
+- Or Section 5.1: Response Protocols (Phase 2 start, if practical utility prioritized)
+
+**Overall progress**: Phase 1 in progress (2 of 3 sections complete)
+
+---
+
 ## Template for Future Session Entries
 
 ```

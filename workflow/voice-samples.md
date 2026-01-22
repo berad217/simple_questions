@@ -239,6 +239,42 @@ This library grows as the document develops and helps maintain consistency acros
 
 ---
 
+### Example 8: The Perception Reframe (from Section 2)
+
+> The high-uncertainty responder isn't *adding* complexity to a simple question. They're *perceiving* complexity that the question, as asked, genuinely contains. "Are you free Saturday?" does implicitly contain questions about degree of freedom, purpose, commitment level, and social priority. Most people suppress these dimensions automatically, answering from a default assumption. The high-uncertainty responder doesn't have that automatic suppression—they see the full decision tree.
+
+**Why this works**:
+- Reframes behavior from "adding complexity" to "perceiving complexity"
+- Explains the difference without judgment
+- Shows what "most people" do vs what high-uncertainty individuals do
+- Non-pathologizing: neither is wrong, just different
+
+---
+
+### Example 9: The Duck-Rabbit Analogy (from Section 2)
+
+> Telling them to "just answer simply" is like telling someone to "just see the duck" when they're looking at a duck-rabbit illusion and seeing the rabbit. The instruction doesn't help because it doesn't address the perceptual difference. They need a different kind of instruction—one that specifies *which* version to report.
+
+**Why this works**:
+- Concrete analogy that makes abstract concept visceral
+- Shows why "just do X" instructions fail
+- Points toward the solution (specify which version)
+- Memorable image for readers to carry
+
+---
+
+### Example 10: Lossy Compression Agreement (from Section 2)
+
+> The questioner has signaled what they need; the responder provides it; the transmission is appropriately lossy for the stated purpose. Lossy compression is not lying when both parties agree on the compression level.
+
+**Why this works**:
+- Introduces "lossy compression is not lying" concept
+- Shows how structured questions create agreement on compression level
+- Resolves the dishonesty discomfort
+- Dense, quotable formulation
+
+---
+
 ### Example 7: Distinguishing from Anxiety (from Section 1)
 
 > **The distinction**: Someone with high-uncertainty cognitive style can describe the multiple dimensions they're considering clearly and without distress. The mental content is complexity mapping, not threat detection. Ask "What's making this hard to answer?" and they'll describe the dimensions—not express worry about what might go wrong if they answer incorrectly.

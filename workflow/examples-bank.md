@@ -42,7 +42,7 @@ This file tracks canonical examples used across the document to ensure consisten
 **Used In**:
 - onboarding.md (Key Concepts section)
 - section-01-core-cognitive-profile.md (What It Feels Like section - full expansion)
-- [To be used in Section 2: Communication Mismatch]
+- section-02-communication-mismatch.md (referenced, not repeated)
 
 **Notes**: This is THE canonical example of why "simple" questions aren't simple. Keep this exact formulation across sections to maintain consistency.
 
@@ -175,6 +175,30 @@ This file tracks canonical examples used across the document to ensure consisten
 
 **Used In**:
 - section-01-core-cognitive-profile.md (When Friction Occurs - speed)
+
+---
+
+### "Are you free Saturday?"
+
+**Context**: Social coordination, scheduling
+
+**Canonical Multi-Dimensional Expansion** (from Section 2):
+- **Literal availability**: Am I physically free? What counts as "free"—no commitments, or no *immovable* commitments?
+- **Social calibration**: What's this for? A casual hang or something I should prioritize?
+- **Accuracy threshold**: I have tentative plans that might fall through. Do I say "no" (technically accurate) or "yes" (optimistic but possibly wrong)?
+- **Commitment implications**: If I say yes, what am I committing to? How firm is this?
+- **Relational signal**: Does my answer matter to this person? Will hesitation itself send a message?
+
+**Before/After (Structured Collapse)**:
+- **Instead of**: "Are you free Saturday?"
+- **Use**: "Are you free Saturday afternoon for a casual coffee—no pressure if plans change?"
+
+**Technique Demonstrated**: Multiple (domain-binding, uncertainty permission, scope-locking)
+
+**Used In**:
+- section-02-communication-mismatch.md (primary mismatch example)
+
+**Notes**: This example demonstrates the mismatch in a lower-stakes context than "Why didn't you call?" Shows that even simple social coordination questions can trigger multi-dimensional expansion.
 
 ---
 

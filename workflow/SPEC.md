@@ -40,7 +40,7 @@ Create a practical communication framework for individuals who experience persis
 ---
 
 ### Section 2: The Communication Mismatch
-**Status**: Needs writing
+**Status**: Complete (section-02-communication-mismatch.md)
 **Dependencies**: Section 1 (builds on cognitive profile)
 **Success Criteria**: Reader can:
 - Explain WHY "simple" questions aren't simple for this cognitive style
