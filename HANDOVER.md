@@ -1,54 +1,57 @@
-# Handover: Session 11 → Session 12
+# Handover: Session 12 → Session 13
 
-**From**: Session 11 (Antigravity)
+**From**: Session 12 (Antigravity)
 **Date**: 2026-01-22
-**Status**: Section 7 (Intimate Relationships) COMPLETE.
+**Status**: Section 8 (Professional Contexts) COMPLETE.
 
 ---
 
-## What Just Happened (Session 11)
+## What Just Happened (Session 12)
 
-Executed **Section 7: Intimate Relationships**.
-This section applied the theoretical framework (Three Layers) to the highest-stakes context.
+Executed **Section 8: Professional/Social Contexts**.
+This completed Part III (Relationship-Specific Applications).
 
 **Key Concepts**:
 
-- **The Dual-Purpose Problem**: Optimizing for truth (Layer 1) often destroys connection (Layer 2).
-- **Closure-Seeking (CS) vs. High-Uncertainty (HU)**: Reframing relationship conflict as cognitive asymmetry.
-- **The "I Choose You" Protocol**: Solving the "infinite definition of love" trap.
+- **Confidence Theater**: Leadership requires a "Coordination Signal" (Confidence), not just data.
+- **Risk Reframe**: How to sell hesitation as "Risk Management."
+- **Executive Summary Protocol**: Answer First, then Evidence.
 
 **Files updated**:
 
-- `content/section-07-intimate-relationships.md` (NEW)
+- `content/section-08-professional-contexts.md` (NEW)
 - `workflow/SPEC.md` (Status update)
 - `workflow/DEVLOG.md` (Session log)
 
 ---
 
-## What's Next: Professional Contexts
+## What's Next: Advanced Topics or Completion
 
-We have broadly covered:
+The **Core Framework** and **Application Layers** are effectively complete.
 
-- **Cognitive Mechanics** (Sec 1-2)
-- **General Tools** (Sec 4-5)
-- **Theory** (Sec 3)
-- **Intimate Context** (Sec 7)
+- **Part I (Understanding)**: Sec 1, 2 ✅
+- **Part II (Techniques)**: Sec 4.1, 5, 6 ✅ (except 4.2/4.3)
+- **Part III (Relationships)**: Sec 7, 8 ✅
+- **Theory**: Sec 3.2, 3.3 ✅ (3.1/3.4 placeholders)
 
-The missing piece is the **Professional Context** (Sec 8). This is where high-uncertainty is often an asset (risk analysis) but communication style is a liability (perceived as indecisive).
+### Path A: Section 4.2 (Advanced Techniques)
 
-### Path A: Section 8 (Professional/Social Contexts) - RECOMMENDED
+**Why**: We referenced "Scope-Locking" and "Reversibility Framing" in other sections but haven't formally defined them.
+**Dependency**: Low. Independent module.
 
-**Why**: Completes Part III. Addresses the "career limiting" aspects of this communication style.
-**Dependencies**: Sections 1, 2, 4 (already done).
+### Path B: Section 9 (Self-Advocacy Toolkit)
 
-### Path B: Appendices / Polish
+**Why**: Provides scripts for "How to explain this to my boss/wife."
+**Dependency**: Synthesizes everything else.
 
-**Why**: If we want to wrap up the MVP.
-**Cons**: Professional context is too important to skip.
+### Path C: Appendices / Polish
+
+**Why**: Wrap up the project.
+**Cons**: Maybe too early; Section 4.2 feels like a loose end.
 
 ---
 
 ## Recommendation
 
-**Execute Section 8: Professional Contexts.**
-Focus on "False Confidence" demands in leadership and "Appropriate Simplification" in collaborative decision making.
+**Execute Section 4.2: Advanced Techniques.**
+Close the loop on the practical toolkit. "Reversibility Framing" (making decisions safe by defining how to undo them) is a powerful tool for high-uncertainty types that deserves its own definition.

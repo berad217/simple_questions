@@ -426,7 +426,7 @@ Same template as 4.1 for:
 
 #### Section 8.1: When This Style Creates Professional Friction
 
-**Status**: Needs writing
+**Status**: Complete (section-08-professional-contexts.md)
 **Dependencies**: Section 1 (when friction occurs), Section 2 (why)
 **Success Criteria**: Reader can:
 
@@ -446,7 +446,7 @@ Same template as 4.1 for:
 
 #### Section 8.2: Adaptation Strategies Without Masking Costs
 
-**Status**: Needs writing
+**Status**: Complete (section-08-professional-contexts.md)
 **Dependencies**: Sections 4-6 (protocols), Section 8.1
 **Success Criteria**: Reader can:
 
