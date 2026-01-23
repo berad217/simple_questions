@@ -1,84 +1,54 @@
-# Handover: Session 9 → Session 10
+# Handover: Session 11 → Session 12
 
-**From**: Session 9 (Agravity)
+**From**: Session 11 (Antigravity)
 **Date**: 2026-01-22
-**Status**: Section 11 COMPLETE (Worked Examples). The practical application layer is finished.
+**Status**: Section 7 (Intimate Relationships) COMPLETE.
 
 ---
 
-## What Just Happened (Session 9)
+## What Just Happened (Session 11)
 
-Executed **Section 11: Worked Examples & Case Studies**. ~2,500 words.
+Executed **Section 7: Intimate Relationships**.
+This section applied the theoretical framework (Three Layers) to the highest-stakes context.
 
-**Content covered**:
+**Key Concepts**:
 
-- **10 Concrete Scenarios** demonstrating the framework in action.
-- **Contexts**: Professional (Missed Deadline, Triage), Intimate ("Why didn't you call?", "Do you love me?"), Casual (Dinner decision), and Breakdown Recovery (The Spiral).
-- **Major Gap Addressed**: Explicitly added **Digital/Async** examples (Slack "thoughts?" and Text "silence") to address the specific gap found in the audit.
-- **Integration**: Every example ties together Techniques (Sec 4), Protocols (Sec 5), and Intent (Sec 6).
+- **The Dual-Purpose Problem**: Optimizing for truth (Layer 1) often destroys connection (Layer 2).
+- **Closure-Seeking (CS) vs. High-Uncertainty (HU)**: Reframing relationship conflict as cognitive asymmetry.
+- **The "I Choose You" Protocol**: Solving the "infinite definition of love" trap.
 
 **Files updated**:
 
-- `content/section-11-worked-examples.md` (NEW)
-- `workflow/task.md` (Updated)
-- `workflow/audit_report.md` (Created)
+- `content/section-07-intimate-relationships.md` (NEW)
+- `workflow/SPEC.md` (Status update)
+- `workflow/DEVLOG.md` (Session log)
 
 ---
 
-## What's Next: Pivoting to Theory
+## What's Next: Professional Contexts
 
-**Recommended Path: Section 3 (Theoretical Frameworks)**
+We have broadly covered:
 
-**Why Section 3 now**:
+- **Cognitive Mechanics** (Sec 1-2)
+- **General Tools** (Sec 4-5)
+- **Theory** (Sec 3)
+- **Intimate Context** (Sec 7)
 
-1. **Practical Layer is Done**: We have Concepts (1-2), Techniques (4-6), and Application (11).
-2. **Missing "Why"**: We constantly use terms like "Lossy Compression," "Three Layers," and "Dimensionality Reduction" without having the core theory chapters written.
-3. **Order of Operations**: Writing Theory *after* Application allows us to reference specific examples (from Sec 11) in the theory, grounding it in reality.
+The missing piece is the **Professional Context** (Sec 8). This is where high-uncertainty is often an asset (risk analysis) but communication style is a liability (perceived as indecisive).
 
-**Sections to write**:
+### Path A: Section 8 (Professional/Social Contexts) - RECOMMENDED
 
-- **3.1 Neurodevelopmental Perspective** (Executive Function & Theory of Mind)
-- **3.2 Information Theory** (Compression, Bandwidth, Noise)
-- **3.3 Game Theory** (Signaling, Trust, Common Knowledge) - *Critical for the "Three Layers" concept.*
+**Why**: Completes Part III. Addresses the "career limiting" aspects of this communication style.
+**Dependencies**: Sections 1, 2, 4 (already done).
 
----
+### Path B: Appendices / Polish
 
-## Alternative Paths
-
-### Path B: Section 7 (Intimate Relationships)
-
-**Why**: Deepen the application to the highest-stakes context.
-**Pros**: Very high user value.
-**Cons**: Relies heavily on the "Three Layers" theory (Layer 1: Info, Layer 2: Relationship) which belongs in Sec 3.3. **Better to write 3.3 first.**
-
-### Path C: Section 4.2 (Advanced Techniques)
-
-**Why**: Add "Scope-Locking," "Reversibility Framing," etc.
-**Pros**: Expands toolkit.
-**Cons**: We have enough techniques for now. This is optimization, not foundation.
-
----
-
-## Current Framework Status
-
-### Section 11: ✅ COMPLETE
-
-- Worked Examples demonstrate integration of all 6 core techniques + protocols.
-
-### Practical Framework: ✅ COMPLETE
-
-- Core Concepts (1, 2)
-- Techniques (4.1)
-- Protocols (5.1, 5.2)
-- Frameworks (6.1, 6.2, 6.3)
-- Application (11)
-
-### Theory Framework: ❌ MISSING
-
-- Needs Sections 3.1, 3.2, 3.3.
+**Why**: If we want to wrap up the MVP.
+**Cons**: Professional context is too important to skip.
 
 ---
 
 ## Recommendation
 
-**Execute Section 3 (Theoretical Frameworks)**. Start with **3.2 Information Theory** (Lossy Compression) or **3.3 Game Theory** (Three Layers), as these are the most referenced concepts in the current text.
+**Execute Section 8: Professional Contexts.**
+Focus on "False Confidence" demands in leadership and "Appropriate Simplification" in collaborative decision making.
