@@ -1,57 +1,52 @@
-# Handover: Session 12 → Session 13
+# Handover: Session 16 → Session 17
 
-**From**: Session 12 (Antigravity)
+**From**: Session 16 (Antigravity)
 **Date**: 2026-01-22
-**Status**: Section 8 (Professional Contexts) COMPLETE.
+**Status**: Section 10 (Interpretation Guide) COMPLETE.
 
 ---
 
-## What Just Happened (Session 12)
+## What Just Happened (Session 16)
 
-Executed **Section 8: Professional/Social Contexts**.
-This completed Part III (Relationship-Specific Applications).
-
-**Key Concepts**:
-
-- **Confidence Theater**: Leadership requires a "Coordination Signal" (Confidence), not just data.
-- **Risk Reframe**: How to sell hesitation as "Risk Management."
-- **Executive Summary Protocol**: Answer First, then Evidence.
+Executed **Section 10: Interpretation Guide** for the Questioner.
+Delivered the "Signal Interpretation Dictionary" (Silence = Processing, not Ignoring).
+Defined the "Three-Second Rule" for patience calibration.
 
 **Files updated**:
 
-- `content/section-08-professional-contexts.md` (NEW)
+- `content/section-10-interpretation-guide.md` (NEW)
 - `workflow/SPEC.md` (Status update)
 - `workflow/DEVLOG.md` (Session log)
 
 ---
 
-## What's Next: Advanced Topics or Completion
+## What's Next: Bringing It All Together
 
-The **Core Framework** and **Application Layers** are effectively complete.
+The **Toolkit Phase** is effectively complete.
+We have sections for Understanding (1, 2), Questioning (4), Responding (5, 9, 10), and Negotiating (6).
 
-- **Part I (Understanding)**: Sec 1, 2 ✅
-- **Part II (Techniques)**: Sec 4.1, 5, 6 ✅ (except 4.2/4.3)
-- **Part III (Relationships)**: Sec 7, 8 ✅
-- **Theory**: Sec 3.2, 3.3 ✅ (3.1/3.4 placeholders)
+The framework now needs **Proof of Concept**. We need comprehensive Worked Examples showing exactly how these tools stack in real life.
 
-### Path A: Section 4.2 (Advanced Techniques)
+### Path A: Section 11 (Worked Examples)
 
-**Why**: We referenced "Scope-Locking" and "Reversibility Framing" in other sections but haven't formally defined them.
-**Dependency**: Low. Independent module.
-
-### Path B: Section 9 (Self-Advocacy Toolkit)
-
-**Why**: Provides scripts for "How to explain this to my boss/wife."
-**Dependency**: Synthesizes everything else.
-
-### Path C: Appendices / Polish
-
-**Why**: Wrap up the project.
-**Cons**: Maybe too early; Section 4.2 feels like a loose end.
+**Why**: Abstract tools are hard to visualize. We need "Before and After" scripts for common scenarios (The "What's for Dinner" fight, The "Project Status" panic).
+**Goal**: 10+ detailed scripts referencing specific techniques.
+**Dependency**: All prior sections (Complete).
 
 ---
 
 ## Recommendation
 
-**Execute Section 4.2: Advanced Techniques.**
-Close the loop on the practical toolkit. "Reversibility Framing" (making decisions safe by defining how to undo them) is a powerful tool for high-uncertainty types that deserves its own definition.
+**Execute Section 11: Worked Examples.**
+This is the capstone of the practical framework. It proves the system works.
+
+---
+
+## Quick Context for Next Session (Reset Ready)
+
+**Core Files**:
+
+- **Goals & Status**: [`workflow/SPEC.md`](file:///d:/Coding_projects/simple_questions/workflow/SPEC.md) (Read Section 11 requirements)
+- **Tone Guide**: [`workflow/voice-samples.md`](file:///d:/Coding_projects/simple_questions/workflow/voice-samples.md) (Read first 5 examples)
+- **Reference**: [`workflow/examples-bank.md`](file:///d:/Coding_projects/simple_questions/workflow/examples-bank.md)
+- **Protocol**: [`workflow/onboarding.md`](file:///d:/Coding_projects/simple_questions/workflow/onboarding.md)

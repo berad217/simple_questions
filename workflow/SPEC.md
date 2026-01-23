@@ -210,7 +210,7 @@ For each technique (Domain-binding, Uncertainty permission, Forced-slice, Counte
 
 #### Section 4.2: Additional Techniques
 
-**Status**: Needs writing
+**Status**: Complete (section-04-2-advanced-techniques.md)
 **Dependencies**: Section 4.1 (builds on core six)
 **Success Criteria**: Reader has expanded toolkit for edge cases
 
@@ -230,7 +230,7 @@ Same template as 4.1 for:
 
 #### Section 4.3: When to Use Which Technique
 
-**Status**: Needs writing
+**Status**: Complete (section-04-3-technique-selection.md)
 **Dependencies**: Sections 4.1-4.2 (all techniques defined)
 **Success Criteria**: Reader can:
 
@@ -469,7 +469,7 @@ Same template as 4.1 for:
 
 #### Section 9.1: Self-Advocacy Toolkit
 
-**Status**: Needs writing
+**Status**: Complete (section-09-self-advocacy.md)
 **Dependencies**: All previous sections (comprehensive understanding)
 **Success Criteria**: Reader can:
 
@@ -506,7 +506,7 @@ Same template as 4.1 for:
 
 #### Section 10.1: Interpretation Guide
 
-**Status**: Needs writing
+**Status**: Complete (section-10-interpretation-guide.md)
 **Dependencies**: Sections 1-2 (understanding the style)
 **Success Criteria**: Reader can:
 

@@ -20,6 +20,7 @@ This document provides a generalizable workflow framework for large-scale non-co
 **Problem**: Writing a 100+ page structured document across multiple AI sessions over weeks/months
 
 **Risks**:
+
 - Conceptual drift (same term means different things in different sections)
 - Tone drift (voice changes across sessions or AI tools)
 - Inconsistent examples (same scenario used differently)
@@ -33,12 +34,14 @@ This document provides a generalizable workflow framework for large-scale non-co
 ## Key Insight: Treat Writing Like Code
 
 The same problems that plague large codebases without version control and documentation also plague large writing projects:
+
 - How do you maintain consistency?
 - How do you track decisions?
 - How do you enable collaboration (human-AI or human-human)?
 - How do you know what to work on next?
 
 The same solutions work too:
+
 - Specification documents (SPEC.md)
 - Session logs (DEVLOG.md)
 - Style guides (voice-samples.md)
@@ -54,6 +57,7 @@ The same solutions work too:
 **Purpose**: Complete outline with success criteria, dependencies, and writing order
 
 **Key Elements**:
+
 - Section-by-section outline with status tracking
 - **Success criteria** for each section (what should reader be able to DO afterward?)
 - **Dependency map** (which sections need others before writing)
@@ -61,12 +65,14 @@ The same solutions work too:
 - Document-wide consistency requirements (key phrases, tone standards)
 
 **Why This Matters**:
+
 - Prevents "what should I work on next?" paralysis
 - Ensures sections are written in logical dependency order
 - Makes success measurable (not just "write Section 3" but "reader should be able to X")
 - Allows any session to pick up where previous left off
 
 **Template Pattern**:
+
 ```markdown
 ### Section X: Title
 **Status**: Needs writing / In progress / Complete
@@ -87,6 +93,7 @@ The same solutions work too:
 **Purpose**: Philosophy, tone, writing standards, and session-specific instructions
 
 **Key Elements**:
+
 - Project overview (what problem this solves, core solution)
 - Document philosophy (what this is and is NOT)
 - Tone and style guidelines
@@ -96,12 +103,14 @@ The same solutions work too:
 - Questions to ask before writing
 
 **Why This Matters**:
+
 - Works across all AI tools (Claude Code, Desktop, Cursor, web Claude, GPT, etc.)
 - Any agent can get oriented in 5 minutes
 - Prevents tone drift by setting clear standards
 - Provides workflow for different session types
 
 **Critical Section - Session Type Instructions**:
+
 - Writing New Section (before/during/after protocol)
 - Revising Existing Section (what to check, how to maintain consistency)
 - Continuity Check (verify cross-section consistency)
@@ -114,6 +123,7 @@ The same solutions work too:
 **Purpose**: Capture ephemeral context that doesn't live in the content files
 
 **Key Elements**:
+
 - What was done this session
 - Key decisions made (and rationale)
 - Conceptual continuity notes (new concepts that need to appear elsewhere)
@@ -122,12 +132,14 @@ The same solutions work too:
 - Next session recommendations
 
 **Why This Matters**:
+
 - Next session reads last 2-3 entries to get oriented
 - Captures "why did we choose X over Y?" decisions
 - Tracks conceptual threads across sections
 - Prevents re-litigating already-settled questions
 
 **Template for Each Entry**:
+
 ```markdown
 ## Session N: Brief Description
 **Date**: YYYY-MM-DD
@@ -150,6 +162,7 @@ The same solutions work too:
 **Purpose**: Show-don't-tell guide for maintaining consistent voice
 
 **Key Elements**:
+
 - **GOOD examples** (with explanation of why they work)
 - **BAD examples** (with explanation of what's wrong)
 - Tone calibration guidelines
@@ -158,12 +171,14 @@ The same solutions work too:
 - Technique description templates
 
 **Why This Matters**:
+
 - Prevents tone drift across sessions
 - Gives AI concrete examples to emulate
 - Makes "direct and precise" concrete, not abstract
 - Accumulates strong passages as document develops
 
 **Pattern**:
+
 ```markdown
 ### GOOD Example: [Title]
 > [Example passage]
@@ -187,17 +202,20 @@ The same solutions work too:
 **Purpose**: Ensure same scenario is used consistently across sections
 
 **Key Elements**:
+
 - Canonical formulation of each major example
 - Where example is used (cross-reference tracking)
 - Context variations (professional/intimate/casual adaptations)
 - Notes on what makes it work
 
 **Why This Matters**:
+
 - "Why didn't you call?" appears in 5 sections—needs to be identical
 - Prevents contradictions (Section 3 says X, Section 7 says Y about same example)
 - Allows deliberate variations while tracking canonical version
 
 **Pattern**:
+
 ```markdown
 ### Example: [Title]
 
@@ -224,31 +242,37 @@ The same solutions work too:
 **Do write in conceptual phases**:
 
 ### Phase 1: Foundational Clarity
+
 - Core concepts and first examples
 - Establishes voice/tone for everything that follows
 - Goal: "Now we know how to write the rest"
 
 ### Phase 2: Practical Depth
+
 - Immediately useful techniques
 - Rich examples across contexts
 - Goal: Make it useful before making it complete
 
 ### Phase 3: Theoretical Grounding
+
 - Now theory can reference concrete examples from Phase 2
 - Readers who skipped theory can go back if interested
 - Goal: Explain why techniques work
 
 ### Phase 4: Specialized Applications
+
 - Apply core framework to specific contexts
 - Goal: Context-specific guidance
 
 ### Phase 5: Polish & Completeness
+
 - Fill remaining sections
 - Cross-reference verification
 - Consistency pass
 - Goal: Make it comprehensive
 
 **Why This Works**:
+
 - Establishes voice early (Phase 1)
 - Makes useful before theoretical (Phase 2 before 3)
 - Theory benefits from concrete examples to reference
@@ -261,21 +285,25 @@ The same solutions work too:
 ### Every Session Follows Same Pattern
 
 **1. ORIENT (5 min)**:
+
 - Read onboarding.md (refresh philosophy)
 - Read last 2-3 DEVLOG entries (what's fresh, what's pending)
 - Check SPEC.md for target section (status, dependencies, success criteria)
 
 **2. CONTEXT GATHERING (variable)**:
+
 - Read any prerequisite sections
 - Review relevant examples from examples-bank.md
 - Check voice-samples.md for tone standard
 
 **3. WRITE (main work)**:
+
 - Draft the section
 - Test against quality standards from onboarding.md
 - Generate minimum required examples
 
 **4. DOCUMENT (5-10 min)**:
+
 - Update SPEC.md section status
 - Log to DEVLOG.md (what was written, decisions, open questions)
 - Add strong examples to voice-samples.md
@@ -283,6 +311,7 @@ The same solutions work too:
 - Flag any conceptual drift or cross-section issues
 
 **Why This Works**:
+
 - Prevents "lost context" problem
 - Makes each session productive (no time wasted re-orienting)
 - Builds institutional knowledge in files, not just AI memory
@@ -311,6 +340,7 @@ The same solutions work too:
 **Solution**: examples-bank.md tracks canonical formulation and all uses.
 
 **Generalization**: Any example that appears in multiple places needs:
+
 - Canonical version
 - Usage tracking
 - Variation guidelines (when is it OK to adapt?)
@@ -352,6 +382,7 @@ The same solutions work too:
 ### Q1: Document Compilation Approach?
 
 **Options**:
+
 - A: Write sections as standalone files (section-01.md, section-02.md), compile at end
 - B: Write directly into single growing document
 - C: Hybrid (standalone during development, merge when complete)
@@ -411,6 +442,7 @@ The same solutions work too:
 ### Pattern 1: The Five-Document Foundation
 
 For any large-scale AI-assisted writing project:
+
 1. **SPEC** (what to build, success criteria, dependencies)
 2. **Onboarding** (philosophy, tone, session workflows)
 3. **DEVLOG** (session-by-session decisions and continuity)
@@ -443,6 +475,7 @@ For any large-scale AI-assisted writing project:
 ## Future Additions to This Document
 
 As the project progresses, capture:
+
 - New lessons learned
 - Resolved open questions (with outcomes)
 - Additional anti-patterns discovered
@@ -471,6 +504,7 @@ The five-document foundation adapts to various non-coding projects. Here's how t
 ### Academic Research Papers
 
 **SPEC.md becomes**: Research outline with hypotheses, methodology sections, and argument dependencies
+
 - **Success criteria**: "Reader understands hypothesis H1" or "Statistical evidence supports claim C"
 - **Dependencies**: Literature review before methodology, results before discussion
 - **Phases**: Phase 1 (lit review + hypothesis), Phase 2 (methodology), Phase 3 (results), Phase 4 (discussion), Phase 5 (polish)
@@ -487,6 +521,7 @@ The five-document foundation adapts to various non-coding projects. Here's how t
 ### Course Curriculum Development
 
 **SPEC.md becomes**: Learning objectives hierarchy with skill dependencies
+
 - **Success criteria**: "Student can perform task X" or "Student understands concept Y well enough to teach it"
 - **Dependencies**: Foundational concepts before advanced applications
 - **Phases**: Phase 1 (core concepts), Phase 2 (practice exercises), Phase 3 (advanced topics), Phase 4 (assessments), Phase 5 (polish)
@@ -503,6 +538,7 @@ The five-document foundation adapts to various non-coding projects. Here's how t
 ### Technical Documentation
 
 **SPEC.md becomes**: Documentation structure with API coverage and user journey dependencies
+
 - **Success criteria**: "User can complete task X" or "Developer understands integration Y"
 - **Dependencies**: Getting Started before Advanced Features, Core Concepts before Troubleshooting
 - **Phases**: Phase 1 (core concepts), Phase 2 (common tasks), Phase 3 (advanced usage), Phase 4 (reference), Phase 5 (polish)
@@ -519,6 +555,7 @@ The five-document foundation adapts to various non-coding projects. Here's how t
 ### Policy Framework Development
 
 **SPEC.md becomes**: Framework structure with stakeholder needs and implementation dependencies
+
 - **Success criteria**: "Policymaker can apply principle P to decision D" or "Framework addresses concern C"
 - **Dependencies**: Core principles before implementation guidelines, definitions before applications
 - **Phases**: Phase 1 (principles), Phase 2 (guidelines), Phase 3 (case studies), Phase 4 (implementation), Phase 5 (polish)
@@ -535,6 +572,7 @@ The five-document foundation adapts to various non-coding projects. Here's how t
 ### Book Writing (Non-Fiction)
 
 **SPEC.md becomes**: Chapter outline with argument flow and reader journey
+
 - **Success criteria**: "Reader understands concept X" or "Reader can apply technique Y"
 - **Dependencies**: Foundation chapters before advanced topics, case studies after framework
 - **Phases**: Phase 1 (core thesis), Phase 2 (supporting arguments), Phase 3 (applications), Phase 4 (edge cases), Phase 5 (polish)
@@ -550,7 +588,8 @@ The five-document foundation adapts to various non-coding projects. Here's how t
 
 ## When to Use This Workflow (vs When Not To)
 
-### Use this workflow when:
+### Use this workflow when
+
 - Project spans multiple AI sessions (days/weeks/months)
 - Consistency matters (terminology, tone, examples)
 - Dependencies exist (Section B needs concepts from Section A)
@@ -558,7 +597,8 @@ The five-document foundation adapts to various non-coding projects. Here's how t
 - Quality threshold is high (not just drafting, but publishable)
 - Project is large (20+ pages, 10+ hours of work)
 
-### Skip this workflow when:
+### Skip this workflow when
+
 - Single-session project (blog post, memo, short report)
 - Exploratory/brainstorming phase (no consistency needed yet)
 - Throwaway content (quick draft, internal notes)
@@ -574,15 +614,18 @@ The five-document foundation adapts to various non-coding projects. Here's how t
 If the full five-document foundation feels like overkill, start with this minimal version:
 
 **1. SPEC-lite** (outline.md):
+
 - Numbered sections with status (todo/in-progress/done)
 - Brief success criteria for each
 - Note which sections depend on others
 
 **2. SESSION-LOG** (log.md):
+
 - One entry per session: date, what was done, key decisions, next steps
 - Read last entry before starting next session
 
 **3. VOICE-GUIDE** (style.md):
+
 - 2-3 examples of good voice
 - 2-3 examples of bad voice
 - Key phrases to use consistently
@@ -596,6 +639,7 @@ If the full five-document foundation feels like overkill, start with this minima
 This workflow works across AI tools because it lives in markdown files, not tool-specific configurations:
 
 **Tested with**:
+
 - Claude (Code CLI, Desktop, VS Code extension, web)
 - ChatGPT (web, API)
 - Cursor
@@ -603,12 +647,14 @@ This workflow works across AI tools because it lives in markdown files, not tool
 - Any tool that can read markdown files
 
 **How to use across tools**:
+
 1. All five documents live in your project folder
 2. Each tool reads onboarding.md to understand the project
 3. Each tool logs to DEVLOG.md
 4. Consistency maintained through files, not AI memory
 
 **Tool-specific notes**:
+
 - Claude Code: Best for development workflow, good file access
 - Desktop Claude: Good for long writing sessions with projects feature
 - Web Claude: Works but manual file uploading; use for one-off sessions
@@ -636,11 +682,13 @@ This workflow works across AI tools because it lives in markdown files, not tool
 **When it happens**: AI writes in wrong voice, ignores dependency map, doesn't log to DEVLOG
 
 **Root causes**:
+
 - onboarding.md is too abstract (needs concrete examples)
 - Instructions buried in long document (AI loses focus)
 - No explicit "READ THIS FIRST" in session start
 
 **Solutions**:
+
 - Add concrete GOOD/BAD examples to onboarding.md
 - Put critical instructions at top
 - Start each session with: "Read onboarding.md, last 2 DEVLOG entries, and SPEC.md section X"
@@ -653,12 +701,14 @@ This workflow works across AI tools because it lives in markdown files, not tool
 **When it happens**: Adding new sections, restructuring, circular dependencies
 
 **Solutions**:
+
 - Use visual tools (Mermaid diagrams, mind maps) for complex dependency trees
 - Distinguish hard dependencies (must read Section A before B) from soft (helpful but not required)
 - Review dependency map in Phase 5 (polish) to fix errors
 - Accept some circular references—just note them and choose entry point
 
 **Example Mermaid syntax in SPEC.md**:
+
 ```mermaid
 graph TD
   A[Section 1: Core Concepts] --> B[Section 2: Applications]
@@ -676,6 +726,7 @@ graph TD
 **Reality**: Tools have different base styles. Full uniformity is impossible.
 
 **Solutions**:
+
 - Pick one tool as "voice authority" (the one that nails your tone)
 - Use that tool for Phase 1 (sets voice standard)
 - Other tools can draft, but voice-authority tool does final pass
@@ -688,6 +739,7 @@ graph TD
 **When it happens**: After 20+ sessions, DEVLOG.md is 50 pages
 
 **Solutions**:
+
 - Archive old entries: Move sessions 1-10 to DEVLOG-archive.md after session 20
 - Keep only last 5-10 sessions in active DEVLOG.md
 - Create DEVLOG-summary.md with major decisions (read this first, then recent entries)
@@ -702,12 +754,14 @@ graph TD
 **Real severity**: Session 6 of this project consumed 78,000 tokens (67% of 120k context) just reading onboarding files. This is unsustainable—progress grinds to halt.
 
 **Root causes**:
+
 1. Mixing evergreen content (templates, key phrases, anti-patterns) with temporal content (what just happened, what's next)
 2. Telling agents to read ENTIRE reference files (voice-samples.md = 1,126 lines, examples-bank.md = 576 lines)
 3. Reading whole SPEC.md (682 lines) instead of just target section (~30 lines)
 4. Reading DEVLOG.md when HANDOVER already summarizes it
 
 **Solution - Lean Reading Protocol**:
+
 - **onboarding.md**: Evergreen project context (read once per agent, not every session)
 - **HANDOVER.md**: ONLY session-to-session context (read every time, keep under 100 lines)
 - **SPEC.md**: Use grep/search to read ONLY target section (~30 lines), not whole file
@@ -719,11 +773,13 @@ graph TD
 **Target**: ~300-400 lines total orientation reading (onboarding + handover + your section from SPEC + 5 voice examples)
 
 **Real results**:
+
 - Before fix: ~3,750 lines to read (78k tokens, 67% of context)
 - After fix: ~400 lines (estimated ~8k tokens, 7% of context)
 - **90% reduction in orientation overhead**
 
 **Prevention**:
+
 1. Plan static/temporal separation from Session 0
 2. Audit context consumption every 3-5 sessions
 3. Build reference files for lookup, not required reading
@@ -736,11 +792,13 @@ graph TD
 Version control enhances this workflow:
 
 **What to commit**:
+
 - All five foundation documents
 - Content files (sections, chapters)
 - Do NOT commit: scratch files, personal notes (use .gitignore)
 
 **Commit message strategy**:
+
 ```
 Session N: Brief description
 
@@ -752,12 +810,14 @@ Co-Authored-By: [AI Tool] <noreply@example.com>
 ```
 
 **Branching strategy**:
+
 - `main`: Completed sections, reviewed content
 - `draft-section-X`: Work-in-progress sections
 - `revision-tone`: Tone consistency pass
 - `revision-continuity`: Cross-reference verification
 
 **Why this helps**:
+
 - Git history supplements DEVLOG (see exact changes)
 - Branches allow experimentation without breaking main
 - Co-authorship acknowledges AI contribution
@@ -770,6 +830,7 @@ Co-Authored-By: [AI Tool] <noreply@example.com>
 How do you know this workflow is working?
 
 **Positive indicators**:
+
 - New session gets productive in <10 minutes (orient, context, write)
 - Tone stays consistent across weeks/months
 - Examples used consistently (no contradictions)
@@ -778,6 +839,7 @@ How do you know this workflow is working?
 - Can hand off to different AI tool without re-explaining project
 
 **Negative indicators**:
+
 - Spending 30+ minutes re-orienting each session
 - Finding contradictions in Phase 5 (Section 3 says X, Section 8 says Y)
 - AI asking questions answered in onboarding.md (it didn't read it)
@@ -785,6 +847,7 @@ How do you know this workflow is working?
 - Dependency errors (writing Section 5 before Section 2, which it needs)
 
 **Metrics to track** (optional):
+
 - Time to productivity per session (should decrease over time)
 - Contradiction count in Phase 5 (should be low if workflow works)
 - Rewrite percentage (low = workflow preventing waste)
@@ -796,24 +859,29 @@ How do you know this workflow is working?
 Start simple, add complexity as needed:
 
 **Stage 1: Just Starting**
+
 - outline.md (what to write)
 - log.md (session notes)
 
 **Stage 2: Multiple Sessions**
+
 - Add style.md (voice examples)
 - Add dependency map to outline.md
 
 **Stage 3: Consistency Matters**
+
 - Expand to full SPEC.md with success criteria
 - Add voice-samples.md with GOOD/BAD examples
 - Add examples-bank.md if reusing examples
 
 **Stage 4: Multiple Tools/People**
+
 - Add comprehensive onboarding.md
 - Add session-specific workflows
 - Use git for version control
 
 **Stage 5: Publication-Quality**
+
 - Add continuity checking protocols
 - Add cross-reference verification
 - Phase-based development strategy
@@ -827,28 +895,33 @@ Start simple, add complexity as needed:
 Areas to explore as this workflow matures:
 
 ### 1. Automated Consistency Checking
+
 - Scripts to verify key phrases used consistently
 - Example cross-reference validator
 - Tone drift detector (compare sections against voice-samples.md)
 - Dependency graph visualizer
 
 ### 2. Template Library
+
 - Pre-built SPEC.md templates for common project types
 - Onboarding.md templates (academic, technical, creative)
 - Session workflow templates
 - DEVLOG entry templates
 
 ### 3. Multi-Author Workflows
+
 - How does this work with multiple humans + multiple AIs?
 - Conflict resolution when different authors have different voice
 - Merging strategies for parallel section development
 
 ### 4. AI Agent Specialization
+
 - Different agents for different session types (writing vs editing vs continuity checking)
 - Agent handoffs within a single session
 - Quality assurance agents that verify against SPEC.md
 
 ### 5. Integration with Publishing Pipelines
+
 - Automated compilation of sections into final document
 - Cross-reference link generation
 - Index and glossary generation from examples-bank.md
@@ -861,6 +934,7 @@ Areas to explore as this workflow matures:
 This document accumulates wisdom from real projects. Contributions welcome:
 
 **What to add**:
+
 - Lessons learned from your projects
 - Anti-patterns you discovered
 - Project type adaptations (new domains)
@@ -868,11 +942,13 @@ This document accumulates wisdom from real projects. Contributions welcome:
 - Workflow optimizations
 
 **How to contribute**:
+
 - Open issue: Describe challenge and solution
 - Pull request: Add to relevant section with your project context
 - Discussion: Share what worked/didn't work for you
 
 **Format for new lessons**:
+
 ```markdown
 ### Lesson N: [Title]
 **Problem**: [What went wrong or what was challenging]
@@ -897,6 +973,7 @@ This workflow framework was developed for a communication framework writing proj
 **Session orientation time**: <5 minutes per session after Session 6 lean reading protocol fix
 
 **Actual performance metrics** (after 5 sessions):
+
 - **Consistency**: Zero contradictions found across sections
 - **Voice stability**: Same tone maintained across 4 sections, 2 different AI models (Opus/Sonnet)
 - **Reuse rate**: examples-bank.md successfully prevented duplicate/contradictory examples
@@ -928,6 +1005,7 @@ This workflow framework was developed for a communication framework writing proj
    - **Lesson**: Reference files are for LOOKUP not required reading. Explicitly specify "read ONLY lines X-Y" in onboarding. Without this, reference files grow but they strangle productivity. This is the most critical workflow optimization.
 
 **Adaptations made**:
+
 - Session 0: Added session-specific workflows to onboarding.md
 - Session 1: Expanded workflow-wisdom.md for broader applicability
 - Session 4: Split onboarding.md/HANDOVER.md to optimize token usage (first pass)
@@ -949,6 +1027,7 @@ This workflow framework was developed for a communication framework writing proj
 **Lessons learned**:
 
 **Lesson 1: Lean Reading Protocol (CRITICAL)** ⚠️
+
 - **Problem**: By Session 6, orientation reading consumed 78,000 tokens (67% of context window) before writing could begin. Initial fix (Session 4) reduced 660→300 lines but still reading entire reference files.
 - **Root cause**: Treating reference files (voice-samples, examples-bank, SPEC, DEVLOG) as required reading instead of lookup resources. Telling agents "read this file" instead of "read ONLY these lines."
 - **Solution**: Lean reading protocol:
@@ -962,32 +1041,53 @@ This workflow framework was developed for a communication framework writing proj
 - **Generalization**: Build reference files FOR LOOKUP, not required reading. Explicitly specify "read ONLY X lines" in onboarding instructions. Audit context consumption every 3-5 sessions. Reference files should grow, but required reading should stay constant.
 
 **Lesson 2: Bilateral Structure for Multi-Audience Work**
+
 - **Problem**: Frameworks serving multiple audiences can bias toward one audience
 - **Solution**: Write paired sections that address both sides (e.g., questioner techniques + responder protocols)
 - **Generalization**: For any framework with distinct user roles, plan bilateral coverage in SPEC.md dependency map. Write pairs before moving to next topic.
 
 **Lesson 3: Template Patterns Compound Value**
+
 - **Problem**: Each section feeling like starting from scratch
 - **Solution**: Once a template works (proven in Section 4.1), replicate exactly for similar sections (Section 5.1)
 - **Generalization**: After first successful section of each type, extract template to onboarding.md. Each reuse is faster and more consistent than the first.
 
 **Lesson 4: Voice-Samples Growth Strategy**
+
 - **Problem**: How to maintain voice across weeks/months and multiple AI models
 - **Solution**: After each section, add 3-6 strongest passages to voice-samples.md with "why this works" analysis
 - **Generalization**: Voice library grows with project. Later sections calibrate against earlier best work, creating positive reinforcement loop for quality.
 
 **Lesson 5: Strategic Frameworks > Prescriptive Rules**
+
 - **Problem**: Rigid "always do X" advice feels unrealistic and loses practitioner trust
 - **Solution**: Teach decision frameworks ("when precision matters, do X; when social flow matters, do Y")
 - **Generalization**: For practical frameworks, acknowledge trade-offs and context. Give users judgment tools, not just rules.
 
-**Current status** (after Session 6):
-- Phase 1 complete (Sections 1, 2, 4.1)
-- Phase 2 in progress (Sections 5.1 and 5.2 complete, Section 6.2 next)
-- Foundation proven: 5 sections written (~19,600 words) with perfect voice continuity
-- Template patterns established for techniques, protocols, and conceptual sections
-- Lean reading protocol implemented: orientation reduced from 67% to ~7% of context
-- Ready for sustained development with efficient session orientation
+**Lesson 6: Symptom-Based Navigation (User-Centric Design)**
+
+- **Problem**: Section 4.3 (Technique Selection) could have been a dry catalogue of 12 tools.
+- **Solution**: Structured it as a "Diagnostic Map" (Symptom: Paralysis → Tool: Uncertainty Permission).
+- **Generalization**: Don't organize manuals by "features" (what the tool does). Organize by "symptoms" (what pain the user feels). Users search for their problem, not your solution.
+
+**Lesson 7: Metaphor as API**
+
+- **Problem**: In Section 9 (Self-Advocacy), clinical language ("cognitive load") felt too therapy-like for a workplace context.
+- **Solution**: Used mechanical metaphors ("high-resolution processor," "server loading," "amputation budget").
+- **Generalization**: For self-advocacy tools, give users a metaphor. It depolarizes the conversation (tech support vs. personality defect) and gives them a shorthand API ("I'm loading" vs "I'm ignoring you").
+
+**Lesson 8: Explicit Handover Protocols**
+
+- **Problem**: Switching context from "Questioner Tools" (Section 4) to "Responder Tools" (Section 9) risks confusing the agent's perspective.
+- **Solution**: The `HANDOVER.md` file explicitly flagged the perspective shift.
+- **Generalization**: When a project has distinct user roles/perspectives, use the handover artifact to explicitly signal role transitions between sessions.
+
+**Current status** (after Session 16):
+
+- Phase 1 & 2 complete.
+- Core frameworks for both Questioners (Sec 4) and Responders (Sec 9) written.
+- Interpretation layer (Sec 10) added to prevent signal failure.
+- Ready for "Worked Examples" (Section 11) to prove the integration.
 
 ---
 
