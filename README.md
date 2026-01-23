@@ -151,4 +151,4 @@ Outputs: PDF, HTML, compiled Markdown, and sections ZIP—all with matching time
 
 ## License
 
-[To be determined]
+MIT
