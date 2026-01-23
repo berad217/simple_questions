@@ -4,16 +4,27 @@ Build script for Simple Questions framework.
 
 Compiles individual section files into a single document.
 Source of truth is ALWAYS the individual section files in content/.
+
+Outputs:
+  - build/simple-questions-framework.md   (compiled markdown)
+  - build/simple-questions-framework.html (styled, standalone)
+  - build/simple-questions-framework.pdf  (print-ready)
+
+Requirements:
+  - pandoc (https://pandoc.org/)
+  - LaTeX distribution (for PDF generation)
 """
 
-import os
+import subprocess
+import sys
+import zipfile
 from datetime import datetime
 from pathlib import Path
 
 # Configuration
 CONTENT_DIR = Path(__file__).parent / "content"
 OUTPUT_DIR = Path(__file__).parent / "build"
-OUTPUT_FILE = "simple-questions-framework.md"
+BASE_NAME = "simple-questions-framework"
 
 # Section order (explicit for control)
 SECTION_ORDER = [
@@ -36,11 +47,65 @@ SECTION_ORDER = [
     "section-12-edge-cases.md",
 ]
 
+# CSS for HTML output
+HTML_CSS = """
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    max-width: 50em;
+    margin: 2em auto;
+    padding: 0 1em;
+    line-height: 1.6;
+    color: #333;
+}
+h1, h2, h3, h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    margin-top: 1.5em;
+}
+h1 { border-bottom: 2px solid #333; padding-bottom: 0.3em; }
+h2 { border-bottom: 1px solid #ccc; padding-bottom: 0.2em; }
+blockquote {
+    border-left: 4px solid #ddd;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    background: #f9f9f9;
+}
+code {
+    background: #f4f4f4;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+hr { border: none; border-top: 1px solid #ccc; margin: 2em 0; }
+strong { color: #111; }
+.build-notice {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 4px;
+}
+"""
 
-def build_header() -> str:
+
+def build_header(timestamp: str, for_pandoc: bool = False) -> str:
     """Generate the document header with timestamp and source notice."""
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    return f"""# High-Uncertainty Cognitive Style: A Communication Framework
+    if for_pandoc:
+        # Simpler header for pandoc processing (title handled by metadata)
+        return f"""
+> **About This Document**
+>
+> This is a compiled document generated from individual section files.
+>
+> - **Built**: {timestamp}
+> - **Source of truth**: Individual files in `content/` directory
+> - **Latest version**: [github.com/your-repo](https://github.com/your-repo)
+
+---
+
+"""
+    else:
+        # Full header for standalone markdown
+        return f"""# High-Uncertainty Cognitive Style: A Communication Framework
 
 ---
 
@@ -59,9 +124,9 @@ def build_header() -> str:
 """
 
 
-def build_document() -> str:
+def build_document(timestamp: str, for_pandoc: bool = False) -> str:
     """Compile all sections into a single document."""
-    parts = [build_header()]
+    parts = [build_header(timestamp, for_pandoc)]
 
     for filename in SECTION_ORDER:
         filepath = CONTENT_DIR / filename
@@ -75,20 +140,128 @@ def build_document() -> str:
     return "".join(parts)
 
 
+def run_pandoc(input_path: Path, output_path: Path, timestamp: str, extra_args: list = None):
+    """Run pandoc to convert markdown to another format."""
+    cmd = [
+        "pandoc",
+        str(input_path),
+        "-o", str(output_path),
+        "--metadata", f"title=High-Uncertainty Cognitive Style: A Communication Framework",
+        "--metadata", f"date=Built: {timestamp}",
+        "--standalone",
+    ]
+    if extra_args:
+        cmd.extend(extra_args)
+
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+        return True
+    except subprocess.CalledProcessError as e:
+        print(f"Error generating {output_path.name}:")
+        print(e.stderr)
+        return False
+    except FileNotFoundError:
+        print("Error: pandoc not found. Please install pandoc: https://pandoc.org/")
+        return False
+
+
+def write_css_file(output_dir: Path) -> Path:
+    """Write CSS file for HTML output."""
+    css_path = output_dir / "style.css"
+    css_path.write_text(HTML_CSS, encoding="utf-8")
+    return css_path
+
+
+def create_sections_zip(output_dir: Path, timestamp: str) -> Path:
+    """Create a zip file containing all individual section files."""
+    zip_path = output_dir / f"{BASE_NAME}-sections.zip"
+
+    with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zf:
+        # Add a README to the zip
+        readme_content = f"""# High-Uncertainty Cognitive Style: Section Files
+
+These are the individual section files for the communication framework.
+
+**Built**: {timestamp}
+
+Read them in order (section-01 through section-12) or jump to specific topics.
+
+For the compiled single-document version, see the PDF or HTML files.
+"""
+        zf.writestr("README.txt", readme_content)
+
+        # Add each section file
+        for filename in SECTION_ORDER:
+            filepath = CONTENT_DIR / filename
+            if filepath.exists():
+                zf.write(filepath, filename)
+
+    return zip_path
+
+
 def main():
+    # Shared timestamp for all outputs
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
     # Ensure output directory exists
     OUTPUT_DIR.mkdir(exist_ok=True)
 
-    # Build and write
-    document = build_document()
-    output_path = OUTPUT_DIR / OUTPUT_FILE
-    output_path.write_text(document, encoding="utf-8")
+    # Build markdown version
+    print("Building markdown...")
+    md_content = build_document(timestamp, for_pandoc=False)
+    md_path = OUTPUT_DIR / f"{BASE_NAME}.md"
+    md_path.write_text(md_content, encoding="utf-8")
+    word_count = len(md_content.split())
+    print(f"  [OK] {md_path.name} (~{word_count:,} words)")
 
-    # Report
-    word_count = len(document.split())
-    print(f"Built: {output_path}")
-    print(f"Words: ~{word_count:,}")
+    # Build pandoc source (slightly different header)
+    pandoc_content = build_document(timestamp, for_pandoc=True)
+    pandoc_source = OUTPUT_DIR / f"{BASE_NAME}-pandoc-source.md"
+    pandoc_source.write_text(pandoc_content, encoding="utf-8")
+
+    # Write CSS and build HTML
+    print("Building HTML...")
+    css_path = write_css_file(OUTPUT_DIR)
+    html_path = OUTPUT_DIR / f"{BASE_NAME}.html"
+    html_success = run_pandoc(
+        pandoc_source,
+        html_path,
+        timestamp,
+        ["--css", str(css_path), "--self-contained", "--toc", "--toc-depth=2"]
+    )
+    if html_success:
+        print(f"  [OK] {html_path.name}")
+
+    # Build PDF
+    print("Building PDF...")
+    pdf_path = OUTPUT_DIR / f"{BASE_NAME}.pdf"
+    pdf_success = run_pandoc(
+        pandoc_source,
+        pdf_path,
+        timestamp,
+        [
+            "--toc", "--toc-depth=2",
+            "-V", "geometry:margin=1in",
+            "-V", "fontsize=11pt",
+            "-V", "documentclass=report",
+        ]
+    )
+    if pdf_success:
+        print(f"  [OK] {pdf_path.name}")
+
+    # Build sections zip
+    print("Building sections zip...")
+    zip_path = create_sections_zip(OUTPUT_DIR, timestamp)
+    print(f"  [OK] {zip_path.name}")
+
+    # Cleanup intermediate files
+    pandoc_source.unlink(missing_ok=True)
+    css_path.unlink(missing_ok=True)
+
+    # Summary
+    print(f"\nBuild complete: {timestamp}")
     print(f"Sections: {len(SECTION_ORDER)}")
+    print(f"Output: {OUTPUT_DIR}/")
 
 
 if __name__ == "__main__":
