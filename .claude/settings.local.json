@@ -5,7 +5,14 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git mv:*)",
-      "Bash(python build.py:*)"
+      "Bash(python build.py:*)",
+      "Bash(where:*)",
+      "Bash(dir \"C:\\\\Program Files\\\\Pandoc\")",
+      "Bash(dir \"C:\\\\Users\\\\*\\\\AppData\\\\Local\\\\Pandoc\")",
+      "Bash(dir:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(cmd /c \"dir d:\\\\Coding_projects\\\\simple_questions\\\\build\")",
+      "Bash(git push:*)"
     ]
   }
 }
