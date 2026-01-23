@@ -11,12 +11,21 @@ A practical communication framework for individuals who experience persistent un
 | Format | Best For | Link |
 |--------|----------|------|
 | **Read Online** | Browse on GitHub with working links | [Start Reading (Section 1)](content/section-01-core-cognitive-profile.md) |
-| **PDF** | Print, offline reading, sharing | [Download PDF](build/simple-questions-framework.pdf) |
-| **HTML** | Browser reading with table of contents | [Download HTML](build/simple-questions-framework.html) |
+| **PDF** | Print, offline reading, sharing | [Download PDF](https://github.com/berad217/simple_questions/raw/master/build/simple-questions-framework.pdf) |
+| **HTML** | Browser reading with table of contents | [Download HTML](https://github.com/berad217/simple_questions/raw/master/build/simple-questions-framework.html) |
 | **Markdown** | Single compiled file | [View Compiled Markdown](build/simple-questions-framework.md) |
-| **Section Files** | Individual chapters as separate files | [Download Zip](build/simple-questions-framework-sections.zip) |
+| **Section Files** | Individual chapters as separate files | [Download Zip](https://github.com/berad217/simple_questions/raw/master/build/simple-questions-framework-sections.zip) |
 
-> **Note**: PDF and ZIP files will download when you click "View raw" or the download button on GitHub.
+<details>
+<summary><strong>Having trouble downloading?</strong></summary>
+
+If you click a link and see code or a preview instead of a download, look for the download button in the upper right:
+
+![Click the download button](click_that.png)
+
+GitHub's interface is designed for developers, so the download button can be easy to miss.
+
+</details>
 
 ---
 
