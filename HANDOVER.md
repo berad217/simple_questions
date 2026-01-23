@@ -1,33 +1,41 @@
-# Handover: Session 19 → Session 20
+# Handover: Session 20 → Session 21
 
-**From**: Session 19 (Opus 4.5)
-**Date**: 2026-01-22
-**Status**: Core framework + edge cases COMPLETE. Polish/expansion phase continues.
+**From**: Session 20 (Opus 4.5)
+**Date**: 2026-01-23
+**Status**: Core framework COMPLETE. Build system COMPLETE. Polish/expansion phase.
 
 ---
 
-## What Just Happened (Session 19)
+## What Just Happened (Session 20)
 
-Completed **Section 12: Edge Cases & Complications** (~3,200 words):
+**Created build system** for non-technical users:
 
-- **When uncertainty IS the problem**: Commitment avoidance patterns vs genuine processing
-- **Cognitive style vs anxiety disorders**: Function/origin distinctions, practical markers
-- **Trauma responses vs processing style**: Relational test, safety vs structure needs
-- **When simplification is truly necessary**: Emergencies, legal contexts, resource constraints
-- **Red flags and when to seek help**: Framework scope and limits
-- **Meta-problem**: How to handle uncertainty about which category you're in
+- `build.py` generates PDF, HTML, compiled MD, and sections ZIP
+- All outputs share timestamp and "source of truth" notice
+- Direct download links using `/raw/` URLs (one-click download)
+- Added help section with screenshot for GitHub-unfamiliar users
 
-**Files updated**:
-- `content/section-12-edge-cases.md` (NEW)
-- `workflow/SPEC.md` (marked Section 12 complete)
-- `workflow/DEVLOG.md` (added session entry)
-- This file
+**Updated README**:
+- Download table with all formats
+- Current project status (17 sections, ~42k words)
+- Quick start paths for different reader types
+
+**Files created/updated**:
+- `build.py` (NEW)
+- `build/simple-questions-framework.pdf`
+- `build/simple-questions-framework.html`
+- `build/simple-questions-framework.md`
+- `build/simple-questions-framework-sections.zip`
+- `click_that.png` (download help screenshot)
+- `README.md` (rewritten)
 
 ---
 
 ## Current Project State
 
-**Total completed sections**: 19 major sections, ~55,000+ words
+**Core framework**: COMPLETE (17 sections, ~42,000 words)
+**Build system**: COMPLETE (PDF, HTML, MD, ZIP)
+**Documentation**: COMPLETE (README with download links)
 
 **Completed sections**:
 - Part I (Understanding): Sections 1, 2
@@ -38,16 +46,16 @@ Completed **Section 12: Edge Cases & Complications** (~3,200 words):
 - Part IV (Contexts): Sections 7, 8
 - Part IV (Self-Help): Sections 9.1, 10.1
 - Part IV (Integration): Section 11
-- Part V (Advanced): Section 12 ✅ NEW
+- Part V (Advanced): Section 12
 
-**Remaining work** (optional polish):
+**Remaining work** (all optional):
 | Section | Status | Priority |
 |---------|--------|----------|
-| 9.2 (Practice Exercises - Responders) | Needs writing | Medium - workbook format |
-| 10.2 (Practice Exercises - Questioners) | Needs writing | Medium - workbook format |
-| 13 (Cultural Factors) | Placeholder | Low - specialized |
-| 14 (Research/Reading) | Placeholder | Low - reference |
-| Appendices A, B, C | Needs creation | Low - reference materials |
+| 9.2 (Practice Exercises - Responders) | Needs writing | Medium |
+| 10.2 (Practice Exercises - Questioners) | Needs writing | Medium |
+| 13 (Cultural Factors) | Placeholder | Low |
+| 14 (Research/Reading) | Placeholder | Low |
+| Appendices A, B, C | Needs creation | Low |
 
 ---
 
@@ -56,23 +64,24 @@ Completed **Section 12: Edge Cases & Complications** (~3,200 words):
 ### Path A: Practice Exercises (9.2 + 10.2)
 Turn the framework into a workbook. Create exercises for responders (9.2) and questioners (10.2) to practice techniques.
 
-### Path B: Compilation & Polish
-Compile all sections into a single document. Cross-reference check. Consistency pass. Create quick reference cards (Appendix A).
-
-### Path C: Cultural Factors (Section 13)
+### Path B: Cultural Factors (Section 13)
 How cultural context affects question-answer expectations. Different cultures have different implicit compression protocols.
 
-### Path D: Reference Materials (Section 14 + Appendices)
+### Path C: Reference Materials (Section 14 + Appendices)
 Research connections, further reading, quick-reference cards, glossary.
+
+### Path D: Call It Done
+The framework is complete and accessible. Remaining sections are nice-to-have, not essential.
 
 ---
 
 ## Recommendation
 
-**Path B (Compilation)** if you want a finished product ready for readers.
-**Path A (Practice Exercises)** if you want the document to be a training resource.
+The project is in a shippable state. All core content exists with professional outputs (PDF, HTML).
 
-The framework is now theoretically and practically complete with edge case handling. The question is what form the final product takes.
+If continuing:
+- **Path A** if you want a training resource
+- **Path D** if you want to move on to other projects
 
 ---
 
@@ -84,6 +93,8 @@ The framework is now theoretically and practically complete with edge case handl
 - **Canonical Examples**: `workflow/examples-bank.md`
 - **Protocol**: `workflow/onboarding.md`
 
+**Build**: Run `python build.py` after content changes to regenerate outputs.
+
 **Content Files** (in `content/` directory):
-- 19 completed section files
+- 17 completed section files
 - All follow consistent voice and structure
