@@ -1773,3 +1773,263 @@ Followed the rigorous template from Section 4.1: Name, Mechanism, Examples (Pro/
 ### Next Session Recommendations
 
 **Recommendation**: **Section 11: Worked Examples**. We now have the complete theoretical and practical toolkit (Sections 1, 2, 4, 5, 6, 9, 10). It is time to show it all working together in full-scale dialogues.
+
+---
+
+## Sessions 16.5-16.9: Gemini Content Sprint (Unlogged)
+
+**Date**: 2026-01-22
+**Agent**: Gemini (external)
+**Note**: These sessions were not logged in DEVLOG but produced significant content.
+
+### What Was Done
+
+1. Wrote **Section 11: Worked Examples** (10 examples across 4 categories)
+2. Wrote **Section 3.2** (Information Theory) and **Section 3.3** (Game Theory/Signaling)
+3. Wrote **Section 7** (Intimate Relationships) - all subsections (7.1, 7.2, 7.3)
+4. Wrote **Section 8** (Professional Contexts) - all subsections (8.1, 8.2)
+5. Updated SPEC.md to mark these sections complete
+
+### Content Quality Notes
+
+All Gemini-written sections maintain project voice and follow established templates:
+- Section 11 uses consistent before/after format with internal trace explanations
+- Section 3 introduces "lossy compression" and three-layer model with strong examples
+- Sections 7-8 apply framework to specific contexts with practical protocols
+- All use canonical key phrases ("amputates uncertainty," "structured collapse")
+
+---
+
+## Session 17: Audit & Handover Update
+
+**Date**: 2026-01-22
+**Session Type**: Audit/Review
+**Agent**: Claude Code (Opus 4.5)
+
+### What Was Done
+
+1. Ran onboarding protocol per HANDOVER.md instructions
+2. Discovered Section 11 already written by Gemini (unlisted in DEVLOG)
+3. Audited all content files to discover full project state
+4. Confirmed 16 major sections complete (~50,000+ words)
+5. Updated workflow files:
+   - SPEC.md: Verified Section 11 status as Complete
+   - HANDOVER.md: Rewrote to reflect actual project state
+   - DEVLOG.md: Added Gemini sessions retroactively + this entry
+
+### Key Findings
+
+**Project is essentially complete.** Core framework covers:
+- Understanding the pattern (Sections 1-2)
+- Theoretical grounding (Sections 3.2, 3.3)
+- Question design toolkit (Sections 4.1, 4.2, 4.3)
+- Bilateral protocols (Sections 5.1, 5.2)
+- Shared protocols (Sections 6.1, 6.2, 6.3)
+- Context applications (Sections 7, 8)
+- Self-help tools (Sections 9.1, 10.1)
+- Worked examples (Section 11)
+
+**Remaining work is optional polish**:
+- Theoretical stubs (3.1, 3.4)
+- Practice exercises (9.2, 10.2)
+- Advanced topics (12, 13, 14)
+- Appendices (A, B, C)
+
+### Recommendations for Next Session
+
+| Path | Description | When to Choose |
+|------|-------------|----------------|
+| **Compilation** | Merge sections into single document, cross-reference check | Want finished product |
+| **Practice Exercises** | Write 9.2 and 10.2 | Want workbook format |
+| **Edge Cases** | Write Section 12 | Want intellectual completeness |
+| **Theory** | Complete 3.1 and 3.4 | Want academic rigor |
+
+### Current Status
+
+**Completed**: 16 major sections, ~50,000+ words
+**Remaining**: 8 optional sections/appendices
+**Phase**: Core complete, entering polish/expansion phase
+
+---
+
+## Session 18: Complete Theory Sections (3.1 and 3.4)
+
+**Date**: 2026-01-22
+**Session Type**: Writing New Content
+**Agent**: Claude Code (Opus 4.5)
+
+### What Was Done
+
+1. Read onboarding protocol and all required files
+2. Wrote **Section 3.1: Neurodevelopmental Perspective** (~850 words)
+   - Detail-focused processing and "weak central coherence"
+   - Executive function load and working memory constraints
+   - Theory of Mind and deliberate intent inference
+   - Non-pathologizing frame maintained throughout
+3. Wrote **Section 3.4: Linguistic/NLP Perspective** (~900 words)
+   - Semantic content vs. pragmatic intent
+   - Presupposition and scope control
+   - Gricean maxims and conversational implicature
+   - Speech acts: what questions actually DO
+4. Updated workflow files:
+   - SPEC.md: Marked 3.1 and 3.4 as Complete
+   - This DEVLOG entry
+   - HANDOVER.md (next)
+
+### Key Decisions Made
+
+**Decision**: Frame neurodevelopmental patterns as explanatory, not diagnostic
+- **Rationale**: Maintains non-pathologizing philosophy; avoids "you have X condition" framing
+- **Impact**: Readers can understand cognitive mechanics without self-diagnosis pressure
+
+**Decision**: Connect cognitive patterns directly to framework techniques
+- **Rationale**: Theory should explain WHY techniques work, not just describe mechanisms in isolation
+- **Impact**: Section 3.1 explicitly maps detail-focus → why Domain-Binding helps; executive load → why Forced-Slice reduces burden
+
+**Decision**: Use Gricean maxims to explain high-uncertainty "Quality obsession"
+- **Rationale**: Linguistic theory provides precise vocabulary for what responders do (over-optimize Quality at expense of Quantity/Manner)
+- **Impact**: Reframes "lossy compression is not lying" in formal linguistic terms
+
+**Decision**: Include speech act theory
+- **Rationale**: Questions DO things beyond asking; high-uncertainty individuals see multiple possible speech acts
+- **Impact**: Explains why specifying intent (Context-Framing, Explicit Stakes) works—it names the speech act being performed
+
+### Conceptual Continuity Notes
+
+**Section 3.1 establishes**:
+- Detail-focused processing explains why summaries require active construction
+- Executive function load explains why "just answer quickly" adds burden rather than reducing it
+- Deliberate ToM explains why clarifying questions feel necessary, not pedantic
+
+**Section 3.4 establishes**:
+- Semantic/pragmatic split explains "which question are you actually asking?"
+- Presupposition management explains why some questions feel trap-like
+- Gricean maxims explain over-hedging as Quality maximization
+- Speech acts explain why intent specification reduces load
+
+**Cross-references achieved**:
+- Both sections reference Section 4.1 techniques and explain WHY they work
+- Both sections connect to Section 2's "structured collapse" concept
+- Section 3 theoretical framework now complete (3.1, 3.2, 3.3, 3.4 all written)
+
+### Tone/Voice Observations
+
+- Maintained non-pathologizing frame ("difference in cognitive organization, not deficit")
+- Connected theory directly to practical implications
+- Used clear structure: mechanism → practical implication → how techniques address this
+- Avoided academic jargon unless it serves clarity
+
+### Current Status
+
+**Section 3 status**: ✅ COMPLETE
+- Section 3.1: Neurodevelopmental Perspective ✅
+- Section 3.2: Information Theory Perspective ✅ (previous session)
+- Section 3.3: Game Theory & Signaling ✅ (previous session)
+- Section 3.4: Linguistic/NLP Perspective ✅
+
+**Completed Sections**: 18 total
+- Part I: Sections 1, 2 ✅
+- Part II (Theory): Sections 3.1, 3.2, 3.3, 3.4 ✅ (ALL COMPLETE)
+- Part II (Techniques): Sections 4.1, 4.2, 4.3 ✅
+- Part III: Sections 5.1, 5.2, 6.1, 6.2, 6.3 ✅
+- Part IV: Sections 7, 8, 9.1, 10.1, 11 ✅
+
+**Remaining work** (optional polish):
+- Practice exercises (9.2, 10.2)
+- Edge Cases (Section 12)
+- Cultural Factors (Section 13)
+- Research/Reading (Section 14)
+- Appendices (A, B, C)
+
+**Overall progress**: Theoretical framework now complete. All major content sections written.
+
+---
+
+## Session 19: Write Section 12 (Edge Cases & Complications)
+
+**Date**: 2026-01-22
+**Session Type**: Writing New Section
+**Agent**: Claude Code (Opus 4.5)
+
+### What Was Done
+
+1. Read onboarding protocol and required files
+2. Wrote **Section 12: Edge Cases & Complications** (~3,200 words)
+   - When uncertainty IS the problem (commitment avoidance)
+   - Cognitive style vs anxiety disorders
+   - Trauma responses vs information processing style
+   - When simplification is truly necessary vs accommodatable
+   - Red flags and when to seek professional help
+   - Meta-problem: uncertainty about which category you're in
+3. Updated workflow files:
+   - SPEC.md: Marked Section 12 as Complete
+   - This DEVLOG entry
+   - HANDOVER.md (next)
+
+### Key Decisions Made
+
+**Decision**: Structure around distinguishing genuine cognitive style from other patterns
+- **Rationale**: The framework assumes high-uncertainty processing is a valid cognitive style, but that assumption isn't always correct. Readers need tools to identify when the framework applies and when it doesn't.
+- **Impact**: Section provides concrete markers for distinguishing cognitive style from commitment avoidance, anxiety disorders, and trauma responses.
+
+**Decision**: Include "The Key Test" for commitment avoidance
+- **Rationale**: The most practical distinction is whether structure enables commitment or just shifts uncertainty elsewhere.
+- **Impact**: Gives readers a concrete diagnostic: "Does providing structure and boundaries enable commitment, or does it just shift the uncertainty?"
+
+**Decision**: Distinguish cognitive style from anxiety by function and origin
+- **Rationale**: They can look identical from outside but function entirely differently (engaging with complexity vs defending against threat).
+- **Impact**: Table of markers helps readers identify physical/content/response patterns that distinguish the two.
+
+**Decision**: Address trauma responses as separate category
+- **Rationale**: Trauma creates question-difficulty that functions completely differently from processing style (hypervigilance about safety, not complexity engagement).
+- **Impact**: Provides "relational test"—trauma responses are often relationship-specific while cognitive style is relatively consistent.
+
+**Decision**: Include "When Simplification Is Truly Necessary" section
+- **Rationale**: Framework generally treats forced simplification as problematic, but emergencies/legal contexts/resource constraints may legitimately require it.
+- **Impact**: Acknowledges when the framework's usual advice doesn't apply; provides navigation for those situations.
+
+**Decision**: Add "Red Flags and When to Seek Help" with concrete criteria
+- **Rationale**: Framework is communication protocols, not therapy. Important to name when professional support is needed.
+- **Impact**: Creates clear boundary for framework's scope; encourages appropriate help-seeking.
+
+**Decision**: Conclude with meta-problem acknowledgment
+- **Rationale**: Many readers will be uncertain which category they're in—that uncertainty is itself informative.
+- **Impact**: Provides practical approach: try the framework, observe what shifts, adjust based on results.
+
+### Conceptual Continuity Notes
+
+**Key distinctions established**:
+- Processing vs protection (cognitive style engages with complexity; avoidance/anxiety/trauma defend against perceived threat)
+- Structure enables vs structure shifts (key test for commitment avoidance)
+- Relationship-specific vs consistent (test for trauma patterns)
+- Information processing vs threat detection (cognitive style vs anxiety)
+
+**Framework scope clarified**:
+- Applies when: uncertainty reflects actual information processing, structure enables commitment
+- May not apply when: uncertainty serves protective functions, structure doesn't help
+- Not sufficient when: significant distress, clinical factors primary, patterns worsen despite effort
+
+### Tone/Voice Observations
+
+- Maintained non-pathologizing frame while acknowledging that sometimes patterns ARE problematic
+- Used concrete markers and tests rather than abstract descriptions
+- Avoided diagnostic language while being clear about when professional help is needed
+- Acknowledged complexity without creating more paralysis about which category one is in
+
+### Current Status
+
+**Completed Sections**: 19 total
+- Part I: Sections 1, 2 ✅
+- Part II (Theory): Sections 3.1, 3.2, 3.3, 3.4 ✅
+- Part II (Techniques): Sections 4.1, 4.2, 4.3 ✅
+- Part III: Sections 5.1, 5.2, 6.1, 6.2, 6.3 ✅
+- Part IV: Sections 7, 8, 9.1, 10.1, 11 ✅
+- Part V: Section 12 ✅
+
+**Remaining work** (optional):
+- Practice exercises (9.2, 10.2)
+- Cultural Factors (Section 13)
+- Research/Reading (Section 14)
+- Appendices (A, B, C)
+
+**Overall progress**: Edge cases section complete. Framework now addresses both when it applies and when it doesn't.

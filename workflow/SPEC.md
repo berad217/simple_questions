@@ -73,7 +73,7 @@ Create a practical communication framework for individuals who experience persis
 
 #### Section 3.1: Neurodevelopmental Perspective
 
-**Status**: Placeholder
+**Status**: Complete (section-03-theoretical-frameworks.md)
 **Dependencies**: Sections 1-2 (provides practical foundation to ground theory)
 **Success Criteria**: Reader can:
 
@@ -142,7 +142,7 @@ Create a practical communication framework for individuals who experience persis
 
 #### Section 3.4: Linguistic/NLP Perspective
 
-**Status**: Placeholder
+**Status**: Complete (section-03-theoretical-frameworks.md)
 **Dependencies**: Section 4.1 (provides concrete techniques to explain linguistically)
 **Success Criteria**: Reader can:
 
@@ -540,7 +540,7 @@ Same template as 4.1 for:
 
 ### Section 11: Worked Examples & Case Studies
 
-**Status**: Needs writing
+**Status**: Complete
 **Dependencies**: All practical sections (4-10)
 **Success Criteria**: Reader sees techniques applied to realistic scenarios
 
@@ -559,7 +559,7 @@ Same template as 4.1 for:
 
 ### Section 12: Edge Cases & Complications
 
-**Status**: Placeholder
+**Status**: Complete
 **Dependencies**: All core content complete
 **Success Criteria**: Reader can distinguish cognitive style from other issues
 
