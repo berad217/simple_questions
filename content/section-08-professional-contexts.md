@@ -61,7 +61,7 @@ High-uncertainty individuals tend to explain the *process* of their thinking bef
 
 **The Protocol**:
 
-1. **The Headline**: Give the answer first. (Even if it's lossy).
+64: 1. **The Headline**: Give the answer first. (Even if it's simplified).
 2. **The Confidence Interval**: State your confidence level.
 3. **The Evidence** (Optional): Ask if they want the details.
 
@@ -84,7 +84,7 @@ This splits your need for **Epistemic Truth** (which remains skeptical) from you
 When a stakeholder asks a vague question ("How's the project?"), use **Intent Declaration** (Section 5.2) to effectively "Domain-Bind" *them*.
 
 * *You*: "Are you looking for the high-level timeline status, or do you want to dig into the technical blockers?"
-* *Why it works*: It forces them to choose the compression level. If they say "Timeline," you have permission to give the lossy JPEG answer. If they say "Technical blockers," you have permission to open the full raw file.
+87: * *Why it works*: It forces them to choose the compression level. If they say "Timeline," you have permission to give the simplified JPEG answer. If they say "Technical blockers," you have permission to open the full raw file.
 
 ---
 

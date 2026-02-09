@@ -67,7 +67,7 @@ When you receive a question and recognize you need different constraints, use th
 - Questioner: "Can you review this PR before standup?"
 - Responder: "I need 30 minutes to review this properly, or I can give you a surface-level check now—mostly looking for obvious bugs, not architecture critique."
 
-**Why this works**: Offers both options, lets questioner decide if fast/lossy is acceptable or if they should adjust timeline.
+70: **Why this works**: Offers both options, lets questioner decide if fast/simplified is acceptable or if they should adjust timeline.
 
 ---
 
@@ -440,7 +440,7 @@ Once you've diagnosed why communication is stuck, these strategies help repair:
 - Meta-level pause stopped the stuck pattern
 - Diagnostic questions revealed multiple issues: intent ambiguity, uncertainty about answer format, implicit expectations
 - Both parties collaborated on restructuring
-- Final answer was "lossy" (60/40) but satisfied the actual need (alignment check, not perfect certainty)
+443: - Final answer was "simplified" (60/40) but satisfied the actual need (alignment check, not perfect certainty)
 - Relationship strengthened by successful navigation of difficult question
 
 ---

@@ -2,7 +2,7 @@
 
 ## What This Section Is For
 
-This section describes a specific cognitive style—one organized around persistent epistemic openness rather than rapid closure. If you find yourself unable to answer "simple" questions without extensive qualification, if you've been told you "overthink everything," or if giving a definitive answer feels fundamentally dishonest, this section is for you. If you interact with someone who fits this description—a partner, colleague, or friend—this section will help you understand what's actually happening when they struggle to give you a straight answer.
+This section describes a specific cognitive style—one organized around persistent openness to complexity rather than rapid closure. If you find yourself unable to answer "simple" questions without extensive qualification, if you've been told you "overthink everything," or if giving a definitive answer feels fundamentally dishonest, this section is for you. If you interact with someone who fits this description—a partner, colleague, or friend—this section will help you understand what's actually happening when they struggle to give you a straight answer.
 
 After reading this, you should be able to recognize this cognitive pattern, distinguish it from anxiety or avoidance, understand its genuine strengths, and identify the specific situations where it creates friction.
 
@@ -14,8 +14,8 @@ Some minds are organized less around reaching conclusions and more around mainta
 
 Ask someone with this cognitive style "Why didn't you call?" and something specific happens. The question doesn't arrive as a single query with a single answer slot. It arrives as a multi-dimensional problem that expands instantly across several planes:
 
-- **Logistics**: What actually prevented the call? The phone was dead, time got away from me, I was in the middle of something. But which of these is "the" reason? They were all factors.
-- **Accuracy**: Seven things contributed. Saying any single one feels like a lie by omission. Which factor should I present as "the" reason when none of them was the complete reason?
+- **Logistics**: What actually prevented the call? Was the phone dead? Did time get away from me? Was I in the middle of something? Which of these is "the" reason when they were all factors?
+- **Accuracy**: Seven things contributed. Would saying any single one be a lie by omission? Which factor should I present as "the" reason when none of them was the complete reason?
 - **Relationship implications**: Is this question really about the phone call, or about whether I prioritize this person? Does my answer signal something about our relationship?
 - **Future commitments**: If I say "I forgot," does that commit me to never forgetting in the future? If I say "I was busy," does that justify future non-calls when busy?
 - **Meta-level**: What does this person actually need from me right now—an explanation, an apology, reassurance, or just acknowledgment? Which of these is my answer supposed to provide?
@@ -111,7 +111,7 @@ Anxiety involves distress, avoidance, and catastrophic thinking. The anxious per
 
 Indecisiveness involves difficulty choosing between options due to fear of choosing wrong, inability to prioritize, or avoidance of commitment.
 
-**The distinction**: Someone with high-uncertainty cognitive style can often identify what they would do if forced—they just experience the forcing as lossy. They're not stuck between options; they're resistant to pretending one option is clearly correct when multiple considerations apply. Decision paralysis is about inability to choose; this is about awareness that any choice involves trade-offs being rendered invisible.
+**The distinction**: Someone with high-uncertainty cognitive style can often identify what they would do if forced—they just experience the forcing as losing important detail. They're not stuck between options; they're resistant to pretending one option is clearly correct when multiple considerations apply. Decision paralysis is about inability to choose; this is about awareness that any choice involves trade-offs being rendered invisible.
 
 ### Not Evasion
 
@@ -127,7 +127,7 @@ Pedantry involves excessive attention to technical correctness or minor details,
 
 ### Not Arrogance
 
-"You wouldn't understand" or "It's complicated" can sound like intellectual snobbery.
+Phrases like "It's complicated" can be heard by others as "You wouldn't understand," sounding like intellectual snobbery.
 
 **The distinction**: Someone with high-uncertainty cognitive style says "it's complicated" because they're experiencing the complexity and don't know how to compress it yet—not because they think you can't handle the full answer. They're often uncomfortable with the simplification they're about to offer, not protective of special knowledge.
 

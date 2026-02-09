@@ -18,7 +18,7 @@ The cognitive style described in this framework isn't arbitrary. It reflects spe
 
 **Important**: This section is explanatory, not diagnostic. The patterns described here overlap with profiles seen in autism-spectrum presentations, ADHD, and giftedness, but having this cognitive style doesn't mean you have any of these conditions, and having these conditions doesn't mean you process questions this way. We're describing functional patterns, not pathology.
 
-### Detail-Focused Processing and "Weak" Central Coherence
+### Detail-Focused Processing (and Central Coherence)
 
 Central coherence refers to the brain's tendency to integrate information into a unified whole, sacrificing detail for the big picture. Most people automatically see the forest; it takes effort to see the trees.
 

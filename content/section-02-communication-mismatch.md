@@ -32,7 +32,9 @@ This fundamentally misunderstands what's happening.
 
 The high-uncertainty responder isn't *adding* complexity to a simple question. They're *perceiving* complexity that the question, as asked, genuinely contains. "Are you free Saturday?" does implicitly contain questions about degree of freedom, purpose, commitment level, and social priority. Most people suppress these dimensions automatically, answering from a default assumption (usually: "free enough for typical social plans, commitment level matches request formality"). The high-uncertainty responder doesn't have that automatic suppression—they see the full decision tree.
 
-Telling them to "just answer simply" is like telling someone to "just see the duck" when they're looking at a duck-rabbit illusion and seeing the rabbit. The instruction doesn't help because it doesn't address the perceptual difference. They need a different kind of instruction—one that specifies *which* version to report.
+Telling them to "just answer simply" is like telling someone to "just see the duck" when they're looking at a duck-rabbit illusion and seeing the rabbit. The instruction doesn't help because it doesn't address the perceptual difference.
+
+**They need a different kind of instruction—one that specifies *which* version to report.**
 
 ---
 
@@ -48,7 +50,7 @@ When a high-uncertainty responder is forced to give a simple answer without dime
 - "I'm available for something low-key but not a full-day thing"
 - "I want to say yes because I want to see you, but I'm actually exhausted and might cancel"
 
-Collapsing all of these into "yes" feels like amputating the truth to fit the slot. The responder knows their "yes" is lossy—and lossy, to them, feels dishonest.
+Collapsing all of these into "yes" feels like amputating the truth to fit the slot. The responder knows their "yes" is incomplete—and incomplete, to them, feels dishonest.
 
 The questioner, meanwhile, hears a simple "yes" and takes it at face value. When the responder later adds conditions, cancels, or seems less available than promised, the questioner feels misled. "You said you were free!"
 
@@ -115,7 +117,7 @@ Structured collapse works differently. It doesn't ask the responder to perceive 
 
 The responder still sees that "Are you free Saturday?" contains availability, commitment, priority, and flexibility dimensions. But when the question includes "for a casual coffee—no pressure if plans change," they now have permission to answer only the availability dimension at a low commitment level. They're not lying by omission because the question itself has disclaimed the other dimensions.
 
-This is why structured collapse reduces the dishonesty discomfort. The questioner has signaled what they need; the responder provides it; the transmission is appropriately lossy for the stated purpose. Lossy compression is not lying when both parties agree on the compression level.
+This is why structured collapse reduces the dishonesty discomfort. The questioner has signaled what they need; the responder provides it; the transmission is appropriately simplified for the stated purpose. Simplified compression is not lying when both parties agree on the level of detail.
 
 ---
 
@@ -127,7 +129,7 @@ This is why structured collapse reduces the dishonesty discomfort. The questione
 | Brief expected pause | Compressed eternity of dimensional evaluation |
 | Hedging = evasion or low priority | Hedging = honest uncertainty about which dimension to answer |
 | "Just answer" = reasonable request | "Just answer" = demand to commit to incomplete representation |
-| Simple answer received = truth | Simple answer given = lossy compression, feels dishonest |
+| Simple answer received = truth | Simple answer given = incomplete compression, feels dishonest |
 
 The mismatch is structural, not personal. The questioner isn't being unreasonable; they're working from a different model of what questions contain. The responder isn't being difficult; they're working from a different perceptual experience of the same question. Neither model is wrong—they're just incompatible without explicit bridging.
 

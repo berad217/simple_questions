@@ -204,7 +204,7 @@ We cover four categories: **Professional**, **Intimate**, **Casual**, and **Brea
 *Responder (Internal)*: *This is Social Intent. They want an energy match, not data.*
 *Responder*: "It was a weekend! Relaxing bits and stressful bits. How was yours?"
 
-**Why It Worked**: The responder satificed. They gave an answer that was directionally true ("stressful bits") but calibrated to the low-bandwidth interaction of a 30-second interaction.
+207: **Why It Worked**: The responder satisficed. They gave an answer that was directionally true ("stressful bits") but calibrated to the low-bandwidth interaction of a 30-second interaction.
 
 ---
 

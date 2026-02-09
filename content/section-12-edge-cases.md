@@ -245,7 +245,7 @@ Most of this framework treats "forced simplification" as a problem to be managed
 "The quick answer is X. What I'm not capturing is [specific dimension]. If that dimension matters, we need more time."
 
 **Accept imperfection**:
-Sometimes giving a lossy answer under time pressure is the right move, even if it feels wrong. Communicable stability under constraint beats paralysis.
+248: Sometimes giving a simplified answer under time pressure is the right move, even if it feels wrong. Communicable stability under constraint beats paralysis.
 
 ### When "Simplification Required" Is Cover for Impatience
 

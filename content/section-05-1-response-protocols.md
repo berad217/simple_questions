@@ -2,7 +2,7 @@
 
 ## What This Section Is For
 
-This section provides response protocols and scripts you can use when you're the one being asked questions. If you experience high-uncertainty cognitive style and struggle to answer questions that others find simple, these protocols give you language to signal your processing needs, provide appropriately lossy answers without feeling dishonest, and request better-structured questions when you need them.
+This section provides response protocols and scripts you can use when you're the one being asked questions. If you experience high-uncertainty cognitive style and struggle to answer questions that others find simple, these protocols give you language to signal your processing needs, provide appropriately simplified answers without feeling dishonest, and request better-structured questions when you need them.
 
 After reading this section, you should be able to signal processing cost upfront without apologizing, use provisional commitment language confidently, ask for question restructuring productively, and distinguish genuine uncertainty from hedging.
 
@@ -47,7 +47,7 @@ The goal is functional communication where you can be honest about your cognitiv
 - "I can give you a provisional answer now or a more complete one after the meeting. Which would be more useful?"
 - "I'm noticing I'd need to explain a lot of context to answer that well. Should we table it or do you want the short version with caveats?"
 
-**When to Use**: Use processing signals when you notice yourself pausing or hesitating, before the questioner interprets the silence negatively. Use them when you need time but don't need restructuring—you can answer the question as asked, you just need space to do it. Use them in time-limited contexts to negotiate whether to give a fast/lossy answer now or a slower/better answer later.
+**When to Use**: Use processing signals when you notice yourself pausing or hesitating, before the questioner interprets the silence negatively. Use them when you need time but don't need restructuring—you can answer the question as asked, you just need space to do it. Use them in time-limited contexts to negotiate whether to give a fast/simplified answer now or a slower/better answer later.
 
 **Failure Modes**:
 
@@ -64,7 +64,7 @@ The goal is functional communication where you can be honest about your cognitiv
 
 ## 2. Provisional Commitment Language
 
-**What It Is**: Answer formats that deliver a position while explicitly retaining uncertainty, making the lossy compression visible and agreed-upon.
+**What It Is**: Answer formats that deliver a position while explicitly retaining uncertainty, making the simplification visible and agreed-upon.
 
 **Why It Works**: High-uncertainty individuals often experience answers as permanent commitments to truth. This makes answering feel dishonest when uncertainty exists. Provisional commitment language resolves this by separating "my current best model" from "eternal truth I will defend forever." It lets you commit to a position for purposes of communication while retaining the right to update when you learn more. The questioner gets a usable answer; you avoid the feeling of having **amputated uncertainty**.
 
@@ -198,10 +198,10 @@ The goal is functional communication where you can be honest about your cognitiv
    - **Fix**: Be specific about what you're asking for. "Do you mean X or Y?" is concrete. "It depends" without offering structure reads as evasion.
 
 2. **Over-restructuring simple questions**: Someone asks "Do you want coffee?" and you ask them to specify premium, timeframe, and context.
-   - **Fix**: Calibrate to question complexity and stakes. Low-stakes questions can get lossy answers without restructuring. Save restructuring for questions where the dimensional confusion actually matters.
+   - **Fix**: Calibrate to question complexity and stakes. Low-stakes questions can get simplified answers without restructuring. Save restructuring for questions where the dimensional confusion actually matters.
 
 3. **Requesting restructuring when you actually just don't want to answer**: Using "which dimension?" as avoidance.
-   - **Fix**: Check your motivation. If you don't want to answer for social/emotional reasons, own that rather than hiding behind structure. "I'd rather not get into that right now" is more honest than endless restructuring.
+   - **Fix**: Check your motivation. If you're avoiding commitment for social reasons (don't want to be wrong, don't want to disappoint), that's different from genuine epistemic uncertainty. Provisional language is for the latter, not the former.
 
 ---
 
@@ -268,11 +268,11 @@ The goal is functional communication where you can be honest about your cognitiv
 
 ---
 
-## 5. Strategic Choices: When to Push Back vs Give a Lossy Answer
+## 5. Strategic Choices: When to Push Back vs Give a Simplified Answer
 
-**What It Is**: Developing judgment about when to request restructuring and when to provide an appropriately lossy answer even though the question wasn't perfect.
+**What It Is**: Developing judgment about when to request restructuring and when to provide an appropriately simplified answer even though the question wasn't perfect.
 
-**Why It Works**: Not every poorly-structured question needs restructuring. Sometimes the relationship cost of requesting restructuring exceeds the information cost of giving a lossy answer. Strategic choice means distinguishing between contexts where precision matters (push back, request structure) and contexts where social flow matters more (give the lossy answer and move on).
+**Why It Works**: Not every poorly-structured question needs restructuring. Sometimes the relationship cost of requesting restructuring exceeds the information cost of giving a simplified answer. Strategic choice means distinguishing between contexts where precision matters (push back, request structure) and contexts where social flow matters more (give the simplified answer and move on).
 
 **Decision Framework**:
 
@@ -284,17 +284,17 @@ The goal is functional communication where you can be honest about your cognitiv
 - **You have standing**: Relationship where requesting restructuring won't be seen as difficult
 - **Time exists**: Context allows for the back-and-forth of clarification
 
-**Give lossy answer when**:
+**Give simplified answer when**:
 - **Low stakes**: The question doesn't matter much; being approximately right is sufficient
 - **Social lubrication**: Small talk, casual conversation, maintaining social flow
-- **Time-limited**: Quick decision needed and restructuring would take longer than the lossy answer
+- **Time-limited**: Quick decision needed and restructuring would take longer than the simplified answer
 - **Asymmetric investment**: You'd spend 10 minutes explaining why it's complicated to save them 2 minutes of imperfect information—not worth it
 - **New relationship**: Still building trust; being "easy to work with" has value
 - **They won't adjust anyway**: Person has shown they won't engage with restructuring requests
 
-**Scripts for strategic lossy answers**:
+**Scripts for strategic simplified answers**:
 
-When you're consciously giving a lossy answer, you can signal it:
+When you're consciously giving a simplified answer, you can signal it:
 - "Quick answer: [position]. Full answer is more complicated, but that's the headline."
 - "If I had to simplify: [position]. That's leaving out nuance, but it's directionally correct."
 - "Rough answer: [position]. If this becomes important, let me know and I'll give you the detailed version."
@@ -302,7 +302,7 @@ When you're consciously giving a lossy answer, you can signal it:
 
 **Examples**:
 
-**Casual context—give lossy**:
+**Casual context—give simplified**:
 - Question: "How was your day?"
 - Internal: Complicated—good meeting, frustrating email, interesting problem, tired
 - Response: "Pretty good, got some stuff done."
@@ -319,20 +319,20 @@ When you're consciously giving a lossy answer, you can signal it:
 - Internal: Complex—forgot, then felt guilty, then got busy, then wasn't sure if too late
 - Response Option A (if pattern of dimension-confusion): "Do you mean logistically what prevented it, or relationally whether it signals something?"
 - Response Option B (if first time): "I got busy and then it felt too late. I should have—I'm sorry."
-- Reasoning: In ongoing patterns, invest in restructuring; for one-off, give the lossy relational answer
+- Reasoning: In ongoing patterns, invest in restructuring; for one-off, give the simplified relational answer
 
-**Professional low-stakes—give lossy**:
+**Professional low-stakes—give simplified**:
 - Question: "What do you think of the new office layout?"
 - Internal: Lighting is better, but noise is worse, depends on your work style, good for collaboration but bad for focus
 - Response: "I like the lighting, though it's a bit noisy."
 - Reasoning: Low stakes, not your expertise, full analysis would be overkill
 
-**When to Use**: Use this framework continually as you assess incoming questions. The judgment gets easier with practice—you'll start to feel the difference between "this question needs structure" and "this question needs a fast lossy answer so we can move on."
+**When to Use**: Use this framework continually as you assess incoming questions. The judgment gets easier with practice—you'll start to feel the difference between "this question needs structure" and "this question needs a fast simplified answer so we can move on."
 
 **Failure Modes**:
 
-1. **Always giving lossy answers**: Never pushing back, accumulating resentment about not being understood.
-   - **Fix**: Notice when you're uncomfortable with the lossy answer you just gave. That discomfort is data—it means the question mattered more than you treated it as mattering. On important questions, invest in restructuring.
+1. **Always giving simplified answers**: Never pushing back, accumulating resentment about not being understood.
+   - **Fix**: Notice when you're uncomfortable with the simplified answer you just gave. That discomfort is data—it means the question mattered more than you treated it as mattering. On important questions, invest in restructuring.
 
 2. **Always pushing back**: Every question becomes a meta-conversation about the question.
    - **Fix**: Calibrate to stakes and context. "Do you want coffee?" can get "yes" or "no" without restructuring dimensional space.
@@ -362,7 +362,7 @@ The protocols aren't rigid scripts. They're patterns you internalize and deploy 
 
 ## What Comes Next
 
-These response protocols give you tools for handling questions as they come. [Section 5.2](section-05-2-for-questioners.md) shows questioners how to read processing signals and support effective communication from their side.
+These response protocols give you tools for handling questions as they come. [Section 5.2](section-05-2-response-protocols-questioners.md) shows questioners how to read processing signals and support effective communication from their side.
 
 [Section 6.1](section-06-1-real-time-negotiation.md) provides shared communication protocols—language both questioners and responders can use to negotiate question structure in real time.
 
@@ -372,4 +372,4 @@ The key insight: you don't have to choose between honesty and clarity. These pro
 
 ---
 
-*Continue to [Section 5.2: For Questioners](section-05-2-for-questioners.md) to see the questioner-side complement to these protocols, or skip to [Section 6: Shared Communication Protocols](section-06-1-real-time-negotiation.md) for bidirectional tools.*
+*Continue to [Section 5.2: For Questioners](section-05-2-response-protocols-questioners.md) to see the questioner-side complement to these protocols, or skip to [Section 6: Shared Communication Protocols](section-06-1-real-time-negotiation.md) for bidirectional tools.*

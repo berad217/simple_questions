@@ -49,7 +49,7 @@ Don't start by asking "Which technique do I want?" Start by asking **"What is th
 ### Symptom 4: "I Need More Information" Loop
 
 **The Signal**: Refusing to answer until they have 100% data. "I can't say until I know X, Y, and Z."
-**The Diagnosis**: A refusal to perform lossy compression. They believe "Answer = Perfect Truth."
+**The Diagnosis**: A refusal to perform simplified compression. They believe "Answer = Perfect Truth."
 **The Tools**:
 
 1. **Confidence Calibration**: "You don't need to know for sure. What's your % confidence?"
@@ -121,7 +121,7 @@ Mastery involves combining these tools.
 | **Freezing / Panic** | Uncertainty Permission, Iteration Permission |
 | **Rambling** | Forced-Slice, Output-Format Constraints |
 | **Defensiveness** | Intent Declaration, Counterfactual Anchoring |
-| **Perfectionism** | Acceptance Error Tolerance, Confidence Calibration |
+| **Perfectionism** | Acceptable Error Tolerance, Confidence Calibration |
 | **"It Depends"** | Scope-Locking, Role-Locking |
 | **Risk Aversion** | Reversibility Framing |
 

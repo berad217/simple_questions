@@ -14,7 +14,7 @@ These six techniques don't reduce intelligence or nuance. They **reduce dimensio
 
 Each technique works by making explicit what would otherwise remain implicit. Most people operate with default assumptions about what a question is asking for—logistical information only, one main factor, an answer they can act on today. High-uncertainty individuals don't have reliable access to those defaults. The techniques bridge that gap by stating the assumptions out loud.
 
-The goal is not perfect truth, but **communicable stability**—answers that are appropriately lossy for the context, where both parties understand and accept the compression level.
+The goal is not perfect truth, but **communicable stability**—answers that are appropriately simplified for the context, where both parties understand and accept the compression level.
 
 ---
 
@@ -298,10 +298,10 @@ The second version isolates the engineering perspective from product strategy. T
 The second version separates career considerations from relationship considerations. It lets the responder evaluate one dimension honestly without immediately having to integrate all life factors.
 
 **Casual context**:
-- Instead of: "Do you want to watch this movie?"
-- Use: "Just based on whether the movie seems interesting, ignoring whether you have energy—do you want to watch this?"
+- Instead of: "Should I host this party?"
+- Use: "Answering as my friend who wants me to have fun, not as my roommate who has to clean up—should I host this party?"
 
-The second version separates interest from capacity. The responder can say "the movie sounds great, but I don't have energy" rather than collapsing both into a hedged "maybe."
+The second version separates the "Social Enthusiast" role from the "Responsible Adult" role. The responder can say "yes" (as a friend) and "no" (as a roommate) without conflict.
 
 **Advisory context**:
 - Instead of: "What should I do about this problem?"
@@ -348,7 +348,7 @@ These six core techniques handle most common question design needs. [Section 4.2
 
 For high-uncertainty responders who need to handle poorly-structured questions, [Section 5.1](section-05-1-response-protocols.md) provides response protocols and scripts.
 
-The key insight: structured questions don't constrain thinking. They constrain *transmission*. The full dimensional map is still there; these techniques just specify which portion of the map to communicate. That's not lying. That's functional communication with appropriately lossy compression—where both parties understand and accept the compression level.
+The key insight: structured questions don't constrain thinking. They constrain *transmission*. The full dimensional map is still there; these techniques just specify which portion of the map to communicate. That's not lying. That's functional communication with appropriately simplified compression—where both parties understand and accept the compression level.
 
 ---
 
