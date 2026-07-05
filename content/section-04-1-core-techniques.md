@@ -12,7 +12,7 @@ After reading this section, you should be able to use all six techniques in your
 
 These six techniques don't reduce intelligence or nuance. They **reduce dimensionality**. They tell the cognitive system which uncertainties may be temporarily set aside so that a usable position can form.
 
-Each technique works by making explicit what would otherwise remain implicit. Most people operate with default assumptions about what a question is asking for—logistical information only, one main factor, an answer they can act on today. High-uncertainty individuals don't have reliable access to those defaults. The techniques bridge that gap by stating the assumptions out loud.
+Each technique works by making explicit what would otherwise remain implicit. Most people operate with default assumptions about what a question is asking for—logistical information only, one main factor, an answer they can act on today. High-uncertainty individuals may not have reliable access to those defaults. The techniques bridge that gap by stating the assumptions out loud.
 
 The goal is not perfect truth, but **communicable stability**—answers that are appropriately simplified for the context, where both parties understand and accept the compression level.
 
@@ -22,7 +22,7 @@ The goal is not perfect truth, but **communicable stability**—answers that are
 
 **Definition**: Restrict which layer of reality is being queried, excluding other dimensions from consideration.
 
-**Mechanism**: Questions naturally activate multiple dimensions—logistical, emotional, moral, strategic, relational. Domain-binding explicitly names one dimension and temporarily excludes the others, telling the cognitive system "evaluate only this layer." This prevents the automatic expansion into multi-dimensional analysis.
+**Mechanism**: Questions naturally activate multiple dimensions—logistical, emotional, moral, strategic, relational. Domain-binding explicitly names one dimension and temporarily excludes the others, telling the cognitive system "evaluate only this layer." This reduces the automatic expansion into multi-dimensional analysis.
 
 **Examples**:
 
@@ -50,7 +50,7 @@ The second version separates the desire to eat from schedule availability, socia
 
 The second version excludes patient compliance concerns, insurance considerations, and lifestyle impact. It asks only about clinical indicators.
 
-**When to Use**: Domain-binding works best when you genuinely only need information from one dimension, or when you want to gather dimensional information sequentially rather than all at once. It's particularly useful when relationship and logistical layers are getting confused—"Why didn't you call?" is almost always about both logistics and relationship, but answering is easier when you query them separately.
+**When to Use**: Domain-binding works best when you genuinely only need information from one dimension, or when you want to gather dimensional information sequentially rather than all at once. It's particularly useful when relationship and logistical layers are getting confused—"Why didn't you call?" is often about both logistics and relationship, but answering is easier when you query them separately.
 
 **Failure Modes**:
 
@@ -344,7 +344,7 @@ The techniques share a common pattern: they all make implicit dimensions explici
 
 ## What Comes Next
 
-These six core techniques handle most common question design needs. [Section 4.2](section-04-2-additional-techniques.md) provides additional techniques for specialized contexts—scope-locking, reversibility framing, iteration permission, and others. [Section 4.3](section-04-3-technique-selection.md) provides a decision framework for choosing which technique to use when.
+These six core techniques handle most common question design needs. [Section 4.2](section-04-2-advanced-techniques.md) provides additional techniques for specialized contexts—scope-locking, reversibility framing, iteration permission, and others. [Section 4.3](section-04-3-technique-selection.md) provides a decision framework for choosing which technique to use when.
 
 For high-uncertainty responders who need to handle poorly-structured questions, [Section 5.1](section-05-1-response-protocols.md) provides response protocols and scripts.
 
@@ -352,4 +352,4 @@ The key insight: structured questions don't constrain thinking. They constrain *
 
 ---
 
-*Continue to [Section 4.2: Additional Techniques](section-04-2-additional-techniques.md) to expand your toolkit, or skip to [Section 5: Response Protocols](section-05-1-response-protocols.md) to learn how high-uncertainty individuals can respond effectively.*
+*Continue to [Section 4.2: Advanced Techniques](section-04-2-advanced-techniques.md) to expand your toolkit, or skip to [Section 5: Response Protocols](section-05-1-response-protocols.md) to learn how high-uncertainty individuals can respond effectively.*

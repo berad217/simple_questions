@@ -1,100 +1,22 @@
-# Handover: Session 20 → Session 21
+# Handover: Editorial Verification Pass
 
-**From**: Session 20 (Opus 4.5)
-**Date**: 2026-01-23
-**Status**: Core framework COMPLETE. Build system COMPLETE. Polish/expansion phase.
+## 1. Orientation
+New AI: Start with `workflow/onboarding.md`, then this file. Continue the chapter-by-chapter verification pass.
 
----
+## 2. The Delta
+- Reviewed and lightly revised Sections 1-12 for correctness, coherence, concision, and spec coverage. The current dirty working tree contains those edits plus regenerated `build/simple-questions-framework.md` and `build/simple-questions-framework-sections.zip`.
+- Section 7 edits added the missing relationship-specific pieces: meta-problem/trust erosion, legitimate "I don't know yet" criteria, calibration ritual, repair script, and protocol template.
+- Section 8 edits removed stray line-number artifacts and expanded professional/social coverage: stakeholder reassurance, performance reviews, collaborative decision-making, court/compliance/audit contexts, organizational trust, structural supports, and explanation cost-benefit.
+- Section 9 edits completed the self-advocacy guide and wrote the previously missing Section 9.2 practice exercises; `workflow/SPEC.md` now marks 9.2 complete.
+- Section 10 edits completed the interpretation guide for questioners and wrote the previously missing Section 10.2 question-design practice; `workflow/SPEC.md` now marks 10.2 complete.
+- Section 11 edits fixed small artifacts/wording issues and added a Pattern Index that makes reusable move-selection patterns explicit across the 10 worked examples.
+- Section 12 edits softened one over-absolute framing sentence and removed a stray line-number artifact; Section 12 already covered the required edge-case distinctions.
+- Remaining unreviewed content files from the handover queue: none.
+- Build caveat: `python build.py` regenerates markdown and ZIP, but HTML/PDF fail because `pandoc` is not installed in this environment. Do not treat that as a content regression.
+- Workflow trap from this session: several files use em dashes/UTF-8; `apply_patch` sometimes failed on exact encoded lines. Line-level PowerShell edits were used carefully, then checked with `git diff --check` and diffs.
+- Current verification status: latest `python build.py` succeeded for markdown/ZIP and failed only for expected missing `pandoc`; latest `git diff --check` reported no whitespace errors, only CRLF normalization warnings.
 
-## What Just Happened (Session 20)
-
-**Created build system** for non-technical users:
-
-- `build.py` generates PDF, HTML, compiled MD, and sections ZIP
-- All outputs share timestamp and "source of truth" notice
-- Direct download links using `/raw/` URLs (one-click download)
-- Added help section with screenshot for GitHub-unfamiliar users
-
-**Updated README**:
-- Download table with all formats
-- Current project status (17 sections, ~42k words)
-- Quick start paths for different reader types
-
-**Files created/updated**:
-- `build.py` (NEW)
-- `build/simple-questions-framework.pdf`
-- `build/simple-questions-framework.html`
-- `build/simple-questions-framework.md`
-- `build/simple-questions-framework-sections.zip`
-- `click_that.png` (download help screenshot)
-- `README.md` (rewritten)
-
----
-
-## Current Project State
-
-**Core framework**: COMPLETE (17 sections, ~42,000 words)
-**Build system**: COMPLETE (PDF, HTML, MD, ZIP)
-**Documentation**: COMPLETE (README with download links)
-
-**Completed sections**:
-- Part I (Understanding): Sections 1, 2
-- Part II (Theory): Sections 3.1, 3.2, 3.3, 3.4
-- Part II (Question Design): Sections 4.1, 4.2, 4.3
-- Part III (Bilateral Protocols): Sections 5.1, 5.2
-- Part III (Shared Protocols): Sections 6.1, 6.2, 6.3
-- Part IV (Contexts): Sections 7, 8
-- Part IV (Self-Help): Sections 9.1, 10.1
-- Part IV (Integration): Section 11
-- Part V (Advanced): Section 12
-
-**Remaining work** (all optional):
-| Section | Status | Priority |
-|---------|--------|----------|
-| 9.2 (Practice Exercises - Responders) | Needs writing | Medium |
-| 10.2 (Practice Exercises - Questioners) | Needs writing | Medium |
-| 13 (Cultural Factors) | Placeholder | Low |
-| 14 (Research/Reading) | Placeholder | Low |
-| Appendices A, B, C | Needs creation | Low |
-
----
-
-## What's Next: Choose Your Path
-
-### Path A: Practice Exercises (9.2 + 10.2)
-Turn the framework into a workbook. Create exercises for responders (9.2) and questioners (10.2) to practice techniques.
-
-### Path B: Cultural Factors (Section 13)
-How cultural context affects question-answer expectations. Different cultures have different implicit compression protocols.
-
-### Path C: Reference Materials (Section 14 + Appendices)
-Research connections, further reading, quick-reference cards, glossary.
-
-### Path D: Call It Done
-The framework is complete and accessible. Remaining sections are nice-to-have, not essential.
-
----
-
-## Recommendation
-
-The project is in a shippable state. All core content exists with professional outputs (PDF, HTML).
-
-If continuing:
-- **Path A** if you want a training resource
-- **Path D** if you want to move on to other projects
-
----
-
-## Quick Context for Next Session
-
-**Core Files**:
-- **Status & Requirements**: `workflow/SPEC.md`
-- **Tone Guide**: `workflow/voice-samples.md` (read first 5 examples)
-- **Canonical Examples**: `workflow/examples-bank.md`
-- **Protocol**: `workflow/onboarding.md`
-
-**Build**: Run `python build.py` after content changes to regenerate outputs.
-
-**Content Files** (in `content/` directory):
-- 17 completed section files
-- All follow consistent voice and structure
+## 3. Next Steps
+1. Decide whether to stop the verification pass here, commit the current dirty tree, or continue into optional placeholder sections and appendices.
+2. If continuing, inspect `workflow/SPEC.md` for remaining placeholder/needs-writing items outside the original Sections 1-12 verification queue.
+3. After any edit batch, run `python build.py`, note the expected `pandoc` HTML/PDF failure, and check `git diff --check`.

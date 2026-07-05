@@ -19,7 +19,7 @@ All the techniques (Section 4.1), protocols (Sections 5.1 and 5.2), and intent r
 - Initial protocol selection was wrong for the situation
 - Communication is breaking down and both parties keep trying the same approach
 
-Without negotiation vocabulary, these situations escalate: questioner gets frustrated ("why can't you just answer?"), responder feels trapped ("I can't compress this honestly"), relationship damage accumulates.
+Without negotiation vocabulary, these situations can escalate: questioner gets frustrated ("why can't you just answer?"), responder feels trapped ("I can't compress this honestly"), relationship damage accumulates.
 
 **What real-time negotiation provides**: Shared language to pause, identify the mismatch, and recalibrate without blame. The goal is not to eliminate friction—it's to make friction nameable and addressable.
 
@@ -67,7 +67,7 @@ When you receive a question and recognize you need different constraints, use th
 - Questioner: "Can you review this PR before standup?"
 - Responder: "I need 30 minutes to review this properly, or I can give you a surface-level check now—mostly looking for obvious bugs, not architecture critique."
 
-70: **Why this works**: Offers both options, lets questioner decide if fast/simplified is acceptable or if they should adjust timeline.
+**Why this works**: Offers both options, lets questioner decide if fast/simplified is acceptable or if they should adjust timeline.
 
 ---
 
@@ -350,7 +350,7 @@ When communication is breaking down despite techniques and protocols, use these 
 - Responder: "I'm stuck—can you just tell me what to say? You know the client relationship better, and I can't get unstuck on the technical timeline."
 - Questioner: "Tell them 6 weeks. We'll make it work."
 
-**Critical caveat**: Only works in high-trust contexts where both parties understand this is emergency release valve, not standard operating procedure. Overuse erodes responder's autonomy and questioner's trust.
+**Critical caveat**: Use only in high-trust contexts where both parties understand this is emergency release valve, not standard operating procedure. Overuse erodes responder's autonomy and questioner's trust.
 
 ---
 
@@ -440,7 +440,7 @@ Once you've diagnosed why communication is stuck, these strategies help repair:
 - Meta-level pause stopped the stuck pattern
 - Diagnostic questions revealed multiple issues: intent ambiguity, uncertainty about answer format, implicit expectations
 - Both parties collaborated on restructuring
-443: - Final answer was "simplified" (60/40) but satisfied the actual need (alignment check, not perfect certainty)
+- Final answer was "simplified" (60/40) but satisfied the actual need (alignment check, not perfect certainty)
 - Relationship strengthened by successful navigation of difficult question
 
 ---
@@ -462,7 +462,7 @@ Once you've diagnosed why communication is stuck, these strategies help repair:
 
 ### Intimate relationship contexts
 
-**Default bias**: Questions carry mixed intent more often, emotional layer is almost always present, speed pressure is lower but relationship stakes are higher.
+**Default bias**: Questions carry mixed intent more often, emotional layer is often present, speed pressure is lower but relationship stakes are higher.
 
 **Effective negotiation phrases**:
 - "I think you're asking me two things here—can we separate them?"

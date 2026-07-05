@@ -62,7 +62,7 @@ Intent mismatch explains many "simple question" failures. The responder isn't ov
 - Responder solving planning intent: Evaluates energy levels, other commitments, social capacity, transportation logistics, who else is attending
 - Appropriate response: "Yes" or "No, but thanks for inviting me"
 
-**Mapping to Section 4.1 techniques**:
+**Useful framework moves**:
 - **Time-boxing**: "I'll give you my best answer in 30 seconds"
 - **Satisficing criteria**: "Good enough means it won't cause problems; I'll say pasta"
 - **Meta-response**: "Sounds like you need a quick decision—let me give you one and we can adjust later"
@@ -112,7 +112,7 @@ Intent mismatch explains many "simple question" failures. The responder isn't ov
 
 **Critical distinction**: Emotional intent doesn't mean the factual content is irrelevant. It means the relationship signal has higher priority than informational precision. A technically accurate answer that ignores the emotional subtext causes more friction than a warm but slightly imprecise response.
 
-**Mapping to Section 4.1 techniques**:
+**Useful framework moves**:
 - **Response-type declaration**: "I'm hearing this as an emotional check-in, not a logistics question—is that right?"
 - **Satisficing for relationship goals**: "The relationship-serving answer is X; want the detailed version too?"
 
@@ -163,7 +163,7 @@ Intent mismatch explains many "simple question" failures. The responder isn't ov
 
 **This is the intent type where high-dimensional processing is appropriate**. The questioner is explicitly asking for the kind of thorough analysis that responders naturally provide. The challenge is recognizing when *other* intent types don't want this level of depth.
 
-**Mapping to Section 4.1 techniques**:
+**Useful framework moves**:
 - Diagnostic intent often requires *fewer* dimensionality-reduction techniques
 - **Confidence expression**: Show uncertainty where it exists ("I'm 70% sure it's X, 30% it could be Y")
 - **Layered disclosure**: "The quick version is X; want me to explain the contributing factors?"
@@ -212,7 +212,7 @@ Intent mismatch explains many "simple question" failures. The responder isn't ov
 
 **Key distinction from diagnostic intent**: Planning questions are forward-looking (what should we do?) while diagnostic questions are backward-looking (why did this happen?). Planning questions want structured options; diagnostic questions want root causes.
 
-**Mapping to Section 4.1 techniques**:
+**Useful framework moves**:
 - **Dimensional reduction via constraint declaration**: "If we rule out options that require more than 3 months, that leaves us with..."
 - **Scenario-based bounds**: "In the optimistic scenario we'd get X, in the pessimistic scenario we'd get Y"
 - **Satisficing for decision framing**: "Good enough means we pick something that doesn't close off future options"
@@ -262,7 +262,7 @@ Intent mismatch explains many "simple question" failures. The responder isn't ov
 
 **Critical recognition**: Social intent questions are not trivial or unimportant—they serve real relationship and conversational functions. The error is treating them as information requests and providing answers calibrated for diagnostic or planning intent.
 
-**Mapping to Section 4.1 techniques**:
+**Useful framework moves**:
 - **Social calibration**: Match the energy and depth of the questioner
 - **Satisficing for social context**: "Good enough means I acknowledge the question and keep the conversation moving"
 - **Response-type declaration**: (Rarely needed—usually just match their level)
@@ -378,12 +378,12 @@ When you ask a question and get a response that doesn't match what you needed:
    - "Let me reframe: I want to understand what caused this, not just fix it quickly"
 
 3. **Notice patterns in which intent types create friction**
-   - If logistical questions always get thorough analysis, start using time-boxing language
+   - If logistical questions consistently get thorough analysis, start using time-boxing language
    - If emotional questions get factual answers, practice naming the emotional need directly
 
 **For both**:
 
-The goal is not to eliminate intent ambiguity—real communication is always layered. The goal is to recognize when intent mismatch is creating friction and have vocabulary to repair it. "I think I answered the logistics, but you were asking about the relationship piece—let me try again" is a repair move that prevents escalation.
+The goal is not to eliminate intent ambiguity—real communication is often layered. The goal is to recognize when intent mismatch is creating friction and have vocabulary to repair it. "I think I answered the logistics, but you were asking about the relationship piece—let me try again" is a repair move that prevents escalation.
 
 Intent recognition doesn't mean every conversation requires meta-discussion. It means building pattern-recognition so you can match response to intent automatically for common scenarios, and explicitly check intent for high-stakes or ambiguous situations.
 
@@ -391,7 +391,7 @@ Intent recognition doesn't mean every conversation requires meta-discussion. It 
 
 ## Connection to Larger Framework
 
-**Section 4.1 techniques** (dimensionality reduction) are tools that work differently depending on intent:
+**Framework techniques** (dimensionality reduction, response protocols, and confidence formats) work differently depending on intent:
 - Logistical intent: Use aggressively to get to closure
 - Emotional intent: Secondary to relationship acknowledgment
 - Diagnostic intent: Use sparingly, depth is appropriate

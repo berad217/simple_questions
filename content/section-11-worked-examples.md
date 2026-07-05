@@ -74,7 +74,7 @@ We cover four categories: **Professional**, **Intimate**, **Casual**, and **Brea
 
 **The Successful Exchange (Slack)**:
 *PM*: "Thoughts on adding dark mode? **Intent: Planning/Feasibility check only.** Not a command to build it. Just want to know if this is a '1-day' thing or a '1-month' thing so I can roadmap."
-*Dev*: "Ah, gotten. It's a 1-month thing, minimal. Our CSS isn't set up for variables yet."
+*Dev*: "Ah, got it. It's a 1-month thing, minimum. Our CSS isn't set up for variables yet."
 *PM*: "Perfect, that's what I needed. We'll backlog it."
 
 **Why It Worked**: In text, you can't read tone. Declaring intent ("Planning check") removed the fear that "thoughts?" meant "please start building this today."
@@ -204,7 +204,7 @@ We cover four categories: **Professional**, **Intimate**, **Casual**, and **Brea
 *Responder (Internal)*: *This is Social Intent. They want an energy match, not data.*
 *Responder*: "It was a weekend! Relaxing bits and stressful bits. How was yours?"
 
-207: **Why It Worked**: The responder satisficed. They gave an answer that was directionally true ("stressful bits") but calibrated to the low-bandwidth interaction of a 30-second interaction.
+**Why It Worked**: The responder satisficed. They gave an answer that was directionally true ("stressful bits") but calibrated to the low-bandwidth interaction of a 30-second exchange.
 
 ---
 
@@ -270,3 +270,41 @@ We cover four categories: **Professional**, **Intimate**, **Casual**, and **Brea
 *Responder*: [At 4:16 PM] "Saw this! Need to check my calendar and cross-reference with work. Will reply properly tonight."
 
 **Why It Worked**: The responder sent an **ACK (Acknowledgement)** packet. In digital comms, you must separate "I received this" from "Here is the answer." The ACK buys the processing time needed to generate the answer.
+
+---
+
+## Pattern Index: Choosing the Move
+
+The examples above are not ten separate tricks. They are variations on a smaller set of moves.
+
+**When the responder gives too much history**:
+
+- First try **Domain-Binding**: "Logistically only, what is blocking this?"
+- If that still produces too much, add **Forced-Slice**: "Give me the biggest blocker first."
+- If stakes are high, add **Confidence Expression**: "How confident are you?"
+
+**When the responder freezes**:
+
+- First decide whether the freeze is active processing or overload.
+- If processing, wait and signal patience.
+- If overload, restructure the question.
+- If restructuring fails, use a graceful exit: table the question and schedule a smaller version.
+
+**When the question has emotional weight**:
+
+- Answer or ask for the relationship signal first.
+- Put logistics second.
+- Do not use "just facts" framing to avoid the emotional layer.
+
+**When the medium is digital**:
+
+- Send an acknowledgement before the full answer.
+- Name whether the message is a quick status check, planning question, or deeper request.
+- Do not let silence carry the whole signal.
+
+**The success pattern across all examples**:
+
+1. Identify the real intent.
+2. Reduce dimensionality.
+3. Make uncertainty explicit without making it useless.
+4. Give the other person a next action.

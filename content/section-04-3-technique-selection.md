@@ -49,7 +49,7 @@ Don't start by asking "Which technique do I want?" Start by asking **"What is th
 ### Symptom 4: "I Need More Information" Loop
 
 **The Signal**: Refusing to answer until they have 100% data. "I can't say until I know X, Y, and Z."
-**The Diagnosis**: A refusal to perform simplified compression. They believe "Answer = Perfect Truth."
+**The Diagnosis**: Difficulty accepting simplified compression. They believe "Answer = Perfect Truth."
 **The Tools**:
 
 1. **Confidence Calibration**: "You don't need to know for sure. What's your % confidence?"

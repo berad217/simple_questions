@@ -12,7 +12,7 @@ After reading this, you should be able to choose appropriate confidence formats 
 
 High-uncertainty responders face a bind: giving an answer without expressing doubt feels dishonest, but expressing too much uncertainty makes the answer unusable. "I think maybe we should probably consider potentially doing X, unless that doesn't make sense" communicates uncertainty but provides no decision support.
 
-The problem isn't the uncertainty itself—it's that unexpressed uncertainty forces the questioner to guess how much to weight your answer, while poorly-expressed uncertainty dilutes the signal without adding useful information.
+The problem isn't the uncertainty itself—it's that unexpressed uncertainty leaves the questioner guessing how much to weight your answer, while poorly-expressed uncertainty dilutes the signal without adding useful information.
 
 Effective confidence expression does three things:
 1. **Separates the answer from the certainty claim** - "My answer is X, confidence 70%" is clearer than "I think X, maybe"
@@ -126,7 +126,7 @@ Better: Pick one calibrated descriptor: "I'm weakly leaning toward X, mainly bec
 Bad: Using "probably" to mean 90% in one conversation and 60% in another
 Problem: If your verbal descriptors don't map to stable confidence levels, people can't calibrate to your communication style.
 
-Better: Develop consistent internal mapping (e.g., your "probably" always means 70-80% range) or mix verbal with occasional numerical clarification.
+Better: Develop consistent internal mapping (e.g., your "probably" usually means the same rough range) or mix verbal with occasional numerical clarification.
 
 ---
 
@@ -617,4 +617,4 @@ Different question intents (Section 6.2) call for different confidence expressio
 
 **Section 6.1 real-time negotiation** provides tools for when your confidence is too low to be useful. Instead of forcing an uncertain answer, you can negotiate: "I'm only 40% confident on this—do you want my uncertain take or should we find a way to get better information first?"
 
-620: Confidence expression is how you make simplified compression cooperative. When you say "I'm 70% confident in X, uncertainty is Y," you're showing the questioner exactly how you compressed the high-dimensional space, what information you kept, what you compressed out, and how much error that compression might contain. That transparency enables them to decide whether your compression is appropriate for their needs—or whether they need a different answer with different tradeoffs.
+Confidence expression is how you make simplified compression cooperative. When you say "I'm 70% confident in X, uncertainty is Y," you're showing the questioner exactly how you compressed the high-dimensional space, what information you kept, what you compressed out, and how much error that compression might contain. That transparency enables them to decide whether your compression is appropriate for their needs—or whether they need a different answer with different tradeoffs.

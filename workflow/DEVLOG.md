@@ -2033,3 +2033,307 @@ All Gemini-written sections maintain project voice and follow established templa
 - Appendices (A, B, C)
 
 **Overall progress**: Edge cases section complete. Framework now addresses both when it applies and when it doesn't.
+
+---
+
+## Session 20: Editorial Verification Pass - Section 7
+
+**Date**: 2026-07-03
+**Session Type**: Editorial verification / polish
+**Agent**: Codex Desktop (GPT-5)
+
+### What Was Done
+
+1. Continued the chapter-by-chapter editorial verification pass from the handover.
+2. Compared **Section 7: Intimate Relationships Layer** against the Section 7.1-7.3 slice in `workflow/SPEC.md`.
+3. Lightly revised `content/section-07-intimate-relationships.md` to cover missing spec requirements:
+   - Added the meta-problem: difficulty answering can be read as deprioritization.
+   - Expanded trust erosion from a single paragraph into concrete relationship mechanisms.
+   - Added criteria distinguishing legitimate "I don't know yet" from avoidant non-answering.
+   - Added calibration ritual, repair script, and a customizable relationship protocol template.
+4. Regenerated build artifacts with `python build.py`.
+
+### Key Decisions Made
+
+**Decision**: Keep the pass editorial rather than structural.
+
+- **Rationale**: Section 7 already had the right concept and voice. The gap was coverage: several success criteria were present only implicitly.
+- **Impact**: The section now satisfies the spec without changing its basic shape or adding a new chapter architecture.
+
+**Decision**: Soften overstatements about intimate relationships.
+
+- **Rationale**: The original opening and summary made the relationship layer sound universally dominant. The framework is stronger if it says "often" and explains when Layer 2 must be protected first.
+- **Impact**: More precise, less absolute, and more consistent with the document's intellectual honesty.
+
+### Verification
+
+- `python build.py`: Markdown and sections ZIP regenerated successfully.
+- HTML/PDF generation: Failed for expected environment reason, `pandoc` is not installed.
+- `git diff --check`: No whitespace errors; only CRLF normalization warnings from Git.
+
+### Current Status
+
+**Editorial verification completed**:
+
+- Sections 1-6: completed in previous session
+- Section 7: completed this session
+
+**Next up**:
+
+- Resume verification with `content/section-08-professional-contexts.md`, comparing against the Section 8 slice in `workflow/SPEC.md`.
+
+---
+
+## Session 21: Editorial Verification Pass - Section 8
+
+**Date**: 2026-07-03
+**Session Type**: Editorial verification / polish
+**Agent**: Codex Desktop (GPT-5)
+
+### What Was Done
+
+1. Continued the chapter-by-chapter editorial verification pass.
+2. Compared **Section 8: Professional & Social Contexts** against the Section 8.1-8.2 slice in `workflow/SPEC.md`.
+3. Revised `content/section-08-professional-contexts.md` to fix defects and complete spec coverage:
+   - Removed stray line-number artifacts (`64:` and `87:`).
+   - Expanded professional friction examples to cover stakeholder reassurance, performance reviews, collaborative decision-making, and formal contexts such as court/compliance/audit.
+   - Added adaptation strategies for organizational trust, structural support for complexity, and deciding when full explanation is worth the cost.
+   - Tightened the professional framing from "masking uncertainty" to "making uncertainty actionable."
+4. Regenerated build artifacts with `python build.py`.
+
+### Key Decisions Made
+
+**Decision**: Treat Section 8 as a coverage repair rather than a line edit.
+
+- **Rationale**: The original section had the right thesis but missed multiple explicit SPEC requirements. Small sentence edits would not cover stakeholder reassurance, court testimony/formal contexts, organizational trust, structural support, or cost-benefit analysis for explanation depth.
+- **Impact**: The section is longer but now functions as a usable professional-context guide rather than a short concept sketch.
+
+**Decision**: Preserve uncertainty in formal contexts instead of applying the executive-summary pattern universally.
+
+- **Rationale**: Court testimony, compliance, audit, safety, and similar settings legitimately require precision over reassurance.
+- **Impact**: The section now distinguishes appropriate business compression from contexts where compression can become distortion.
+
+### Verification
+
+- `python build.py`: Markdown and sections ZIP regenerated successfully.
+- HTML/PDF generation: Failed for expected environment reason, `pandoc` is not installed.
+- `git diff --check`: No whitespace errors; only CRLF normalization warnings from Git.
+
+### Current Status
+
+**Editorial verification completed**:
+
+- Sections 1-6: completed in previous session
+- Section 7: completed in Session 20
+- Section 8: completed this session
+
+**Next up**:
+
+- Resume verification with `content/section-09-self-advocacy.md`, comparing against the Section 9 slice in `workflow/SPEC.md`.
+
+---
+
+## Session 22: Editorial Verification Pass - Section 9
+
+**Date**: 2026-07-03
+**Session Type**: Editorial verification / polish plus missing subsection completion
+**Agent**: Codex Desktop (GPT-5)
+
+### What Was Done
+
+1. Continued the chapter-by-chapter editorial verification pass.
+2. Compared **Section 9: Self-Advocacy Toolkit** against the Section 9.1-9.2 slice in `workflow/SPEC.md`.
+3. Reworked `content/section-09-self-advocacy.md` to complete the full Section 9 requirements:
+   - Expanded self-explanation scripts for bosses, partners, and casual contexts.
+   - Added push-vs-adapt decision criteria.
+   - Expanded energy management from a short list into a practical "amputation budget" strategy.
+   - Added relationship-building habits for making uncertainty acceptable.
+   - Wrote the previously missing **Section 9.2: Practice Exercises** covering forced-slice calibration, speed drills, meta-communication rehearsal, role-switching, and push-or-adapt review.
+4. Updated `workflow/SPEC.md` to mark Section 9.2 complete.
+5. Regenerated build artifacts with `python build.py`.
+
+### Key Decisions Made
+
+**Decision**: Complete Section 9.2 during the verification pass.
+
+- **Rationale**: This was not just a polish issue. The SPEC explicitly listed Section 9.2 as "Needs writing," and the current Section 9 file only covered the self-advocacy toolkit.
+- **Impact**: Section 9 is now a complete implementation guide rather than a partial self-explanation script.
+
+**Decision**: Add a push-vs-adapt rule instead of only adding more scripts.
+
+- **Rationale**: The most important self-advocacy skill is deciding when to request structure and when to provide a compressed answer.
+- **Impact**: The section now prevents self-advocacy from becoming automatic resistance to every unstructured question.
+
+### Verification
+
+- `python build.py`: Markdown and sections ZIP regenerated successfully.
+- HTML/PDF generation: Failed for expected environment reason, `pandoc` is not installed.
+- `git diff --check`: No whitespace errors; only CRLF normalization warnings from Git.
+
+### Current Status
+
+**Editorial verification completed**:
+
+- Sections 1-6: completed in previous session
+- Section 7: completed in Session 20
+- Section 8: completed in Session 21
+- Section 9: completed this session
+
+**Next up**:
+
+- Resume verification with `content/section-10-interpretation-guide.md`, comparing against the Section 10 slice in `workflow/SPEC.md`.
+
+---
+
+## Session 23: Editorial Verification Pass - Section 10
+
+**Date**: 2026-07-03
+**Session Type**: Editorial verification / polish plus missing subsection completion
+**Agent**: Codex Desktop (GPT-5)
+
+### What Was Done
+
+1. Continued the chapter-by-chapter editorial verification pass.
+2. Compared **Section 10: Interpretation Guide for Questioners** against the Section 10.1-10.2 slice in `workflow/SPEC.md`.
+3. Reworked `content/section-10-interpretation-guide.md` to complete the full Section 10 requirements:
+   - Tightened the opening and reframes to avoid overly mechanical or pathologizing language.
+   - Expanded signal recognition for processing silence, hedging, too much detail, and defensive explanation.
+   - Added distinctions for appropriate complexity vs. unhelpful over-expansion, and evasion vs. refusing false certainty.
+   - Expanded patience calibration into wait / restructure / accept-uncertainty decision guidance.
+   - Wrote the previously missing **Section 10.2: Question-Design Practice** covering bounded-question rewrites, intent declaration practice, emotional vs. analytical recognition, patience vs. enabling drills, and low-load follow-ups.
+4. Updated `workflow/SPEC.md` to mark Section 10.2 complete.
+5. Regenerated build artifacts with `python build.py`.
+
+### Key Decisions Made
+
+**Decision**: Complete Section 10.2 during the verification pass.
+
+- **Rationale**: Like Section 9.2, the SPEC explicitly listed Section 10.2 as "Needs writing," while the content file only contained the interpretation guide.
+- **Impact**: Section 10 now serves both as an interpretation guide and a practice guide for questioners.
+
+**Decision**: Replace the "system loading / CPU / RAM" metaphor with plainer interpretation language.
+
+- **Rationale**: The metaphor was vivid but risked making people sound like machines. The project voice works better when it stays practical and non-pathologizing.
+- **Impact**: The section keeps the same signal-reading function with more human, direct language.
+
+### Verification
+
+- `python build.py`: Markdown and sections ZIP regenerated successfully.
+- HTML/PDF generation: Failed for expected environment reason, `pandoc` is not installed.
+- `git diff --check`: No whitespace errors; only CRLF normalization warnings from Git.
+
+### Current Status
+
+**Editorial verification completed**:
+
+- Sections 1-6: completed in previous session
+- Section 7: completed in Session 20
+- Section 8: completed in Session 21
+- Section 9: completed in Session 22
+- Section 10: completed this session
+
+**Next up**:
+
+- Resume verification with `content/section-11-worked-examples.md`, comparing against the Section 11 slice in `workflow/SPEC.md`.
+
+---
+
+## Session 24: Editorial Verification Pass - Section 11
+
+**Date**: 2026-07-03
+**Session Type**: Editorial verification / polish
+**Agent**: Codex Desktop (GPT-5)
+
+### What Was Done
+
+1. Continued the chapter-by-chapter editorial verification pass.
+2. Compared **Section 11: Worked Examples & Case Studies** against the Section 11 slice in `workflow/SPEC.md`.
+3. Verified the section has 10 worked examples across professional, intimate, casual, and breakdown/recovery categories.
+4. Lightly revised `content/section-11-worked-examples.md`:
+   - Fixed typo/artifact issues in Example 2 and Example 7.
+   - Added a compact **Pattern Index: Choosing the Move** to make the "multiple approach options" and cross-context success patterns explicit.
+5. Regenerated build artifacts with `python build.py`.
+
+### Key Decisions Made
+
+**Decision**: Keep Section 11 as a light polish pass.
+
+- **Rationale**: The section already met the major SPEC requirements: 10 examples, before/after exchanges, multiple relationship types, and recovery examples.
+- **Impact**: The edit improves usability and cleanup without disturbing the existing examples.
+
+**Decision**: Add a pattern index rather than more examples.
+
+- **Rationale**: The SPEC asks readers to see common scenarios with multiple approach options. The existing examples showed this implicitly, but a short chooser makes it easier to apply.
+- **Impact**: Readers now have a bridge from individual case studies to reusable decision patterns.
+
+### Verification
+
+- `python build.py`: Markdown and sections ZIP regenerated successfully.
+- HTML/PDF generation: Failed for expected environment reason, `pandoc` is not installed.
+- `git diff --check`: No whitespace errors; only CRLF normalization warnings from Git.
+
+### Current Status
+
+**Editorial verification completed**:
+
+- Sections 1-6: completed in previous session
+- Section 7: completed in Session 20
+- Section 8: completed in Session 21
+- Section 9: completed in Session 22
+- Section 10: completed in Session 23
+- Section 11: completed this session
+
+**Next up**:
+
+- Resume verification with `content/section-12-edge-cases.md`, comparing against the Section 12 slice in `workflow/SPEC.md`.
+
+---
+
+## Session 25: Editorial Verification Pass - Section 12
+
+**Date**: 2026-07-03
+**Session Type**: Editorial verification / polish
+**Agent**: Codex Desktop (GPT-5)
+
+### What Was Done
+
+1. Completed the chapter-by-chapter editorial verification pass requested in the handover.
+2. Compared **Section 12: Edge Cases & Complications** against the Section 12 slice in `workflow/SPEC.md`.
+3. Verified Section 12 covers the required edge cases:
+   - When uncertainty itself is the problem, including commitment avoidance.
+   - Cognitive style vs. anxiety patterns.
+   - Trauma responses vs. information-processing style.
+   - When simplification is truly necessary vs. merely demanded.
+4. Lightly revised `content/section-12-edge-cases.md`:
+   - Softened the opening claim so it does not imply the framework can always cleanly exclude symptom, avoidance, or dysfunction.
+   - Removed a stray line-number artifact in the simplification section.
+5. Regenerated build artifacts with `python build.py`.
+
+### Key Decisions Made
+
+**Decision**: Keep Section 12 as a minimal cleanup pass.
+
+- **Rationale**: The section already met the SPEC requirements and had strong scope boundaries around anxiety, trauma, avoidance, and professional support.
+- **Impact**: The edits reduce overstatement and remove an artifact without changing the section structure.
+
+### Verification
+
+- `python build.py`: Markdown and sections ZIP regenerated successfully.
+- HTML/PDF generation: Failed for expected environment reason, `pandoc` is not installed.
+- `git diff --check`: No whitespace errors; only CRLF normalization warnings from Git.
+
+### Current Status
+
+**Editorial verification completed**:
+
+- Sections 1-6: completed in previous session
+- Section 7: completed in Session 20
+- Section 8: completed in Session 21
+- Section 9: completed in Session 22
+- Section 10: completed in Session 23
+- Section 11: completed in Session 24
+- Section 12: completed this session
+
+**Next up**:
+
+- The handover verification queue is complete. Decide whether to stop, commit the current pass, or continue into optional placeholder sections and appendices.

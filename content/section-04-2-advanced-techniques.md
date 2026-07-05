@@ -9,7 +9,7 @@ After reading this, you should be able to:
 - Frame decisions so they feel safe enough to make.
 - Extract probability estimates instead of binary "I don't knows."
 - Clarify *why* you are asking to prevent misinterpretation.
-- Explicitly authorize "good enough" answers to stop infinite optimization.
+- Explicitly authorize "good enough" answers to stop open-ended optimization.
 
 ---
 
@@ -57,7 +57,7 @@ The second version lowers the stakes by isolating the decision to a single insta
 
 **Professional context**:
 - Instead of: "Should we hire this candidate?"
-- Use: "If we hire them and it's a bad fit after 90 days, we sever. Given that safety valve, should we try them?"
+- Use: "If we hire them and it's a bad fit after 90 days, we can end the trial period. Given that safety valve, should we try them?"
 
 The second version explicitly names the exit ramp. It transforms the decision from "Should we marry this candidate?" to "Is the experiment safe to run?"
 
@@ -71,7 +71,7 @@ The second version quantifies the cost of reversal. It frames the decision as a 
 - Instead of: "Do you want to order the spicy one?"
 - Use: "If it's too hot, we'll swap plates. Want to try it?"
 
-The second version lowers the risk to zero. The responder can say "yes" freely because the downside is capped.
+The second version lowers the practical risk. The responder can say "yes" freely because the downside is capped.
 
 **When to Use**: When decision paralysis is driven by fear of making a mistake.
 
@@ -125,7 +125,7 @@ The second version gets the useful intuition ("I'm pretty sure") without demandi
 
 **Professional context**:
 - Instead of: "What did you do today?"
-- Use: "For billing purposes only (not performance review), what did you allow work on today?"
+- Use: "For billing purposes only (not performance review), what did you work on today?"
 
 The second version clarifies the intent (administrative tracking), preventing the responder from spinning up a defense of their productivity.
 
@@ -153,7 +153,7 @@ The second version clarifies the intent is complimentary/acquisitive, not critic
 
 **Technique Name**: Explicitly authorizing "good enough" data.
 
-**Mechanism**: The high-uncertainty cognitive style often defaults to infinite optimization. This technique permissions the system to stop searching once a specific threshold is reached.
+**Mechanism**: The high-uncertainty cognitive style can default to open-ended optimization. This technique gives the system permission to stop searching once a specific threshold is reached.
 
 **Examples**:
 
@@ -187,7 +187,7 @@ The second version accepts uncertainty in the arrival time, allowing the respond
 
 **Technique Name**: Framing the answer as "Draft 1" rather than "The Final Answer."
 
-**Mechanism**: This separates the pressure of *generation* from the pressure of *perfection*. It tells the interpreter, "We are in the brainstorming phase, not the committing phase."
+**Mechanism**: This separates the pressure of *generation* from the pressure of *perfection*. It tells the responder, "We are in the brainstorming phase, not the committing phase."
 
 **Examples**:
 

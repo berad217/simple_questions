@@ -2,7 +2,7 @@
 
 ## What This Section Is For
 
-In professional contexts, efficiency is the goal. In intimate relationships, connection is the goal. This section explains why the high-uncertainty cognitive style is often interpreted by partners as "distant," "uncaring," or "difficult," and provides protocols to fix it without faking certainty.
+In professional contexts, efficiency is often the goal. In intimate relationships, connection is often the goal. This section explains why the high-uncertainty cognitive style can be interpreted by partners as "distant," "uncaring," or "difficult," and provides protocols to repair the mismatch without faking certainty.
 
 If you have ever been accused of "overthinking" a simple question from your partner, or if you feel like your partner "pries" into your head, read this.
 
@@ -31,11 +31,27 @@ The high-uncertainty individual often optimizes for **Layer 1 Accuracy**.
 **What you think you said**: "I am giving you a precise, honest answer about the complex variables required for me to say yes."
 **What they heard**: "Spending time with your family is a heavy burden that I am reluctant to accept."
 
-Because you paused to calculate Layer 1 (Logistics/Truth), you inadvertently broadcast a negative signal on Layer 2 (Enthusiasm/Connection). The pause *itself* is the message.
+Because you paused to calculate Layer 1 (Logistics/Truth), you inadvertently broadcast a negative signal on Layer 2 (Enthusiasm/Connection). The pause *itself* can become the message.
+
+The meta-problem is that the partner is no longer only reacting to the answer. They are reacting to what your difficulty answering appears to imply:
+
+* "If you loved me, this would not take so long."
+* "If this mattered to you, you would already know."
+* "If I were a priority, you would not treat this like a technical problem."
+
+Those interpretations may be wrong, but they are not random. In intimate relationships, speed, warmth, and ease often function as evidence of care. If your honest processing style removes those signals, the relationship needs a replacement signal before the analysis begins.
 
 ### Trust Erosion
 
 If this pattern repeats for years, the partner stops asking. They assume the answer will always be "complicated" or "exhausting." They withdraw. You feel relieved ("Finally, fewer questions"), but the relationship has actually entered a failure state. The silence isn't peace; it's the absence of connection.
+
+Trust erodes in small increments:
+
+* The questioner stops bringing small bids for connection because they expect friction.
+* The responder receives fewer questions and misreads the quiet as success.
+* Both people lose common knowledge that the relationship is easy, wanted, and safe.
+
+The repair is not to pretend certainty. The repair is to separate the relationship signal from the information problem: "I want this with you. I need five minutes to work out the logistics."
 
 ---
 
@@ -55,6 +71,24 @@ It is actually a **Cognitive Asymmetry**.
 
 * "I know you need the plan set to feel safe (CS need). I need to know we can change it if I get sick to feel safe (HU need)."
 * "I am not delaying to annoy you. I am mapping the risks. Give me 5 minutes, and I will give you a decision."
+
+### When "I Don't Know Yet" Is Legitimate
+
+"I don't know yet" is legitimate when it is paired with structure. It should tell the other person what is unknown, what would help, and when the answer will become usable.
+
+Legitimate:
+
+* "I don't know yet because I need to check my work deadline. I can answer tonight after dinner."
+* "I don't know yet because I need to separate tiredness from not wanting to go. Give me ten minutes."
+* "I don't know yet, but my current lean is yes. I need to know whether we can leave early."
+
+Avoidant:
+
+* "I don't know" with no next step.
+* "Maybe" repeated every time the question returns.
+* Endless new variables after the original uncertainty has been answered.
+
+The test is whether structure moves the answer closer. If structure helps, the uncertainty is probably real processing. If every structure only creates a new reason not to answer, the relationship is dealing with avoidance, not just cognitive asymmetry.
 
 ---
 
@@ -99,8 +133,46 @@ Sometimes you just need to coordinate facts without emotional weight.
 * *You*: "Logistics only: Are we happy with the house cleaning?"
 * *Meaning*: "Please switch off Layer 2 sensitivity. I am asking a utilitarian question about dirt, not a metaphorical question about our domestic harmony."
 
+### 5. The Calibration Ritual
+
+Set aside a low-stakes recurring check-in to ask whether the protocols are still working. Do this when nobody is actively upset.
+
+* "This week, did my pauses feel like processing or distance?"
+* "When you asked for reassurance, did I answer the relationship question first?"
+* "Are there questions where you need fast warmth before detailed accuracy?"
+
+The point is not to review the relationship like a performance scorecard. The point is to maintain common knowledge: both people know that the communication pattern is being watched and adjusted.
+
+### 6. The Repair Script
+
+When the exchange has already gone bad, do not restart the argument from the beginning. Repair the signal first, then return to the content.
+
+* **Responder**: "I think my pause landed as rejection. That is not what I meant. I am here, and I want to answer this well."
+* **Questioner**: "I heard the pause as reluctance. I can accept that you need processing time, but I need a signal that we are okay."
+* **Together**: "Relationship signal first, details second."
+
+This prevents the common loop where one person argues about the literal answer while the other is trying to repair the bond.
+
+### Customizable Protocol Template
+
+Use this template for recurring intimate questions:
+
+* **Question type**: Logistics / reassurance / planning / conflict / affection.
+* **Default signal first**: What warmth or commitment should be stated before analysis?
+* **Allowed processing time**: Ten seconds, five minutes, overnight, or scheduled conversation.
+* **Compression rule**: Is a fast, lossy answer acceptable, or does this need the full version?
+* **Repair phrase**: What sentence means "we are stuck in the pattern again"?
+
+Example:
+
+* **Question type**: Weekend plans with family.
+* **Default signal first**: "I want to show up with you."
+* **Allowed processing time**: Five minutes for energy/logistics check.
+* **Compression rule**: Give a yes/no lean now; refine details later.
+* **Repair phrase**: "This is starting to sound like reluctance, but it may be processing."
+
 ---
 
 ## Summary
 
-In intimate relationships, **Layer 2 (safety)** is more important than **Layer 1 (accuracy)**. Your partner would often prefer a slightly wrong answer delivered with warmth and speed, over a perfectly accurate answer delivered after a cold, agonizing silence.
+In intimate relationships, **Layer 2 (safety)** often has to be protected before **Layer 1 (accuracy)** can be useful. Your partner may prefer a compressed answer delivered with warmth and speed over a perfectly accurate answer delivered after a cold, agonizing silence. Lossy compression is not lying when both people know what level of compression is being used.

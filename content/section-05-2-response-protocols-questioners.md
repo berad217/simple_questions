@@ -27,8 +27,8 @@ The goal is collaborative problem-solving. The responder isn't being difficult; 
 **Intent Declaration Templates**:
 
 **Logistical coordination**:
-- "I need to coordinate schedules—are you available Saturday, yes or no? The why doesn't matter right now."
-- "Quick logistics check: did you send the file? Just confirming, not asking why if you didn't."
+- "I need to coordinate schedules—are you available Saturday, yes or no? The details can wait."
+- "Quick logistics check: did you send the file? Just confirming status, not looking for explanations yet."
 - "For planning purposes only: what time will you be here? Rough estimate is fine."
 - "I'm trying to schedule something—can you give me a provisional yes/no based on what you know right now?"
 
@@ -101,7 +101,7 @@ The goal is collaborative problem-solving. The responder isn't being difficult; 
 
 **What It Is**: Accurately interpreting what a responder means when they pause, hedge, ask counter-questions, or explicitly signal processing needs.
 
-**Why It Works**: When responders don't answer immediately, questioners often misread the pause. Is this avoidance? Lack of preparation? Not caring? Usually it's none of those—it's active processing of a multi-dimensional question. Learning to read processing signals accurately prevents you from misattributing motives and helps you provide the right kind of support (more time, restructuring, or accepting a provisional answer).
+**Why It Works**: When responders don't answer immediately, questioners often misread the pause. Is this avoidance? Lack of preparation? Not caring? Often it's none of those—it may be active processing of a multi-dimensional question. Learning to read processing signals accurately prevents you from misattributing motives and helps you provide the right kind of support (more time, restructuring, or accepting a provisional answer).
 
 **Signal Recognition Guide**:
 
@@ -120,15 +120,15 @@ The goal is collaborative problem-solving. The responder isn't being difficult; 
 - Implicit: Answer delivered with qualifiers, provisional framing, explicit uncertainty bounds
 - What they need: Recognition that provisional doesn't mean evasive. Accept the answer, note the uncertainty, move forward. You can revisit later if more certainty becomes available.
 
-**Signals that mean "I don't know and won't be able to answer even with more time"**:
+**Signals that mean "this may not be answerable with time alone"**:
 - Explicit: "I genuinely don't know," "I don't have enough information to answer that," "I'd be guessing"
 - Implicit: Long pause followed by meta-level discussion of why the question is hard, restating the question back to you, asking for more context repeatedly
 - What they need: Different question, more information provided by you, or acknowledgment that this question may not be answerable right now.
 
-**Signals that mean "I'm avoiding this question"** (rare in high-uncertainty individuals):
+**Signals that may mean "I'm avoiding this question"**:
 - Explicit: Changing subject, deflecting with humor, explicitly refusing to answer
 - Implicit: Answering a different question than the one asked, providing unrelated information, physical withdrawal
-- What this actually is: Different from processing signals. This is active avoidance, which is behaviorally distinct from multi-dimensional processing.
+- How to treat it: Different from processing signals. This may be active avoidance rather than multi-dimensional processing, so do not assume more time or more structure will solve it.
 
 **Examples of Accurate Signal Reading**:
 
@@ -156,7 +156,7 @@ The goal is collaborative problem-solving. The responder isn't being difficult; 
 - You read: Too many dimensions signal. They're about to explain multiple factors when you might need just a recommendation.
 - You respond: "I need a yes/no recommendation first, then we can get into the factors. Which way are you leaning?"
 
-**When to Use**: Use signal reading whenever the responder doesn't give an immediate direct answer. Instead of assuming motive (avoidance, lack of preparation, not caring), look at the behavioral signal to diagnose what they actually need.
+**When to Use**: Use signal reading whenever the responder doesn't give an immediate direct answer. Instead of assuming motive (avoidance, lack of preparation, not caring), look at the behavioral signal and ask clarifying questions before deciding what they need.
 
 **Failure Modes**:
 
@@ -164,7 +164,7 @@ The goal is collaborative problem-solving. The responder isn't being difficult; 
    - **Fix**: Distinguish processing pause (working memory access, visible thinking) from avoidance (subject change, deflection, withdrawal). High-uncertainty individuals pause because they're processing, not because they're refusing to answer.
 
 2. **Filling every silence with repetition or options**: They pause, you immediately repeat the question or offer multiple choice options.
-   - **Fix**: Count to 10 before intervening. Most processing pauses resolve within 10 seconds. If they're still working after 10 seconds, they'll often signal what they need ("I need more time" or "Can you clarify...").
+   - **Fix**: Count to 10 before intervening. Many processing pauses resolve within 10 seconds. If they're still working after 10 seconds, they'll often signal what they need ("I need more time" or "Can you clarify...").
 
 3. **Treating provisional answers as final commitments**: They say "I think probably X" and you hear "X is definitely true."
    - **Fix**: Listen to the qualifiers. "I think," "probably," "based on what I know" are explicit signals that this is provisional. Treat it as current best answer, not permanent truth.
@@ -218,7 +218,7 @@ The goal is collaborative problem-solving. The responder isn't being difficult; 
 - "Okay, so you're uncertain about X but you know Y. That's useful—I can work with that."
 - "Got it—you don't have enough information to answer that. What would you need to know?"
 - "Fair enough. Sounds like this is genuinely uncertain right now, not just hard to explain."
-- "I hear that you can't be certain. What's your best guess, even if it's wrong?"
+- "I hear that you can't be certain. If a rough guess is still useful here, what would it be?"
 
 **Examples in Context**:
 

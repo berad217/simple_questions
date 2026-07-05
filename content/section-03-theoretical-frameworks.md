@@ -2,7 +2,7 @@
 
 ## What This Section Is For
 
-This section explains *why* the friction occurs and *why* the techniques in Section 4 work. If you are skeptical that "structured collapse" is honest, or if you feel like these techniques are "dumbing yourself down," read this to understand the mathematics and game theory behind the framework.
+This section explains *why* the friction occurs and *why* the techniques in Section 4 work. If you are skeptical that "structured collapse" is honest, or if you feel like these techniques are "dumbing yourself down," read this to understand the cognitive, informational, strategic, and linguistic logic behind the framework.
 
 After reading this, you should be able to:
 
@@ -14,7 +14,7 @@ After reading this, you should be able to:
 
 ## 3.1 Neurodevelopmental Perspective: The Cognitive Mechanics
 
-The cognitive style described in this framework isn't arbitrary. It reflects specific patterns in how brains process, prioritize, and integrate information. Understanding these mechanisms isn't necessary for using the techniques—but it can help explain why certain people think this way, and why telling them to "think more simply" doesn't work.
+The cognitive style described in this framework isn't arbitrary. It can be understood through known patterns in how people process, prioritize, and integrate information. Understanding these mechanisms isn't necessary for using the techniques—but it can help explain why certain people think this way, and why telling them to "think more simply" doesn't work.
 
 **Important**: This section is explanatory, not diagnostic. The patterns described here overlap with profiles seen in autism-spectrum presentations, ADHD, and giftedness, but having this cognitive style doesn't mean you have any of these conditions, and having these conditions doesn't mean you process questions this way. We're describing functional patterns, not pathology.
 
@@ -44,7 +44,7 @@ The techniques in Section 4 work precisely because they reduce this load. Domain
 
 Theory of Mind (ToM) is the capacity to model others' mental states—their beliefs, intentions, expectations. Typical communication relies heavily on ToM: you infer what the speaker meant, not just what they said.
 
-Some cognitive profiles involve non-automatic ToM. The capacity exists, but it runs as deliberate computation rather than background process. Instead of instantly intuiting what someone meant, the system generates multiple candidate interpretations and evaluates them explicitly.
+Some people experience intent inference less automatically. The capacity exists, but it may run as deliberate computation rather than background process. Instead of instantly intuiting what someone meant, the system generates multiple candidate interpretations and evaluates them explicitly.
 
 **The practical implication**: When someone asks "Did you mail the package?", a person with automatic ToM instantly reads the subtext (checking on reliability, perhaps mildly annoyed, wants reassurance). A person with deliberate ToM sees multiple possible intents: factual inquiry, relationship check, implied criticism, anxiety about the delivery. Each interpretation would warrant a different response. Without automatic disambiguation, they need to either guess, ask, or answer all interpretations at once.
 
@@ -54,7 +54,7 @@ This explains why high-uncertainty responders often ask clarifying questions tha
 
 These three patterns—detail-focus, executive load, deliberate ToM—interact. Detail-focused processing generates more data points. Executive function must manage all those data points. Deliberate ToM adds interpretation work on top of that management. The result is a cognitive system that's powerful but easily overloaded by questions that assume automatic summarization and instant intent-reading.
 
-The framework's core insight maps directly to this neurodevelopmental picture: the problem isn't that these individuals think "too much." It's that they need structural support for processes others perform automatically. The techniques provide that structure externally so the internal system doesn't have to construct it under real-time pressure.
+The framework's core insight fits this neurodevelopmental picture: the problem isn't that these individuals think "too much." It's that they may need structural support for processes others perform automatically. The techniques provide that structure externally so the internal system doesn't have to construct it under real-time pressure.
 
 Understanding this doesn't change the techniques, but it might change how you view someone who needs them. They're not being difficult. Their system is working correctly—just differently.
 
@@ -100,9 +100,9 @@ When you agree on the protocol, the feeling of dishonesty evaporates. You aren't
 
 ## 3.3 Game Theory & Signaling Perspective: The Three Layers
 
-Information theory explains the data transmission. Game theory explains why that transmission often ruins relationships.
+Information theory explains the data transmission. Game theory explains why that transmission can damage relationships.
 
-Every interaction between two humans operates on three simultaneous layers. The friction occurs because high-uncertainty individuals often optimize Layer 1 at the expense of Layers 2 and 3.
+Many human interactions operate on three simultaneous layers. The friction occurs when high-uncertainty individuals over-prioritize Layer 1 at the expense of Layers 2 and 3.
 
 ### Layer 1: Literal Information (The Text)
 
@@ -127,7 +127,7 @@ This is what we both know that we both know. It forms the equilibrium of the rel
 
 ### The Optimization Error
 
-High-uncertainty individuals often obsess over **Layer 1 accuracy**.
+High-uncertainty individuals often over-prioritize **Layer 1 accuracy**.
 
 **Scenario**: A partner asks, "Do you want to go to that party tonight?"
 
@@ -142,18 +142,18 @@ High-uncertainty individuals often obsess over **Layer 1 accuracy**.
 * **Layer 2 (Relationship)**: The silence signals: "This is a heavy decision," or "I don't prioritize your preference enough to just say yes," or "Going out with you is a complex burden."
 * **Layer 3 (Common Knowledge)**: You have shifted the equilibrium from "easy couple who goes out" to "everything is a negotiation."
 
-By maximizing accuracy on Layer 1, you have nuked Layer 2.
+By maximizing accuracy on Layer 1, you have damaged Layer 2.
 
 ### Coordination Problems
 
 Communication is often a **coordination game**, not a **transmission game**.
 
-When a colleague asks "Is the project on track?", they are rarely asking for a dump of the Jira backlog (Layer 1). They are asking to coordinate on a mood: **Panic** or **Calm**.
+When a colleague asks "Is the project on track?", they are usually not asking for a dump of the Jira backlog (Layer 1). They are often asking to coordinate on a practical state: **Panic** or **Calm**.
 
 * If you give a 5-minute detailed nuance answer, you signal **Panic** (because why would you explain so much if it were simple?).
 * If you say "Yes, barring one minor risk," you signal **Calm**.
 
-**The Reframe**: Answering "simply" isn't about being lazy or dumb. It is about **Game Theoretic Cooperation**. It is choosing the move that stabilizes Layer 2 and Layer 3, even if it requires a slight compression loss on Layer 1.
+**The Reframe**: Answering "simply" isn't about being lazy or dumb. It is about cooperation. It is choosing the move that stabilizes Layer 2 and Layer 3, even if it requires a slight compression loss on Layer 1.
 
 The techniques in Section 4 give you the tools to protect Layer 1 accuracy (by scoping the question) without destroying Layer 2 safety (by stalling or over-complicating).
 
@@ -161,7 +161,7 @@ The techniques in Section 4 give you the tools to protect Layer 1 accuracy (by s
 
 ## 3.4 Linguistic/NLP Perspective: What Questions Actually Do
 
-Linguistics and natural language processing offer precise tools for understanding why certain questions trigger dimensional expansion and why the techniques in Section 4 work. This isn't just academic theory—it explains the mechanics of question design as a form of cognitive load management.
+Linguistics offers precise tools for understanding why certain questions trigger dimensional expansion and why the techniques in Section 4 work. This isn't just academic theory—it explains the mechanics of question design as a form of cognitive load management.
 
 ### Semantic Content vs. Pragmatic Intent
 

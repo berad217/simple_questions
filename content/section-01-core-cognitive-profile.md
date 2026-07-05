@@ -81,7 +81,7 @@ The automatic expansion into multiple dimensions means these individuals natural
 
 ### Diagnostic Ability
 
-The resistance to settling on a single answer too quickly means these individuals naturally consider alternative explanations. They don't anchor on the first plausible hypothesis. In diagnostic contexts—medical, technical, investigative—this is exactly what you want.
+The resistance to settling on a single answer too quickly means these individuals naturally consider alternative explanations instead of anchoring on the first plausible hypothesis. In diagnostic contexts—medical, technical, investigative—this is exactly what you want.
 
 ### Sensitivity to Context and Nuance
 
@@ -93,7 +93,7 @@ In domains where overconfidence is dangerous—medicine, engineering, law, finan
 
 ### Deep Modeling
 
-The willingness to sit with complexity rather than collapsing it prematurely means these individuals often develop rich, nuanced models of domains they engage with. They understand not just what, but why, and in what circumstances that "why" might not apply.
+The willingness to sit with complexity rather than collapsing it prematurely means these individuals often develop rich, nuanced models of domains they engage with: not just what is true, but why, and when that "why" might not apply.
 
 ---
 
@@ -106,6 +106,8 @@ This cognitive style is frequently confused with other patterns that look simila
 Anxiety involves distress, avoidance, and catastrophic thinking. The anxious person may struggle to answer questions because they fear consequences, not because they're modeling complexity.
 
 **The distinction**: Someone with high-uncertainty cognitive style can describe the multiple dimensions they're considering clearly and without distress. The mental content is complexity mapping, not threat detection. Ask "What's making this hard to answer?" and they'll describe the dimensions—not express worry about what might go wrong if they answer incorrectly.
+
+These patterns can coexist. A person can have this cognitive style and also have anxiety; the distinction is about what is driving the difficulty in a given moment.
 
 ### Not Indecisiveness
 
@@ -143,7 +145,7 @@ Casual conversation, rapid-fire questions, situations where social flow matters 
 
 ### When Emotional Reassurance Is the Goal
 
-"Do you love me?" has a correct answer. The fact that love is complex, multifaceted, and contextual doesn't mean your partner wants to hear about the seventeen different ways you love them differently in different contexts. They want "yes," delivered with conviction. The information exchange serves a relationship function that complexity undermines.
+In many reassurance contexts, the useful answer is not an analysis but a clear signal of attachment. The fact that love is complex, multifaceted, and contextual doesn't mean your partner wants to hear about the seventeen different ways you love them differently in different contexts. They may need "yes," delivered with conviction. The information exchange serves a relationship function that complexity undermines.
 
 ### When Authority or Decisiveness Is Expected
 

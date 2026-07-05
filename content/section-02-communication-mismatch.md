@@ -30,7 +30,7 @@ The common advice—"stop overthinking, just answer"—assumes the complexity is
 
 This fundamentally misunderstands what's happening.
 
-The high-uncertainty responder isn't *adding* complexity to a simple question. They're *perceiving* complexity that the question, as asked, genuinely contains. "Are you free Saturday?" does implicitly contain questions about degree of freedom, purpose, commitment level, and social priority. Most people suppress these dimensions automatically, answering from a default assumption (usually: "free enough for typical social plans, commitment level matches request formality"). The high-uncertainty responder doesn't have that automatic suppression—they see the full decision tree.
+The high-uncertainty responder isn't *adding* complexity to a simple question. They're *perceiving* complexity that the question, as asked, genuinely contains. "Are you free Saturday?" does implicitly contain questions about degree of freedom, purpose, commitment level, and social priority. Many people resolve these dimensions automatically through defaults, answering as if the question meant: "free enough for typical social plans, at a commitment level matching the request." The high-uncertainty responder may not have that automatic suppression—they see the decision tree before they see the answer slot.
 
 Telling them to "just answer simply" is like telling someone to "just see the duck" when they're looking at a duck-rabbit illusion and seeing the rabbit. The instruction doesn't help because it doesn't address the perceptual difference.
 
@@ -54,7 +54,7 @@ Collapsing all of these into "yes" feels like amputating the truth to fit the sl
 
 The questioner, meanwhile, hears a simple "yes" and takes it at face value. When the responder later adds conditions, cancels, or seems less available than promised, the questioner feels misled. "You said you were free!"
 
-Both people are acting in good faith. The questioner asked a reasonable question and received what sounded like a clear answer. The responder gave the answer format that was demanded, knowing it was incomplete. Neither is lying, but the mismatch creates the functional equivalent of miscommunication.
+In the common good-faith version of this conflict, both people are acting reasonably from inside their own model. The questioner asked a normal question and received what sounded like a clear answer. The responder gave the answer format that was demanded, knowing it was incomplete. Neither is lying, but the mismatch creates the functional equivalent of miscommunication.
 
 ---
 
@@ -72,7 +72,7 @@ When a high-uncertainty responder suppresses their natural processing to deliver
 
 This is work. It burns cognitive resources. And it has to happen in real-time, in the gap between question and expected response—a gap the questioner typically experiences as "a second or two" but the responder experiences as a compressed eternity of multi-dimensional triage.
 
-Do this repeatedly—as happens in any normal conversation—and the high-uncertainty responder becomes exhausted. Not from the conversation itself, but from the continuous translation work. The mismatch isn't just about individual questions; it's about the cumulative load of sustained context-switching between their natural processing mode and the simplified output format the social context demands.
+Do this repeatedly in a conversation with many quick questions, and the high-uncertainty responder can become exhausted. Not from the conversation itself, but from the continuous translation work. The mismatch isn't just about individual questions; it's about the cumulative load of sustained context-switching between their natural processing mode and the simplified output format the social context demands.
 
 ---
 
@@ -103,7 +103,7 @@ Compare:
 
 The second question does the dimensional specification work upfront. It tells the responder: evaluate availability for this window, at this commitment level, with this flexibility. The responder can now answer the bounded question rather than the unbounded one.
 
-This isn't dumbing down the question. It's *clarifying* the question. The questioner probably had these parameters in mind anyway—they just didn't say them out loud because, to them, the parameters were obvious defaults. Making them explicit bridges the gap between the questioner's implicit assumptions and the responder's need for explicit boundaries.
+This isn't dumbing down the question. It's *clarifying* the question. The questioner often had some of these parameters in mind anyway—they just didn't say them out loud because, to them, the parameters were obvious defaults. Making them explicit bridges the gap between the questioner's implicit assumptions and the responder's need for explicit boundaries.
 
 ---
 
@@ -115,7 +115,7 @@ This distinction matters.
 
 Structured collapse works differently. It doesn't ask the responder to perceive less. It asks them to *report on* a specified subset of what they perceive. The full dimensional map is still there; the response protocol just specifies which portion of the map to transmit.
 
-The responder still sees that "Are you free Saturday?" contains availability, commitment, priority, and flexibility dimensions. But when the question includes "for a casual coffee—no pressure if plans change," they now have permission to answer only the availability dimension at a low commitment level. They're not lying by omission because the question itself has disclaimed the other dimensions.
+The responder still sees that "Are you free Saturday?" contains availability, commitment, priority, and flexibility dimensions. But when the question includes "for a casual coffee—no pressure if plans change," they now have permission to answer only the availability dimension at a low commitment level. They're not lying by omission because the question itself has bounded which dimensions matter.
 
 This is why structured collapse reduces the dishonesty discomfort. The questioner has signaled what they need; the responder provides it; the transmission is appropriately simplified for the stated purpose. Simplified compression is not lying when both parties agree on the level of detail.
 

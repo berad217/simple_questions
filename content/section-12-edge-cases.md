@@ -2,7 +2,7 @@
 
 ## What This Section Is For
 
-Everything in this framework assumes the high-uncertainty cognitive style is a genuine processing difference—not a symptom, not avoidance, not dysfunction. But that assumption isn't always correct.
+Everything in this framework assumes the high-uncertainty cognitive style is a genuine processing difference, not primarily a symptom, avoidance pattern, or dysfunction. But that assumption isn't always correct.
 
 If you're a responder wondering whether your difficulty with questions is "just how you think" or something else, or if you're a questioner trying to understand whether someone's patterns reflect processing style or deeper issues, this section helps you make that distinction.
 
@@ -245,7 +245,7 @@ Most of this framework treats "forced simplification" as a problem to be managed
 "The quick answer is X. What I'm not capturing is [specific dimension]. If that dimension matters, we need more time."
 
 **Accept imperfection**:
-248: Sometimes giving a simplified answer under time pressure is the right move, even if it feels wrong. Communicable stability under constraint beats paralysis.
+Sometimes giving a simplified answer under time pressure is the right move, even if it feels wrong. Communicable stability under constraint beats paralysis.
 
 ### When "Simplification Required" Is Cover for Impatience
 

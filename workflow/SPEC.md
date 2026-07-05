@@ -489,7 +489,7 @@ Same template as 4.1 for:
 
 #### Section 9.2: Practice Exercises
 
-**Status**: Needs writing
+**Status**: Complete (section-09-self-advocacy.md)
 **Dependencies**: Sections 4-6 (techniques to practice)
 **Success Criteria**: Reader has concrete practice approach
 
@@ -525,7 +525,7 @@ Same template as 4.1 for:
 
 #### Section 10.2: Question-Design Practice
 
-**Status**: Needs writing
+**Status**: Complete (section-10-interpretation-guide.md)
 **Dependencies**: Sections 4-6 (all techniques)
 **Success Criteria**: Reader has practice approach for technique fluency
 
