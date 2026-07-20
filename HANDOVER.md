@@ -1,25 +1,28 @@
-# Handover: Section 13 + Appendix A Written; Optional Back-Matter Remains
+# Handover: Sections 1-13 + Appendices A & C Done (Cross-Vendor Reviewed)
 
 ## 1. Orientation
-New AI: Start with `workflow/onboarding.md`, then this file. Sections 1-13 and Appendix A are written and verified. What remains is optional back-matter, not core content.
+New AI: Start with `workflow/onboarding.md`, then this file. Sections 1-13 and Appendices A & C are written, cross-vendor reviewed, and verified. What remains is optional back-matter only.
 
 ## 2. The Delta
-- The Session 25 editorial-verification pass (Sections 1-12) is committed (`5d98b31`). Ignore the older handover's "commit the dirty tree" note — done.
-- **Section 13: Cultural & Contextual Factors** written and committed (`564d82f`, ~2,800 words). Covers high/low-context cultures, gender socialization, professional-domain expectations (medicine/law/engineering), digital-channel effects. Through-line: "context sets the price, not the pattern."
-- **Appendix A: Quick Reference Cards** written (`content/appendix-a-quick-reference.md`, ~1,500 words) — four cards: Questioner Guide, Responder Guide, Common Patterns Cheat Sheet, Protocol Negotiation Flowchart (ASCII, since the pandoc build has no mermaid filter). Deliberately table/bullet-dense — that's correct for a lookup artifact, not voice drift.
-- `build.py` `SECTION_ORDER` now includes section-13 and appendix-a (**hardcoded list — any new content file must be added there or the build silently skips it**).
-- `workflow/SPEC.md` marks Section 13 and Appendix A Complete.
-- Build regenerated: markdown + ZIP OK (19 sections, ~51,341 words). HTML/PDF fail **only** on the expected missing `pandoc` — not a regression. `git diff --check` clean.
-- The Appendix A work (new file + edits to build.py, SPEC.md, DEVLOG.md, HANDOVER.md, regenerated build/ artifacts) is **not yet committed** — commit it next.
+- Session 25 editorial pass (Sections 1-12) committed (`5d98b31`). Section 13 committed (`564d82f`). Appendix A committed (`2df7859`).
+- **Appendix C: Glossary** written (`content/appendix-c-glossary.md`, ~1,800 words, ~40 alphabetical terms with cross-links + section pointers).
+- **Cross-vendor review**: drove the Codex CLI headlessly with **gpt-5.6-sol** (read-only, high reasoning) over Section 13 + Appendices A & C. High-signal — caught real defects. Applied the well-founded ones:
+  - **Section 13 was rewritten.** Most important fix: the law subsection previously conflated *advocate* with *witness* and effectively advised collapsing qualified testimony to "Yes" (misleading; contradicted Section 8). Now splits advocate/witness/expert/analyst registers. Also: Hall reframed as a contested heuristic (not a national taxonomy); gender section un-fused into behavior vs. audience-bias vs. backlash; medicine de-romanticized; engineering examples fixed (margin vs. measured-max vs. probabilistic bound; "worst case" no longer misused); 13.4 scoped to *asynchronous text*; added an honest "A Note on Evidence" limits section.
+  - **Appendix A**: "a pause is processing" softened to a hypothesis; flowchart rebuilt in **true ASCII** (was Unicode box-drawing) with a new "genuinely don't know" branch; trap→"trauma not style" corrected to coexistence.
+  - **Glossary**: fixed the "lossy compression" one-way logic; "not anxiety" → "may coexist with"; added missing **diagnostic intent** entry.
+  - Declined: changing a Card 2 script that quotes Section 6.1 verbatim (would cause drift); pasting the reviewer's unverified citations (deferred to Section 14).
+- `build.py` `SECTION_ORDER` includes section-13, appendix-a, appendix-c (**hardcoded — new content files must be added or the build silently skips them**). SPEC marks all three Complete.
+- Build regenerated: markdown + ZIP OK (20 sections, ~53,852 words). HTML/PDF fail **only** on the missing `pandoc` — not a regression. `git diff --check` clean; no Unicode box chars remain in Appendix A.
+- The Appendix C work + the review revisions (Section 13 rewrite, Appendix A/glossary edits, build.py, SPEC, DEVLOG, HANDOVER, build/ artifacts) are **not yet committed** — commit next.
 
 ## 3. State of Remaining Work (from SPEC audit)
-Core framework (Sections 1-13) + Appendix A is content-complete and editorially verified. Still unwritten, all optional:
-- **Appendix C**: Glossary — Needs creation. Natural low-risk companion to Appendix A; unblocked now that all sections exist.
+Sections 1-13 + Appendices A & C are content-complete and reviewed. Still unwritten, both optional:
 - **Appendix B**: Customization Templates — Needs creation. Fillable protocol builder, style assessment, intent-declaration templates.
-- **Section 14**: Research Connections & Further Reading — Placeholder. Needs real citations/literature; **watch for reference fabrication**.
+- **Section 14**: Research Connections & Further Reading — Placeholder. Section 13's "A Note on Evidence" now explicitly points here for sourced citations; **watch for reference fabrication** — verify anything cited.
 
 ## 4. Next Steps
-1. Commit the current tree first (Appendix A work): `git add -A && git commit`.
-2. Then choose: (a) Appendix C (Glossary) — recommended, low-risk distillation; (b) Appendix B (fillable templates); (c) Section 14 — needs real research, fabrication risk; (d) declare content-complete and explicitly defer the rest in SPEC.
-3. Housekeeping still not done: `workflow/onboarding.md` Step 1 status line still says "~19,600 words, Section 5 complete" — stale since Session 6. Worth a one-line fix (also its file-structure diagram omits sections 3, 4.2, 4.3, 6.x, 7-13 and both appendices).
-4. After any edit batch: `python build.py` (expect the `pandoc` HTML/PDF failure), then `git diff --check`.
+1. Commit the current tree: `git add -A && git commit` (Session 26 cont. — Appendix C + review revisions).
+2. Then choose: (a) Appendix B (fillable templates) — low-risk distillation; (b) Section 14 — needs real, verified research; (c) declare content-complete and explicitly defer the rest in SPEC.
+3. **Repeatable win**: the headless GPT-5.6 review (`codex exec --ignore-user-config -s read-only -m gpt-5.6-sol -c 'model_reasoning_effort="high"' -o REVIEW.md "<prompt>" < /dev/null`) is worth re-running on any future empirically-loaded section (esp. Section 14). Treat findings as advisory — verify against our own sections before applying.
+4. Housekeeping still not done: `workflow/onboarding.md` Step 1 status line says "~19,600 words, Section 5 complete" — stale since Session 6; its file-structure diagram also omits most sections and all appendices. Worth a cleanup.
+5. After any edit batch: `python build.py` (expect the `pandoc` failure), then `git diff --check`.

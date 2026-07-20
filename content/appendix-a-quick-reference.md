@@ -42,11 +42,11 @@ The five intent types (Section 6.2). Naming yours resolves most friction:
 - **They're listing everything** → forced-slice: "Just one, to start."
 - **They keep hedging** → uncertainty permission, or unbundle: "Which are you unsure about—the cause or the severity?"
 - **They give a five-minute answer** → output-format: "One sentence, even if incomplete."
-- **They can't separate concerns** → that's diagnostic; the dimensions are genuinely entangled. Ask them to walk you through the interaction.
+- **They can't separate concerns** → either you bound the wrong dimension, or the dimensions genuinely interact. Ask which: "Is there a layer that would be easier to answer, or do these truly interlock?"
 
 ### Don't
 
-- Don't read a pause as evasion. A pause is processing (Section 10.1).
+- Don't assume a pause is evasion—but don't assume it's processing either. Look for processing signals and ask before attributing motive (Section 5.2).
 - Don't demand certainty you don't actually need. Ask for bounds instead: "Best case and worst case?"
 - Don't stack urgency you don't have. False time pressure forces a lossy answer for no reason (Section 12.4).
 
@@ -123,7 +123,7 @@ Emergencies, testimony, hard deadlines. Collapse—but name it:
 | "Why are you asking?" tension | Intent declaration |
 | Wrong-layer answer | Domain-binding, role-locking |
 | Optimizing forever | Acceptable error tolerance |
-| Question feels like a trap | Check for trauma/anxiety, not style (Section 12) |
+| Question feels like a trap | Check safety & whether it's relationship-specific; may be trauma, anxiety, and/or style—one reaction can't tell them apart (Section 12) |
 
 ### The five key phrases (use precisely)
 
@@ -147,73 +147,63 @@ Emergencies, testimony, hard deadlines. Collapse—but name it:
 
 ```
 Asked a question that triggers full expansion
-        │
-        ▼
-Do I need a moment, or is the question itself malformed?
-        │
-   ┌────┴─────────────────────────┐
-   │                              │
- Just need time                Question is unanswerable as framed
-   │                              │
-   ▼                              ▼
-Signal processing            Request restructuring:
-"Give me a few seconds"      "Which layer are you asking about?"
-   │                         "Fast answer or right answer?"
-   ▼                              │
-Can I now give a                  ▼
-provisional answer?          Did reframing unlock it?
-   │                              │
- ┌─┴──┐                      ┌────┴────┐
-Yes   No                    Yes        No
- │     │                     │          │
- ▼     ▼                     ▼          ▼
-"Based on X,   Is simplification    Answer    Graceful exit:
-my current     truly required?      it.       "I can't answer this
-answer is Y"   (emergency/formal)             as framed—here's what
-        │                                      I CAN answer instead"
-    ┌───┴───┐
-   Yes     No
-    │       │
-    ▼       ▼
-Collapse   Strategic choice:
-+ name     relationship cost vs.
-what's     information cost →
-lost       push back or give
-           the lossy answer
+   |
+   v
+Which is true right now?
+   |
+   +-- I just need a moment
+   |      -> Signal processing: "Give me a few seconds."
+   |         Then: can I give a provisional answer?
+   |           yes -> "Based on X, my current answer is Y."
+   |           no  -> is simplification truly required (emergency/formal)?
+   |                    yes -> collapse + name what's lost
+   |                    no  -> strategic choice: relationship cost vs.
+   |                           information cost -> push back or give the
+   |                           lossy answer
+   |
+   +-- The question is malformed for me
+   |      -> Request restructuring: "Which layer are you asking about?"
+   |         "Fast answer or fuller answer?"
+   |           reframing worked -> answer it
+   |           still stuck      -> graceful exit: "I can't answer this
+   |                               as framed; here's what I CAN answer."
+   |
+   +-- I genuinely don't know / don't have enough information
+          -> Say so, and make it useful: give bounds, or state what
+             you'd need to answer. "I don't know yet; I'd need Z to say."
+             (Not knowing is a legitimate answer, not a failure.)
 ```
 
 ### Questioner: "My question got a stalled or expansive response."
 
 ```
 Response stalled, hedged, or expanded
-        │
-        ▼
+   |
+   v
 Did I declare my intent and the answer format?
-        │
-   ┌────┴────┐
-   No        Yes
-   │          │
-   ▼          ▼
-Declare    Is the pause processing, or avoidance?
-intent +   (consistent across topics? enables commitment
-format,    when given structure? → processing. Section 12)
-re-ask         │
-   │      ┌────┴─────────────┐
-   │   Processing         Avoidance / not-style
-   │      │                   │
-   │      ▼                   ▼
-   │  Apply a technique   Structure won't fix it.
-   │  to the symptom      Address the real driver:
-   │  (see Card 3         safety, anxiety, trauma,
-   │  symptom→move)       or relationship negotiation
-   │      │               (Sections 5, 12)
-   └──────┤
-          ▼
-   Still stuck after 2–3 tries?
-          │
-          ▼
-   Go meta: "Let's pause—what's making
-   this question hard to answer?"
+   |
+   +-- No -> declare intent + format, re-ask (see Card 1), then continue
+   |
+   +-- Yes
+        |
+        v
+   What's behind the stall? (a hypothesis to check, not a verdict)
+        |
+        +-- Needs time         -> give it; watch for a provisional answer
+        +-- Needs restructuring -> apply a technique to the symptom
+        |                          (see Card 3: symptom -> move)
+        +-- Genuinely unknown   -> accept bounds, or agree on a plan to
+        |                          get the missing information
+        +-- Possibly avoidance / not-primarily-style
+                                -> structure alone won't fix it. Check
+                                   safety and whether it's relationship-
+                                   specific; address the real driver
+                                   (Sections 5, 12). Don't assume—verify.
+        |
+        v
+   Still stuck after 2-3 tries?
+        -> Go meta: "Let's pause--what's making this question hard
+           to answer?"
 ```
 
 ### The meta-escape hatch (either side, anytime)

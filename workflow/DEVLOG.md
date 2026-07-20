@@ -2450,3 +2450,44 @@ All Gemini-written sections maintain project voice and follow established templa
 - Appendix C: Glossary — Needs creation
 
 **Next up**: Appendix C (Glossary) is now the natural companion to Appendix A and similarly low-risk. Appendix B (fillable templates) and Section 14 remain. Or declare content-complete.
+
+---
+
+## Session 26 (cont.): Write Appendix C + Cross-Vendor Review Pass (GPT-5.6)
+
+**Date**: 2026-07-20
+**Session Type**: Writing (back-matter) + editorial review/revision
+**Agent**: Claude Code - Opus 4.8, with an independent review from OpenAI Codex CLI (gpt-5.6-sol)
+
+### What Was Done
+
+1. Wrote **Appendix C: Glossary** (`content/appendix-c-glossary.md`, ~1,800 words): ~40 alphabetical terms (all 12 techniques, both protocol sets, 5 intent types, 5 key phrases, Section 13 context terms), each with a *Related:* cross-link and home-section pointer. Registered in `build.py`, marked Complete in SPEC.
+2. **Ran a cross-vendor editorial review** at the user's request. Drove the Codex CLI headlessly (`codex exec --ignore-user-config -s read-only -m gpt-5.6-sol -c model_reasoning_effort=high -o <file>`) over Section 13, Appendix A, and Appendix C, with the onboarding + SPEC as context. Full findings captured to scratch. The review was high-signal — it caught real defects, not nitpicks.
+3. **Applied the well-founded findings**:
+   - **Section 13 rewritten** to fix: (a) a *critical* law error — the original conflated advocate with witness and effectively advised collapsing qualified testimony to a bare "Yes," which is misleading and contradicts Section 8; now splits advocate / fact-witness / expert / internal-analyst registers and keeps qualifications spoken in testimony. (b) Hall's high/low-context model reframed from "validated taxonomy" to a contested orientation heuristic; nationality de-emphasized in favor of situation/hierarchy/relationship. (c) Gender section un-fused into three separate literatures (speaker behavior vs. audience bias vs. leadership backlash) with the socialization-vs-perceived-gender slippage called out; failure modes recast as patterns anyone can learn. (d) Medicine de-romanticized (dropped "healthy version of the framework" + unsourced clinical actions; added the "uncertainty read as ignorance" failure mode). (e) Engineering examples fixed to distinguish deterministic margin vs. measured maximum vs. probabilistic bound; "worst case" no longer misapplied to an observed max. (f) 13.4 scoped explicitly to *asynchronous text* rather than "digital." (g) Sentence-level de-reification throughout ("settings," not "cultures punish"). (h) Added an honest "A Note on Evidence" limits section.
+   - **Appendix A**: fixed "a pause is processing" (absolute → hypothesis); the "can't separate concerns" diagnosis now offers both wrong-dimension and genuine-interaction; the "trap → trauma, not style" shortcut corrected to coexistence per Section 12; the flowchart rebuilt in **true ASCII** (it previously used Unicode box-drawing despite the DEVLOG claiming ASCII) with a new "genuinely don't know / insufficient info" branch so that state is no longer misfiled as avoidance.
+   - **Glossary**: fixed the "lossy compression" entry (restored the one-way claim — agreement doesn't excuse misleading omission); "not anxiety" reworded to "distinct from but may coexist with"; added the missing **diagnostic intent** entry.
+4. **Declined / deferred**: the reviewer's suggestion to change the "fast answer or right answer" wording was applied only to my own flowchart paraphrase, not to the Card 2 script that quotes Section 6.1 verbatim (changing it would create card↔6.1 drift). Adding specific academic citations was deferred to Section 14 rather than pasting the reviewer's unverified citation strings (project's standing fabrication-risk caution).
+
+### Key Decisions Made
+
+**Decision**: Treat the GPT-5.6 review as advisory, not authoritative — apply findings that check out against our own sections, decline those that would create drift or require unverifiable citations.
+
+- **Rationale**: A second-vendor review is for catching blind spots, not for outsourcing judgment. Most findings were correct (the law and engineering ones especially would have discredited the book with a legally/technically literate reader); a couple were better handled differently.
+- **Impact**: Section 13 is materially more defensible. The cross-vendor pass is worth repeating for future empirically-loaded sections (e.g., Section 14).
+
+### Verification
+
+- `python build.py`: markdown + ZIP regenerated (20 sections, ~53,852 words). HTML/PDF fail only for the expected missing `pandoc`.
+- `git diff --check`: clean (CRLF-normalization warnings only).
+- Confirmed no Unicode box-drawing characters remain in Appendix A (flowchart is pure ASCII).
+
+### Current Status
+
+**Completed**: Sections 1-13 + Appendices A and C, with Section 13 + both appendices reviewed cross-vendor and revised.
+
+**Remaining optional back-matter**:
+- Appendix B: Customization Templates — Needs creation
+- Section 14: Research Connections & Further Reading — Placeholder (now has a natural hook: Section 13's "A Note on Evidence" points here for sourced citations; watch for fabrication)
+
+**Next up**: Appendix B (fillable templates) or Section 14. Or declare content-complete. Consider re-running the GPT-5.6 pass on whatever's written next.
