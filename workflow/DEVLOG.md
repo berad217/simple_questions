@@ -2337,3 +2337,64 @@ All Gemini-written sections maintain project voice and follow established templa
 **Next up**:
 
 - The handover verification queue is complete. Decide whether to stop, commit the current pass, or continue into optional placeholder sections and appendices.
+
+---
+
+## Session 26: Write Section 13 (Cultural & Contextual Factors)
+
+**Date**: 2026-07-20
+**Session Type**: Writing New Section
+**Agent**: Claude Code - Opus 4.8
+
+### What Was Done
+
+1. Oriented via /start: onboarding, HANDOVER, DEVLOG, then audited SPEC.md for unfinished items. Confirmed Sections 1-12 all Complete; remaining work is Section 13 (Placeholder), Section 14 (Placeholder), and Appendices A/B/C (Needs creation).
+2. Wrote **Section 13: Cultural & Contextual Factors** (~2,800 words), `content/section-13-cultural-contextual-factors.md`. Structured to match its Part V sibling (Section 12): "What This Section Is For" opening, numbered subsections, closing summary.
+   - 13.1 High-context vs. low-context cultures (Hall) — including the counterintuitive point that high-context cultures can *also* penalize the style, by misreading epistemic hedging as strategic indirection.
+   - 13.2 Gender socialization effects — the double-bind / asymmetric penalty on hedging; two socialization-driven failure modes (under-collapsing vs. over-collapsing).
+   - 13.3 Professional domain expectations — medicine (structured uncertainty), law (adversarial collapse + two registers), engineering (bounded precision); the cross-domain trap.
+   - 13.4 Digital communication — what async text strips (processing signal, tone, real-time negotiation, permanence) and what it gives back (time, editability, native structure).
+3. Registered `section-13-cultural-contextual-factors.md` in `build.py` SECTION_ORDER (hardcoded list; new files are silently skipped otherwise).
+4. Marked Section 13 Complete in `workflow/SPEC.md`.
+5. Regenerated build artifacts.
+
+### Key Decisions Made
+
+**Decision**: Added an explicit "Tendencies, Not Verdicts" preamble before the culture/gender material.
+
+- **Rationale**: Sections on culture and gender socialization risk stereotyping. The intellectually honest framing is population-level tendencies with large individual variation; the framework operates on the individual regardless. This also matches the project's non-pathologizing, non-tribal voice.
+- **Impact**: Lets the section discuss real contextual variables without reading as essentialist. Worth preserving if the section is revised.
+
+**Decision**: Framed the whole section as "context sets the price, not the pattern."
+
+- **Rationale**: Keeps continuity with the core thesis — the cognitive style is invariant; only the social/reputational cost of expressing it changes. Avoids implying culture/gender/domain *cause* the style.
+- **Impact**: Gives the section a single through-line and a memorable summary handle.
+
+**Decision**: Used law's "two registers" (courtroom vs. memo) as the generalizable lesson.
+
+- **Rationale**: Reinforces that keeping dimensional thinking internal and delivering a collapse is register-matching, not dishonesty — consistent with "structured collapse" and "lossy compression is not lying."
+
+### Conceptual Continuity Notes
+
+- Key phrases used: "amputates uncertainty," "structured collapse," "reduce dimensionality," "communicable stability, not perfect truth," three-layer model (Section 3.3).
+- Cross-references: Section 3.3 (three layers), 4 (techniques), 5.1/5.2 (responder/questioner protocols, intent declaration), 6.1 (real-time negotiation), 6.3 (confidence expression), 8.1 (false confidence), and a closing pointer to Section 12 (style vs. anxiety/trauma/avoidance).
+- No new canonical before/after examples added to examples-bank.md — the section's examples are context-illustrations rather than reusable canonical pairs.
+
+### Verification
+
+- `python build.py`: markdown + sections ZIP regenerated (18 sections, ~49,821 words). HTML/PDF failed only for the expected missing `pandoc`.
+- `git diff --check`: clean (no whitespace errors).
+- Confirmed Section 13 present in compiled `build/simple-questions-framework.md`.
+
+### Current Status
+
+**Completed Sections**: 1-13 all Complete.
+
+**Remaining optional/back-matter** (per SPEC audit):
+- Section 14: Research Connections & Further Reading — Placeholder
+- Appendix A: Quick Reference Cards — Needs creation
+- Appendix B: Customization Templates — Needs creation
+- Appendix C: Glossary — Needs creation (now unblocked; depended on "all sections complete")
+
+**Next up**:
+- Appendix A (Quick Reference Cards) is the highest utility-per-effort remaining item — pure distillation of finished sections. Section 14 and the other appendices are lower priority. Or declare content-complete and defer 14/appendices explicitly.

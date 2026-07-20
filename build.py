@@ -45,6 +45,7 @@ SECTION_ORDER = [
     "section-10-interpretation-guide.md",
     "section-11-worked-examples.md",
     "section-12-edge-cases.md",
+    "section-13-cultural-contextual-factors.md",
 ]
 
 # CSS for HTML output
