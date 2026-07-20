@@ -2398,3 +2398,55 @@ All Gemini-written sections maintain project voice and follow established templa
 
 **Next up**:
 - Appendix A (Quick Reference Cards) is the highest utility-per-effort remaining item — pure distillation of finished sections. Section 14 and the other appendices are lower priority. Or declare content-complete and defer 14/appendices explicitly.
+
+---
+
+## Session 26 (cont.): Write Appendix A (Quick Reference Cards)
+
+**Date**: 2026-07-20
+**Session Type**: Writing New Section (back-matter / distillation)
+**Agent**: Claude Code - Opus 4.8
+
+### What Was Done
+
+1. Committed Section 13 (`564d82f`) before starting.
+2. Extracted exact technique/protocol names and canonical phrasings from the source sections (4.1, 4.2, 5.1, 5.2, 6.1, 6.3, 6.2 intent types) rather than reconstructing from memory — accuracy of the distilled names is the whole point of a reference card.
+3. Wrote **Appendix A: Quick Reference Cards** (~1,500 words), `content/appendix-a-quick-reference.md`, delivering all four SPEC items:
+   - **Card 1 — Questioner Guide**: intent declaration + 5 intent types, the 6 core techniques (table), stall/expand fixes, "don't" list.
+   - **Card 2 — Responder Guide**: signal-don't-apologize, provisional commitment, confidence expression, restructuring requests, push-back-vs-lossy strategic choice, required-simplification script.
+   - **Card 3 — Common Patterns Cheat Sheet**: the 6 additional techniques (4.2, table), a symptom→move lookup table, the 5 key phrases, the technique-stack example.
+   - **Card 4 — Protocol Negotiation Flowchart**: ASCII decision trees for responder ("can't collapse") and questioner ("stalled response") paths, plus the meta-escape hatch. Used ASCII rather than mermaid because the pandoc build has no mermaid filter.
+4. Registered `appendix-a-quick-reference.md` in `build.py` SECTION_ORDER and marked Appendix A Complete in `workflow/SPEC.md`.
+5. Rebuilt.
+
+### Key Decisions Made
+
+**Decision**: Reference cards are deliberately table/bullet-dense, breaking the project's usual "minimal bullet abuse" rule.
+
+- **Rationale**: A quick-reference card is a lookup artifact, not prose. Dense tables are the *correct* format here; flowing paragraphs would defeat the purpose. This is the documented exception, not voice drift.
+- **Impact**: If a future editor "fixes" the bullets into prose, they've misread the intent. Noted here to prevent that.
+
+**Decision**: Every card points back to its source section ("Full detail: Section X").
+
+- **Rationale**: Keeps the cards honestly positioned as compression, not replacement, and gives the reader a path to the reasoning/failure-modes the card omits.
+
+**Decision**: ASCII flowcharts, not mermaid.
+
+- **Rationale**: `build.py` runs plain pandoc with no diagram filter; mermaid fences would render as raw code blocks in HTML/PDF. ASCII trees render everywhere.
+
+### Verification
+
+- `python build.py`: markdown + ZIP regenerated (19 sections, ~51,341 words). HTML/PDF still fail only for the expected missing `pandoc`.
+- `git diff --check`: clean.
+- Confirmed Appendix A present in compiled `build/simple-questions-framework.md`.
+
+### Current Status
+
+**Completed**: Sections 1-13 + Appendix A.
+
+**Remaining optional back-matter**:
+- Section 14: Research Connections & Further Reading — Placeholder (needs real citations; fabrication risk)
+- Appendix B: Customization Templates — Needs creation
+- Appendix C: Glossary — Needs creation
+
+**Next up**: Appendix C (Glossary) is now the natural companion to Appendix A and similarly low-risk. Appendix B (fillable templates) and Section 14 remain. Or declare content-complete.
