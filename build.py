@@ -245,6 +245,7 @@ def main():
         pdf_path,
         timestamp,
         [
+            "--pdf-engine=tectonic",
             "--toc", "--toc-depth=2",
             "-V", "geometry:margin=1in",
             "-V", "fontsize=11pt",
