@@ -154,16 +154,38 @@ After reading this, you should be able to [specific capabilities].
 ```
 simple_questions/
 ├── HANDOVER.md           ← Read this second (in-flight context)
+├── README.md             ← Project overview
+├── build.py              ← Compiles content/ → build/ (SECTION_ORDER is hardcoded)
 ├── workflow/
 │   ├── onboarding.md     ← You are here (start point)
 │   ├── SPEC.md           ← Section requirements, dependencies, status
 │   ├── DEVLOG.md         ← Session-by-session development log
 │   ├── voice-samples.md  ← Tone reference library
 │   └── examples-bank.md  ← Canonical examples tracker
-├── content/              ← Written sections
+├── content/              ← Written sections (source of truth). Book is content-complete:
 │   ├── section-01-core-cognitive-profile.md
 │   ├── section-02-communication-mismatch.md
-│   └── section-04-1-core-techniques.md
+│   ├── section-03-theoretical-frameworks.md
+│   ├── section-04-1-core-techniques.md
+│   ├── section-04-2-advanced-techniques.md
+│   ├── section-04-3-technique-selection.md
+│   ├── section-05-1-response-protocols.md
+│   ├── section-05-2-response-protocols-questioners.md
+│   ├── section-06-1-real-time-negotiation.md
+│   ├── section-06-2-question-intent-taxonomy.md
+│   ├── section-06-3-confidence-expression.md
+│   ├── section-07-intimate-relationships.md
+│   ├── section-08-professional-contexts.md
+│   ├── section-09-self-advocacy.md
+│   ├── section-10-interpretation-guide.md
+│   ├── section-11-worked-examples.md
+│   ├── section-12-edge-cases.md
+│   ├── section-13-cultural-contextual-factors.md
+│   ├── section-14-research-connections.md
+│   ├── appendix-a-quick-reference.md
+│   ├── appendix-b-customization-templates.md
+│   └── appendix-c-glossary.md
+├── build/                ← Generated artifacts (do not edit; regenerate via build.py)
 └── source/
     └── genesis_document.md  ← Original concept (reference, don't modify)
 ```
