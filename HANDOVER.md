@@ -22,8 +22,8 @@ Session 26 took the book from "Sections 1–12 verified" to **fully content-comp
 ## 3. What Remains — all OPTIONAL
 - **Full-document consistency read-through**: SPEC Phase 5 lists a single-sitting consistency/cross-reference pass across the compiled 22-unit document. Never done as one pass (sections were reviewed individually). This is the most valuable optional next step if the book is heading toward publication.
 - **Uncited orienting hypotheses**: Section 13's audience-backlash and law/engineering-norm claims, and Section 12's trauma/avoidance distinctions, have no citations. Section 14 names these gaps honestly; they could be sourced later (verify anything added — standing fabrication caution).
-- **Cosmetic**: `onboarding.md`'s file-structure diagram still lists only a few early files.
-- **HTML/PDF**: never generated here (`pandoc` not installed). Install pandoc + a LaTeX dist to produce them.
+- ~~Cosmetic: onboarding file-structure diagram~~ — done (updated to the full 22-unit layout).
+- ~~HTML/PDF never generated (`pandoc` not installed)~~ — **resolved.** `pandoc` 3.10 and `tectonic` 0.16.9 are now installed portably (in `C:\Users\Brad\tools\{pandoc,tectonic}`, both on the User PATH). `python build.py` now produces markdown + HTML + **PDF** + ZIP with no full LaTeX distribution. `build.py` uses `--pdf-engine=tectonic`. Tectonic's first PDF run downloads its package bundle (one-time, a few minutes); subsequent runs are fast.
 
 ## 4. Next Steps
 1. Commit the current tree: `git add -A && git commit` (Section 14 + onboarding fix).
