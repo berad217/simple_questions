@@ -52,13 +52,13 @@ This isn't overthinking. It's a different cognitive architecture.
 
 ## Project Status
 
-**Status**: Core framework complete. Polish/expansion phase.
+**Status**: Content-complete. All sections and appendices are written, cross-reviewed, and consistency-checked.
 
 | Metric | Value |
 |--------|-------|
-| Sections complete | 17 |
-| Word count | ~42,000 |
-| Build date | 2026-01-23 |
+| Sections + appendices | 14 sections + 3 appendices (22 build units) |
+| Word count | ~58,700 |
+| Build date | 2026-07-21 |
 
 ### What's Included
 
@@ -81,8 +81,15 @@ This isn't overthinking. It's a different cognitive architecture.
 - Section 10: Interpretation Guide
 - Section 11: Worked Examples
 
-**Part V: Advanced**
+**Part V: Advanced Topics**
 - Section 12: Edge Cases & Complications
+- Section 13: Cultural & Contextual Factors
+- Section 14: Research Connections & Further Reading
+
+**Appendices**
+- Appendix A: Quick Reference Cards
+- Appendix B: Customization Templates
+- Appendix C: Glossary
 
 ---
 
@@ -133,7 +140,7 @@ simple_questions/
 
 The compiled documents are already in `build/`. If you modify section files and need to rebuild:
 
-**Requirements**: Python 3, [Pandoc](https://pandoc.org/), LaTeX distribution (e.g., MiKTeX)
+**Requirements**: Python 3, [Pandoc](https://pandoc.org/), and a PDF engine. This project uses [Tectonic](https://tectonic-typesetting.github.io/) (self-contained—no full LaTeX install needed); any pandoc-supported engine (MiKTeX, TeX Live, etc.) also works.
 
 ```bash
 python build.py
