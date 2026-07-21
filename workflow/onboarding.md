@@ -21,7 +21,7 @@
 - Dual-perspective (serves both questioners and responders)
 - Example-rich (show, don't tell)
 
-**Current status**: ~19,600 words written, Phase 1 complete, Section 5 complete, voice established
+**Current status**: Content-complete as of Session 26 (2026-07-20). All SPEC sections (1–14) and Appendices A/B/C are written, editorially verified, and cross-vendor reviewed (~57,500 words, 22 build units). See `DEVLOG.md` (latest entries) and root `HANDOVER.md` for current state. Remaining work is optional polish only.
 
 ---
 

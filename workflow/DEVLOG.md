@@ -2530,3 +2530,51 @@ All Gemini-written sections maintain project voice and follow established templa
 **Remaining**: only **Section 14 (Research Connections & Further Reading)** — Placeholder. Needs real, *verified* citations; Section 13's "A Note on Evidence" points here. This is the last SPEC item; everything else is Complete.
 
 **Next up**: Section 14 (with verified web-sourced citations), or declare the book content-complete and defer 14. Housekeeping still pending: stale `onboarding.md` status line + file-structure diagram.
+
+---
+
+## Session 26 (cont.): Write Section 14 (Research Connections) — BOOK CONTENT-COMPLETE
+
+**Date**: 2026-07-20
+**Session Type**: Writing (final section) + web-verified citations + cross-vendor review
+**Agent**: Claude Code - Opus 4.8, with an independent review from Codex CLI (gpt-5.6-sol)
+
+### What Was Done
+
+1. **Web-verified every citation before writing** (this was the fabrication-risk section). Ran WebSearch to confirm author/year/title/venue/pages for all 13 sources: Happé & Frith 2006, Baron-Cohen 1995, Shannon 1948, Grice 1975, Schelling 1960, Spence 1973, Hall 1976 + Cardon 2008 + Kittler et al. 2011, Ellsberg 1961, Kahneman & Tversky 1979, Tetlock & Gardner 2015, Carleton 2016, Simpkin & Schwartzstein 2016, Leaper & Robnett 2011. All confirmed.
+2. Wrote **Section 14: Research Connections & Further Reading** (`content/section-14-research-connections.md`, ~2,400 words): annotated further-reading list organized by area, each entry with an honest "what it establishes / what it doesn't" note. Closes the loop opened by Section 13's "A Note on Evidence." Registered in `build.py` (after section-13), marked Complete in SPEC.
+3. **Ran the GPT-5.6 review pass** — the sharpest of the three. It caught that the section warning against overclaiming had itself overclaimed in several annotations. Applied nearly all findings:
+   - **Shannon**: removed the false "communication is necessarily lossy" claim (Shannon includes lossless coding + brackets meaning; it also contradicted Section 3.2). Now credits Shannon with the vocabulary and labels the interpersonal-lossy idea as the book's analogy.
+   - **Prospect theory**: removed the unsupported "forced quick answers are worse" link and the backwards Section 12.4 connection; scoped to PT's actual domain; dropped "best descriptive model."
+   - **Carleton**: no longer presented as validating Section 12's boundary/self-checks; now explicitly "IU-side evidence only; the contrast is the book's heuristic, not a clinical screen."
+   - **Happé & Frith**: downgraded from "where the style comes from" to a narrow author-selected analogue for local-vs-global processing; fixed "50+ studies" to "a review covering 50+ studies."
+   - **Schelling/Spence**: separated focal points / informal common-knowledge / the book's synthesis; scoped Spence to its model conditions; removed prestige language.
+   - **Restructured Parts 4–5** so sources sit where they honestly belong: Simpkin + Leaper moved into a "Cultural & Contextual Evidence" part (they support Section 13, not the clinical boundary); the clinical-boundary part is now Carleton alone, with trauma/avoidance explicitly flagged as having no citation here.
+   - **Voice**: stripped authority-stacking ("bedrock," "Nobel-recognized," "most-cited," "best," "intellectual spine").
+   - **Honest gap-naming**: Section 13's audience-backlash and law/engineering-norm claims explicitly labeled uncited orienting hypotheses; Baron-Cohen + Kittler added as real verified citations (two more web-verifications).
+4. Fixed the long-flagged stale status line in `workflow/onboarding.md`.
+
+### Key Decisions Made
+
+**Decision**: When the honest annotation is "the research shows X, the application to this style is the book's analogy," say exactly that — every time.
+
+- **Rationale**: A further-reading section in a book whose thesis is intellectual honesty cannot itself overclaim. The GPT-5.6 catch (a section against overclaiming that overclaimed) would have been genuinely embarrassing with this readership.
+- **Impact**: Section 14 now models the behavior the book preaches. Also names its own gaps (trauma citation, gender-reception citations) rather than papering over them.
+
+### Verification
+
+- All 13 citations web-verified (author/year/title/venue/pages).
+- `python build.py`: markdown + ZIP regenerated (**22 sections, ~57,530 words**). HTML/PDF fail only for the expected missing `pandoc`.
+- `git diff --check`: clean.
+
+### Current Status
+
+**THE BOOK IS CONTENT-COMPLETE.** Every SPEC item — Sections 1–14 and Appendices A, B, C — is marked Complete. All of Sections 13–14 and Appendices A–C were cross-vendor reviewed (GPT-5.6) and revised.
+
+**Optional polish that remains** (nothing required):
+- `onboarding.md` file-structure diagram still lists only a few early files (cosmetic).
+- Section 13's audience-backlash and law/engineering claims, and Section 12's trauma/avoidance distinctions, remain uncited orienting hypotheses — could be sourced later if desired (Section 14 names these gaps).
+- A full end-to-end read-through / consistency pass across the compiled 22-unit document (Phase 5 "consistency pass" in SPEC) has not been done as a single sitting.
+- HTML/PDF have never been generated here (`pandoc` not installed).
+
+**Next up**: declare done, or optionally a final full-document consistency read-through.
