@@ -2578,3 +2578,46 @@ All Gemini-written sections maintain project voice and follow established templa
 - HTML/PDF have never been generated here (`pandoc` not installed).
 
 **Next up**: declare done, or optionally a final full-document consistency read-through.
+
+---
+
+## Session 26 (cont.): Source the Remaining Orienting Hypotheses
+
+**Date**: 2026-07-20
+**Session Type**: Citation sourcing + cross-vendor review
+**Agent**: Claude Code - Opus 4.8, with GPT-5.6 (Codex CLI) review
+
+### What Was Done
+
+1. **Web-verified 7 new citations** for the strands Section 14 had flagged as uncited orienting hypotheses:
+   - *Gender reception*: Erickson, Lind, Johnson & O'Barr (1978), *J Exp Soc Psych* — powerless speech → lower perceived credibility (a courtroom study, so it also touches law). Rudman & Glick (2001), *J Social Issues* — backlash toward agentic women.
+   - *Law*: U.S. Federal Rules of Evidence 602 (personal knowledge) & 603 (oath).
+   - *Engineering*: JCGM 100:2008 (GUM) — Type A/B uncertainty evaluation.
+   - *Trauma*: van der Kolk (2014) *The Body Keeps the Score* (with a 2025 BJPsych Bulletin contested-claims caveat); Walker (2013) *Complex PTSD* (fawn/4Fs, flagged as clinician framework not validated taxonomy).
+   - *Avoidance*: Hayes et al. (1996), *JCCP* — experiential avoidance.
+2. Added all 7 to Section 14 (Parts 4 and 5), reorganized the gender entries into behavior/reception/backlash, and flipped Section 13's "A Note on Evidence" from "citations should live in 14" to reflect the actual (partial) coverage.
+3. **Ran the GPT-5.6 review.** It confirmed the revision was "materially more honest" but caught 4 source→claim overreaches, which I fixed:
+   - **FRE 602/603**: narrowed — they source the witness-truthfulness half only; Rule 602 exempts experts (702–705), and neither governs advocate conduct. Dropped the "which is why" causal inference.
+   - **GUM**: narrowed — Type A/B are *evaluation methods*, not the deterministic/observed/probabilistic triad; that triad is labeled the book's own scheme.
+   - **Hayes et al.**: downgraded from "establishes exactly the pattern" to "conceptual basis; applying it to commitment avoidance / the Section 12 self-check is the book's extension."
+   - **van der Kolk**: removed the tidy sympathetic/parasympathetic mapping and "well-established"; now "impair or mimic" processing and can coexist with a style.
+   - Also: Erickson attribution tied to the bundled speech style (can't isolate hedging); Walker's "widely used and clinically resonant" removed; Section 13's combined gender double bind relabeled *inferred, not demonstrated*; Section 13's expert-witness phrasing corrected; Section 13 evidence note softened to name what remains the book's own description.
+
+### Key Decisions Made
+
+**Decision**: Where a verified source supports only *part* of a claim, cite it for that part and explicitly say what it doesn't reach—rather than stretching the source or leaving the claim bare.
+
+- **Rationale**: The whole point of this exercise was honesty about evidence. A citation that overreaches is worse than an honest "this is the book's own framing," because it launders an assertion as established fact. The GPT-5.6 pass caught exactly this failure mode twice (Section 14 first draft, then these new entries).
+- **Impact**: The empirically-loaded sections now cite real, verified sources *and* mark the boundary of what those sources establish. Genuinely uncitable threads are named as the book's orienting description.
+
+### Verification
+
+- All 7 new citations web-verified (author/year/title/venue/pages).
+- `python build.py`: markdown + ZIP regenerated (22 sections, ~58,370 words). HTML/PDF fail only for the expected missing `pandoc`.
+- `git diff --check`: clean.
+
+### Current Status
+
+Book remains **content-complete**; this pass hardened the evidentiary honesty of Sections 13–14. Every empirical claim is now either sourced (with scope limits stated) or explicitly labeled the book's own orienting description.
+
+**Optional polish remaining**: full-document consistency read-through (never done at whole-book scale); onboarding file-structure diagram (cosmetic); HTML/PDF generation (needs `pandoc`).

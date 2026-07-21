@@ -15,6 +15,8 @@ Session 26 took the book from "Sections 1–12 verified" to **fully content-comp
 
 **Build:** 22 units, ~57,530 words. Markdown + sections ZIP regenerate fine; HTML/PDF fail **only** because `pandoc` isn't installed here (expected). `git diff --check` clean. `onboarding.md` status line fixed this session.
 
+**Evidence-sourcing pass (latest):** the strands Section 14 had flagged as uncited are now sourced with 7 web-verified citations (Erickson et al. 1978, Rudman & Glick 2001, FRE 602/603, GUM/JCGM 100:2008, van der Kolk 2014, Walker 2013, Hayes et al. 1996). A GPT-5.6 review then caught 4 source→claim overreaches (FRE scope, GUM taxonomy, Hayes, van der Kolk physiology), all narrowed. Every empirical claim in Sections 13–14 is now either sourced with stated scope limits or explicitly labeled the book's own orienting description. This is committed (see commit below).
+
 ## 3. What Remains — all OPTIONAL
 - **Full-document consistency read-through**: SPEC Phase 5 lists a single-sitting consistency/cross-reference pass across the compiled 22-unit document. Never done as one pass (sections were reviewed individually). This is the most valuable optional next step if the book is heading toward publication.
 - **Uncited orienting hypotheses**: Section 13's audience-backlash and law/engineering-norm claims, and Section 12's trauma/avoidance distinctions, have no citations. Section 14 names these gaps honestly; they could be sourced later (verify anything added — standing fabrication caution).
