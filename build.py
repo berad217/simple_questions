@@ -47,6 +47,7 @@ SECTION_ORDER = [
     "section-12-edge-cases.md",
     "section-13-cultural-contextual-factors.md",
     "appendix-a-quick-reference.md",
+    "appendix-b-customization-templates.md",
     "appendix-c-glossary.md",
 ]
 

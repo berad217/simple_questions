@@ -1,7 +1,7 @@
-# Handover: Sections 1-13 + Appendices A & C Done (Cross-Vendor Reviewed)
+# Handover: Sections 1-13 + Appendices A/B/C Done. Only Section 14 Remains.
 
 ## 1. Orientation
-New AI: Start with `workflow/onboarding.md`, then this file. Sections 1-13 and Appendices A & C are written, cross-vendor reviewed, and verified. What remains is optional back-matter only.
+New AI: Start with `workflow/onboarding.md`, then this file. Sections 1-13 and Appendices A, B, and C are written, cross-vendor reviewed, and verified. The ONLY remaining SPEC item is Section 14 (Research Connections). Everything else is Complete.
 
 ## 2. The Delta
 - Session 25 editorial pass (Sections 1-12) committed (`5d98b31`). Section 13 committed (`564d82f`). Appendix A committed (`2df7859`).
@@ -15,14 +15,15 @@ New AI: Start with `workflow/onboarding.md`, then this file. Sections 1-13 and A
 - Build regenerated: markdown + ZIP OK (20 sections, ~53,852 words). HTML/PDF fail **only** on the missing `pandoc` — not a regression. `git diff --check` clean; no Unicode box chars remain in Appendix A.
 - The Appendix C work + the review revisions (Section 13 rewrite, Appendix A/glossary edits, build.py, SPEC, DEVLOG, HANDOVER, build/ artifacts) are **not yet committed** — commit next.
 
+- **Appendix B: Customization Templates** written (`content/appendix-b-customization-templates.md`) and GPT-5.6-reviewed. Four fillable templates (style assessment, protocol builder, intent-declaration, confidence-format guide). Review caught taxonomy-merging (B2 had overwritten 7.3's "Question type" with 6.2 intents + an invented "conflict" intent; B4 had invented confidence "formats"); both fixed to quote the source taxonomies exactly. Registered in build.py, marked Complete in SPEC.
+
 ## 3. State of Remaining Work (from SPEC audit)
-Sections 1-13 + Appendices A & C are content-complete and reviewed. Still unwritten, both optional:
-- **Appendix B**: Customization Templates — Needs creation. Fillable protocol builder, style assessment, intent-declaration templates.
-- **Section 14**: Research Connections & Further Reading — Placeholder. Section 13's "A Note on Evidence" now explicitly points here for sourced citations; **watch for reference fabrication** — verify anything cited.
+Sections 1-13 + Appendices A, B, C are content-complete and cross-vendor reviewed. **Only one SPEC item is unwritten:**
+- **Section 14**: Research Connections & Further Reading — Placeholder. Section 13's "A Note on Evidence" explicitly points here for sourced citations. **This needs REAL, VERIFIED citations** — use the browser/WebSearch to confirm each source; do not paste unverified reference strings (standing project caution). The GPT-5.6 reviews already surfaced candidate literatures (Hall's critics, gender-language meta-analyses, medical-uncertainty reviews) but those must be independently verified before citing.
 
 ## 4. Next Steps
-1. Commit the current tree: `git add -A && git commit` (Session 26 cont. — Appendix C + review revisions).
-2. Then choose: (a) Appendix B (fillable templates) — low-risk distillation; (b) Section 14 — needs real, verified research; (c) declare content-complete and explicitly defer the rest in SPEC.
-3. **Repeatable win**: the headless GPT-5.6 review (`codex exec --ignore-user-config -s read-only -m gpt-5.6-sol -c 'model_reasoning_effort="high"' -o REVIEW.md "<prompt>" < /dev/null`) is worth re-running on any future empirically-loaded section (esp. Section 14). Treat findings as advisory — verify against our own sections before applying.
+1. Commit the current tree: `git add -A && git commit` (Session 26 cont. — Appendix B + review revisions).
+2. Then: (a) **Section 14** with verified web-sourced citations — the last item, closes the loop Section 13 opened; or (b) declare the book content-complete and explicitly defer Section 14 in SPEC.
+3. **Repeatable win**: the headless GPT-5.6 review (`codex exec --ignore-user-config -s read-only -m gpt-5.6-sol -c 'model_reasoning_effort="high"' -o REVIEW.md "<prompt>" < /dev/null`) has earned its keep twice — re-run it on Section 14. Treat findings as advisory; verify against our own sections before applying.
 4. Housekeeping still not done: `workflow/onboarding.md` Step 1 status line says "~19,600 words, Section 5 complete" — stale since Session 6; its file-structure diagram also omits most sections and all appendices. Worth a cleanup.
 5. After any edit batch: `python build.py` (expect the `pandoc` failure), then `git diff --check`.

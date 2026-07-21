@@ -2491,3 +2491,42 @@ All Gemini-written sections maintain project voice and follow established templa
 - Section 14: Research Connections & Further Reading — Placeholder (now has a natural hook: Section 13's "A Note on Evidence" points here for sourced citations; watch for fabrication)
 
 **Next up**: Appendix B (fillable templates) or Section 14. Or declare content-complete. Consider re-running the GPT-5.6 pass on whatever's written next.
+
+---
+
+## Session 26 (cont.): Write Appendix B + GPT-5.6 Review Pass
+
+**Date**: 2026-07-20
+**Session Type**: Writing (back-matter) + cross-vendor review/revision
+**Agent**: Claude Code - Opus 4.8, with an independent review from Codex CLI (gpt-5.6-sol)
+
+### What Was Done
+
+1. Wrote **Appendix B: Customization Templates** (`content/appendix-b-customization-templates.md`, ~1,500 words): four fillable templates — B1 style self-assessment, B2 relationship protocol builder, B3 intent-declaration templates, B4 confidence-format selection guide. Built B2 on Section 7.3's actual field structure (read it first). Registered in `build.py` (before appendix-c), marked Complete in SPEC.
+2. **Ran the GPT-5.6 review pass** (same headless Codex recipe) focused on fidelity to the source sections. Again high-signal.
+3. **Applied essentially all findings** — the central defect was taxonomy-merging (exactly what the review is meant to catch):
+   - **B2**: had overwritten Section 7.3's **Question type** field (Logistics/reassurance/planning/conflict/affection) with the 6.2 intent list *plus an invented "conflict" intent*. Fixed: restored 7.3's five core fields verbatim as the labeled core, moved the 6.2 intent list to a clearly-optional extension field (no "conflict"), and marked all my additions as optional extensions. Also: roles scoped to "for this recurring situation" (not permanent labels); "scheduled" processing time now requires a named return commitment (prevents indefinite deferral); technique field points to Section 4.3 / Appendix A Card 3; calibration-cadence "after a blowup" corrected to "after repair once both are calm."
+   - **B4**: had presented invented hybrids ("Numeric + where the doubt lives," "Match the energy") as if they were Section 6.3 formats. Fixed: now uses 6.3's three actual formats (Numerical / Verbal Descriptors / Modal + Bounds, with Multi-modal as subtype); the invented phrasings moved to a delivery-guidance column. Numerical use made conditional on real calibration + a probability-literate listener (not just "high stakes"). The modal-answer template now elicits all three required elements (answer + confidence + uncertainty source) instead of "probably X, worst case Y."
+   - **B3**: emotional template no longer says "not looking for a solution" (6.2 says information is *secondary*, not unwanted); now declares the emotional need first without excluding later problem-solving.
+   - **B1**: the anxiety-exclusion marker fixed to acknowledge coexistence (Section 12); result reworded from "the framework fits you well" to "a useful starting point… doesn't rule out co-occurring anxiety/trauma or identify a primary cause," plus a longitudinal try-it-and-observe note; "rank top 2" → "check up to two"; Part 1 made single-select; restored the canonical phrase "amputates uncertainty."
+4. Nothing of substance declined this round — the findings were all well-founded.
+
+### Key Decisions Made
+
+**Decision**: When a template field derives from a specific section, use that section's *exact* taxonomy, and keep any additions visibly separate.
+
+- **Rationale**: The whole value of a customization template is fidelity to the tools it operationalizes. Silently merging 6.2 intents with 7.3 question types (or inventing confidence "formats") would have taught readers a vocabulary the rest of the book doesn't use.
+- **Impact**: B2/B4 now round-trip cleanly with Sections 7.3 and 6.3. Reinforces the standing lesson: distillation artifacts must quote the source taxonomy, not paraphrase it.
+
+### Verification
+
+- `python build.py`: markdown + ZIP regenerated (21 sections, ~55,503 words). HTML/PDF fail only for the expected missing `pandoc`.
+- `git diff --check`: clean.
+
+### Current Status
+
+**Completed**: Sections 1-13 + Appendices A, B, and C. All back-matter cross-vendor reviewed and revised.
+
+**Remaining**: only **Section 14 (Research Connections & Further Reading)** — Placeholder. Needs real, *verified* citations; Section 13's "A Note on Evidence" points here. This is the last SPEC item; everything else is Complete.
+
+**Next up**: Section 14 (with verified web-sourced citations), or declare the book content-complete and defer 14. Housekeeping still pending: stale `onboarding.md` status line + file-structure diagram.
