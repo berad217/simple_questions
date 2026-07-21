@@ -2648,9 +2648,11 @@ Book remains **content-complete**; this pass hardened the evidentiary honesty of
    - **Cross-reference STYLE**: converted 18 old markdown *file-links* (`[Section 4.2](section-04-2-...md)`) in early sections to plain-text "Section X" refs, matching the rest of the book and fixing broken links in the compiled single-document build.
 3. Verified: canonical phrases and all section-number targets are consistent (my mechanical audit); the recurring examples ("Why didn't you call?", "Are you free Saturday?") are consistent.
 
-### Deliberately NOT changed (judgment calls / low value)
+### Section 4.3 reframe (resolved per user direction)
 
-- **Section 4.3 symptom framing** (semantic finding 3): 4.3's technique-selection guide uses "Symptom / Paralysis / Perfectionism / Risk Aversion" language that leans slightly toward the anxiety framing Section 12 distinguishes. Fixing it well means restructuring a working troubleshooting guide, and "symptom" in a troubleshooting context isn't necessarily pathologizing. **Flagged for a human call rather than unilaterally rewritten.**
+- **Section 4.3 symptom framing** (semantic finding 3) was flagged as a judgment call; the user chose "soften the framing." Reframed the medical/trait language as *interaction* failure modes while keeping the Signal->Tools troubleshooting structure: "The Diagnostic Map" -> "The Failure-Mode Map"; "Symptom N" -> "Failure Mode N"; "The Diagnosis" -> "What's happening"; trait labels ("Paralysis/Panic," "Perfectionism," "Risk Aversion") -> situation labels ("The Stall," "Holding out for complete data," "Reluctance to commit"). Added a callout that these are failure modes of the *exchange*, not the person, with the Section 12 escalation trigger (severe/persistent/structure-doesn't-help -> check for anxiety/avoidance/trauma). Also fixed two technique-name hyphens (Domain-Binding, Forced-Slice).
+
+### Deliberately NOT changed (low value)
 - **Pedantic naming normalization**: the verification pass also flagged grammatical conjugations ("amputating uncertainty," "reducing dimensionality") and capitalization (Domain-binding vs Domain-Binding) as "drift." These are NOT drift—forcing verbatim conjugations would make the prose robotic. Skipped by design; the concepts are used consistently.
 
 ### Verification
