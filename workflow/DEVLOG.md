@@ -2621,3 +2621,43 @@ All Gemini-written sections maintain project voice and follow established templa
 Book remains **content-complete**; this pass hardened the evidentiary honesty of Sections 13–14. Every empirical claim is now either sourced (with scope limits stated) or explicitly labeled the book's own orienting description.
 
 **Optional polish remaining**: full-document consistency read-through (never done at whole-book scale); onboarding file-structure diagram (cosmetic); HTML/PDF generation (needs `pandoc`).
+
+---
+
+## Session 26 (cont.): Full-Document Consistency Read-Through
+
+**Date**: 2026-07-20
+**Session Type**: Whole-book consistency pass + cross-vendor review
+**Agent**: Claude Code - Opus 4.8, with two parallel GPT-5.6 (Codex CLI) passes
+
+### What Was Done
+
+1. Ran the SPEC Phase 5 consistency pass at **whole-book scale** (never done before). Method: two parallel GPT-5.6 reviews over the compiled 22-unit document plus my own mechanical grep audit of cross-references and the 5 canonical phrases.
+   - Pass A (semantic): cross-section contradictions, non-pathologizing frame, example consistency.
+   - Pass B (verification): cross-reference accuracy, technique/intent/phrase naming.
+2. **Applied the substantive findings** (contradictions + accuracy + one real phrase drift):
+   - **Testimony contradiction (highest priority)**: Sections 8/13 say witness testimony requires uncertainty *stated*, but Section 12.4 and Appendix A listed "testimony" under forced-collapse. Fixed 12.4 (now "contracts/forms/binding decisions," with sworn testimony explicitly carved out and pointed to 13.3) and Appendix A.
+   - **"Do you love me?" contradiction**: Section 6.1 used it as a *decompose-the-question* example—exactly what 6.3/7.3/11 say never to do with a reassurance question. Swapped 6.1's example to a non-emotional career question and added a note pointing back to 6.3/7.3.
+   - **"You are not broken" vs "I am currently broken"**: Section 11 said "I am currently broken on this question," contradicting Sections 1/9. Changed to "at capacity."
+   - **One-way compression claim**: Sections 2 and 3.2 stated "compression is not lying when both agree" without the one-way caveat the glossary has. Added the "agreement never excuses a misleading omission" limit at both (and fixed Section 2's non-canonical "Simplified compression" -> "Lossy compression").
+   - **Decision-support ambiguity**: Section 5.2 used "Decision support" to mean "give me a recommendation," but 6.2/glossary define planning intent as option-mapping (*not* a single verdict). Relabeled 5.2's block "Recommendation" and distinguished it from planning intent.
+   - **Style-vs-anxiety frame drift**: Section 7.2 said the high-uncertainty individual "feels anxiety"; changed to "feels unsettled" with an explicit note that this is discomfort with premature closure, not clinical anxiety (Section 12).
+   - **"Same across topics" vs the context model**: Section 12 and Appendix B's clinical marker ("difficulty consistent/same across topics") sat awkwardly against Section 13's context-dependence. Reframed both as "the processing *pattern* recurs across contexts; its *intensity* varies."
+   - **Stale technique names in Section 3.4**: replaced invented names (Context-Framing, Explicit Scope, Explicit Stakes) with canonical ones (Intent Declaration, Scope-Locking) and fixed a spot that miscategorized Uncertainty Permission as intent-specifying.
+   - **Cross-reference accuracy**: fixed miscited pointers—6.1 "techniques (Section 4.1)" -> 4.1-4.2; Section 13 modal-answer -> 6.3; glossary communicable-stability -> Section 1; Section 11 Intent Declaration -> 4.2/5.2 and Forced-Slice -> 4.1.
+   - **Cross-reference STYLE**: converted 18 old markdown *file-links* (`[Section 4.2](section-04-2-...md)`) in early sections to plain-text "Section X" refs, matching the rest of the book and fixing broken links in the compiled single-document build.
+3. Verified: canonical phrases and all section-number targets are consistent (my mechanical audit); the recurring examples ("Why didn't you call?", "Are you free Saturday?") are consistent.
+
+### Deliberately NOT changed (judgment calls / low value)
+
+- **Section 4.3 symptom framing** (semantic finding 3): 4.3's technique-selection guide uses "Symptom / Paralysis / Perfectionism / Risk Aversion" language that leans slightly toward the anxiety framing Section 12 distinguishes. Fixing it well means restructuring a working troubleshooting guide, and "symptom" in a troubleshooting context isn't necessarily pathologizing. **Flagged for a human call rather than unilaterally rewritten.**
+- **Pedantic naming normalization**: the verification pass also flagged grammatical conjugations ("amputating uncertainty," "reducing dimensionality") and capitalization (Domain-binding vs Domain-Binding) as "drift." These are NOT drift—forcing verbatim conjugations would make the prose robotic. Skipped by design; the concepts are used consistently.
+
+### Verification
+
+- `python build.py`: markdown + ZIP regenerated (22 sections, ~58,597 words). HTML/PDF fail only for the expected missing `pandoc`.
+- `git diff --check`: clean. No orphaned link syntax after the file-link conversion. Canonical-phrase and stale-name rechecks pass.
+
+### Current Status
+
+Book is content-complete AND now consistency-checked at whole-book scale. One flagged judgment call remains (Section 4.3 framing). Remaining optional: onboarding file-structure diagram (cosmetic); HTML/PDF generation (needs `pandoc`).

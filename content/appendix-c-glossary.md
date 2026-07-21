@@ -18,7 +18,7 @@ The five phrases that carry the most weight—the ones worth internalizing first
 
 **Common knowledge** — The third layer of the communication model: what both parties know that they both know. Distinct from information merely held by each. Shared conventions and mutual awareness let a compressed message land correctly. *Related:* three-layer communication model, relationship signal. (Section 3.3)
 
-**Communicable stability, not perfect truth** — The framework's stated goal. The aim is not to transmit a complete, perfectly accurate model of reality, but to produce an answer stable enough to act on and share, at a compression level both parties accept. *Related:* lossy compression is not lying, structured collapse. (Sections 2, 4.1)
+**Communicable stability, not perfect truth** — The framework's stated goal. The aim is not to transmit a complete, perfectly accurate model of reality, but to produce an answer stable enough to act on and share, at a compression level both parties accept. *Related:* lossy compression is not lying, structured collapse. (Sections 1, 4.1)
 
 **Confidence calibration** — A technique (and a broader skill, Section 6.3) of asking for or expressing a probability rather than a binary yes/no—turning "Do you know?" into "How confident, 0–10?" This prevents a high-uncertainty mind from rounding a 90%-sure answer down to "no" because of a 10% edge case. *Related:* modal answer + uncertainty bounds, uncertainty permission. (Sections 4.2, 6.3)
 

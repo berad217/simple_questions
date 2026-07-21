@@ -93,7 +93,7 @@ This interpretation is wrong, but it's not irrational. Given the questioner's mo
 
 ## What Actually Works: Structured Collapse
 
-The solution isn't to make high-uncertainty responders think more simply. Their processing style has genuine advantages in contexts that reward complexity handling ([Section 1](section-01-core-cognitive-profile.md) covers these). The solution is to provide structure that specifies which dimensions to collapse.
+The solution isn't to make high-uncertainty responders think more simply. Their processing style has genuine advantages in contexts that reward complexity handling (Section 1 covers these). The solution is to provide structure that specifies which dimensions to collapse.
 
 **Structured collapse** means giving the cognitive system explicit permission to set aside certain uncertainties. Instead of asking the responder to suppress their natural processing, you tell them which parts of their processing are relevant to this particular exchange.
 
@@ -117,7 +117,7 @@ Structured collapse works differently. It doesn't ask the responder to perceive 
 
 The responder still sees that "Are you free Saturday?" contains availability, commitment, priority, and flexibility dimensions. But when the question includes "for a casual coffee—no pressure if plans change," they now have permission to answer only the availability dimension at a low commitment level. They're not lying by omission because the question itself has bounded which dimensions matter.
 
-This is why structured collapse reduces the dishonesty discomfort. The questioner has signaled what they need; the responder provides it; the transmission is appropriately simplified for the stated purpose. Simplified compression is not lying when both parties agree on the level of detail.
+This is why structured collapse reduces the dishonesty discomfort. The questioner has signaled what they need; the responder provides it; the transmission is appropriately simplified for the stated purpose. Lossy compression is not lying when both parties agree on the level of detail—though agreement never licenses a *misleading* omission.
 
 ---
 
@@ -137,12 +137,12 @@ The mismatch is structural, not personal. The questioner isn't being unreasonabl
 
 ## What Comes Next
 
-The practical techniques for bridging this gap—how to ask questions that are easier to answer, how to respond when questions aren't structured, and how to negotiate communication protocols in real-time—are covered in the following sections. [Section 4](section-04-1-core-techniques.md) provides the core question design techniques. [Section 5](section-05-1-response-protocols.md) provides response protocols for high-uncertainty individuals.
+The practical techniques for bridging this gap—how to ask questions that are easier to answer, how to respond when questions aren't structured, and how to negotiate communication protocols in real-time—are covered in the following sections. Section 4 provides the core question design techniques. Section 5 provides response protocols for high-uncertainty individuals.
 
-The theoretical grounding for why structured collapse works—drawing on information theory, game theory, and linguistics—is covered in [Section 3](section-03-theoretical-frameworks.md) for readers who want the deeper framework.
+The theoretical grounding for why structured collapse works—drawing on information theory, game theory, and linguistics—is covered in Section 3 for readers who want the deeper framework.
 
 For now, the key insight is this: the communication mismatch isn't about willingness to answer or quality of thinking. It's about two different models of what questions contain, meeting in a context that assumes they're the same. Structured collapse bridges the gap by making implicit assumptions explicit—giving both parties a shared understanding of what question is actually being asked.
 
 ---
 
-*Continue to [Section 3: Theoretical Frameworks](section-03-theoretical-frameworks.md) for the underlying theory, or skip to [Section 4: Question Design Framework](section-04-1-core-techniques.md) for immediate practical techniques.*
+*Continue to Section 3: Theoretical Frameworks for the underlying theory, or skip to Section 4: Question Design Framework for immediate practical techniques.*

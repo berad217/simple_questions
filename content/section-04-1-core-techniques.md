@@ -344,12 +344,12 @@ The techniques share a common pattern: they all make implicit dimensions explici
 
 ## What Comes Next
 
-These six core techniques handle most common question design needs. [Section 4.2](section-04-2-advanced-techniques.md) provides additional techniques for specialized contexts—scope-locking, reversibility framing, iteration permission, and others. [Section 4.3](section-04-3-technique-selection.md) provides a decision framework for choosing which technique to use when.
+These six core techniques handle most common question design needs. Section 4.2 provides additional techniques for specialized contexts—scope-locking, reversibility framing, iteration permission, and others. Section 4.3 provides a decision framework for choosing which technique to use when.
 
-For high-uncertainty responders who need to handle poorly-structured questions, [Section 5.1](section-05-1-response-protocols.md) provides response protocols and scripts.
+For high-uncertainty responders who need to handle poorly-structured questions, Section 5.1 provides response protocols and scripts.
 
 The key insight: structured questions don't constrain thinking. They constrain *transmission*. The full dimensional map is still there; these techniques just specify which portion of the map to communicate. That's not lying. That's functional communication with appropriately simplified compression—where both parties understand and accept the compression level.
 
 ---
 
-*Continue to [Section 4.2: Advanced Techniques](section-04-2-advanced-techniques.md) to expand your toolkit, or skip to [Section 5: Response Protocols](section-05-1-response-protocols.md) to learn how high-uncertainty individuals can respond effectively.*
+*Continue to Section 4.2: Advanced Techniques to expand your toolkit, or skip to Section 5: Response Protocols to learn how high-uncertainty individuals can respond effectively.*

@@ -221,9 +221,9 @@ Most of this framework treats "forced simplification" as a problem to be managed
 - Extended processing creates genuine risk
 - The responder's uncertainty, however valid, must be overridden
 
-**Legal/formal requirements**: Contracts, testimony, official statements
-- "It depends" may be accurate but isn't acceptable
-- The system requires commitment even when commitment feels dishonest
+**Legal/formal requirements**: Contracts, official forms, binding decisions
+- A signature or a filed form forces a single selection; "it depends" isn't an option the format allows
+- *Sworn testimony is the exception, not an example here*: it requires a **truthful** answer, which means stating uncertainty and "I don't know" where they are real—never collapsing a qualified truth into false certainty (see Section 13.3). The pressure there is accuracy under oath, not manufactured commitment.
 
 **Medical decisions under time pressure**: "Do we operate?"
 - All the uncertainty in the world doesn't change that a decision must be made
@@ -325,7 +325,7 @@ This framework addresses high-uncertainty cognitive style—a genuine processing
 
 **The framework applies when**:
 - Uncertainty reflects actual information processing
-- Difficulty is relatively consistent across relationships and topics
+- The multi-dimensional processing recurs across relationships and topics—its *intensity* can vary by context (Section 13), but the pattern isn't confined to one relationship or subject
 - Structure and boundaries enable commitment
 - Better questions lead to better answers
 

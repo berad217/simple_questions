@@ -59,8 +59,8 @@ The repair is not to pretend certainty. The repair is to separate the relationsh
 
 It is common for a High-Uncertainty (HU) individual to pair with a Closure-Seeking (CS) individual. This creates a structural "Closure Gap."
 
-* **The Closure-Seeker** feels anxiety when variables are open. They define "safety" as "decisions made, plans set."
-* **The High-Uncertainty Individual** feels anxiety when variables are prematurely closed. They define "safety" as "options open, accuracy maintained."
+* **The Closure-Seeker** feels unsettled when variables are open. They define "safety" as "decisions made, plans set."
+* **The High-Uncertainty Individual** feels unsettled when variables are prematurely closed. They define "safety" as "options open, accuracy maintained." (This is discomfort with premature closure, not clinical anxiety—Section 12 keeps that distinction.)
 
 ### Reframing the Conflict
 

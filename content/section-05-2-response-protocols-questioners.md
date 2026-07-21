@@ -44,7 +44,7 @@ The goal is collaborative problem-solving. The responder isn't being difficult; 
 - "This is a diagnostic question, so uncertainty is fine: what might be going wrong here?"
 - "I'm trying to understand the mechanism, not make a quick decision. What's your current model?"
 
-**Decision support**:
+**Recommendation** (you want a verdict, not an option-map—this is distinct from *planning intent*, which wants the tradeoffs laid out; see Section 6.2):
 - "I need a decision recommendation from you: should we do X or Y? You can caveat it, just give me your best current thinking."
 - "For this decision, what's the main risk factor I should be weighing?"
 - "I need one clear recommendation, even if you're uncertain. What would you do?"
@@ -161,7 +161,7 @@ The goal is collaborative problem-solving. The responder isn't being difficult; 
 **Failure Modes**:
 
 1. **Interpreting all pauses as avoidance**: Every hesitation means they don't want to answer.
-   - **Fix**: Distinguish processing pause (working memory access, visible thinking) from avoidance (subject change, deflection, withdrawal). High-uncertainty individuals pause because they're processing, not because they're refusing to answer.
+   - **Fix**: Distinguish processing pause (working memory access, visible thinking) from avoidance (subject change, deflection, withdrawal). High-uncertainty individuals often pause because they're processing rather than refusing—but not every pause is, so read it from the signals above rather than assuming (see Section 10.1).
 
 2. **Filling every silence with repetition or options**: They pause, you immediately repeat the question or offer multiple choice options.
    - **Fix**: Count to 10 before intervening. Many processing pauses resolve within 10 seconds. If they're still working after 10 seconds, they'll often signal what they need ("I need more time" or "Can you clarify...").

@@ -22,7 +22,7 @@ Copy a template, fill the blanks (shown as `__________`), and keep the result so
 - [ ] Committing to one answer feels like it *amputates uncertainty*—cuts away something true.
 - [ ] A flat answer feels *dishonest*, not just uncomfortable—even when anxiety about being judged is also in the mix.
 - [ ] Given explicit structure ("just this week," "logistically only"), I can usually answer.
-- [ ] My difficulty is roughly the **same** across people and topics.
+- [ ] The processing pattern shows up across different people and topics (its **intensity** can vary by context—that's expected, per Section 13).
 
 *Mostly checked → the framework is likely a useful **starting point** for you. It does not rule out co-occurring anxiety or trauma, and it can't identify what's primary—Section 12 is careful about this, and so should you be. The honest test is longitudinal: try the tools for a defined period (a few weeks) and treat whether they help as information. If instead your difficulty is sharply relationship- or topic-specific, or structure never helps, read Section 12 first.*
 

@@ -362,14 +362,14 @@ The protocols aren't rigid scripts. They're patterns you internalize and deploy 
 
 ## What Comes Next
 
-These response protocols give you tools for handling questions as they come. [Section 5.2](section-05-2-response-protocols-questioners.md) shows questioners how to read processing signals and support effective communication from their side.
+These response protocols give you tools for handling questions as they come. Section 5.2 shows questioners how to read processing signals and support effective communication from their side.
 
-[Section 6.1](section-06-1-real-time-negotiation.md) provides shared communication protocols—language both questioners and responders can use to negotiate question structure in real time.
+Section 6.1 provides shared communication protocols—language both questioners and responders can use to negotiate question structure in real time.
 
-[Section 6.3](section-06-3-confidence-expression.md) provides specific formats for expressing uncertainty in ways that are informative rather than paralyzing, which makes provisional commitment language even more precise.
+Section 6.3 provides specific formats for expressing uncertainty in ways that are informative rather than paralyzing, which makes provisional commitment language even more precise.
 
 The key insight: you don't have to choose between honesty and clarity. These protocols let you be honest about uncertainty while still providing usable information. Provisional commitment, visible compression, and collaborative restructuring aren't evasion—they're precision about what you know and how you know it.
 
 ---
 
-*Continue to [Section 5.2: For Questioners](section-05-2-response-protocols-questioners.md) to see the questioner-side complement to these protocols, or skip to [Section 6: Shared Communication Protocols](section-06-1-real-time-negotiation.md) for bidirectional tools.*
+*Continue to Section 5.2: For Questioners to see the questioner-side complement to these protocols, or skip to Section 6: Shared Communication Protocols for bidirectional tools.*

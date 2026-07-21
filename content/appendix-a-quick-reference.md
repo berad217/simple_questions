@@ -92,7 +92,7 @@ Not every question is worth restructuring. Weigh **relationship cost** against *
 
 ### When simplification is genuinely required (Section 12.4)
 
-Emergencies, testimony, hard deadlines. Collapse—but name it:
+Emergencies, binding forms/decisions, hard deadlines. Collapse—but name it (note: sworn testimony is *not* on this list—there, state the uncertainty; see Section 13.3):
 
 > "Given the time constraint, my best collapse is: yes. What I'm not capturing is [X]. If that matters, we need more time."
 

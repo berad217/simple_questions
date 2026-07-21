@@ -126,4 +126,4 @@ Mastery involves combining these tools.
 | **Risk Aversion** | Reversibility Framing |
 
 *You now have the tools and the manual. The next step is knowing what to do if you are the one responding.*
-*Continue to [Section 5.1: Response Protocols](section-05-1-response-protocols.md).*
+*Continue to Section 5.1: Response Protocols.*

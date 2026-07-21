@@ -171,4 +171,4 @@ The underlying philosophy: these techniques provide **structured collapse**—no
 
 ---
 
-*Continue to [Section 2: The Communication Mismatch](section-02-communication-mismatch.md) to understand why "simple" questions aren't simple for this cognitive style, and why "just give a simple answer" doesn't work.*
+*Continue to Section 2: The Communication Mismatch to understand why "simple" questions aren't simple for this cognitive style, and why "just give a simple answer" doesn't work.*

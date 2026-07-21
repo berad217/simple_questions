@@ -48,7 +48,7 @@ Some people experience intent inference less automatically. The capacity exists,
 
 **The practical implication**: When someone asks "Did you mail the package?", a person with automatic ToM instantly reads the subtext (checking on reliability, perhaps mildly annoyed, wants reassurance). A person with deliberate ToM sees multiple possible intents: factual inquiry, relationship check, implied criticism, anxiety about the delivery. Each interpretation would warrant a different response. Without automatic disambiguation, they need to either guess, ask, or answer all interpretations at once.
 
-This explains why high-uncertainty responders often ask clarifying questions that seem excessive ("Did you mean...?"). They're not being pedantic—they're externalizing the disambiguation process that others do internally. The techniques that specify intent upfront (Uncertainty Permission, Context-Framing) work because they provide the intent information that doesn't arrive automatically.
+This explains why high-uncertainty responders often ask clarifying questions that seem excessive ("Did you mean...?"). They're not being pedantic—they're externalizing the disambiguation process that others do internally. The technique that specifies intent upfront (Intent Declaration) works because it provides the intent information that doesn't arrive automatically.
 
 ### The Integration Problem
 
@@ -87,7 +87,7 @@ So you hesitate. You feel the "amputation of uncertainty"—the painful cutting 
 
 In digital systems, lossy compression works because both the sender and receiver rely on the same protocol (e.g., `.jpg`). The receiver knows it's a compressed image, not the raw reality.
 
-**Lossy compression is not lying when both parties agree on the compression level.**
+**Lossy compression is not lying when both parties agree on the compression level.** The claim runs one way only: agreement can make a simplified answer honest, but it never excuses a *misleading* omission—deliberately leaving out something you know the other party would want, in order to skew their picture, is still a lie no matter how brief.
 
 The techniques in this framework (like Domain-Binding and Forced-Slice) are simply **negotiated compression protocols**.
 
@@ -175,7 +175,7 @@ Most speakers operate with seamless integration: they produce utterances where s
 
 High-uncertainty individuals often separate these layers explicitly. They hear the semantic content clearly but must compute the pragmatic intent rather than receiving it automatically. This creates the "which question are you actually asking?" phenomenon—they see multiple pragmatic intents compatible with the same semantic content and need disambiguation before they can respond.
 
-**The practical implication**: Techniques like Domain-Binding and Context-Framing work by collapsing the pragmatic ambiguity. When you say "Logistically only—what stopped you from calling?", you're specifying the pragmatic intent (information-gathering, not relationship-checking) so the listener doesn't have to infer it.
+**The practical implication**: Techniques like Domain-Binding and Intent Declaration work by collapsing the pragmatic ambiguity. When you say "Logistically only—what stopped you from calling?", you're specifying the pragmatic intent (information-gathering, not relationship-checking) so the listener doesn't have to infer it.
 
 ### Presupposition and Scope Control
 
@@ -185,7 +185,7 @@ High-uncertainty individuals often notice presuppositions explicitly. They may r
 
 Scope control determines what the question is actually querying. "Did you enjoy the party?" has unclear scope: the food? the conversation? the overall experience? the fact of having attended? Most people answer from an assumed default scope (probably "overall experience"). High-uncertainty individuals see all the possible scopes and don't know which one to report on.
 
-**The practical implication**: Forced-slice and Explicit Scope work by specifying what's in-scope and implicitly declaring what's out-of-scope. "Setting aside the food—did you enjoy talking to people at the party?" controls scope precisely. This isn't dumbing down the question; it's making explicit what the question was always implicitly asking.
+**The practical implication**: Forced-Slice and Scope-Locking work by specifying what's in-scope and implicitly declaring what's out-of-scope. "Setting aside the food—did you enjoy talking to people at the party?" controls scope precisely. This isn't dumbing down the question; it's making explicit what the question was always implicitly asking.
 
 ### Gricean Maxims and Conversational Implicature
 
@@ -216,7 +216,7 @@ Most people decode the action being performed and respond to the action, not the
 
 High-uncertainty individuals may respond to the literal question or may see multiple possible speech acts and not know which one to respond to. "How was your day?" might genuinely be an information request, a connection bid, a conversation opener, or a check-in after a difficult morning. Each warrants a different response.
 
-**The practical implication**: The techniques that specify purpose (Context-Framing, Explicit Stakes) work because they name the speech act being performed. "Just checking in, not needing details—how are you holding up?" specifies that this is relationship maintenance, not information extraction. The responder now knows which action to respond to.
+**The practical implication**: The technique that specifies purpose (Intent Declaration) works because it names the speech act being performed. "Just checking in, not needing details—how are you holding up?" specifies that this is relationship maintenance, not information extraction. The responder now knows which action to respond to.
 
 ### Question Design as Cognitive Load Management
 
@@ -225,7 +225,6 @@ The linguistic perspective reveals what the techniques in Section 4 are actually
 - **Domain-Binding**: Controls scope, reduces presuppositional ambiguity
 - **Uncertainty Permission**: Specifies the Quality standard being applied
 - **Forced-Slice**: Manages Quantity expectations
-- **Context-Framing**: Names the speech act being performed
-- **Explicit Stakes**: Specifies pragmatic intent
+- **Intent Declaration**: Names the speech act and declares the purpose being served
 
 This isn't manipulation or dumbing down. It's good linguistic hygiene—saying what you mean clearly enough that the listener doesn't have to reconstruct it. Most conversations survive without this precision because most listeners fill in the gaps automatically. When someone doesn't have that automatic gap-filling, making things explicit isn't patronizing; it's communicating accurately.

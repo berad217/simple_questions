@@ -10,7 +10,7 @@ After reading this, you should be able to signal when a question needs restructu
 
 ## Why Real-Time Negotiation Matters
 
-All the techniques (Section 4.1), protocols (Sections 5.1 and 5.2), and intent recognition (Section 6.2) assume both parties can identify and communicate about what's happening. In practice, most communication friction comes from mismatched expectations that neither party names explicitly.
+All the techniques (Sections 4.1–4.2), protocols (Sections 5.1 and 5.2), and intent recognition (Section 6.2) assume both parties can identify and communicate about what's happening. In practice, most communication friction comes from mismatched expectations that neither party names explicitly.
 
 **Common scenarios where negotiation is needed**:
 - Questioner asks for logistical answer, responder starts diagnostic analysis
@@ -511,10 +511,12 @@ Sometimes negotiation doesn't work and the question remains unanswerable. Gracef
 **What it communicates**: "The literal question isn't working, but I can give you related information that might help. Let's see if that's close enough."
 
 **Example**:
-- Question: "Do you love me?"
-- Response: "I think I can't answer this question the way it's framed—'love' means different things and I get stuck on definitions. Here's what I could answer instead: Do I want to build a life with you? Yes. Do I feel committed to your wellbeing? Yes. Do I feel that Hollywood-romance immediate certainty? I'm not sure I experience that the way other people do."
+- Question: "Is this the right career move?"
+- Response: "I can't answer that as a single yes/no—'right' bundles pay, fit, timing, and location, and I weigh them differently. Here's what I *can* answer: Does the role fit what I'm good at? Yes. Is the compensation enough? Yes. Am I sure about relocating? No—that's the piece I'm actually stuck on."
 
 **Why this works**: Honest about the limitation, offers alternative routes to similar information, doesn't pretend the question is answerable when it's not.
+
+*(Note: this move is for genuinely multi-dimensional questions. Don't apply it to a reassurance question like "Do you love me?"—that's Layer 2, and decomposing it is the classic error Sections 6.3 and 7.3 warn against. Answer the bond first.)*
 
 ---
 
@@ -544,7 +546,7 @@ Sometimes negotiation doesn't work and the question remains unanswerable. Gracef
 
 ## Connection to Larger Framework
 
-**Real-time negotiation is the lubricant** that makes techniques (Section 4.1) and protocols (Sections 5.1 and 5.2) usable in messy reality. Without negotiation vocabulary:
+**Real-time negotiation is the lubricant** that makes techniques (Sections 4.1–4.2) and protocols (Sections 5.1 and 5.2) usable in messy reality. Without negotiation vocabulary:
 - Techniques are theoretical (you know they exist but can't deploy them in conversation)
 - Protocols are rigid (wrong protocol selection breaks communication)
 - Intent taxonomy is descriptive only (you can recognize intent mismatch but can't repair it)

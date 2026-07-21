@@ -37,7 +37,7 @@ Low-context settings expect the *content* to be complete and explicit. "Just tel
 - **Instead of** (what feels honest): "Well, it depends on several factors—if the vendor delivers on time, and if the spec doesn't change, then probably, but..."
 - **What the low-context listener is asking for**: "Probably yes. Two things could change that: late vendor delivery or a spec change."
 
-The second version isn't less honest. It's the same information, front-loaded with the collapsed answer and the caveats bounded to a short explicit list. Low-context settings reward exactly the structured-collapse techniques in Section 4: modal answer first, then a small, explicit set of conditions. The style struggles here not because the setting is hostile to nuance but because it insists nuance be made *explicit and bounded* rather than left as an open landscape.
+The second version isn't less honest. It's the same information, front-loaded with the collapsed answer and the caveats bounded to a short explicit list. Low-context settings reward exactly the structured-collapse techniques in Section 4, delivered in the modal-answer-plus-bounds format of Section 6.3: the collapsed answer first, then a small, explicit set of conditions. The style struggles here not because the setting is hostile to nuance but because it insists nuance be made *explicit and bounded* rather than left as an open landscape.
 
 ### Where High-Context Settings Charge Differently
 

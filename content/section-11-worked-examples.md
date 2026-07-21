@@ -70,7 +70,7 @@ We cover four categories: **Professional**, **Intimate**, **Casual**, and **Brea
 - *Product*: Do users even want this?
 - *Social*: If I say it's hard, do I look lazy?
 
-**The Intervention**: **Intent Declaration** (Section 6.2) using **Async Protocol**.
+**The Intervention**: **Intent Declaration** (Sections 4.2, 5.2) using **Async Protocol**.
 
 **The Successful Exchange (Slack)**:
 *PM*: "Thoughts on adding dark mode? **Intent: Planning/Feasibility check only.** Not a command to build it. Just want to know if this is a '1-day' thing or a '1-month' thing so I can roadmap."
@@ -218,7 +218,7 @@ We cover four categories: **Professional**, **Intimate**, **Casual**, and **Brea
 *Responder*: "Well, Thai is closest, but we had Asian food Tuesday. Pizza is heavy. There's that new place, but the reviews said the service is slow..."
 *Partner*: "I'm eating cereal."
 
-**The Intervention**: **Forced-Slice** / **Emergency Binary** (Section 6.1).
+**The Intervention**: **Forced-Slice** (Section 4.1) / **Emergency Binary** (Section 6.1).
 
 **The Successful Exchange**:
 *Partner*: "Where should we eat? **Rule: A or B. Thai or Pizza.**"
@@ -250,7 +250,7 @@ We cover four categories: **Professional**, **Intimate**, **Casual**, and **Brea
 *Responder*: "I need to table this question. It's too big and I'm spiraling. I can't answer it right now without panicking. Ask me something smaller, or let's talk about this on Saturday when I've had coffee."
 *Questioner*: "Okay. We're tabled. Let's watch TV."
 
-**Why It Worked**: Sometimes the only correct move is to stop. Acknowledging "I am currently broken on this question" is a valid successful outcome compared to a fight.
+**Why It Worked**: Sometimes the only correct move is to stop. Acknowledging "I am currently at capacity on this question" is a valid successful outcome compared to a fight.
 
 ### Example 10: The Digital Ghost (Async Breakdown)
 
